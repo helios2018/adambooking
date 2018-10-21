@@ -1,0 +1,157 @@
+
+
+<!-- https://bootsnipp.com/snippets/featured/image-checkbox -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Online Booking</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+
+
+  <div id="fullscreen_bg" class="fullscreen_bg"/>
+
+  <div class="container">
+
+
+
+          <div class="row">
+            <form method="get">
+              <div class="form-group">  
+              <div class="col-md-3">
+               
+              </div>
+              <div id="adam" class="col-md-3">
+                <label class="btn btn-primary">
+                  <img src="adam.jpg" alt="adam" class="img-thumbnail img-check">
+                  <input type="checkbox" name="chk1" id="item4" value="val1" class="hidden" autocomplete="off">
+                </label>
+              </div>
+              <div id="malajl" class="col-md-3">
+                <label class="btn btn-primary">
+                  <img src="malajl.jpg" alt="malajl" class="img-thumbnail img-check">
+                  <input type="checkbox" name="chk2" id="item4" value="val2" class="hidden" autocomplete="off">
+                </label>
+              </div>
+              <div class="col-md-3">
+               
+              </div>
+              <!--
+              <div class="col-md-3">
+                <label class="btn btn-primary">
+                  <img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Football.png" alt="..." class="img-thumbnail img-check">
+                  <input type="checkbox" name="chk3" id="item4" value="val3" class="hidden" autocomplete="off">
+                </label>
+              </div>
+              <div class="col-md-3">
+                <label class="btn btn-primary">
+                  <img src="http://content.nike.com/content/dam/one-nike/globalAssets/menu_header_images/OneNike_Global_Nav_Icons_Soccer.png" alt="..." class="img-thumbnail img-check">
+                  <input type="checkbox" name="chk4" id="item4" value="val4" class="hidden" autocomplete="off">
+                </label>
+              </div>
+            -->
+            </div>
+            
+              
+            </form>
+          </div>  
+        
+
+    
+          <!-- 
+      Image Checkbox Bootstrap template for multiple image selection
+      https://www.prepbootstrap.com/bootstrap-template/image-checkbox
+      -->
+      
+       <!--
+        <h3>Bootstrap image checkbox(multiple)</h3>
+        <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+          <label class="image-checkbox">
+            <img class="img-responsive" src="adam.jpg" />
+            <input type="checkbox" name="image[]" value="" />
+            <i class="fa fa-check hidden"></i>
+          </label>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+          <label class="image-checkbox">
+            <img class="img-responsive" src="malajl.jpg" />
+            <input type="checkbox" name="image[]" value="" />
+            <i class="fa fa-check hidden"></i>
+          </label>
+        </div>
+        
+        <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+          <label class="image-checkbox">
+            <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
+            <input type="checkbox" name="image[]" value="" />
+            <i class="fa fa-check hidden"></i>
+          </label>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+          <label class="image-checkbox">
+            <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
+            <input type="checkbox" name="image[]" value="" />
+            <i class="fa fa-check hidden"></i>
+          </label>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+          <label class="image-checkbox">
+            <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
+            <input type="checkbox" name="image[]" value="" />
+            <i class="fa fa-check hidden"></i>
+          </label>
+        </div>
+        -->
+      
+  
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+        // image gallery
+      // init the state from the input
+     /* $(".image-checkbox").each(function () {
+        if ($(this).find('input[type="checkbox"]').first().attr("checked")) {
+          $(this).addClass('image-checkbox-checked');
+        }
+        else {
+          $(this).removeClass('image-checkbox-checked');
+        }
+      });
+
+      // sync the state to the input
+      $(".image-checkbox").on("click", function (e) {
+        $(this).toggleClass('image-checkbox-checked');
+        var $checkbox = $(this).find('input[type="checkbox"]');
+        $checkbox.prop("checked",!$checkbox.prop("checked"))
+
+        e.preventDefault();
+      });
+      */
+
+      $(document).ready(function(e){
+          $(".img-check").click(function(){
+            $(this).toggleClass("check");
+            console.log($(this).attr("alt"));
+            var selectedImage = $(this).attr("alt");
+            if (selectedImage == "adam"){
+              $("#malajl").find("img").removeClass("check");
+            }
+            if (selectedImage == "malajl"){
+              $("#adam").find("img").removeClass("check");
+              $("#adam").find("img").removeClass("check");
+            }
+        });
+      });
+
+    </script>
+
+</body>
+</html>

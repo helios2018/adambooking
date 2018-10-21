@@ -1,0 +1,286 @@
+
+<!-- https://bootsnipp.com/snippets/featured/image-checkbox -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Online Booking</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="../assets/css/styles.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="../assets/js/moment.min.js"></script>
+  <script src="../AdamsCalendar/lib/jquery.min.js"></script>
+  
+</head>
+<body>
+
+
+  <div class="container">
+  	  <!--
+  	  	xs < 768px (phones)
+  	  	sm >= 768px (tablets)
+  	  	md >= 992px (small laptops)
+  	  	lg >= 1200 px (laptops and desktops)
+  	  -->
+
+  	  <!-- ******* Beard ******* -->
+
+		  <div class="row">
+		    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left">
+		    	 <legend>Book Your Reservation</legend>
+		    </div>
+		  </div>
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="firstName">First Name</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="firstName" name="firstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="service">Service</label>  
+                     <label id="service" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Service Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="lastName">Last Name</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="lastName" name="lastName" type="text" placeholder="Last Name" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="barber">Barber</label>  
+                     <label id="barber" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Barber Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="phone">Phone</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="startTime">Time</label>  
+                     <label id="startTime" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Time Dummy Value</label>  
+                     <label hidden id="startTimeCalendar" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left"></label>  
+                     <label hidden id="endTimeCalendar" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left"></label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="email">Email</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required="">
+                     </div>
+                    
+                </div>
+		  </div>
+		  
+		  <!-- 
+		  <div class="row margin-bottom">
+		    	
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="note">Note</label>  
+                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 pull-left">
+                          <input id="note" name="note" type="text" placeholder="Enter your note" class="form-control input-md" required="">
+                     </div>
+                    
+                </div>
+		  </div>
+		  -->
+		  
+		  <div class="row margin-bottom">
+		    	 <!-- Button -->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label" for="submit"></label>
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				    	 <a id="book" class="btn btn-success" href="">Book</a> 
+				    </div>
+                </div>
+		  </div>
+		  
+		  
+   </div> <!-- end of container -->
+  
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  
+  <script>
+  
+  $(document).ready(function(e) {
+
+      // page is now ready ...
+	  var service = getQueryVariable("service");
+      console.log("service: " + service);
+      if (service == "hairCut"){
+	  	$("#service").text("Hair Cut");
+      }
+      else{
+    	  $("#service").text(service);
+      }
+	  
+	  var barber = getQueryVariable("barber");
+	  console.log("barber: " + barber);
+	  $("#barber").text(barber);
+	  
+	  var startTime = getQueryVariable("startTime");
+	  console.log("startTime: " + startTime);
+	  var startTimeFormatted1 = startTime.replace("%20", " ");
+	  var startTimeFormatted2 = startTimeFormatted1.replace("%20", " ");
+	  console.log("startTimeFormatted2: " + startTimeFormatted2);
+	  $("#startTime").text(startTimeFormatted2);
+	  
+	  var startTimeCalendar = getQueryVariable("startTimeCalendar");
+	  console.log("startTimeCalendar: " + startTimeCalendar);
+	  $("#startTimeCalendar").text(startTimeCalendar);
+	  
+	  var endTimeCalendar = getQueryVariable("endTimeCalendar");
+	  console.log("endTimeCalendar: " + endTimeCalendar);
+	  $("#endTimeCalendar").text(endTimeCalendar);
+	  
+  });//end of document ready function
+  
+  function getQueryVariable(variable)
+	{
+	       var query = window.location.search.substring(1);
+	       var vars = query.split("&");
+	       for (var i=0;i<vars.length;i++) {
+	               var pair = vars[i].split("=");
+	               if(pair[0] == variable){return pair[1];}
+	       }
+	       return(false);
+	}
+  
+	//beard select event
+	$('#book').click(function (event) 
+	  { 
+	       //event.preventDefault(); 
+	       //here you can also do all sort of things 
+	      
+	       console.log("Book Button Clicked");
+	       
+	       var firstName = $("#firstName").val();
+	       console.log("firstName: " + firstName);
+	       
+	       var lastName = $("#lastName").val();
+	       console.log("lastName: " + lastName);
+	       
+	       var phone = $("#phone").val();
+	       console.log("phone: " + phone);
+	       
+	       var email = $("#email").val();
+	       console.log("email: " + email);
+	       
+	       //var note = $("#note").val();
+	       //console.log("note: " + note);
+	       
+	       var barber = $("#barber").text();
+	       console.log("barber: " + barber);
+	       
+	       var service = $("#service").text();
+	       console.log("service: " + service);
+	       
+	       var startTime = $("#startTime").text();
+	       console.log("startTime: " + startTime);
+	       
+	       var startTimeCalendar = $("#startTimeCalendar").text();
+	       console.log("startTimeCalendar: " + startTimeCalendar);
+	       
+	       var endTime = $("#endTime").text();
+	       console.log("endTime: " + endTime);
+	       
+	       var endTimeCalendar = $("#endTimeCalendar").text();
+	       console.log("endTimeCalendar: " + endTimeCalendar);
+	      
+	       var booking = {
+	    		"service" : service,
+	   			"barber" : barber,
+	   			"firstName" : firstName,
+	   			"lastName" : lastName,
+	   			"phone" : phone,
+	   			"email" : email,
+	   			"startTime" : startTimeCalendar,
+	   			"endTime" : endTimeCalendar
+	       };
+	       
+	       var d = JSON.stringify(booking);
+	       console.log(d);
+	       //At this point call saveBooking service
+	      
+	       //Good Referencec:
+	       //https://stackoverflow.com/questions/21699745/how-to-make-post-ajax-call-with-json-data-to-jersey-rest-service?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+	      /* $.ajax({
+	           type : "POST",
+	           url : "http://localhost:8080/adambooking/service/bookingController/saveBooking",
+	           //contentType :"application/json; charSet=UTF-8",
+	           contentType :"application/json",
+	           data : d,
+	           dataType : "json",
+	           timeout: 600000,
+	           crossDomain:true,
+	           beforeSend: function(){
+	        	    console.log("I'm sending AJAX.");
+	        	    //display loading?
+	           },
+	           success: function(result){
+	        	    console.log("response: " + result);
+	           },
+	           error: function(er){
+	        	    console.log(er.responseText);
+	           },
+	           complete: function(){
+	        	   console.log("I'm done.");
+	        	   //hide loading?
+	           }
+	        });*/
+	        var saveBookingUrl = "http://localhost:8080/adambooking/service/bookingController/saveBooking";
+	        /*$.post(saveBookingUrl, function (d, status){
+	        	alert("Data: " + d + "\nStatus: " + status);
+	        });*/
+	        
+	        $.ajax({
+	        	
+	        	type: "POST",
+	        	url: saveBookingUrl,
+	        	data: d,
+	        	contentType: "application/json",
+	        	dataType: "text",
+	        	success: 
+	        		function (response)
+	        		{
+	        			alert(response.status);
+	        		},
+	        	error: 
+	        		function (response)
+	        		{
+	        			alert(response.success);
+	        		}
+	        	
+	        	
+	        }); //end of ajax call
+	        
+	        //Show confirmation page regardless of server response
+	        window.open("../Confirm/confirmation.html?" + 
+	        		"service=" + service +
+	        		"&barber=" + barber +
+	        		"&firstName=" + firstName +
+	        		"&lastName=" + lastName +
+	        		"&phone=" + phone +
+	        		"&email=" + email +
+	        		"&startTime=" + startTime +
+	        		"&startTimeCalendar=" + startTimeCalendar +
+	        		"&endTime=" + endTime +
+	        		"&endTimeCalendar=" + endTimeCalendar 
+	        		);
+	        		
+		       
+		  });
+    
+  </script>
+
+</body>
+</html>

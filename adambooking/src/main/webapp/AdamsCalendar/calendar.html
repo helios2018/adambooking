@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href='css/fullcalendar.min.css' />
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- <script src='lib/jquery.min.js'></script> -->
+  <script src="lib/jquery.min.js"></script>
+  <script src='lib/moment.min.js'></script>
+  <script src='lib/fullcalendar.js'></script>
+  <script src='js/adamsCalendar.js'></script>
+  <script src="../js/booking.js"></script>
+  <script src="../Book/book.js"></script>
+  <script src="../Confirm/confirm.js"></script>
+  
+
+  
+
+
+</head>
+<body>
+
+  <div class="container">
+  
+   <!--
+  	  	xs < 768px (phones)
+  	  	sm >= 768px (tablets)
+  	  	md >= 992px (small laptops)
+  	  	lg >= 1200 px (laptops and desktops)
+  	  -->
+
+    <div class="row">
+        <div class="col-md-12 pull-left">
+           <header>
+            <!-- <h1>Adam's Calendar</h1> -->
+          </header>
+         
+        </div>
+    </div>
+  
+    <div class="row margin-bottom">
+            <form method="get">
+            
+	              <div class="form-group"> 
+	
+	                <div id="adam" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+	                  <label class="btn btn-primary">
+	                    <img src="adam.jpg" alt="adam" class="img-thumbnail img-check check">
+	                    <input type="checkbox" name="chk1" id="item4" value="val1" class="hidden" autocomplete="off">
+	                  </label>
+	                </div>
+	                <div id="moe" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+	                  <label class="btn btn-primary">
+	                    <img src="moe.jpg" alt="moe" class="img-thumbnail img-check">
+	                    <input type="checkbox" name="chk2" id="item4" value="val2" class="hidden" autocomplete="off">
+	                  </label>
+	                </div>
+	                
+	            </div> 
+              
+          </form>
+    </div> 
+
+    <!-- ************************** -->
+    <div class="row">
+        <div class="col-md-12 pull-left">
+          <div id='calendar'></div>
+        </div>
+    </div>
+    <!-- ************************** -->
+    
+    <!-- ************************** -->
+    <div id="booking" class="row">
+        <div class="col-md-12 pull-left">
+          Placeholder for booking page
+          
+          <div class="row">
+		    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left">
+		    	 <legend>Book Your Reservation</legend>
+		    </div>
+		  </div>
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="firstName">First Name</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="firstName" name="firstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="service">Service</label>  
+                     <label id="service" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Service Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="lastName">Last Name</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="lastName" name="lastName" type="text" placeholder="Last Name" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="barber">Barber</label>  
+                     <label id="barber" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Barber Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="phone">Phone</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control input-md" required="">
+                     </div>
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="startTime">Start</label>  
+                     <label id="startTime" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Start Time Dummy Value</label>  
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="startTime">End</label>  
+                     <label id="endTime" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">End Time Dummy Value</label> 
+                     
+                     <label hidden id="startTimeCalendar" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left"></label>  
+                     <label hidden id="endTimeCalendar" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left"></label>
+                       
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="email">Email</label>  
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">
+                          <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required="">
+                     </div>
+                    
+                </div>
+		  </div>
+		  
+		  <!-- 
+		  <div class="row margin-bottom">
+		    	
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="note">Note</label>  
+                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 pull-left">
+                          <input id="note" name="note" type="text" placeholder="Enter your note" class="form-control input-md" required="">
+                     </div>
+                    
+                </div>
+		  </div>
+		  -->
+		  
+		  <div class="row margin-bottom">
+		    	 <!-- Button -->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label" for="submit"></label>
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    	 <a id="book" class="btn btn-success" onclick="book()" href="#">Book</a> 
+				    </div>
+                </div>
+		  </div>
+          
+          
+        </div>
+    </div>
+    <!-- ************************** -->
+    
+    <!-- ************************** -->
+    <div id="confirmation" class="row">
+        <div class="col-md-12 pull-left">
+          Placeholder for confirmation page
+          
+          <div class="row">
+		    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left">
+		    	 <legend>Booking Confirmation</legend>
+		    </div>
+		  </div>
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="firstName">First Name</label>  
+                     <label id="firstName1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">First Name</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="service">Service</label>  
+                     <label id="service1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Service Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="lastName">Last Name</label>  
+                     <label id="lastName1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Last Name</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="barber">Barber</label>  
+                     <label id="barber1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Barber Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="phone">Phone</label>  
+                     <label id="phone1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Phone Dummy</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="startTime">Time</label>  
+                     <label id="startTime1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Time Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="email">Email</label>  
+                     <label id="email1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Email Dummy Value</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="endTime">Time</label>  
+                     <label id="endTime1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Time Dummy Value</label> 
+                </div>
+		  </div>
+		  
+		  <!-- 
+		  <div class="row margin-bottom">
+		    	<div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="note">Note</label>  
+                      <label id="note" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Note Dummy Value</label> 
+                    
+                </div>
+		  </div>
+		  -->
+		  
+		  <div class="row margin-bottom">
+		    	 <!-- Confirmation Note -->
+                <div class="form-group">
+                     <label id="note" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pull-left">Thank you for your reservation. You will receive an email shortly.</label> 
+                </div>
+		  </div>
+          
+          
+          
+          
+        </div>
+    </div>
+	<!-- ************************** -->
+    
+
+  </div>
+
+
+
+</body>
+</html>

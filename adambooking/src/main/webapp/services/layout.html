@@ -1,0 +1,164 @@
+
+<!-- https://bootsnipp.com/snippets/featured/image-checkbox -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Online Booking</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+
+  
+  <div class="container">
+  	  <!--
+  	  	xs < 768px (phones)
+  	  	sm >= 768px (tablets)
+  	  	md >= 992px (small laptops)
+  	  	lg >= 1200 px (laptops and desktops)
+  	  -->
+
+  	  <! -------- Beard ----------->
+
+		  <div class="row">
+		    <div class="col-md-6 pull-left">
+		    	 <h1>Sharper Beard</h1>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-3 col-sm-4 col-md-5 col-lg-4 pull-left">
+		    	<img id = "expandedBeardImage" src="shaving.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+		    </div>
+		    <div class="col-xs-7 col-sm-6 col-md-5 col-lg-6 pull-left">
+		    	<article>
+	                     	<p>
+		                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+		                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+		                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+		                         of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+		                         Lorem Ipsum.    
+	                         </p>
+	            </article>
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	 <a id="beardSelect" class="btn btn-blog pull-left marginBottom10" href=" ">Select</a> 
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	<img src="shaving.jpg" alt="Nature" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="beardFunction(this);">
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	 <img src="shaving1.jpg" alt="Fjords" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="beardFunction(this);">
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	<img src="beard.jpg" alt="Mountains" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="beardFunction(this);">
+		    </div>
+		  </div>
+
+		  <div class="row">
+		  </div>
+		  <div class="row">
+		  </div>
+
+	<!-------- Haircut -------->
+
+
+		<div class="row">
+		    <div class="col-md-6 pull-left">
+		    	 <h1>Hair Cut</h1>
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-3 col-sm-4 col-md-5 col-lg-4 pull-left">
+		    	<img id = "expandedHaircutImage" src="haircut4.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+		    </div>
+		    <div class="col-xs-7 col-sm-6 col-md-5 col-lg-6 pull-left">
+		    	<article>
+	                     	<p>
+		                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+		                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+		                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+		                         of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+		                         Lorem Ipsum.    
+	                         </p>
+	            </article>
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	 <a id="haircutSelect" class="btn btn-blog pull-left marginBottom10" href=" ">Select</a> 
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	<img src="haircut4.jpg" alt="Nature" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="haircutFunction(this);">
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	 <img src="haircut3.jpg" alt="Fjords" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="haircutFunction(this);">
+		    </div>
+		    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left">
+		    	<img src="haircut2.jpg" alt="Mountains" style="width:100%" class="pull-left img-responsive thumb margin10 img-thumbnail" onclick="haircutFunction(this);">
+		    </div>
+		  </div>
+
+		  <div class="row">
+		  </div>
+		  <div class="row">
+		  </div>
+
+
+
+</div> <!-- end of container -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+       
+       /********* beard ************/
+       function beardFunction(imgs) {
+       		//alert("beardFunction");
+		    var expandImg = document.getElementById("expandedBeardImage");
+		    expandImg.src = imgs.src;
+		    expandImg.parentElement.style.display = "block";
+		}
+
+		//beard select event
+		$('#beardSelect').click(function (event) 
+	    { 
+	         event.preventDefault(); 
+	         //here you can also do all sort of things 
+	         var selectedService = $(this).attr("id");
+	         console.log(selectedService);
+	    });
+
+	  /********* ansikt **************/
+	  function maskFunction(imgs) {
+		    var expandImg = document.getElementById("expandedMaskImg");
+		    expandImg.src = imgs.src;
+		    expandImg.parentElement.style.display = "block";
+		}
+
+	 /********* herrklipp ************/
+	 function haircutFunction(imgs) {
+		    var expandImg = document.getElementById("expandedHaircutImage");
+		    expandImg.src = imgs.src;
+		    expandImg.parentElement.style.display = "block";
+		}
+
+	//beard select event
+		$('#haircutSelect').click(function (event) 
+	    { 
+	         event.preventDefault(); 
+	         //here you can also do all sort of things 
+	         var selectedService = $(this).attr("id");
+	         console.log(selectedService);
+	    });
+
+    </script>
+
+</body>
+</html>

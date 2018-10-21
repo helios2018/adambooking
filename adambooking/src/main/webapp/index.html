@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Adam Online Booking</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css" type="text/css" media="screen">
+	
+</head>
+<body>
+
+
+	<div id="fullscreen_bg" class="fullscreen_bg"/>
+
+	<div class="container">
+		<form class="form-signin" name="adminLogin" id="adminLogin" action="services/service.html">
+			<h1 class="form-signin-heading text-muted">Sign In</h1>
+			<input id="email" type="text" class="form-control" placeholder="Email address" required="" autofocus="">
+			<input id="password" type="password" class="form-control" placeholder="Password" required="">
+			<button class="btn btn-lg btn-primary btn-block" type="submit">
+				Sign In
+			</button>
+		</form>
+	
+	</div>
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+        $( "#adminLogin" ).submit(function( event ) {
+          //alert( "password: "  + $("#password").val());
+          if ($("#password").val() == 'user'){
+              //alert( "Enter a valid password." );
+              //event.preventDefault();
+        	  window.open("services/service.html");
+           } else if ($("#password").val() == 'admin'){
+               //alert( "Enter a valid password." );
+               //event.preventDefault();
+         	  window.open("admin/admin.html");
+           }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1410px;
+     height: 2040px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #Background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1410px;
+     height: 2040px;
+     z-index:1;
+} 
+
+ #herrklipptext 
+{ 
+     left: 57px; 
+     top: 145px; 
+     position: absolute; 
+     width: 977px;
+     height: 336px;
+     z-index:2;
+} 
+
+ #herrklippimage 
+{ 
+     left: 899px; 
+     top: 176px; 
+     position: absolute; 
+     width: 448px;
+     height: 300px;
+     z-index:3;
+} 
+
+ #sharpershavetext 
+{ 
+     left: 54px; 
+     top: 1268px; 
+     position: absolute; 
+     width: 967px;
+     height: 330px;
+     z-index:4;
+} 
+
+ #sharpershaveimage 
+{ 
+     left: 896px; 
+     top: 1302px; 
+     position: absolute; 
+     width: 449px;
+     height: 300px;
+     z-index:5;
+} 
+
+ #ankistsharperbeardte 
+{ 
+     left: 57px; 
+     top: 1653px; 
+     position: absolute; 
+     width: 960px;
+     height: 230px;
+     z-index:6;
+} 
+
+ #ankistsharperbeardim 
+{ 
+     left: 898px; 
+     top: 1681px; 
+     position: absolute; 
+     width: 447px;
+     height: 300px;
+     z-index:7;
+} 
+
+ #ankisttext 
+{ 
+     left: 57px; 
+     top: 518px; 
+     position: absolute; 
+     width: 961px;
+     height: 333px;
+     z-index:8;
+} 
+
+ #ankistimage 
+{ 
+     left: 899px; 
+     top: 555px; 
+     position: absolute; 
+     width: 449px;
+     height: 300px;
+     z-index:9;
+} 
+
+ #sharperbeardtext 
+{ 
+     left: 51px; 
+     top: 898px; 
+     position: absolute; 
+     width: 965px;
+     height: 331px;
+     z-index:10;
+} 
+
+ #sharperbeardimage 
+{ 
+     left: 897px; 
+     top: 928px; 
+     position: absolute; 
+     width: 450px;
+     height: 300px;
+     z-index:11;
+} 
+
+ #ServicesandPrices 
+{ 
+     left: 326px; 
+     top: 13px; 
+     position: absolute; 
+     width: 628px;
+     height: 153px;
+     z-index:12;
+} 

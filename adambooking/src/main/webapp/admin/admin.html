@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.4/css/buttons.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="Editor-1.8.0/css/editor.dataTables.css">
+	</head>
+
+	<body>
+
+	<h1>Administrator Settings</h1>
+
+	<p>Add/Edit Bookings</p>
+
+	<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>service</th>
+                <th>barber</th>
+                <th>firstName</th>
+                <th>lastName</th>
+                <th>phone</th>
+                <th>email</th>
+                <th>startTime</th>
+                <th>endTime</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>id</th>
+                <th>service</th>
+                <th>barber</th>
+                <th>firstName</th>
+                <th>lastName</th>
+                <th>phone</th>
+                <th>email</th>
+                <th>startTime</th>
+                <th>endTime</th>
+            </tr>
+        </tfoot>
+    </table>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+	<script type="text/javascript" src="Editor-1.8.0/js/dataTables.editor.js"></script>
+	
+	
+	
+	<script src="//cdn.datatables.net/plug-ins/1.10.12/sorting/datetime-moment.js"></script>
+
+	<script>
+		
+		var editor; // use a global for the submit and return data rendering in the examples
+		 
+		$(document).ready(function() {
+			$.fn.dataTable.moment('DD-MMM-Y HH:mm:ss');
+		    editor = new $.fn.dataTable.Editor( {
+		        //ajax: "http://localhost:8080/adambooking/service/bookingController/editBooking", //Create an api to create, edit, delete
+		         ajax: {
+		              url: 'http://localhost:8080/adambooking/service/bookingController/editBooking',  // or whatever
+		              contentType: 'application/json',
+		              data: function ( d ) {
+		                return JSON.stringify( d );
+		              }
+		         },
+		       
+		        
+		        
+		        dataType: "jsonp",
+		        table: "#example",
+		        idSrc:  'id',
+		        fields: [ 
+		        	{
+		                label: "Id:",
+		                name: "id"
+		            }, 
+		            {
+		                label: "Service:",
+		                name: "service"
+		            }, 
+		            {
+		                label: "Barber:",
+		                name: "barber"
+		            }, 
+		            {
+		                label: "First Name:",
+		                name: "firstName"
+		            }, 
+		            {
+		                label: "Last Name:",
+		                name: "lastName"
+		            }, 
+		            {
+		                label: "Phone:",
+		                name: "phone"
+		            }, 
+		            {
+		                label: "Email:",
+		                name: "email"
+		            }, 
+		            {
+		                label: "Start Time:",
+		                name: "startTime",
+		                type: "datetime",
+		                def:       function () { return new Date(); },
+		                format:    'MM-DD-YYYY h:mm A',
+		                fieldInfo: 'US style m-d-y date input with 12 hour clock'
+		            }, 
+		            {
+		                label: "End date:",
+		                name: "endTime",
+		                type: "datetime",
+		                def:       function () { return new Date(); },
+		                format:    'MM-DD-YYYY h:mm A',
+		                fieldInfo: 'US style m-d-y date input with 12 hour clock'
+		            }
+		        ],
+		        
+		        success: function (data) {
+	                Success = true;//doesnt goes here
+	            },
+	            error: function (textStatus, errorThrown) {
+	                Success = false;//doesnt goes here
+	            }
+		    } );
+		 
+		    $('#example').DataTable( {
+		        dom: "Bfrtip",
+		        ajax: "http://localhost:8080/adambooking/service/bookingController/retrieveBookings",
+		        dataType: "jsonp",
+		        idSrc:  'id',
+		        columns: [
+		            { data: "id" },
+		            { data: "service" },
+		            { data: "barber" },
+		            { data: "firstName" },
+		            { data: "lastName" },
+		            { data: "phone" },
+		            { data: "email" },
+		            { data: "startTime" },
+		            { data: "endTime" }
+		            
+		        ],
+		        select: true,
+		        buttons: [
+		            { extend: "create", editor: editor },
+		            { extend: "edit",   editor: editor },
+		            { extend: "remove", editor: editor }
+		        ]
+		    } );
+		} );
+		 
+		
+	</script>
+
+</body>
+</html>

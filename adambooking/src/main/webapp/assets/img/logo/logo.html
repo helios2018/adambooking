@@ -1,0 +1,1741 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv-SE">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business# place: http://ogp.me/ns/place#"><link rel="icon" href="/App_Themes/BokadirektNew/images/favicon.ico" type="image/x-icon" /><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b2437f8736","applicationID":"10637734","transactionName":"Y1BaYRdTWkFSWkZRVloaeWY1HVZdXFJbVl5HGlxQA1NBXkcXU0tJTA==","queueTime":0,"applicationTime":255,"ttGuid":"880D7195BEFD8BD7","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta name="description" content="ADAM BARBER SHOP
+
+D&#228;r jobbar vi tillsammans med dig och fixar frisyren &amp; sk&#228;gget som du b&#228;r med gl&#228;dje och stolthet.
+Och till alla m&#228;n, det &#228;r h&#228;r era sk&#228;gg f&#229;r den d&#228;r lilla extra finessen.
+" /><meta name="keywords" content="" /><meta name="robots" content="" /><meta content="Adam&#39;s Barber Shop" property="og:title" /><meta content="ADAM BARBER SHOP
+
+Där jobbar vi tillsammans med dig och fixar frisyren &amp; skägget som du bär med glädje och stolthet.
+Och till alla män, det är här era skägg får den där lilla extra finessen.
+" property="og:description" /><meta content="Bokadirekt" property="og:site_name" /><meta content="sv_SE" property="og:locale" /><meta content="https://www.bokadirekt.se/places/adams-barber-shop-18872?sru=18872" property="og:url" /><meta content="http://www.bokadirekt.se/DisplayMediaFile.axd?id=323061" property="og:image" /><meta content="business.business" property="og:type" /><meta content="Gamla torg 2" property="business:contact_data:street_address" /><meta content="275 30" property="business:contact_data:postal_code" /><meta content="Sjöbo" property="business:contact_data:locality" /><meta content="Sverige" property="business:contact_data:country_name" /><meta content="55.6314554" property="place:location:latitude" /><meta content="13.7048478" property="place:location:longitude" /><meta content="0762020520" property="business:contact_data:phone_number" />
+
+    <!-- Stylesheets -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,600italic,400italic,700,700italic,900" rel="stylesheet" /><link href="//fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" />
+    <link href="/Css/magnific-popup.css" rel="stylesheet" />
+    
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style');
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            );
+            document.querySelector('head').appendChild(msViewportStyle);
+        }
+    </script>
+
+    <!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m =s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-483672-5', 'auto', {'name': 'UA4836725'});
+
+
+ga('UA4836725.send', 'pageview');
+
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+
+<script>    
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    window.fbAsyncInit = function () {
+            
+        FB.init({
+            appId : '175605535785964',                
+            xfbml: true,
+            status: true,
+            version : 'v2.7'
+        });
+
+        FB.Event.subscribe('edge.create', function (href) {                                
+            var currentPage = $(document).attr('title');            
+            
+            ga('UA4836725.send', {
+                    'hitType': 'social',
+                    'socialNetwork': 'facebook',
+                    'socialAction': 'like',
+                    'socialTarget': href,
+                    'page': currentPage
+                });
+               
+        });
+
+        FB.Event.subscribe('edge.remove', function (href) {
+            var currentPage = $(document).attr('title');
+            
+            ga('UA4836725.send', {
+                'hitType': 'social',
+                'socialNetwork': 'facebook',
+                'socialAction': 'unlike',
+                'socialTarget': href,
+                'page': currentPage
+            });
+            
+        });
+
+        FB.Event.subscribe('message.send', function (href) {
+            var currentPage = $(document).attr('title');
+            
+            ga('UA4836725.send', {
+                'hitType': 'social',
+                'socialNetwork': 'facebook',
+                'socialAction': 'send',
+                'socialTarget': href,
+                'page': currentPage
+            });
+            
+        });
+
+        FB.Event.subscribe('comment.create', function (href) {
+            var currentPage = $(document).attr('title');
+            
+            ga('UA4836725.send', {
+                'hitType': 'social',
+                'socialNetwork': 'facebook',
+                'socialAction': 'comment',
+                'socialTarget': href,
+                'page': currentPage
+            });
+            
+        });
+    };
+
+
+</script>
+
+    <!--[if lt IE 9]>
+      <script src="/Scripts/html5shiv.js"></script>
+      <script src="/Scripts/respond.min.js"></script>
+    <![endif]-->
+<link href="/App_Themes/BokadirektNew/BokadirektNew.css?v=636446170720000000" type="text/css" rel="stylesheet" /><link href="/places/adams-barber-shop-18872" rel="canonical" /><link href="/da-DK/places/adams-barber-shop-18872" rel="alternate" hreflang="da-DK" /><link href="/en-US/places/adams-barber-shop-18872" rel="alternate" hreflang="en-US" /><link href="/fi-FI/places/adams-barber-shop-18872" rel="alternate" hreflang="fi-FI" /><link href="/nb-NO/places/adams-barber-shop-18872" rel="alternate" hreflang="nb-NO" /><link href="/places/adams-barber-shop-18872" rel="alternate" hreflang="sv-SE" /><meta content="175605535785964" property="fb:app_id" /><title>
+	Adam's Barber Shop, Sjöbo &ndash; Bokadirekt
+</title></head>
+<body itemscope itemtype="http://schema.org/WebPage" class="">
+    <div id="fb-root"></div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <form name="aspnetForm" method="post" action="./adams-barber-shop-18872" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZH1s_roft4Yda1Zpz7nbW4a8ZcvRf2zl3bJEglVSqIATAAzKlg2&amp;t=635875509181218729" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvj7rXo19J1bEISFDDZ6nl8iQ-LqqA3NmUGGxwAipPdPE5P_cmiEliuKSktZAWplSrScFnsvo0SJExN6NjC_-OxQ26PR1gYYkaDbOTieZqfCTk4tb8btPzrvM1qO2kuRxSCSJO1c1&amp;t=ffffffffeea0dba9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8ODw8FBWvRAnw3A4eXL8yAxjzDT49lYw0yDsaJ1oJNpClbXO7LdMklo2YCdg3DEh5F6Tac1o_guLAsfYqWRsZw6sSrWH5v9_zu1J_Oho6NQQHkSB01yWPX2AVdij21zeUOBjhMSg1&amp;t=ffffffffeea0dba9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=sOwmo0MbxLFzh8RIASYjSifpJJqt7NxkdQCR4p-ZFzQjWlaK3x76lwknVK4r6bel46kU6XgdoaDlaLZha3xY9eiSBgJz_6wdzVVueZaIi3x5vJL8mU5GVLKl4GPePiKqdDDU1lnvh2VG9NWnYUL6lMHoWW3ODNRlDxet_niKiyX3csGJX0fe-q1bcLS87hynzjq2LJ8HwCZFjFuIpr4_gIfl-IoysRJHonb1qxxou8ZXfduUKxwohNP0lBpqCAb67bJ3lSBWbhiWw6BsUdBX1prMiK6U9Zh9v1bGdbkNexsl1hRJnL7zW0PfytV34i0VoRaX9ytRGIM5K9yMHfN9aa_PQVbskaTxUV-7_ogzFR_oiecAfzbypRTo5D8ycEG9jilRI9WDAKXTbnTOUJia6d_bNPETRAZva0I83LCvYiaSqBa7Ir9BnVPpCxzk-_9qGusAtg2" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="598FFDC9" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Ll87FuVXkdmjuQfsW1uI68lKpSQszo5naqyCe65jUfJN92z12wHWxtr9wQto0NOP8P4Gbmty/W04r1QPWxV1wDIWKw07R0wDJSNYug4hNqTGVx0vDcPhWkwDplaxUHIOl/GeDS8kk7nQW6z2DmzhVvM6YSlJCK4lt/LIjYG//nPimCGsNQ5d8Hl0d4gzqlXa0u6+le4jNF0sv+3JC+iixFcSk7Ei8qo3NgA8gF8MWLitH5aC3/SCX2ej8XZjSrkLYKz++3WG52jeAjPphN5jHglOmYZwC/vYnJTh2SUhqRydcdZGRTYTzp6yDoV3gczY5ooYPzwRcmt3FXGVJY8M0a7EI6viO2KWz7a/9w8fr9Y9U4S9N4wFRYhW2mcJFHzb3/rrueN/xu5AWi7jvAeiyMR3/VNZUqsYHDUled9Y0dhwfW4S" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+        
+
+        <div>
+	
+            <header class="navbar navbar-bd navbar-static-top">
+                <div class="container container-bd">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a id="ctl00__lnkLogo" class="navbar-brand" href="/"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                    <li class="dropdown">
+                                        <style>
+                                            .giftcard-dropdown-variation {
+                                                border: 3px solid magenta;
+                                                border-radius: 1px;
+                                                margin-top: 6px;
+                                                padding-top: 6px !important;
+                                                padding-bottom: 6px !important;
+                                            }
+                                        </style>
+
+                                        <a href="../Masters/#" id="ctl00__giftcardDropdown" class="dropdown-toggle navbar-giftcard-dropdown" data-toggle="dropdown">
+                                            
+                                            Presentkort <span class="caret"></span></a>
+
+
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="/giftcards/buy" class="navbar-giftcard-buy">Köp presentkort</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://blogg.bokadirekt.se/halsa/gruppkop-presentkort/">Presentkort offertförfrågan</a>
+                                            </li>
+                                            <li>
+                                                <a href="/giftcards" class="navbar-giftcard-use">Använd presentkort</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                
+                            
+                                <li>
+                                    <a class="navbar-b2b" href="http://www.bokningssystem.mobi?trace=f5jo2agtyboqfxxr50x50mh2&amp;utm_source=www.bokadirekt.se&amp;utm_medium=banner&amp;utm_campaign=Header">
+                                        
+                                        Anslut mitt företag till Bokadirekt
+                                    </a>
+                                </li>
+                            
+
+                            
+                                <li>
+                                    <a href="/cancel">Avboka</a>
+                                </li>
+                            
+
+                            
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        
+                                        <img style="height: 14px" src="/App_Themes/DefaultCss/Graphics/FlagIcons/SE.png" />
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                                <li>
+                                                    <a href="/da-DK/places/adams-barber-shop-18872">
+                                                        <img style="height: 14px;" src="/App_Themes/DefaultCss/Graphics/FlagIcons/DK.png" />
+                                                        Dansk
+                                                    </a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a href="/en-US/places/adams-barber-shop-18872">
+                                                        <img style="height: 14px;" src="/App_Themes/DefaultCss/Graphics/FlagIcons/US.png" />
+                                                        English
+                                                    </a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a href="/fi-FI/places/adams-barber-shop-18872">
+                                                        <img style="height: 14px;" src="/App_Themes/DefaultCss/Graphics/FlagIcons/FI.png" />
+                                                        Suomi
+                                                    </a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a href="/nb-NO/places/adams-barber-shop-18872">
+                                                        <img style="height: 14px;" src="/App_Themes/DefaultCss/Graphics/FlagIcons/NO.png" />
+                                                        Norsk
+                                                    </a>
+                                                </li>
+                                            
+                                    </ul>
+                                </li>
+                            
+
+                            
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Adamsbarbershop.sjobo@gmail.com
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/account/bookinghistory">Bokningar</a>
+                                        </li>
+                                        
+                                            <li>
+                                                <a href="/account/giftcardhistory">Presentkort</a>
+                                            </li>
+                                            <li>
+                                                <a href="/account/activevaluecards">Värdekort</a>
+                                            </li>
+                                        
+                                        <li>
+                                            <a href="https://konto.bokadirekt.se/account">Inställningar</a>
+                                        </li>
+                                        <li>
+                                            <a id="ctl00__lnkLogOut" href="https://konto.bokadirekt.se/logout?ReturnUrl=https%3A%2F%2Fwww.bokadirekt.se%2Fplaces%2Fadams-barber-shop-18872">Logga ut</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            
+
+                            
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div id="navbar-spacer"></div>
+        
+</div>
+
+        <div class="outer-container">
+            
+            
+    <div class="container">
+        
+        <article itemscope itemtype="http://schema.org/LocalBusiness">
+            <header>
+                <div class="panel panel-default gtm-unit-info">
+	
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3">                
+                <a href="/places/adams-barber-shop-18872" class="gtm-merchant-logo">
+                    <img title="IMG-20170607-WA0001.jpg" class="img-responsive bd-company-logo" src="/DisplayMediaFile.axd?id=323063" alt="IMG-20170607-WA0001.jpg" style="border-width:0px;" />
+                    
+
+                    
+                </a>
+                <div id="ctl00_MainContent__unitInfo__pnlBadges">
+
+	</div>
+            </div>
+            <div class="col-xs-8 col-sm-5">
+                <div class="row magnific-popup-gallery">
+                    
+                            
+                            <div class="col-xs-4 nopad-xs">
+                                <a href="/DisplayMediaFile.axd?id=333372" id="ctl00_MainContent__unitInfo__lvImages_ctrl0__aLightboxLink" class="popup-image-link">
+                                    <img id="ctl00_MainContent__unitInfo__lvImages_ctrl0__imgPhoto" class="img-rounded bd-resource-unit-image" itemtype="http://schema.org/Photograph" itemprop="photo" src="../DisplayMediaFile.axd?id=333372" style="border-width:0px;width: 100%" />
+                                    
+                                </a>
+                            </div>
+                        
+                            <div class="col-xs-4 nopad-xs">
+                                <a href="/DisplayMediaFile.axd?id=333375" id="ctl00_MainContent__unitInfo__lvImages_ctrl1__aLightboxLink" class="popup-image-link">
+                                    <img id="ctl00_MainContent__unitInfo__lvImages_ctrl1__imgPhoto" class="img-rounded bd-resource-unit-image" itemtype="http://schema.org/Photograph" itemprop="photo" src="../DisplayMediaFile.axd?id=333375" style="border-width:0px;width: 100%" />
+                                    
+                                </a>
+                            </div>
+                        
+                            <div class="col-xs-4 nopad-xs">
+                                <a href="/DisplayMediaFile.axd?id=336012" id="ctl00_MainContent__unitInfo__lvImages_ctrl2__aLightboxLink" class="popup-image-link">
+                                    <img id="ctl00_MainContent__unitInfo__lvImages_ctrl2__imgPhoto" class="img-rounded bd-resource-unit-image" itemtype="http://schema.org/Photograph" itemprop="photo" src="../DisplayMediaFile.axd?id=336012" style="border-width:0px;width: 100%" />
+                                    
+                                </a>
+                            </div>
+                        
+                        
+                </div>
+                <div class="visible-xs text-center" style="padding-top: 5px">
+                    <a class="scroll gtm-about-company" data-speed="1000" data-easing="easeOutQuint" href="#unit-info">Om företaget</a>
+                </div>
+            </div>
+
+            <div class="col-sm-4 hidden-xs">
+                <a data-easing="easeOutQuint" data-speed="1000" href="#unit-info" class="pull-right btn btn-default btn-sm scroll gtm-about-company">Om företaget</a>
+
+                <h4 class="panel-title hidden-xs">
+                    <span id="ctl00_MainContent__unitInfo__lblName">Adam&#39;s Barber Shop</span>
+                </h4>                
+                
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <div>
+        </div>
+    <div itemprop="streetAddress">
+        Gamla torg 2</div>
+    <div>
+        <span itemprop="postalCode">
+            275 30</span>
+        <span itemprop="addressLocality">
+            Sj&#246;bo</span>
+    </div>
+    <div itemprop="description">
+        </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+            </header>
+
+            <div>
+	
+                <div class="panel panel-default">
+                    
+
+                    <div class="panel-body">
+                        <div class="pull-right">
+                            
+                            
+                                <a class="btn btn-sm btn-default multibook-activate-button">Kombo-boka</a>
+                                <a class="btn btn-sm btn-default multibook-deactivate-button" style="display: none">Boka en</a>
+                            
+                            <a class="btn btn-sm btn-default" href='/places/adams-barber-shop-18872/cancel'>Avboka</a>
+                        </div>
+
+                        <h2>Vad vill du boka?</h2>
+
+                        <div id="ctl00_MainContent_ctl07__pnlUserContent" class="well">
+		
+    Hos Adam barber shop anpassar vi oss efter din personliga stil, ansiktsform, hårkvalitet och attityd. allt räknas in för att skapa just rätt frisyr för dig.<br>
+<br>
+
+
+	</div>
+
+                        <div id="scroll-target"></div>
+
+                        <div class="media visible-xs" style="clear: both; padding-top: 1em; position: relative">
+                            <div class="media-object pull-left img-rounded resource-image-xs" style="width: 64px; position: relative">
+                                <img id="resource-face" class="media-object pull-left img-rounded resource-image-xs" style="width: 64px" />
+                                <div id="default-resource-img" class="img-rounded bd-image-placeholder default-resource-img pull-left" visible="false">
+                                    <div class="bd-image-placeholder-icon">
+                                        <span class="glyphicon glyphicon-camera"></span>
+                                    </div>
+                                </div>
+                                <img id="klarna-symbol-xs" src="../Media/klarna-logo-with-background-small.svg" class="klarna-symbol klarna-symbol-xs" title='Erbjuder onlinebetalning med Klarna'alt="Klarna"/>
+                            </div>
+                            
+                            <div class="media-body">
+                                <div class="form-group">
+                                    <select id="resource-picker" class="form-control">
+                                        <option value="">Visa alla</option>
+                                        
+                                                <option value="34345">Adam Assaad, Barbera</option>
+                                            
+                                                <option value="37245">Moe, Barbera</option>
+                                            
+                                    </select>
+                                </div>
+                                <span id="klarna-information-text-xs" class="klarna-information-text-xs">Erbjuder onlinebetalning med Klarna</span>
+                            </div>
+                        </div>
+                        <div id="resource-galleryXS" class="magnific-popup-gallery visible-xs">
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-7">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-7">
+                                
+                                        <div class="service-group">
+                                            
+                                                <h3>Presentkort</h3>
+                                                <div class="bd-service-list">
+                                                    <div class="bd-service service" data-srs="[34345]">
+                                                        <div class="btn-group pull-right">
+                                                            <a class="btn btn-primary btn-card btn-card-category" href="/places/adams-barber-shop-18872/giftcard">
+                                                                Köp presentkort
+                                                            </a>
+                                                        </div>
+                                                        <a class="" href="/places/adams-barber-shop-18872/giftcard">
+                                                            Köp presentkort
+                                                        </a>
+                                                        <div>
+                                                            <small style="min-height: 1em">
+                                                                Valfritt belopp
+                                                            </small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="service-group">
+                                            
+                                                <h3>Värdekort</h3>
+                                                <div class="bd-service-list">
+                                                    
+                                                            
+                                                            <div class="bd-service service tease-card" data-srs="[34345]">
+                                                                <div class="btn-group pull-right">
+                                                                    <a class="btn btn-primary btn-card" href="/places/18872/valuecards/buy?gct=559">
+                                                                        Köp
+                                                                    </a>
+                                                                </div>
+                                                                <a class="" href="/places/18872/valuecards/buy?gct=559">
+                                                                    klassiskRakning\Shaper beard & Ansiktsrengöring
+                                                                </a>
+                                                                <div>
+                                                                    <small style="min-height: 1em">
+                                                                        Adam Assaad, 600,00 kr, värde 750,00 kr
+                                                                        
+                                                                            <a data-toggle="collapse" href="#value-card-description-559">Mer info</a>
+                                                                        
+                                                                    </small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bd-service-description collapse" id="value-card-description-559">
+                                                                <div>
+                                                                    Rakning med rakkniv . <br />Varma &amp; kalla omslag och eftershav.<br />Ansiktsreng&#246;ring<br />Uppfr&#228;schning av huden. <br />Peeling, Reng&#246;ring, Massage , Mask och avslutande kr&#228;m
+                                                                </div>
+                                                            </div>
+                                                        
+                                                        
+                                                    <div class="bd-service service all-option" data-srs="[34345]">
+                                                        <div class="btn-group pull-right">
+                                                            <a class="btn btn-primary btn-card" href="/places/18872/valuecards/buy">
+                                                                Alla kort
+                                                            </a>
+                                                        </div>
+                                                        <a class="" href="/places/18872/valuecards/buy">
+                                                            ...fler kort
+                                                        </a>
+                                                        <div>
+                                                            <small style="min-height: 1em">
+                                                                Visa alla kort hos Adam's Barber Shop
+                                                            </small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                
+
+                                <input type="hidden" name="ctl00$MainContent$hdnResource" id="ctl00_MainContent_hdnResource" />
+                                <input type="hidden" name="ctl00$MainContent$hdnService" id="ctl00_MainContent_hdnService" />
+                                
+
+                                <div id="tjanster">
+                                    
+                                            
+
+<div class="service-group">
+    <a id=""></a>
+    <h3 id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__litHeader">Tj&#228;nster</h3>
+
+    
+            <div class="bd-service-list">
+                
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="315779" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl0_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl0$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/zansiktsreng%C3%B6ring-315779">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/zansiktsreng%C3%B6ring-315779">
+                            z.Ansiktsreng&#246;ring
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                60 min
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl0_ctl04__lblOriginalPrice">600,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-315779">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-315779">
+                    <div>
+                        Uppfr&#228;schning av huden.<br />peelin, reng&#246;ring, massage , mask , waxa h&#229;ret i n&#228;san och i &#246;ronen och avslutande kr&#228;m.
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="319293" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl1_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl1$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/zansiktsreng%C3%B6ring-klassisksrakningshaper-beard-319293">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/zansiktsreng%C3%B6ring-klassisksrakningshaper-beard-319293">
+                            z.Ansiktsreng&#246;ring + klassisksrakning/Shaper beard
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                80 min
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl1_ctl04__lblOriginalPrice">700,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-319293">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-319293">
+                    <div>
+                        Shaper beard<br />Sk&#228;gskulptering med maskin och sax , varma, kalla omslag och knivinrakade linjer f&#246;r snygg finish och sk&#228;ggolja. <br /><br />Ansiktsreng&#246;ring <br />Uppfr&#228;schning av huden.<br />peelin, reng&#246;ring, massage , mask , waxa h&#229;ret i n&#228;san och i &#246;ronen och avslutande kr&#228;m.
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="307571" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl2_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl2$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/klippning-%26-h%C3%A5rtv%C3%A4tt-307571">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/klippning-%26-h%C3%A5rtv%C3%A4tt-307571">
+                            klippning &amp; h&#229;rtv&#228;tt
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl2_ctl04__lblOriginalPrice">300,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-307571">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-307571">
+                    <div>
+                        h&#229;rtv&#228;tt + klippning + F&#229;n + styl
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="301508" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl3_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl3$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/herrklippning-kort-h%C3%A5r-301508">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/herrklippning-kort-h%C3%A5r-301508">
+                            Herrklippning kort h&#229;r
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl3_ctl04__lblOriginalPrice">220,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-301508">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-301508">
+                    <div>
+                        klippning&amp;stil<br />upp till 30 minuter<br /><br />
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="306502" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl4_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl4$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/herrklippning-l%C3%A5ngt-h%C3%A5r-306502">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/herrklippning-l%C3%A5ngt-h%C3%A5r-306502">
+                            Herrklippning l&#229;ngt h&#229;r
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl4_ctl04__lblOriginalPrice">280,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-306502">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-306502">
+                    <div>
+                        klippning &amp; styl<br />upp till 30 minuter<br />
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="306503" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl5_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl5$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/barnklippning-0-9-%C3%A5r-306503">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/barnklippning-0-9-%C3%A5r-306503">
+                            barnklippning 0-9 &#229;r
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl5_ctl04__lblOriginalPrice">200,00 kr</span>
+
+
+
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-306503">
+                    
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="293228" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl6_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl6$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/klassiskrakning-293228">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/klassiskrakning-293228">
+                            klassiskrakning
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl6_ctl04__lblOriginalPrice">200,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-293228">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-293228">
+                    <div>
+                        Upplevelsen inleds med att en varm handduk mjukar upp din hud. vi blandar sedan ut rakl&#246;ddret med en borste tillverkad av &#228;kta gr&#228;vlingsh&#229;r. N&#228;r huden &#228;r mjuk f&#246;ljer en rakning med rakkniv .d&#228;r Den sk&#246;na k&#228;nslan av en traditionell rakning &#228;r sv&#229;r att motst&#229;.
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="301509" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl7_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl7$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/shaper-beard--301509">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/shaper-beard--301509">
+                            Shaper beard 
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl7_ctl04__lblOriginalPrice">250,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-301509">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-301509">
+                    <div>
+                        sk&#228;gskulptering med maskin och sax , varma, kalla omslag och knivinrakade linjer f&#246;r snygg finish och sk&#228;ggolja. 
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="306501" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl8_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl8$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/klassiskrakning-%26-klippning-306501">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/klassiskrakning-%26-klippning-306501">
+                            klassiskrakning &amp; klippning
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl8_ctl04__lblOriginalPrice">420,00 kr</span>
+
+
+
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-306501">
+                    
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="306500" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl9_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl9$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/klippning-%26-shaper-beard--306500">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/klippning-%26-shaper-beard--306500">
+                            Klippning &amp; Shaper beard 
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl9_ctl04__lblOriginalPrice">450,00 kr</span>
+
+
+
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-306500">
+                    
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="301510" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl10_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl10$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/h%C3%A5rtv%C3%A4tt-%26-styl-301510">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/h%C3%A5rtv%C3%A4tt-%26-styl-301510">
+                            H&#229;rtv&#228;tt &amp; styl
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl10_ctl04__lblOriginalPrice">130,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-301510">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-301510">
+                    <div>
+                        H&#229;rtv&#228;tt , H&#229;rbottenmassage &amp; Styling.
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="301512" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl11_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl11$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/zh%C3%A5rf%C3%A4rging-301512">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/zh%C3%A5rf%C3%A4rging-301512">
+                            z.H&#229;rf&#228;rging
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                60 min
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl11_ctl04__lblOriginalPrice">400,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-301512">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-301512">
+                    <div>
+                        1.Snabbverkande f&#228;rg som ger Naturligt resultat utan synlig utv&#228;xt.<br />2. Slingor <br /><br />priset &#228;r fr&#229;n 400 kr.
+                    </div>
+                </div>
+            
+        
+            
+            
+                <div class="bd-service service"
+                    data-srs="[34345,37245]">
+
+                    <div class="pull-right" style="margin-top: 4px">
+                        <span class="service-checkbox" data-service-id="301511" style="display: none"><input id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl12_ctl01" type="checkbox" name="ctl00$MainContent$_repServiceListGroups$ctl00$ctl00$_lvServices$ctrl12$ctl01" /></span>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-primary service-link" href="/places/adams-barber-shop-18872/sk%C3%A4ggf%C3%A4rging-301511">
+                            Sök tid
+                        </a>
+                    </div>
+
+                    <div style="display: inline-block">
+                        <a class="service-link" href="/places/adams-barber-shop-18872/sk%C3%A4ggf%C3%A4rging-301511">
+                            sk&#228;ggf&#228;rging
+                        </a>
+                        
+                        <div>
+                            <small style="min-height: 1em">
+                                40 min
+<span id="ctl00_MainContent__repServiceListGroups_ctl00_ctl00__lvServices_ctrl12_ctl04__lblOriginalPrice">250,00 kr</span>
+
+
+
+                                    <a data-toggle="collapse" href="#service-description-301511">Mer info</a>
+                                
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-service-description collapse" id="service-description-301511">
+                    <div>
+                        F&#246;r dig som &#246;nskar en annan nyans p&#229; sk&#228;gget eller naturlig resultat utan synlig utv&#228;xt.<br />priset fr&#229;n 250 kr.
+                    </div>
+                </div>
+            
+        
+            </div>
+        
+</div>
+
+                                        
+                                            
+                                        
+                                </div>
+                                <input type="submit" name="ctl00$MainContent$ctl11" value="Sök tid" class="btn btn-primary multibook-search-button pull-right" style="display: none; margin-top: 13px" />
+                            </div>
+
+                            <div class="col-sm-5 hidden-xs">
+                                <div id="ctl00_MainContent__htmResources">
+                                    <h3>Visa bara
+                                        <a id="ctl00_MainContent__qtFilter__aQtip" class="has-popover pull-right btn btn-xs btn-default" data-placement="left" data-container="body" data-content="Välj någon av bilderna nedan för att filtrera listan med tjänster" title="Filtrering">
+    <span class="glyphicon glyphicon-question-sign"></span>
+</a>
+                                    </h3>
+                                    <div class="row">
+                                        <div class="bd-faces" style="margin-bottom: 0">
+                                            
+                                                    
+                                                    <div class="col-sm-4 col-lg-3 bd-face-container">
+                                                        <div class="bd-face face" id="resource_34345" data-sr="34345" data-klarna="True">
+                                                            <div class="resource-portrait-container">
+                                                                <img src="../DisplayMediaFile.axd?id=330884" id="ctl00_MainContent__lvResources_ctrl0__imgResourceImage" class="face-image img-rounded img-responsive" />
+                                                                
+                                                                <img src="../Media/klarna-logo-with-background-small.svg" id="ctl00_MainContent__lvResources_ctrl0__imgKlarnaSymbol" class="klarna-symbol has-tooltip" title="Erbjuder onlinebetalning med Klarna" />
+                                                            </div>
+                                                            <div class="face-icon"><span class="glyphicon glyphicon-ok"></span></div>
+                                                            <div class="face-caption-container">
+                                                                <div class="face-caption name">Adam Assaad</div>
+                                                                <div class="face-caption title">Barbera</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bd-face-icons-container">
+                                                            <a href="tel:+46762020520" class="bd-contact-icon" title="+46762020520">
+                                                                <div id="contact-icon-phone"></div>
+                                                            </a>
+                                                            <a href="mailto:adam@adambarbershop.se" class="bd-contact-icon" title="adam@adambarbershop.se">
+                                                                <div id="contact-icon-email"></div>
+                                                            </a>
+                                                            
+                                                            
+                                                            <a href="https://www.facebook.com/https://www.facebook.com/Adamsbarbershop.se/" target="_blank" class="bd-contact-icon" title="www.facebook.com/https://www.facebook.com/Adamsbarbershop.se/">
+                                                                <div id="contact-icon-fb"></div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                
+                                                    <div class="col-sm-4 col-lg-3 bd-face-container">
+                                                        <div class="bd-face face" id="resource_37245" data-sr="37245" data-klarna="False">
+                                                            <div class="resource-portrait-container">
+                                                                <img src="../DisplayMediaFile.axd?id=342092" id="ctl00_MainContent__lvResources_ctrl1__imgResourceImage" class="face-image img-rounded img-responsive" />
+                                                                
+                                                                
+                                                            </div>
+                                                            <div class="face-icon"><span class="glyphicon glyphicon-ok"></span></div>
+                                                            <div class="face-caption-container">
+                                                                <div class="face-caption name">Moe</div>
+                                                                <div class="face-caption title">Barbera</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bd-face-icons-container">
+                                                            <a href="tel:+46762020520" class="bd-contact-icon" title="+46762020520">
+                                                                <div id="contact-icon-phone"></div>
+                                                            </a>
+                                                            <a href="mailto:adamsbarbershop.sjobo@gmail.com" class="bd-contact-icon" title="adamsbarbershop.sjobo@gmail.com">
+                                                                <div id="contact-icon-email"></div>
+                                                            </a>
+                                                            
+                                                            
+                                                            <a href="https://www.facebook.com/https://m.facebook.com/Adambarbershop.se" target="_blank" class="bd-contact-icon" title="www.facebook.com/https://m.facebook.com/Adambarbershop.se">
+                                                                <div id="contact-icon-fb"></div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="ctl00_MainContent__pnlKlarnaInfo" class="">
+		
+                                    <h3>
+                                        <img class="klarna-header-logo" src="../Media/klarna-logo.svg" />
+                                    </h3>
+                                    <div class="klarna-information">
+                                        <span id="ctl00_MainContent__lblKlarnaInformation">V&#228;lj en Klarna-markerad ut&#246;vare f&#246;r att kunna betala online.</span>
+                                    </div>
+                                
+	</div>
+
+                                <div id="ctl00_MainContent__htmResourceGallery" class="">
+                                    <h3>
+                                        Galleri
+                                    </h3>
+                                    <div class="magnific-popup-gallery" id="resource-gallery">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            
+</div>
+
+            <footer>
+                <div class="panel panel-default gtm-unit-info">
+	
+    <div class="panel-body">
+        <div class="row" id="unit-info">
+            <div class="col-md-3">
+                <img src="/DisplayMediaFile.axd?id=323063" id="ctl00_MainContent_ctl02__imgLogo" itemprop="logo" style="margin-bottom: 15px" class="img-responsive bd-company-logo" />
+                <div id="ctl00_MainContent_ctl02__pnlBadges" style="padding-bottom: 15px">
+
+	</div>
+                
+                    <div style="padding-bottom: 15px">
+                        <div id="ctl00_MainContent_ctl02__htmFacebook" class="fb-like" data-href="http://www.bokadirekt.se/Bookings/Default.aspx?sru=18872" data-width="275" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </div>
+                
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 itemprop="name">Adam&#39;s Barber Shop</h2>
+                        <p itemprop="description">ADAM BARBER SHOP<br /><br />D&#228;r jobbar vi tillsammans med dig och fixar frisyren &amp; sk&#228;gget som du b&#228;r med gl&#228;dje och stolthet.<br />Och till alla m&#228;n, det &#228;r h&#228;r era sk&#228;gg f&#229;r den d&#228;r lilla extra finessen.<br /></p>
+                    </div>
+        
+                    <div class="col-sm-6">
+                        <table class="table table-light table-fixed" style="margin-top: 0;">
+                            
+                                <tr>
+                                    <th style="width: 30%">Telefon</th>
+                                    <td><span itemprop="telephone">0762020520</span></td>
+                                </tr>
+                            
+                            
+                                <tr>
+                                    <th style="width: 30%">Webbsida</th>
+                                    <td>
+                                        
+                                            <span itemprop="url"><a id="ctl00_MainContent_ctl02__lnkWebsite" class="gtm-website-link" rel="external nofollow" href="http://adambarbershop.se/" target="_blank">http://adambarbershop.se/</a></span>
+                                        <span id="ctl00_MainContent_ctl02__lblWebSite"></span>
+                                    </td>
+                                </tr>
+                            
+                            
+                                <tr>
+                                    <th style="width: 30%">E-post</th>
+                                    <td><span itemprop="email"><a id="ctl00_MainContent_ctl02__lnkEmail" class="gtm-email-link" href="mailto:adam@adambarbershop.se">adam@adambarbershop.se</a></span></td>
+                                </tr>
+                            
+                            
+                                <tr>
+                                    <th style="width: 30%">Öppettider</th>
+                                    <td class="cell-wrap-text">M&#229;n-Fre. 10:00-18:00<br />L&#246;r  09:00-14:00 </td>
+                                </tr>
+                            
+                            <tr>
+                                <th style="width: 30%">Adress</th>
+                                <td>
+                                    
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <div>
+        </div>
+    <div itemprop="streetAddress">
+        Gamla torg 2</div>
+    <div>
+        <span itemprop="postalCode">
+            275 30</span>
+        <span itemprop="addressLocality">
+            Sj&#246;bo</span>
+    </div>
+    <div itemprop="description">
+        </div>
+</div>
+
+                                                
+                                    <div id="ctl00_MainContent_ctl02__divMapLinks" class="bd-map-links">
+                                        <span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+                                            <meta itemprop="latitude" content="55.6314554" />
+                                            <meta itemprop="longitude" content="13.7048478" />
+                                        </span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <a href="http://maps.google.se/maps?q=55.631455400000007,13.704847800000039" id="ctl00_MainContent_ctl02__lnkMapCanvas" rel="external nofollow" target="_blank">
+                                    <img src="../Media/Blank.gif" id="ctl00_MainContent_ctl02__imgMapCanvas" class="bd-map lazy" data-src="https://maps.googleapis.com/maps/api/staticmap?center=55.631455400000007%2C13.704847800000039&amp;zoom=14&amp;maptype=roadmap&amp;size=300x200&amp;key=AIzaSyB4slaT_jOd0YC7LPejbVHiTeuFvn10CuA&amp;markers=55.631455400000007%2C13.704847800000039&amp;signature=IBbY-Z6sIDPTpzxO2nF9qXi8JT0=" data-srcset="https://maps.googleapis.com/maps/api/staticmap?center=55.631455400000007%2C13.704847800000039&amp;zoom=14&amp;maptype=roadmap&amp;size=300x200&amp;key=AIzaSyB4slaT_jOd0YC7LPejbVHiTeuFvn10CuA&amp;markers=55.631455400000007%2C13.704847800000039&amp;signature=IBbY-Z6sIDPTpzxO2nF9qXi8JT0= 1x, https://maps.googleapis.com/maps/api/staticmap?center=55.631455400000007%2C13.704847800000039&amp;zoom=14&amp;maptype=roadmap&amp;size=300x200&amp;key=AIzaSyB4slaT_jOd0YC7LPejbVHiTeuFvn10CuA&amp;markers=55.631455400000007%2C13.704847800000039&amp;scale=2&amp;signature=i8vs0oZxNwYdFHjRknnrXdZd6iQ= 2x" />
+                                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+            </footer>
+        </article>
+
+        <div>
+	
+            <p>
+                <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <a id="ctl00_MainContent__lnkBreadCrumbHome" itemprop="url" href="/">
+                        <span itemprop="title">Hem</span>
+                    </a>
+                    &rsaquo;
+                    <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/BreadCrumb">
+                        <a id="ctl00_MainContent__lnkBreadCrumbSearch" itemprop="url" href="/h%C3%A5rv%C3%A5rd%20%252F%20fris%C3%B6r/sj%C3%B6bo">
+                            <span itemprop="title">
+                                H&#229;rv&#229;rd / Fris&#246;r Sj&#246;bo</span>
+                        </a>
+                        &rsaquo;
+
+                        <span itemprop="child" itemscope itemtype="http://data-vocabulary.org/BreadCrumb">
+                            <a id="ctl00_MainContent__lnkBreadCrumbBook" itemprop="url" href="/places/adams-barber-shop-18872">
+                                <span itemprop="title">
+                                    Adam&#39;s Barber Shop</span>
+                            </a>
+                        </span>
+                    </span>
+                </div>
+            </p>
+        
+</div>
+    </div>
+
+    <!-- Alert to select calendar for multi booking -->
+    <div id="modal-no-calendar-selected" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Välj kalender</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Du behöver välja en person/kalender för att kunna boka flera tider samtidigt.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Välj kalender</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alert to select services for multi booking -->
+    <div id="modal-no-services-selected" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Välj tjänster</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Markera de tjänster du vill boka.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            var $resourcePicker = $('#resource-picker');
+            var $faces = $('.bd-faces');
+            var $filterLabel = $('#filter-label');
+            var $filterClear = $('#filter-clear');
+            var $face = $('.face');
+            $filterLabel.data('original-text', $filterLabel.text());
+            var multibookSearchButton = $(".multibook-search-button");
+            var multibookActButton = $(".multibook-activate-button");
+            var multibookDeactButton = $(".multibook-deactivate-button");
+
+            var serviceCheckboxes = $(".service-checkbox input");
+            var isFiltered = false;
+            
+            var uncheckServiceCheckboxes = function () {
+                serviceCheckboxes.each(function () {
+                    $(this).icheck('unchecked');
+                });
+            };
+            var updateCount = function () {
+                $('.service-count').text($('.service:visible').length);
+            };
+            var defaultGalleryImageList = [{"UrlDefault":"https://ucarecdn.com/78eb3f24-b8b5-49b4-bd43-e91437744d43/","Url30":"https://ucarecdn.com/78eb3f24-b8b5-49b4-bd43-e91437744d43/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/78eb3f24-b8b5-49b4-bd43-e91437744d43/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/78eb3f24-b8b5-49b4-bd43-e91437744d43/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/78eb3f24-b8b5-49b4-bd43-e91437744d43/-/scale_crop/102x102/center","SubscriberResourceID":34345},{"UrlDefault":"https://ucarecdn.com/3fd40d4d-af99-48fd-b8d1-2cc734ac4b68/-/crop/1494x1494/1047,0/-/preview/","Url30":"https://ucarecdn.com/3fd40d4d-af99-48fd-b8d1-2cc734ac4b68/-/crop/1494x1494/1047%2C0/-/preview/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/3fd40d4d-af99-48fd-b8d1-2cc734ac4b68/-/crop/1494x1494/1047%2C0/-/preview/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/3fd40d4d-af99-48fd-b8d1-2cc734ac4b68/-/crop/1494x1494/1047%2C0/-/preview/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/3fd40d4d-af99-48fd-b8d1-2cc734ac4b68/-/crop/1494x1494/1047%2C0/-/preview/-/scale_crop/102x102/center","SubscriberResourceID":34345},{"UrlDefault":"https://ucarecdn.com/fce416ee-d236-46db-ac2d-9b25574475ce/-/crop/1494x1494/581,0/-/preview/","Url30":"https://ucarecdn.com/fce416ee-d236-46db-ac2d-9b25574475ce/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/fce416ee-d236-46db-ac2d-9b25574475ce/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/fce416ee-d236-46db-ac2d-9b25574475ce/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/fce416ee-d236-46db-ac2d-9b25574475ce/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/102x102/center","SubscriberResourceID":34345},{"UrlDefault":"https://ucarecdn.com/877115e0-947c-446f-96f7-ff7e4cc5a40a/-/crop/1494x1494/581,0/-/preview/","Url30":"https://ucarecdn.com/877115e0-947c-446f-96f7-ff7e4cc5a40a/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/877115e0-947c-446f-96f7-ff7e4cc5a40a/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/877115e0-947c-446f-96f7-ff7e4cc5a40a/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/877115e0-947c-446f-96f7-ff7e4cc5a40a/-/crop/1494x1494/581%2C0/-/preview/-/scale_crop/102x102/center","SubscriberResourceID":34345},{"UrlDefault":"https://ucarecdn.com/224bd9ad-d5ff-470d-86d8-aa5cffdd2681/","Url30":"https://ucarecdn.com/224bd9ad-d5ff-470d-86d8-aa5cffdd2681/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/224bd9ad-d5ff-470d-86d8-aa5cffdd2681/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/224bd9ad-d5ff-470d-86d8-aa5cffdd2681/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/224bd9ad-d5ff-470d-86d8-aa5cffdd2681/-/scale_crop/102x102/center","SubscriberResourceID":34345},{"UrlDefault":"https://ucarecdn.com/cc5c8eb3-e844-44a4-adff-7dbe93a07d30/-/crop/1078x1080/1,0/-/preview/","Url30":"https://ucarecdn.com/cc5c8eb3-e844-44a4-adff-7dbe93a07d30/-/crop/1078x1080/1%2C0/-/preview/-/scale_crop/30x30/center","Url60":"https://ucarecdn.com/cc5c8eb3-e844-44a4-adff-7dbe93a07d30/-/crop/1078x1080/1%2C0/-/preview/-/scale_crop/60x60/center","Url51":"https://ucarecdn.com/cc5c8eb3-e844-44a4-adff-7dbe93a07d30/-/crop/1078x1080/1%2C0/-/preview/-/scale_crop/51x51/center","Url102":"https://ucarecdn.com/cc5c8eb3-e844-44a4-adff-7dbe93a07d30/-/crop/1078x1080/1%2C0/-/preview/-/scale_crop/102x102/center","SubscriberResourceID":37245}];
+
+            var galleryImageList = defaultGalleryImageList;
+
+            var filterGalleryImageList = function (sr) {
+                return galleryImageList.filter(function(img) {
+                    return img.SubscriberResourceID === sr;
+                });
+            }
+
+            var resourceGallery = $("#resource-gallery");
+            var resourceGalleryXS = $("#resource-galleryXS");
+            var calculateGalleryMax = function() {
+                return Math.floor(resourceGallery.width() / 58) * 3;
+            }
+            var galleryMax = calculateGalleryMax();
+            var calculateGalleryMaxXS = function () {
+                return Math.floor( (resourceGalleryXS.width() + 6 ) / 36);
+            }
+            var galleryMaxXS = calculateGalleryMaxXS();
+
+            var addImagesToGalleryDesktop = function () {
+                // Remove all links and their images. This removes the counter as well.
+                resourceGallery.find('a').remove();
+                var numberOfImages = galleryImageList.length;
+                var numberOfHiddenImages = numberOfImages - galleryMax + 1;
+                if (numberOfImages > galleryMax) {
+                    for (var i = 0; i < galleryMax-1; i++) {
+                        resourceGallery.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .addClass('popup-image-link')
+                            .append($('<img/>')
+                                .attr('src', galleryImageList[i].Url51)
+                                .attr('srcset', galleryImageList[i].Url51+' 1x,'+galleryImageList[i].Url102+' 2x')
+                                .addClass('galleryImage')));
+                    }
+                    // Add a counter for the number of images hidden
+                    resourceGallery.append($('<a/>')
+                            .attr('href', galleryImageList[galleryMax-1].UrlDefault)
+                            .addClass('popup-image-link')
+                            .append("<span class='hiddenImagesCounter'>+" + numberOfHiddenImages + "</span>"));
+
+                    // Add links to the remaning images for the magnific popup
+                    for (var i = galleryMax; i < numberOfImages; i++) {
+                        resourceGallery.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .attr('srcset', galleryImageList[i].Url51+' 1x,'+galleryImageList[i].Url102+' 2x')
+                            .addClass('popup-image-link'));
+                    }
+                } else {
+                    for (var i = 0; i < galleryImageList.length; i++) {
+                        resourceGallery.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .addClass('popup-image-link')
+                            .append($('<img/>')
+                                .attr('src', galleryImageList[i].Url51)
+                                .attr('srcset', galleryImageList[i].Url51+' 1x,'+galleryImageList[i].Url102+' 2x')
+                                .addClass('galleryImage')));
+                    }
+                }
+            }
+
+            var addImagesToGalleryMobile = function () {
+                // Remove all links and their images. This removes the counter as well.
+                resourceGalleryXS.find('a').remove();
+                var numberOfImages = galleryImageList.length;
+                var numberOfHiddenImages = numberOfImages - galleryMaxXS + 1;
+                if (numberOfImages > galleryMaxXS) {
+                    for (var i = 0; i < galleryMaxXS-1; i++) {
+                        resourceGalleryXS.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .addClass('popup-image-linkXS')
+                            .append($('<img/>')
+                                .attr('src', galleryImageList[i].Url30)
+                                .attr('srcset', galleryImageList[i].Url30+' 1x,'+galleryImageList[i].Url60+' 2x')
+                                .addClass('galleryImageXS')));
+                    }
+                    // Add a counter for the number of images hidden
+                    resourceGalleryXS.append($('<a/>')
+                            .attr('href', galleryImageList[galleryMaxXS-1].UrlDefault)
+                            .addClass('popup-image-linkXS')
+                            .append("<span class='hiddenImagesCounterXS'>+" + numberOfHiddenImages + "</span>"));
+                    // Add links to the remaning images for the magnific popup
+                    for (var i = galleryMaxXS; i < numberOfImages; i++) {
+                        resourceGalleryXS.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .addClass('popup-image-linkXS'));
+                    }
+                } else {
+                    for (var i = 0; i < galleryImageList.length; i++) {
+                        resourceGalleryXS.append($('<a/>')
+                            .attr('href', galleryImageList[i].UrlDefault)
+                            .addClass('popup-image-linkXS')
+                            .append($('<img/>')
+                                .attr('src', galleryImageList[i].Url30)
+                                .attr('srcset', galleryImageList[i].Url30+' 1x,'+galleryImageList[i].Url60+' 2x')
+                                .addClass('galleryImageXS')));
+                    }
+                }
+            }
+
+            var addImagesToGallery = function() {
+                if (window.innerWidth < 768)
+                    addImagesToGalleryMobile();
+                else {
+                    addImagesToGalleryDesktop();
+                }
+            }
+            addImagesToGallery();
+
+            $(window).resize(function () {
+                if (window.innerWidth < 768) {
+                    var newGalleryMaxXS = calculateGalleryMaxXS();
+                    if (newGalleryMaxXS != galleryMaxXS) {
+                        galleryMaxXS = newGalleryMaxXS;
+                        addImagesToGallery();
+                    }
+                } else {
+                    var newGalleryMax = calculateGalleryMax();
+                    if (newGalleryMax != galleryMax) {
+                        galleryMax = newGalleryMax;
+                        addImagesToGallery();
+                    }
+                }
+            });
+
+            var filterResourceGallery = function (sr) {
+                // First reset to all gallery images incase the list is alreaady filtered.
+                galleryImageList = defaultGalleryImageList;
+                galleryImageList = filterGalleryImageList(sr);
+                addImagesToGallery();
+            };
+
+            var resetResourceGallery = function () {
+                galleryImageList = defaultGalleryImageList;
+                addImagesToGallery();
+            };
+
+            var visibilityKlarnaForAllSelection = function() {
+                var allResourcesHasKlarna = true;
+                var resources = $('.bd-face');
+                resources.each(function() {
+                    if ($(this).attr('data-klarna') == 'False') {
+                        allResourcesHasKlarna = false;
+                    }
+                });
+                if (allResourcesHasKlarna && resources.length > 0) {
+                    $('#klarna-information-text-xs').show();
+                } else {
+                    $('#klarna-information-text-xs').hide();
+                }
+            }
+            visibilityKlarnaForAllSelection();
+
+            var setFilter = function (sr) {
+                var $picker = $('#resource-picker');
+                var $thisFace = $('.face[data-sr=' + sr + ']');
+
+                if ($thisFace.hasClass('active')) {
+                    clearFilter();
+                    return;
+                }
+                var faceImage = $thisFace.find('.face-image').attr('src');
+                if (faceImage) {
+                    $('#default-resource-img').hide();
+                    $('#resource-face').show().attr('src', faceImage);
+                } else {
+                    $('#resource-face').hide();
+                    $('#default-resource-img').show();
+                }
+
+                var hasKlarna = $thisFace.attr('data-klarna');
+                if (hasKlarna == 'True') {
+                    $('#klarna-symbol-xs').show();
+                    $('#klarna-information-text-xs').show();
+                } else {
+                    $('#klarna-symbol-xs').hide();
+                    $('#klarna-information-text-xs').hide();
+                    console.log('set klarna-checkout-xs hidden!');
+                }
+
+                $face.removeClass('active');
+                $filterClear.show();
+                $faces.addClass('filtered');
+                $thisFace.addClass('active');
+                $picker.val(sr);
+
+                $('.service').hide();
+                $('.service-group').show().each(function () {
+                    var $thisGroup = $(this);
+                    var visibleServices = $thisGroup.find('.service').filter(function () {
+                        return $.inArray(sr, $(this).data('srs')) != -1;
+                    });
+                    if (visibleServices.length > 0) {
+                        $(visibleServices).show().find('.service-link').each(function () {
+                            if ($(this).data('original-href') == undefined) {
+                                $(this).data('original-href', $(this).prop('href'));
+                            }
+                            $(this).prop('href', $(this).attr('href') + ($(this).attr('href').indexOf('?') != -1 ? '&' : '?') + "sr=" + sr);
+                        });
+                    } else {
+                        $thisGroup.hide();
+                    }
+                });
+                $('#ctl00_MainContent_hdnResource').val(sr);
+                filterResourceGallery(sr);
+                isFiltered = true;
+                uncheckServiceCheckboxes();
+                limitCards();
+                updateCount();
+            };
+
+            var clearFilter = function () {
+                $('#resource-face').hide();
+                $('#default-resource-img').hide();
+                $faces.removeClass('filtered');
+                $face.removeClass('active');
+                $('.service-group').show();
+                $('.service').show();
+                $filterLabel.text($filterLabel.data('original-text'));
+                $filterClear.hide();
+                isFiltered = false;
+                uncheckServiceCheckboxes();
+                updateCount();
+                resetResourceGallery();
+                visibilityKlarnaForAllSelection();
+                $('#klarna-symbol-xs').hide();
+                limitCards();
+                console.log('ClearFilter');
+            };
+            $filterClear.hide().click(function () {
+                clearFilter();
+            });
+            $face.click(function () {
+                $('.has-popover').popover('hide');
+                $('.service-link').each(function () { if ($(this).data('original-href') != undefined) $(this).prop('href', $(this).data('original-href')); });
+                setFilter($(this).data('sr'));
+            });
+            $resourcePicker.change(function () {
+                if ($(this).val()) {
+                    setFilter(Number($(this).val()));
+                } else {
+                    clearFilter();
+                }
+            });
+
+            var limitCards = function () {
+                var $cardsToHide = $('.tease-card:visible').slice(3);
+
+                if ($cardsToHide.length > 0) {
+                    $('.all-option').show();
+                }
+                else {
+                    $('.all-option').hide();
+                }
+
+                $cardsToHide.hide();
+            }
+            limitCards();
+
+            var preSelectedResource;
+            if (preSelectedResource = $('#ctl00_MainContent_hdnResource').val()) {
+                $resourcePicker.val(preSelectedResource).change();
+            } else if ($resourcePicker.find('option').length == 2) {
+                $resourcePicker.find('option').first().remove();
+                $resourcePicker.val($resourcePicker.find('option').first().attr('value')).change();
+            }
+
+            var setMultibookVisibility = function (on) {
+                $(".service-checkbox").each(function () {
+                    on && $(this).show() || $(this).hide();
+                });
+                $(".btn.service-link").each(function () {
+                    on && $(this).hide() || $(this).show();
+                });
+                on && multibookSearchButton.show() || multibookSearchButton.hide();
+                on && multibookDeactButton.show() || multibookDeactButton.hide();
+                on && multibookActButton.hide() || multibookActButton.show();
+            }
+
+            multibookSearchButton.click(function () {
+                if (serviceCheckboxes.parent('[class~="icheckbox"][class~="checked"]').length === 0) {
+                    $('#modal-no-services-selected').modal('show');
+                    return false;
+                };
+                return true;
+            });
+
+            // Check if calendar is selected when clicking on a multibook checkbox
+            serviceCheckboxes.click(function () {
+                if (!isFiltered) {
+                    $('#modal-no-calendar-selected').modal('show');
+                    return false;
+                }
+                return true;
+            });
+
+            // Scroll to calendar section when modal is closed
+            $('#modal-no-calendar-selected').on('hidden.bs.modal', function () {
+                $('html, body').animate({
+                    scrollTop: $("#scroll-target").offset().top
+                }, 500);
+            });
+
+            // Switch between multi book and single book
+            multibookActButton.click(function () {
+                setMultibookVisibility(true);
+            });
+            multibookDeactButton.click(function () {
+                setMultibookVisibility(false);
+            });
+
+            updateCount();
+        });
+    </script>
+
+    
+
+        </div>
+
+        
+            
+                <footer class="bd-footer">
+                    <div class="container">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                
+                                <p>
+                                    © Bokadirekt AB 2016
+                                </p>
+                            </div>
+
+                            <ul class="footer-links">
+                                <li><a href="https://kund.bokadirekt.se">Företagsinloggning</a></li>
+                                
+                                    <li><a href="/articles/ethical-policy">Etisk policy</a></li>
+                                
+
+                                <li>
+                                    
+                                    <a href="../articles/terms-booking-consumer">Allm&#228;nna villkor</a>
+                                </li>
+                                <li><a href="/articles/about">Om</a></li>
+                                
+                                    <li><a href="/articles/cookies">Kakor</a></li>
+                                
+                                <li><a href="mailto:support@bokadirekt.se">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="text-right">
+                            <small>
+                                
+                                    Bokadirekt
+                                <span class="VersionInfo">v1.1.212.0-release</span>
+                            </small>
+                        </div>
+                    </div>
+                </footer>
+            
+
+            
+            
+
+        
+    </form>
+
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC7wOg-Wi5nVaUOIqQNkGR4w9JXvV7CwFo"></script>
+
+    
+
+    
+
+        <!-- Google Tag Manager variables -->
+        
+
+
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T3B9CP"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-T3B9CP');</script>
+        <!-- End Google Tag Manager -->
+
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+[
+	{
+		"title": "Available",
+		"start": "2017-12-19T11:00:00",
+		"end": "2017-12-19T12:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	},
+	
+	{
+		"title": "Available",
+		"start": "2017-12-19T13:00:00",
+		"end": "2017-12-19T14:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	},
+			    
+	{
+		"title": "Lunch Break",
+		"start": "2017-12-19T14:00:00",
+		"end": "2017-12-19T15:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "red",
+		"editable": "false"
+	},
+
+	{
+		"title": "Available",
+		"start": "2017-12-19T15:00:00",
+		"end": "2017-12-19T16:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	},
+	
+	{
+		"title": "Available",
+		"start": "2017-12-21T11:00:00",
+		"end": "2017-12-21T12:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	},
+	
+	{
+		"title": "Available",
+		"start": "2017-12-21T13:00:00",
+		"end": "2017-12-21T14:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	},
+			    
+	{
+		"title": "Lunch Break",
+		"start": "2017-12-21T14:00:00",
+		"end": "2017-12-21T15:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "red",
+		"editable": "false"
+	},
+
+	{
+		"title": "Available",
+		"start": "2017-12-21T15:00:00",
+		"end": "2017-12-21T16:00:00",
+		"rendering": "backgroud",
+		"backgroundColor": "green",
+		"editable": "false"
+	}
+
+]
+
+

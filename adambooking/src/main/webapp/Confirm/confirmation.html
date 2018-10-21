@@ -1,0 +1,175 @@
+
+<!-- https://bootsnipp.com/snippets/featured/image-checkbox -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Adam Online Booking</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="../assets/css/styles.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="../assets/js/moment.min.js"></script>
+  
+</head>
+<body>
+
+
+  <div class="container">
+  	  <!--
+  	  	xs < 768px (phones)
+  	  	sm >= 768px (tablets)
+  	  	md >= 992px (small laptops)
+  	  	lg >= 1200 px (laptops and desktops)
+  	  -->
+
+  	  <!-- ******* Beard ******* -->
+
+		  <div class="row">
+		    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-left">
+		    	 <legend>Booking Confirmation</legend>
+		    </div>
+		  </div>
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="firstName">First Name</label>  
+                     <label id="firstName" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">First Name</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="service">Service</label>  
+                     <label id="service" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Service Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="lastName">Last Name</label>  
+                     <label id="lastName" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Last Name</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="barber">Barber</label>  
+                     <label id="barber" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Barber Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="phone">Phone</label>  
+                     <label id="phone" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Phone Dummy</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="startTime">Time</label>  
+                     <label id="startTime" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Start Time Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <div class="row margin-bottom">
+		    	<!-- Text input-->
+                <div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="email">Email</label>  
+                     <label id="email" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Email Dummy Value</label> 
+                     
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="endTime">Time</label>  
+                     <label id="startTime" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">End Time Dummy Value</label>  
+                </div>
+		  </div>
+		  
+		  <!-- 
+		  <div class="row margin-bottom">
+		    	<div class="form-group">
+                     <label class="col-xs-2 col-sm-2 col-md-2 col-lg-2 pull-left control-label" for="note">Note</label>  
+                      <label id="note" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-left">Note Dummy Value</label> 
+                    
+                </div>
+		  </div>
+		  -->
+		  
+		  <div class="row margin-bottom">
+		    	 <!-- Confirmation Note -->
+                <div class="form-group">
+                     <label id="note" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 pull-left">Thank you for your reservation. You will receive an email shortly.</label> 
+                </div>
+		  </div>
+		  
+		  
+   </div> <!-- end of container -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script>
+  
+  $(document).ready(function(e) {
+
+      // page is now ready ...
+       console.log("confirmation page loaded.");
+      
+	  var service = getQueryVariable("service");
+      console.log("service: " + service);
+      if (service == "hairCut"){
+	  	$("#service").text("Hair Cut");
+      }
+      else{
+    	  $("#service").text(service);
+      }
+	  
+	  var barber = getQueryVariable("barber");
+	  console.log("barber: " + barber);
+	  $("#barber").text(barber);
+	  
+	  var startTime = getQueryVariable("startTime");
+	  console.log("startTime: " + startTime);
+	  var startTimeFormatted1 = startTime.replace("%20", " ");
+	  var startTimeFormatted2 = startTimeFormatted1.replace("%20", " ");
+	  console.log("startTimeFormatted2: " + startTimeFormatted2);
+	  $("#startTime").text(startTimeFormatted2);
+	  
+	  var startTimeCalendar = getQueryVariable("startTimeCalendar");
+	  console.log("startTimeCalendar: " + startTimeCalendar);
+      
+      var firstName = getQueryVariable("firstName");
+      console.log("firstName: " + firstName);
+      $("#firstName").text(firstName);
+      
+      var lastName = getQueryVariable("lastName");
+      console.log("lastName: " + lastName);
+      $("#lastName").text(lastName);
+  
+      var phone = getQueryVariable("phone");
+      console.log("phone: " + phone);
+      $("#phone").text(phone);
+     
+      var email = getQueryVariable("email");
+      console.log("email: " + email);
+      $("#email").text(email);
+     
+      //var note = getQueryVariable("note");
+      //console.log("note: " + note);
+      //$("#note").text(note);
+      
+      /*********************************************/
+      //Call service to send parameters to the server
+      
+      
+      
+      
+      
+      
+	  
+  });//end of document ready function
+  
+  function getQueryVariable(variable)
+	{
+	       var query = window.location.search.substring(1);
+	       var vars = query.split("&");
+	       for (var i=0;i<vars.length;i++) {
+	               var pair = vars[i].split("=");
+	               if(pair[0] == variable){return pair[1];}
+	       }
+	       return(false);
+	}
+    
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+        "BookID": "1",
+        "BookName": "Computer Architecture",
+        "Category": "Computers",
+        "Price": "125.60"
+    },
+    {
+        "BookID": "2",
+        "BookName": "Asp.Net 4 Blue Book",
+        "Category": "Programming",
+        "Price": "56.00"
+    },
+    {
+        "BookID": "3",
+        "BookName": "Popular Science",
+        "Category": "Science",
+        "Price": "210.40"
+    }
+]
