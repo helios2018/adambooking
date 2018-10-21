@@ -72,6 +72,14 @@ public class CalendarUtilityTest {
 		System.out.println("endTime: " + endTime);
 	}
 	
+	@Test
+	public void testConvertDataTableToIsoDateFormat(){
+		String dataTableDate = "2018-10-21T11:00:00";
+		CalendarUtility calendarUtility = new CalendarUtility();
+		String isoDate = calendarUtility.convertDataTableToIsoDateFormat(dataTableDate);
+		System.out.println("isoDate: " + isoDate);
+	}
+	
 	
 
 }

@@ -276,4 +276,23 @@ public class CalendarUtility {
 		return day;
 	}
 	
+	//10-21-2018 2:00 PM
+	//2018-10-21T14:00:00
+	public String convertDataTableToIsoDateFormat(String dataTableDate){
+		String isoDateFormat = "";
+		String time = "";
+		String pmAm = "";
+		String year = "";
+		String month = "";
+		String day = "";
+		
+		String[] dataTableDateArray = dataTableDate.split(" ");
+		String dateStr = dataTableDateArray[0];
+		String timeStr = dataTableDateArray[1];
+		pmAm = dataTableDateArray[2];
+		
+		
+		return isoDateFormat;
+	}
+	
 }

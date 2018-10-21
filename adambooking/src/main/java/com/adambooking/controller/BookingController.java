@@ -1,6 +1,8 @@
 package com.adambooking.controller;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -12,14 +14,12 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import com.adambooking.aggregator.BookingAggregator;
 import com.adambooking.email.EmailClient;
 import com.adambooking.email.EmailConverter;
-import com.adambooking.model.AdminBooking;
 import com.adambooking.model.Booking;
 import com.adambooking.model.ContactUs;
 import com.adambooking.model.EditorRequest;
@@ -150,6 +150,13 @@ public class BookingController {
 		BookingAggregator bookingAggregator = new BookingAggregator();
 	
 		try{
+			//Change date from this format: 10-21-2018 2:00 PM
+			//into this format: 2018-10-21T14:00:00
+			System.out.println("start time before formatting: " + booking.getStartTime());
+			
+			
+			
+			
 			bookingAggregator.editBooking(booking);
 		}
 		catch(Exception ex){
@@ -189,11 +196,8 @@ public class BookingController {
 	public Response sendEmail(ContactUs contactUs) {
 		String methodName = "sendEmail";
 		System.out.println(className + "-->" + methodName);
-		//System.out.println("service: " + booking.getService());
-		//BookingAggregator bookingAggregator = new BookingAggregator();
 		String emailStatus = null;
 		try{
-			//bookingAggregator.saveBooking(booking);
 			Email email = EmailConverter.ConvertContactUsFormToEmail(contactUs);
 			EmailClient.SendEmail(email);	
 			emailStatus = "Email has been successfully sent!";
@@ -213,52 +217,11 @@ public class BookingController {
 		String methodName = "retrieveAdminBookings";
 		System.out.println(className + "-->" + methodName);
 		
-		//List<AdminBooking> lAdminBooking = new ArrayList();
 		List<Booking> lBooking = new ArrayList<Booking>();
 		Map<String, List<Booking>> adminBookingMap = new HashMap<String, List<Booking>>();
 		
 		try{
 			
-			/*{
-		    "DT_RowId": "row_1",
-		    "first_name": "Tiger",
-		    "last_name": "Nixon",
-		    "position": "System Architect",
-		    "email": "t.nixon@datatables.net",
-		    "office": "Edinburgh",
-		    "extn": "5421",
-		    "age": "61",
-		    "salary": "320800",
-		    "start_date": "2011-04-25"
-		  },*/
-			
-			/*
-			AdminBooking adminBooking1 = new AdminBooking();
-			adminBooking1.setDT_RowId("row_1");
-			adminBooking1.setFirst_name("Tiger");
-			adminBooking1.setLast_name("Nixon");
-			adminBooking1.setPosition("System Architect");
-			adminBooking1.setEmail("t.nixon@datatables.net");
-			adminBooking1.setOffice("Edinburgh");
-			adminBooking1.setExtn("5421");
-			adminBooking1.setAge("61");
-			adminBooking1.setSalary("320800");
-			adminBooking1.setStart_date("2011-04-25");
-			lAdminBooking.add(adminBooking1); 
-			*/
-			
-			/* {
-				   "id": 140,
-				   "service": "beard",
-				   "barber": "moe",
-				   "firstName": "Hani",
-				   "lastName": "Assaad",
-				   "phone": "8174580422",
-				   "email": "haniassaad@hotmail.com",
-				   "startTime": "2018-10-13T11:00:00",
-				   "endTime": "2018-10-13T11:30:00"
-				}
-				*/
 			Booking booking = new Booking();
 			booking.setId(140);
 			booking.setService("beard");
@@ -271,7 +234,6 @@ public class BookingController {
 			booking.setEndTime("2018-10-13T11:30:00");
 			lBooking.add(booking); 
 			adminBookingMap.put("data", lBooking);
-			
 			
 		}
 		catch(Exception ex){
