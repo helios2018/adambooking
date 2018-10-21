@@ -127,32 +127,6 @@ public class BookingController {
 		
 	}
 	
-	/*
-	@POST	
-	@Path("editBooking")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.TEXT_PLAIN)
-	public String editBooking(Object object) {
-		//{action=edit, data={140={id=140, service=beard, barber=moe, firstName=Hani, lastName=Mani, phone=8174580422, email=haniassaad@hotmail.com, startTime=2018-10-13T11:00:00, endTime=2018-10-13T11:30:00}}}
-		String methodName = "editBooking";
-		System.out.println(className + "-->" + methodName);
-		
-		Booking booking = new Booking();
-		System.out.println("service: " + booking.getService());
-		BookingAggregator bookingAggregator = new BookingAggregator();
-		//String updateStatus = "{}";
-		try{
-			bookingAggregator.editBookingInDatabase(booking);
-			//insertStatus = "{" + "\"" + "success" + "\"" + ":\"" + "success" + "\"" + "}";
-			//insertStatus = "{\"msg\":success\"}";
-		}
-		catch(Exception ex){
-			System.out.println(ex.getMessage());
-			return "failed";
-		}
-		return "ok";
-		
-	}*/
 	
 	@POST	
 	@Path("editBooking")
