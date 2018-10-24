@@ -291,6 +291,25 @@ public class CalendarUtility {
 		String timeStr = dataTableDateArray[1];
 		pmAm = dataTableDateArray[2];
 		
+		String[] dateStrArray = dateStr.split("-");
+		month = dateStrArray[0];
+		day = dateStrArray[1];
+		year = dateStrArray[2];
+		
+		String[] timeStrArray = timeStr.split(":");
+		String hours = timeStrArray[0];
+		String minutes = timeStrArray[1];
+		
+		if (pmAm.equals("PM")){
+			int hoursInt = Integer.parseInt(hours);
+			hoursInt = hoursInt + 12;
+			hours = String.valueOf(hoursInt);
+		}
+		
+		isoDateFormat = year + "-" + month + "-" + day + "T"
+		+ hours + ":" + minutes + ":" + "00";
+		
+		
 		
 		return isoDateFormat;
 	}

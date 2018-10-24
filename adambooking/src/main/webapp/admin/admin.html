@@ -67,6 +67,10 @@
 		              contentType: 'application/json',
 		              data: function ( d ) {
 		                return JSON.stringify( d );
+		              },
+		              error: function (d){
+		            	  alert(d.responseJSON.error + "\n" +  d.responseJSON.fieldErrors[0].status);
+		            	  return JSON.stringify(d.responseJSON);
 		              }
 		         },
 		       

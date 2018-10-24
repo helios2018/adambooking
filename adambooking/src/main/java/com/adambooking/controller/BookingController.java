@@ -1,8 +1,6 @@
 package com.adambooking.controller;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +24,7 @@ import com.adambooking.model.EditorRequest;
 import com.adambooking.model.EditorResponse;
 import com.adambooking.model.Email;
 import com.adambooking.model.TimeSlot;
+import com.adambooking.utilities.CalendarUtility;
 
 @Path("bookingController")
 public class BookingController {
@@ -105,7 +104,7 @@ public class BookingController {
 		System.out.println(className + "-->" + methodName);
 		System.out.println("service: " + booking.getService());
 		BookingAggregator bookingAggregator = new BookingAggregator();
-		String insertStatus = "{}";
+		//String insertStatus = "{}";
 		try{
 			bookingAggregator.saveBookingAndSendEmail(booking);
 			//insertStatus = "{" + "\"" + "success" + "\"" + ":\"" + "success" + "\"" + "}";
@@ -138,30 +137,31 @@ public class BookingController {
 		System.out.println(className + "-->" + methodName);
 		System.out.println("action: " + editorRequest.getAction());
 		Booking booking = new Booking();
-		Map<Integer, Booking> editBookingMap = new HashMap();
-		editBookingMap = editorRequest.getData();
-		
-		Set<Integer> idSet = editBookingMap.keySet();
-		Object[] idArray = idSet.toArray();
-		//booking = editBookingMap.get(140);
-		Integer id = (Integer) idArray[0];
-		booking = editBookingMap.get(id);
-		System.out.println("service: " + booking.getService());
-		BookingAggregator bookingAggregator = new BookingAggregator();
-	
 		try{
-			//Change date from this format: 10-21-2018 2:00 PM
-			//into this format: 2018-10-21T14:00:00
-			System.out.println("start time before formatting: " + booking.getStartTime());
+			//Get Booking from request
+			Map<Integer,Booking> editBookingMap = new HashMap<Integer,Booking>();
+			editBookingMap = editorRequest.getData();
+			Set<Integer> idSet = editBookingMap.keySet();
+			Object[] idArray = idSet.toArray();
+			Integer id = (Integer) idArray[0];
+			booking = editBookingMap.get(id);
 			
+			//format edit request date
+			CalendarUtility calendarUtility = new CalendarUtility();
+			String startTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getStartTime());
+			String endTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getEndTime());
+			booking.setStartTime(startTime);
+			booking.setEndTime(endTime);
 			
-			
-			
+			BookingAggregator bookingAggregator = new BookingAggregator();
 			bookingAggregator.editBooking(booking);
 		}
 		catch(Exception ex){
 			System.out.println(ex.getMessage());
-			//return "failed";
+			EditorResponse<Booking> response = new EditorResponse<Booking>();
+			response.addFieldError("500", "Invalid Time!");
+			response.setError("Invalid Time Entry!");
+			return Response.status(500).entity(response).build();
 		}
 		EditorResponse<Booking> response = new EditorResponse<Booking>();
 		response.add(booking);

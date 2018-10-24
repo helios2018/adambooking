@@ -10,6 +10,7 @@ import static com.adambooking.constants.QueryConstants.SELECT_LAST_ID_FROM_BOOKI
 import static com.adambooking.constants.QueryConstants.SELECT_FROM_UNAVAILABLE_SLOTS;
 import com.adambooking.db.connection.DBConnector;
 import com.adambooking.email.EmailClient;
+import com.adambooking.helper.AdminHelper;
 import com.adambooking.model.Booking;
 import com.adambooking.model.Email;
 import com.adambooking.model.TimeSlot;
@@ -114,6 +115,13 @@ public class BookingAggregator {
 		
 		lAllTimeSlots.removeAll(lUnavailableTimeSlots); 
 		lAvailableTimeSlots = lAllTimeSlots;
+		
+		//Show only 3 available slots when you display the calendar
+		//Business Requirement
+		int availableSlotsCount = 3;
+		AdminHelper bookingHelper = new AdminHelper();
+		bookingHelper.customizeAvailableSlotsList(lAvailableTimeSlots, availableSlotsCount);
+		System.out.println("Available Slots Count: " + lAvailableTimeSlots.size());
 		
 		return lAvailableTimeSlots;
 	}

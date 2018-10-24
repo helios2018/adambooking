@@ -11,12 +11,24 @@ import java.util.List;
  */
 public class EditorResponse<T> {
     public static class FieldError {
-        String name;
-        String status;
+        private String name;
+        private String status;
         public FieldError(String name, String status) {
-            this.name = name;
-            this.status = status;
+            this.setName(name);
+            this.setStatus(status);
         }
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getStatus() {
+			return status;
+		}
+		public void setStatus(String status) {
+			this.status = status;
+		}
     }
     private List<T> data;
     private String error;
