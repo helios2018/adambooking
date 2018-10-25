@@ -309,9 +309,17 @@ public class CalendarUtility {
 		isoDateFormat = year + "-" + month + "-" + day + "T"
 		+ hours + ":" + minutes + ":" + "00";
 		
-		
-		
 		return isoDateFormat;
+	}
+	
+	public String getDateFromIsoDate(String isoDate){
+		String[] date = isoDate.split("T");
+		return date[0];
+	}
+	
+	public String getTimeFromIsoDate(String isoDate){
+		String[] date = isoDate.split("T");
+		return date[1];
 	}
 	
 }

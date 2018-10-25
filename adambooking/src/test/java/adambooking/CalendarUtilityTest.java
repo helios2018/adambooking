@@ -80,5 +80,20 @@ public class CalendarUtilityTest {
 		System.out.println("isoDate: " + isoDate);
 	}
 	
+	@Test
+	public void testGetDateFromIsoDate(){
+		String isoDate = "2018-10-21T14:00:00";
+		CalendarUtility calendarUtility = new CalendarUtility();
+		String date = calendarUtility.getDateFromIsoDate(isoDate);
+		System.out.print("date: " + date);
+	}
+	
+	@Test
+	public void testGetTimeFromIsoDate(){
+		String isoDate = "2018-10-21T14:00:00";
+		CalendarUtility calendarUtility = new CalendarUtility();
+		String time = calendarUtility.getTimeFromIsoDate(isoDate);
+		System.out.print("time: " + time);
+	}
 
 }

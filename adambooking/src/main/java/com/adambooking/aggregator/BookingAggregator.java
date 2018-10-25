@@ -107,6 +107,7 @@ public class BookingAggregator {
 		List<TimeSlot> lAvailableTimeSlots = new ArrayList();
 		List<TimeSlot> lAllTimeSlots = new ArrayList();
 		List<TimeSlot> lUnavailableTimeSlots = new ArrayList();
+		List<TimeSlot> lAvailableTimeSlotsCustomized = new ArrayList();
 		
 		//lAvailableTimeSlots equals to lAllTimeSlots - lUnavailableTimeSlots
 		CalendarUtility calendarUtility = new CalendarUtility();
@@ -119,11 +120,11 @@ public class BookingAggregator {
 		//Show only 3 available slots when you display the calendar
 		//Business Requirement
 		int availableSlotsCount = 3;
-		AdminHelper bookingHelper = new AdminHelper();
-		bookingHelper.customizeAvailableSlotsList(lAvailableTimeSlots, availableSlotsCount);
+		AdminHelper adminHelper = new AdminHelper();
+		lAvailableTimeSlotsCustomized = adminHelper.customizeAvailableSlotsList(lAvailableTimeSlots, availableSlotsCount);
 		System.out.println("Available Slots Count: " + lAvailableTimeSlots.size());
 		
-		return lAvailableTimeSlots;
+		return lAvailableTimeSlotsCustomized;
 	}
 	
 	public void saveBooking(Booking booking) throws Exception {

@@ -128,6 +128,11 @@ public class TimeSlot {
 		}
 		return false;
 	}
+   
+   public String toString(){
+	   return this.getStart();
+	   
+   }
 	
 
 }
