@@ -147,8 +147,18 @@
 		            { data: "lastName" },
 		            { data: "phone" },
 		            { data: "email" },
-		            { data: "startTime" },
-		            { data: "endTime" }
+		            { 
+		            	data: "startTime",
+		            	def:       function () { return new Date(); },
+		            	format:    'MM-DD-YYYY h:mm A',
+		                fieldInfo: 'US style m-d-y date input with 12 hour clock'
+		            },
+		            { 
+		            	data: "endTime",
+		            	def:       function () { return new Date(); },
+		            	format:    'MM-DD-YYYY h:mm A',
+			            fieldInfo: 'US style m-d-y date input with 12 hour clock'
+		            }
 		            
 		        ],
 		        select: true,

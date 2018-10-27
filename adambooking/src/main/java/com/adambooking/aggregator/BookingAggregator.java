@@ -168,7 +168,19 @@ public class BookingAggregator {
 		DBConnector.closeDatabaseConnection();
 	}
 	
-    public void editBooking(Booking booking) throws Exception {
+	public void editBooking(Booking booking, String action) throws Exception {
+		if (action.equals("edit")){
+			updateBooking(booking);
+		} else if (action.equals("remove")){
+			removeBooking(booking);
+		}
+		else if (action.equals("create")){
+			saveBooking(booking);
+		}
+	}
+	
+	
+    public void updateBooking(Booking booking) throws Exception {
 		
 		String methodName = "editBookingInDatabase";
 		System.out.println(className + "-->" + methodName);

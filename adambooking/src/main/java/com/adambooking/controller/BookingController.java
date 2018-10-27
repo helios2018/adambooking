@@ -135,7 +135,8 @@ public class BookingController {
 		//{action=edit, data={140={id=140, service=beard, barber=moe, firstName=Hani, lastName=Mani, phone=8174580422, email=haniassaad@hotmail.com, startTime=2018-10-13T11:00:00, endTime=2018-10-13T11:30:00}}}
 		String methodName = "editBooking";
 		System.out.println(className + "-->" + methodName);
-		System.out.println("action: " + editorRequest.getAction());
+		String action = editorRequest.getAction();
+		System.out.println("action: " + action);
 		Booking booking = new Booking();
 		try{
 			//Get Booking from request
@@ -143,18 +144,32 @@ public class BookingController {
 			editBookingMap = editorRequest.getData();
 			Set<Integer> idSet = editBookingMap.keySet();
 			Object[] idArray = idSet.toArray();
-			Integer id = (Integer) idArray[0];
-			booking = editBookingMap.get(id);
 			
-			//format edit request date
-			CalendarUtility calendarUtility = new CalendarUtility();
-			String startTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getStartTime());
-			String endTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getEndTime());
-			booking.setStartTime(startTime);
-			booking.setEndTime(endTime);
-			
-			BookingAggregator bookingAggregator = new BookingAggregator();
-			bookingAggregator.editBooking(booking);
+			for (int i=0; i<idArray.length; i++){
+				Integer id = (Integer) idArray[i];
+				booking = editBookingMap.get(id);
+				
+				//format edit request date
+				CalendarUtility calendarUtility = new CalendarUtility();
+				String startTime = null;
+				
+				if (!booking.getStartTime().contains("T")){
+					startTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getStartTime());
+				} else{
+					startTime = booking.getStartTime();
+				}
+				String endTime = null;
+				if (!booking.getEndTime().contains("T")){
+					startTime = calendarUtility.convertDataTableToIsoDateFormat(booking.getEndTime());
+				} else{
+					startTime = booking.getEndTime();
+				}
+				booking.setStartTime(startTime);
+				booking.setEndTime(endTime);
+				
+				BookingAggregator bookingAggregator = new BookingAggregator();
+				bookingAggregator.editBooking(booking, action);
+			}
 		}
 		catch(Exception ex){
 			System.out.println(ex.getMessage());

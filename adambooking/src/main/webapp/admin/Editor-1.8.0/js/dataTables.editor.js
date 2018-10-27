@@ -1,10 +1,10020 @@
-/*!
- * File:        dataTables.editor.min.js
- * Version:     1.8.0
- * Author:      SpryMedia (www.sprymedia.co.uk)
- * Info:        http://editor.datatables.net
- * 
- * Copyright 2012-2018 SpryMedia Limited, all rights reserved.
- * License: DataTables Editor - http://editor.datatables.net/license
+/*! DataTables Editor v1.8.0
+ *
+ * ©2012-2018 SpryMedia Ltd, all rights reserved.
+ * License: editor.datatables.net/license
  */
-C4hh.Z9=function (){return typeof C4hh.z9.Y6==='function'?C4hh.z9.Y6.apply(C4hh.z9,arguments):C4hh.z9.Y6;};C4hh.z9=function(P6,a6){var N9=2;while(N9!==10){switch(N9){case 11:return{Y6:function(u6,R6){var C9=2;while(C9!==16){switch(C9){case 4:var d6=Q6;C9=3;break;case 19:(function(){var p9=2;while(p9!==71){switch(p9){case 32:p9=e6===7?31:44;break;case 39:I6+=q6;p9=38;break;case 33:e6=41;p9=1;break;case 2:var e6=2;p9=1;break;case 75:p9=e6===36?74:1;break;case 52:var x6="A";var L6="o";var j6="O";p9=49;break;case 58:p9=e6===31?57:75;break;case 44:p9=e6===21?43:37;break;case 57:I6+=h6;I6+=i6;I6+=y6;var m6=Y9;p9=76;break;case 19:var U9="p";var P9="x";var c6="q";p9=16;break;case 23:e6=36;p9=1;break;case 62:var H9="S";var f9="I";var Q9="b";p9=59;break;case 49:e6=18;p9=1;break;case 5:p9=e6===18?4:13;break;case 31:var s6="G";var X6="T";var a9="c";p9=28;break;case 63:p9=e6===13?62:58;break;case 4:var E6="1";var r6="y";var D6="_";var q6="i";var F6="f";var i6="e";p9=14;break;case 74:var T6=typeof window!==m6?window:typeof global!==I6?global:this;try{var O9=2;while(O9!==70){switch(O9){case 75:O9=k6===20?74:1;break;case 44:k6=1;O9=1;break;case 76:k6=22;O9=1;break;case 23:M6+=W6;O9=22;break;case 38:k6=43;O9=1;break;case 18:k6=36;O9=1;break;case 10:k6=37;O9=1;break;case 16:M6+=P9;M6+=U9;M6+=q6;M6+=W6;O9=25;break;case 72:K6+=E6;O9=71;break;case 58:O9=k6===26?57:75;break;case 20:O9=k6===37?19:17;break;case 51:O9=k6===17?50:45;break;case 52:k6=34;O9=1;break;case 7:O9=k6===42?6:20;break;case 57:K6+=f9;K6+=H9;O9=55;break;case 22:k6=42;O9=1;break;case 8:k6=10;O9=1;break;case 2:var k6=2;O9=1;break;case 29:O9=k6===2?28:43;break;case 30:k6=3;O9=1;break;case 25:k6=30;O9=1;break;case 74:var K6=D6;K6+=r6;O9=72;break;case 19:T6[K6]=function(){};O9=18;break;case 21:O9=k6===10?35:34;break;case 50:K6+=j6;K6+=L6;K6+=x6;K6+=Q9;O9=46;break;case 42:M6+=i6;M6+=y6;M6+=o9;M6+=v9;O9=38;break;case 17:O9=k6===34?16:24;break;case 65:l6+=L6;l6+=x6;l6+=Q9;O9=62;break;case 4:l6+=X6;l6+=s6;O9=9;break;case 62:l6+=f9;l6+=H9;l6+=a9;O9=59;break;case 43:O9=k6===30?42:37;break;case 35:k6=!T6[l6]?20:36;O9=1;break;case 46:k6=26;O9=1;break;case 71:k6=17;O9=1;break;case 45:O9=k6===3?65:58;break;case 37:O9=k6===22?36:51;break;case 1:O9=k6!==36?5:70;break;case 24:O9=k6===43?23:21;break;case 9:l6+=c6;O9=8;break;case 6:M6+=h6;M6+=q6;M6+=h6;M6+=J9;window[M6]();O9=10;break;case 36:K6+=s6;K6+=c6;var M6=i6;O9=52;break;case 33:l6+=r6;l6+=E6;l6+=j6;O9=30;break;case 28:var l6=D6;O9=44;break;case 55:K6+=a9;K6+=X6;O9=76;break;case 34:O9=k6===1?33:29;break;case 5:O9=k6===13?4:7;break;case 59:k6=13;O9=1;break;}}}catch(S9){}p9=72;break;case 16:e6=7;p9=1;break;case 43:I6+=h6;I6+=y6;I6+=i6;I6+=F6;p9=39;break;case 13:p9=e6===2?12:15;break;case 38:e6=31;p9=1;break;case 47:var y6="d";var h6="n";var Y9="u";var I6=Y9;p9=64;break;case 53:p9=e6===10?52:48;break;case 48:p9=e6===25?47:63;break;case 36:m6+=F6;p9=54;break;case 12:var J9="g";var v9="a";var o9="W";var W6="r";p9=19;break;case 21:m6+=h6;m6+=y6;m6+=i6;p9=33;break;case 27:m6+=q6;m6+=h6;p9=25;break;case 72:e6=53;p9=1;break;case 25:m6+=i6;m6+=y6;p9=23;break;case 22:p9=e6===44?21:32;break;case 15:p9=e6===40?27:22;break;case 37:p9=e6===41?36:53;break;case 64:e6=21;p9=1;break;case 76:e6=44;p9=1;break;case 14:e6=25;p9=1;break;case 28:e6=13;p9=1;break;case 54:e6=40;p9=1;break;case 1:p9=e6!==53?5:71;break;case 59:e6=10;p9=1;break;}}}());C9=18;break;case 14:n6++;C9=3;break;case 20:C9=t6===2?19:10;break;case 10:C9=t6!==1?20:17;break;case 3:C9=n6<u6[a6[5]]?9:12;break;case 12:C9=!d6?11:17;break;case 1:R6=f6[a6[4]];C9=5;break;case 13:b6=b6^w6;C9=14;break;case 2:C9=!H6--?1:5;break;case 6:b6=w6;C9=14;break;case 11:var t6=2;C9=10;break;case 7:C9=n6===0?6:13;break;case 9:var G6=R6(u6[a6[2]](n6),16)[a6[3]](2);var w6=G6[a6[2]](G6[a6[5]]-1);C9=7;break;case 18:t6=1;C9=10;break;case 5:var b6,n6=0;C9=4;break;case 17:return b6?d6:!d6;break;}}}};break;case 13:N9=!H6--?12:11;break;case 5:f6=a6.filter.constructor(P6)();N9=4;break;case 6:N9=!H6--?14:13;break;case 2:var f6,U6,o6,H6;N9=1;break;case 4:N9=!H6--?3:9;break;case 9:var v6='fromCharCode',J6='RegExp';N9=8;break;case 1:N9=!H6--?5:4;break;case 7:o6=U6.replace(new f6[J6]("^['-|]"),'S');N9=6;break;case 3:U6=typeof P6;N9=9;break;case 14:a6=a6.map(function(g6){var A9=2;while(A9!==13){switch(A9){case 5:Z6='';A9=4;break;case 1:A9=!H6--?5:4;break;case 9:Z6+=f6[o6][v6](g6[B6]+92);A9=8;break;case 2:var Z6;A9=1;break;case 3:A9=B6<g6.length?9:7;break;case 4:var B6=0;A9=3;break;case 8:B6++;A9=3;break;case 14:return Z6;break;case 7:A9=!Z6?6:14;break;case 6:return;break;}}});N9=13;break;case 12:Q6=Q6(new f6[a6[0]]()[a6[1]]());N9=11;break;case 8:N9=!H6--?7:6;break;}}function Q6(V6){var V9=2;while(V9!==15){switch(V9){case 5:z6=f6[a6[4]];V9=4;break;case 2:var A6,S6,O6,C6,p6,N6,z6;V9=1;break;case 10:V9=N6>=0&&C6>=0?20:18;break;case 4:V9=!H6--?3:9;break;case 19:return A6;break;case 8:O6=a6[6];V9=7;break;case 13:p6=a6[7];V9=12;break;case 11:N6=(p6||p6===0)&&z6(p6,S6);V9=10;break;case 12:V9=!H6--?11:10;break;case 1:V9=!H6--?5:4;break;case 16:A6=C6-V6>S6;V9=19;break;case 6:C6=O6&&z6(O6,S6);V9=14;break;case 7:V9=!H6--?6:14;break;case 9:V9=!H6--?8:7;break;case 20:A6=V6-N6>S6&&C6-V6>S6;V9=19;break;case 17:A6=V6-N6>S6;V9=19;break;case 18:V9=N6>=0?17:16;break;case 3:S6=33;V9=9;break;case 14:V9=!H6--?13:12;break;}}}}('return this',[[-24,5,24,9],[11,9,24,-8,13,17,9],[7,12,5,22,-27,24],[24,19,-9,24,22,13,18,11],[20,5,22,23,9,-19,18,24],[16,9,18,11,24,12],[-43,-41,-40,18,-37,21,23,13,13],[-43,-42,12,24,19,21,11,-43,7]]);C4hh.j8O='object';C4hh.F8O="n";C4hh.X8O="";C4hh.B9=function (){return typeof C4hh.z9.Y6==='function'?C4hh.z9.Y6.apply(C4hh.z9,arguments):C4hh.z9.Y6;};function C4hh(){}C4hh.T8O="functio";C4hh.K2=function(M2){if(C4hh&&M2)return C4hh.B9(M2);};C4hh.O1=function(p1){if(C4hh)return C4hh.B9(p1);};C4hh.L5=function(x5){if(C4hh&&x5)return C4hh.Z9(x5);};C4hh.O5=function(p5){if(C4hh&&p5)return C4hh.B9(p5);};C4hh.m0=function(l0){if(C4hh)return C4hh.B9(l0);};C4hh.p8=function(C8){if(C4hh&&C8)return C4hh.B9(C8);};C4hh.I3=function(m3){if(C4hh)return C4hh.B9(m3);};C4hh.Y3=function(D9){if(C4hh)return C4hh.B9(D9);};(function(factory){var v87=C4hh;var L8O="bd42";var x8O="amd";var E8O="6576";var s8O="5";var c8O="512";var L7=v87.T8O;L7+=v87.F8O;var x7=c8O;x7+=s8O;if(typeof define===(v87.Y3(x7)?L7:v87.X8O)&&define[v87.I3(E8O)?v87.X8O:x8O]){define(['jquery','datatables.net'],function($){return factory($,window,document);});}else if(typeof exports===(v87.p8(L8O)?v87.X8O:v87.j8O)){module.exports=function(root,$){if(!root){root=window;}if(!$||!$.fn.dataTable){$=require('datatables.net')(root,$).$;}return factory($,root,root.document);};}else{factory(jQuery,window,document);}}(function($,window,document,undefined){var J87=C4hh;var D37="1.8.0";var r37="version";var j37="CLASS";var L37="editorFiel";var x37="editorFields";var u1Y="_optionSet";var w1Y="getUTCFullYear";var U1Y="ge";var s4Y="optio";var c4Y='select.';var q4Y="setDate";var v4Y="htm";var y5Y="<t";var M5Y='</td>';var G5Y="selected";var b5Y="empty";var B5Y="joi";var S5Y="namespace";var U5Y="l.";var P5Y="ol";var Q5Y="scr";var Y5Y="getSeconds";var j0Y="getDate";var L0Y="getFullYear";var X0Y="UTC";var c0Y="getUTCDate";var i0Y='day';var B0Y="getUTCMonth";var Z0Y="onth";var p0Y="nput";var C0Y='-iconLeft';var Q0Y="setSeconds";var f0Y="setUTCMinutes";var l8Y="nth";var z8Y="_options";var N8Y="eq";var S8Y='span';var J8Y="lock";var Y8Y="pa";var L3Y="urs";var s3Y="ttr";var i3Y="_setTime";var m3Y="_dateToUtc";var l3Y="input";var R3Y="momentLocale";var G3Y="_dat";var d3Y="_set";var b3Y="minDate";var g3Y="_opti";var Z3Y="_s";var z3Y="_setCalander";var p3Y="maxDate";var V3Y="mp";var N3Y="np";var S3Y="calendar";var J3Y="time";var Q3Y="format";var f3Y="_instance";var H3Y="DateTime";var Y3Y='ampm';var D9Y='seconds';var r9Y='minutes';var j9Y='hours';var y9Y='</button>';var w9Y="moment";var G9Y="classPrefix";var v9Y="/d";var P9Y="iv ";var Q9Y="/>";var y6Y="eO";var i6Y="remo";var M6Y="pla";var G6Y="ind";var n6Y="i18";var g6Y="butto";var B6Y='selected';var S6Y="ditor";var m7X="ec";var l7X="sel";var w7X="exten";var G7X="DTE_Bubble_Background";var t7X="DTE_Bubble_Liner";var d7X="DTE DTE_Bubble";var b7X="DTE DTE_Inline";var n7X="DTE_Action_Edit";var g7X="DTE_Processing_Indicator";var B7X="multi-info";var Z7X="DTE_Field_Message";var z7X="DTE_Field_Error";var O7X="DTE_Label_Info";var p7X="DTE_Field_StateError";var C7X="DTE_Field_Input";var A7X="DTE_Field_Name_";var V7X="DTE_Field_Type_";var N7X="DTE_Field";var S7X="btn";var J7X="DTE_Form_Info";var v7X="DTE_Footer_Content";var o7X="DTE_Footer";var U7X="DTE_Body_Content";var X2X="nodeName";var y2X="attr";var m2X="filter";var w2X="ml";var f2X="cells";var H2X="columns";var h1X="xes";var J1X='am';var v1X='Fri';var o1X='Thu';var U1X='Tue';var P1X='December';var Q1X='November';var f1X='September';var H1X='July';var a1X='June';var Y1X='May';var D4X='Next';var r4X='Previous';var j4X="This input can be edited individually, but not part of a group.";var L4X="The selected items contain different values for this input. To edit and set all items for this input to the same value, click or tap here, otherwise they will retain their individual values.";var x4X="Multiple values";var E4X="Are you sure you wish to delete %d rows?";var X4X="Edit entry";var s4X="Create";var c4X="Create new entry";var F4X="New";var T4X='DT_RowId';var W4X='lightbox';var q4X="_weakInArray";var w4X='submitComplete';var N4X="rc";var J4X="event";var F5X="ier";var y5X="rs";var d5X="ove";var b5X="em";var B5X="_submitTable";var V5X="ocessing";var J5X="submi";var v5X='changed';var a5X="[";var D0X="mi";var r0X="yObject";var F0X="_fnSetObjectDataFn";var t0X="pare";var U0X="_message";var P0X="options";var H0X="tions";var a0X="_optionsUpdate";var D8X='create';var r8X='send';var x8X="down";var E8X="next";var X8X="sc";var K8X="activeElement";var k8X="ke";var G8X="utton";var z8X="active";var C8X="spl";var A8X='keydown';var J8X="tle";var v8X="editCount";var H8X="ubmit";var j3X="onComplete";var T3X="setFocus";var I3X="_focus";var l3X="toLowerCase";var k3X="gt";var w3X="lt";var G3X="su";var n3X="triggerHandler";var O3X="toString";var p3X="displayFields";var a3X='"]';var j9X="[data-e";var x9X="_w";var y9X="clo";var h9X="closeIcb";var I9X="closeCb";var l9X="vent";var e9X="_close";var k9X="mit";var G9X="_blur";var b9X="pend";var B9X="ma";var O9X="rl";var p9X="xOf";var C9X="inde";var V9X="ctio";var N9X="exte";var P9X="indexOf";var H9X="U";var r6X="jo";var L6X='remove';var i6X="strin";var K6X="addC";var M6X="addCl";var R6X="sp";var u6X="init";var g6X="tor";var B6X="_ed";var z6X="bodyContent";var N6X="BUTTONS";var S6X="ools";var J6X="TableT";var v6X="creat";var j71="settings";var E71="idSrc";var F71="xUr";var q71="taT";var l71="class=\"";var t71="iv>";var O71="but";var N71="ter";var J71="processin";var D21="err";var r21="status";var j21="fieldErrors";var E21="_eve";var s21="uplo";var c21="am";var g21="upload";var O21="pen";var C21="up";var N21="ing";var S21="str";var Y21="nl";var j11="ace";var L11="safeId";var x11="value";var E11="att";var X11='value';var c11="pairs";var h11="na";var I11='xhr.dt';var m11="rem";var K11='row().delete()';var M11='edit';var e11='row().edit()';var R11='row.create()';var u11='editor()';var d11="as";var n11="editor";var z11="_e";var O11="Api";var p11="der";var V11="template";var v11="acti";var o11="_processing";var U11="show";var P11="ct";var f11="isP";var H11='button';var D41="_event";var E41="remove";var X41="gth";var c41="rm";var F41="lay";var q41="join";var h41='-';var i41="rra";var K41="li";var M41="rder";var n41="_p";var g41="_f";var B41="ts";var O41="ain";var C41="_eventName";var A41="iel";var V41="Set";var v41="multiSet";var U41="multiGet";var Q41="act";var a41="message";var Y41="parents";var D51='addBack';var r51="addBack";var E51="ray";var X51="Ar";var s51="_clearDynamicInfo";var T51='.';var q51='div.';var I51="ass=\"";var l51="<d";var K51="s=\"";var M51="<div clas";var G51="tt";var t51="ce";var g51='inline';var Z51="attach";var p51="ns";var J51="div.D";var f51="leng";var H51='#';var a51="ids";var D01="hide";var L01="Error";var E01="_fieldNames";var X01="enable";var s01='fields';var c01="Source";var F01="opt";var T01="displayController";var W01="displaye";var q01="map";var i01="unique";var I01="displayed";var M01="url";var e01="sPlainObject";var k01="ja";var R01="je";var G01="rows";var t01="editFields";var d01="find";var b01="ssing";var B01="dit";var A01="Update";var V01="pre";var N01="ag";var S01="ess";var J01="disabl";var v01="date";var U01='json';var f01="isA";var Y01="ev";var D81="maybeOpen";var r81="_formOptions";var j81="_assembleMain";var E81='main';var X81="_crudArgs";var s81="ds";var c81="editFie";var W81="Fields";var q81="edit";var y81="ion";var h81="modi";var i81="orm";var l81="rea";var M81="ini";var e81="create";var G81="lice";var t81="destroy";var d81="ord";var n81="rray";var B81="cal";var Z81="preventDefault";var z81="C";var p81='keyup';var S81="ut";var J81="<b";var o81="index";var P81="key";var Q81="each";var f81="8n";var H81="i1";var Y81="butt";var D31="pty";var r31='left';var j31="eClass";var L31="remov";var c31="left";var T31="eft";var h31="ri";var i31="ngth";var M31="eng";var e31="_postopen";var k31="includeFields";var R31="off";var u31="detach";var d31="_cl";var b31="_closeReg";var n31="buttons";var g31="header";var B31="ep";var z31="form";var O31="formError";var p31="bo";var C31='" />';var S31="bubbleNodes";var P31="for";var f31="ss=\"";var a31="div>";var E91="q";var X91="hildr";var c91="mes";var W91='bubble';var q91="_edit";var h91='boolean';var i91="bubble";var I91="_tidy";var m91="ions";var l91="formOpt";var K91="bbl";var M91="sub";var e91="blur";var k91="onBackground";var R91="editOpts";var u91="tio";var w91="func";var G91="ajax";var t91="splice";var n91="valFromData";var g91="Se";var B91="ields";var O91="field";var C91="_dataSource";var S91="Er";var o91="fields";var P91="isArray";var f91="add";var H91="row";var r61="node";var j61="modifier";var L61="ow";var x61="action";var E61="table";var X61="ead";var c61="tab";var T61="Da";var m61="conte";var g61="he";var z61="terHeight";var O61="ooter";var v61="max";var U61="ar";var Q61="on";var Y61="an";var r7t="ate";var L7t="offset";var x7t="animate";var F7t="co";var W7t="fadeIn";var y7t="offsetHeight";var h7t="top";var m7t="width";var Y7t="style";var D2t="body";var r2t="dy";var s2t="non";var T2t="_hide";var W2t="te";var y2t="hildre";var h2t="tach";var I2t="ose";var K2t="tend";var M2t="ex";var d2t="div";var Z2t='resize.DTED_Lightbox';var O2t="removeClass";var p2t="appendTo";var A2t="ve";var J2t="pp";var o2t="offs";var P2t="lose";var Q2t="un";var H2t="click";var a2t="backgroun";var D1t="ck.";var r1t="per";var x1t="ap";var F1t="windowPadding";var T1t="conf";var i1t="rapper";var I1t="gh";var e1t="children";var R1t="ba";var u1t="app";var w1t="scrollTop";var d1t="target";var b1t="kground";var n1t="ac";var g1t="bind";var B1t="lo";var p1t="_animate";var C1t="_dte";var S1t='body';var o1t="od";var Q1t="hei";var f1t="mate";var a1t="apper";var Y1t="wr";var D4t="nd";var r4t="ou";var s4t="cli";var T4t="ick";var m4t="resize";var e4t="background";var G4t="hi";var t4t="w";var n4t="content";var g4t="_dom";var Z4t="_d";var z4t="en";var p4t="_init";var A4t="xten";var V4t="oller";var N4t="tr";var a4t="<div cl";var Y4t="play";var D5t='row';var r5t='all';var j5t='blur';var L5t='close';var x5t='submit';var E5t="formOptions";var X5t="button";var s5t="fieldType";var c5t="models";var F5t="text";var T5t="ll";var W5t="ca";var q5t="ift";var y5t="ft";var i5t="_multiInfo";var M5t="cs";var e5t="one";var R5t="isMultiValue";var t5t="pt";var b5t="ck";var n5t="bl";var g5t="8";var B5t="ht";var Z5t="ss";var A5t="host";var V5t="able";var N5t="html";var S5t="paren";var J5t="mat";var U5t="submit";var Y5t="at";var D0t="compare";var r0t="se";var j0t="la";var x0t="sl";var E0t="slideDown";var F0t="Array";var y0t='&';var I0t="replace";var m0t='string';var l0t="ue";var K0t="al";var R0t='block';var u0t="ach";var w0t="isPlainObject";var G0t="ush";var t0t="inArray";var z0t="val";var C0t="is";var A0t="multiValues";var S0t="sage";var J0t="Mes";var v0t="ield";var U0t="append";var P0t="tml";var Q0t="labelInfo";var f0t="Up";var Y0t="display";var X8t="foc";var s8t="cu";var F8t='input';var T8t="inpu";var q8t="hasClass";var h8t="cont";var i8t="multiIds";var I8t="multiValue";var m8t="_m";var K8t="clas";var e8t="error";var R8t="ner";var u8t="ai";var w8t="ont";var d8t='enable';var b8t="lass";var g8t="las";var B8t='none';var Z8t="container";var z8t="parent";var O8t="b";var p8t="displa";var A8t="classes";var V8t="addClass";var S8t="con";var J8t="led";var v8t="ab";var o8t="eFn";var U8t="_typ";var P8t="def";var H8t="pts";var a8t="apply";var Y8t="unshift";var D3t="call";var r3t="slice";var j3t="prototype";var L3t="peFn";var x3t='function';var X3t="ult";var c3t="focus";var F3t='readonly';var T3t="opts";var q3t="mul";var y3t="Class";var h3t="has";var i3t="abl";var I3t="dis";var m3t='click';var M3t='label';var e3t="dom";var k3t="Field";var u3t='display';var w3t="css";var G3t="prepend";var d3t=null;var b3t="_typeFn";var n3t='"><span/></div>';var g3t="processing";var Z3t="fieldInfo";var O3t='</div>';var J3t="title";var v3t='"/>';var U3t='</label>';var P3t="label";var f3t='">';var a3t=' ';var Y3t="wrapper";var D9t='<div class="';var r9t="valToData";var L9t="_fnGetObjectDataFn";var x9t="oApi";var E9t="ata";var X9t="op";var c9t="dat";var F9t="id";var T9t="name";var W9t="fieldTypes";var i9t="defaults";var I9t="extend";var m9t="i18n";var l9t="ulti";var K9t="Fi";var M9t="pes";var e9t="fieldTy";var R9t="set";var u9t="data";var w9t="ta";var t9t="va";var B9t="ame";var Z9t="N";var z9t="ass";var A9t="sa";var V9t="lass=\"";var J9t="<di";var Q9t="/div";var f9t="=\"";var a9t=" ";var Y9t="<div";var D6t="pu";var L6t=" class=\"";var E6t="dte";var X6t="<div data-";var c6t="mu";var F6t="Inf";var T6t="n>";var q6t="/";var y6t="iv";var h6t="</";var e6t="-";var k6t="/div>";var R6t="<";var u6t="v>";var w6t="</di";var G6t=">";var t6t="</d";var d6t="eate";var b6t="cr";var n6t="xtend";var B6t="fo";var Z6t="ssage";var A6t="ng";var S6t="fiel";var J6t="ti";var v6t="ul";var o6t="k";var U6t="lic";var P6t=true;var f6t="length";var H6t=false;var a6t="th";var Y6t="len";var D7O="engt";var r7O="push";var L7O="Prop";var E7O="ha";var s7O="files";var c7O="es";var F7O="il";var q7O="pus";var y7O="ch";var h7O="ea";var I7O="]";var m7O="\"";var l7O="Editor";var K7O="fn";var M7O="_constructor";var k7O='Editor requires DataTables 1.10.7 or newer';var R7O="versionCheck";var u7O="dataTable";var n7O='s';var g7O='';var Z7O="g";var z7O="ay";var f7O="ceil";var r2O="T";var j2O="get";var E2O="heck";var X2O="versionC";var s2O=".7";var c2O="10";var F2O=".";var T2O="1";var W2O="dito";var q2O="ataTable";var y2O="ld";var h2O="el";var i2O="F";var I2O="Fiel";var m2O="del";var l2O="gs";var K2O="settin";var M2O="do";var e2O="troller";var k2O="Con";var R2O="isplay";var u2O="mode";var w2O="ings";var G2O="et";var t2O="os";var d2O="ocus";var b2O="disp";var n2O="Table";var g2O="da";var B2O="j";var Z2O="roto";var z2O="ble";var O2O="bub";var p2O="yp";var C2O="lePosition";var A2O="bubb";var V2O="ons";var N2O="bu";var S2O="le";var J2O="nt";var v2O="dep";var o2O="estroy";var U2O="rototy";var P2O="displayNo";var Q2O="fie";var f2O="lds";var H2O="ie";var a2O="prototyp";var Y2O="to";var D1O="ro";var r1O="Erro";var j1O="otot";var L1O="ne";var x1O="in";var E1O="fier";var X1O="di";var s1O="mo";var c1O="of";var F1O="ype";var T1O="move";var W1O="re";var q1O="toty";var y1O="v";var h1O="ister";var i1O="reg";var I1O="()";var m1O="rows().";var l1O="lete(";var K1O=").de";var M1O="rows(";var e1O="edit()";var k1O="cell().";var R1O="it()";var u1O="s().ed";var w1O="cell";var G1O="le()";var t1O=")";var d1O="iles(";var b1O="f";var n1O="r";var g1O="rr";var B1O="pl";var Z1O="construct";var z1O="ionClas";var O1O="_act";var p1O="x";var C1O="aja";var A1O="eMain";var V1O="_assembl";var N1O="oty";var S1O="rot";var J1O="dataSource";var v1O="order";var o1O="_displayRe";var U1O="it";var P1O="prototy";var Q1O="ent";var f1O="_ev";var H1O="ntNa";var a1O="eve";var Y1O="Nod";var D4O="om";var r4O="_fieldFr";var j4O="otype";var L4O="Options";var x4O="_form";var E4O="cyAjax";var X4O="ega";var s4O="_l";var c4O="ty";var F4O="protot";var T4O="oto";var W4O="postopen";var q4O="open";var y4O="type";var h4O="proto";var i4O="sing";var I4O="_proces";var m4O="bmi";var l4O="_su";var K4O="ototype";var M4O="ccess";var e4O="_submitSu";var k4O="tot";var R4O="pro";var u4O="rror";var w4O="_submit";var G4O="tid";var t4O="pe";var d4O="ot";var b4O="faults";var n4O="de";var g4O="elet";var B4O="lete";var Z4O="De";var z4O="Del";var O4O="ow?";var p4O=" sure you wish to delete 1 r";var C4O="Are you";var A4O="formation</a>).";var V4O="bles.net/tn/12\">More in";var N4O=" system error has occurred (<a target=\"_blank\" href=\"//datata";var S4O="hanges";var J4O="c";var v4O="Undo ";var o4O="ry";var U4O="Janua";var P4O="y";var Q4O="uar";var f4O="Febr";var H4O="h";var a4O="arc";var Y4O="l";var D5O="i";var r5O="pr";var j5O="A";var L5O="us";var x5O="Aug";var E5O="tober";var X5O="Oc";var s5O="M";var c5O="W";var F5O="S";var T5O="p";var W5O="ic";var q5O="bas";var y5O="_";var h5O="ed";var i5O="chang";var I5O="els";var m5O="mod";var l5O="ses";var K5O="s";var M5O="a";var e5O="cl";var k5O="ndicator";var R5O="I";var u5O="ng_";var w5O="DTE_Processi";var G5O="er";var t5O="ad";var d5O="TE_He";var b5O="ader_Content";var n5O="DTE_He";var g5O="Body";var B5O="TE_";var Z5O="D";var z5O="m";var O5O="_For";var p5O="E";var C5O="tent";var A5O="orm_Con";var V5O="ror";var N5O="Form_Er";var S5O="E_";var J5O="orm_Buttons";var v5O="E_F";var o5O="bel";var U5O="E_La";var P5O="ontrol";var Q5O="utC";var f5O="ield_Inp";var H5O="DTE_F";var a5O="ield_Info";var Y5O="_F";var D0O="-value";var r0O="multi";var j0O="ore";var L0O="st";var x0O="multi-re";var E0O="t";var X0O="Edi";var s0O="i-no";var c0O="mult";var F0O="d";var T0O="disable";var W0O="on_Create";var q0O="E_Acti";var y0O="DT";var h0O="_Remove";var i0O="DTE_Acti";var I0O="ne_Field";var m0O="Inli";var l0O="DTE_";var K0O="ttons";var M0O="_Inline_Bu";var e0O="DTE";var k0O="le_Table";var R0O="DTE_Bubb";var u0O="close";var w0O="icon ";var G0O="riangle";var t0O="bble_T";var d0O="u";var b0O="DTE_B";var n0O="ime";var g0O="end";var B0O="ext";var Z0O="typ";var z0O="o";var O0O="prot";var p0O="im";var C0O="DateT";var A0O="etime";var V0O="r-dat";var N0O="edito";var S0O="DD";var J0O="YYYY-MM-";var v0O="me";var o0O="dateti";var U0O="xt";var P0O="e";var Q0O="torFields";var f0O="edi";var H0O="Types";var a0O="eld";var Y0O="fi";var D8O="or";var r8O="Edit";var m8O=500;var l8O=400;var M8O=100;var k8O=60;var g8O=27;var Z8O=24;var O8O=20;var A8O=13;var V8O=12;var N8O=11;var S8O=10;var J8O=9;var v8O=7;var o8O=4;var U8O=3;var P8O=2;var Q8O=1;var f8O=0;var H8O=r8O;H8O+=D8O;var a8O=Y0O;a8O+=a0O;a8O+=H0O;var Y8O=f0O;Y8O+=Q0O;var D3O=P0O;D3O+=U0O;var x3O=P0O;x3O+=U0O;var Y1H=P0O;Y1H+=J87.F8O;var D4H=o0O;D4H+=v0O;var r4H=J0O;r4H+=S0O;var j4H=N0O;j4H+=V0O;j4H+=A0O;var L4H=C0O;L4H+=p0O;L4H+=P0O;var u9H=O0O;u9H+=z0O;u9H+=Z0O;u9H+=P0O;var w9H=B0O;w9H+=g0O;var g6H=C0O;g6H+=n0O;var M2P=b0O;M2P+=d0O;M2P+=t0O;M2P+=G0O;var e2P=w0O;e2P+=u0O;var k2P=R0O;k2P+=k0O;var R2P=e0O;R2P+=M0O;R2P+=K0O;var u2P=l0O;u2P+=m0O;u2P+=I0O;var w2P=i0O;w2P+=z0O;w2P+=J87.F8O;w2P+=h0O;var G2P=y0O;G2P+=q0O;G2P+=W0O;var t2P=T0O;t2P+=F0O;var d2P=c0O;d2P+=s0O;d2P+=X0O;d2P+=E0O;var b2P=x0O;b2P+=L0O;b2P+=j0O;var n2P=r0O;n2P+=D0O;var g2P=e0O;g2P+=Y5O;g2P+=a5O;var B2P=H5O;B2P+=f5O;B2P+=Q5O;B2P+=P5O;var Z2P=y0O;Z2P+=U5O;Z2P+=o5O;var z2P=y0O;z2P+=v5O;z2P+=J5O;var O2P=y0O;O2P+=S5O;O2P+=N5O;O2P+=V5O;var p2P=H5O;p2P+=A5O;p2P+=C5O;var C2P=y0O;C2P+=p5O;C2P+=O5O;C2P+=z5O;var A2P=Z5O;A2P+=B5O;A2P+=g5O;var V2P=n5O;V2P+=b5O;var N2P=Z5O;N2P+=d5O;N2P+=t5O;N2P+=G5O;var S2P=w5O;S2P+=u5O;S2P+=R5O;S2P+=k5O;var J2P=e5O;J2P+=M5O;J2P+=K5O;J2P+=l5O;var q5P=m5O;q5P+=I5O;var y5P=i5O;y5P+=h5O;var h5P=y5O;h5P+=q5O;h5P+=W5O;var i5P=T5O;i5P+=z5O;var I5P=F5O;I5P+=M5O;I5P+=E0O;var m5P=c5O;m5P+=h5O;var l5P=s5O;l5P+=z0O;l5P+=J87.F8O;var K5P=F5O;K5P+=d0O;K5P+=J87.F8O;var M5P=X5O;M5P+=E5O;var e5P=x5O;e5P+=L5O;e5P+=E0O;var k5P=j5O;k5P+=r5O;k5P+=D5O;k5P+=Y4O;var R5P=s5O;R5P+=a4O;R5P+=H4O;var u5P=f4O;u5P+=Q4O;u5P+=P4O;var w5P=U4O;w5P+=o4O;var G5P=v4O;G5P+=J4O;G5P+=S4O;var t5P=j5O;t5P+=N4O;t5P+=V4O;t5P+=A4O;var d5P=C4O;d5P+=p4O;d5P+=O4O;var b5P=z4O;b5P+=P0O;b5P+=E0O;b5P+=P0O;var n5P=Z4O;n5P+=B4O;var g5P=Z5O;g5P+=g4O;g5P+=P0O;var B5P=n4O;B5P+=b4O;var Z5P=O0O;Z5P+=d4O;Z5P+=P4O;Z5P+=t4O;var H5P=y5O;H5P+=G4O;H5P+=P4O;var x0P=w4O;x0P+=p5O;x0P+=u4O;var E0P=R4O;E0P+=k4O;E0P+=P4O;E0P+=t4O;var L8P=e4O;L8P+=M4O;var x8P=r5O;x8P+=K4O;var E3P=l4O;E3P+=m4O;E3P+=E0O;var W3P=I4O;W3P+=i4O;var q3P=h4O;q3P+=y4O;var K3P=y5O;K3P+=r5O;K3P+=P0O;K3P+=q4O;var g3P=y5O;g3P+=W4O;var z3P=r5O;z3P+=T4O;z3P+=Z0O;z3P+=P0O;var H3P=F4O;H3P+=P4O;H3P+=t4O;var L9P=h4O;L9P+=c4O;L9P+=t4O;var y9P=s4O;y9P+=X4O;y9P+=E4O;var F6P=x4O;F6P+=L4O;var T6P=O0O;T6P+=j4O;var h6P=h4O;h6P+=c4O;h6P+=T5O;h6P+=P0O;var i6P=r5O;i6P+=K4O;var M6P=r4O;M6P+=D4O;M6P+=Y1O;M6P+=P0O;var G6P=y5O;G6P+=a1O;G6P+=H1O;G6P+=v0O;var z6P=f1O;z6P+=Q1O;var O6P=P1O;O6P+=t4O;var F7R=y5O;F7R+=P0O;F7R+=F0O;F7R+=U1O;var T7R=O0O;T7R+=j4O;var w7R=o1O;w7R+=v1O;var b7R=y5O;b7R+=J1O;var n7R=T5O;n7R+=S1O;n7R+=z0O;n7R+=y4O;var V7R=r5O;V7R+=d4O;V7R+=N1O;V7R+=t4O;var F2R=V1O;F2R+=A1O;var r1R=y5O;r1R+=C1O;r1R+=p1O;var y1R=O1O;y1R+=z1O;y1R+=K5O;var B4R=y5O;B4R+=Z1O;B4R+=D8O;var z5R=d0O;z5R+=B1O;z5R+=z0O;z5R+=t5O;var v5R=P0O;v5R+=g1O;v5R+=z0O;v5R+=n1O;var Q5R=z0O;Q5R+=J87.F8O;var f5R=b1O;f5R+=d1O;f5R+=t1O;var H5R=b1O;H5R+=D5O;H5R+=G1O;var a5R=w1O;a5R+=u1O;a5R+=R1O;var Y5R=k1O;Y5R+=e1O;var r0R=M1O;r0R+=K1O;r0R+=l1O;r0R+=t1O;var x0R=m1O;x0R+=h5O;x0R+=U1O;x0R+=I1O;var I0R=i1O;I0R+=h1O;var l0R=y1O;l0R+=M5O;l0R+=Y4O;var K0R=P1O;K0R+=t4O;var O0R=K5O;O0R+=P0O;O0R+=E0O;var p0R=R4O;p0R+=q1O;p0R+=t4O;var H0R=W1O;H0R+=T1O;var F8R=z0O;F8R+=n1O;F8R+=n4O;F8R+=n1O;var w8R=z0O;w8R+=J87.F8O;w8R+=P0O;var G8R=F4O;G8R+=F1O;var b8R=c1O;b8R+=b1O;var C8R=P1O;C8R+=t4O;var J8R=s1O;J8R+=X1O;J8R+=E1O;var v8R=r5O;v8R+=T4O;v8R+=Z0O;v8R+=P0O;var z3R=x1O;z3R+=Y4O;z3R+=D5O;z3R+=L1O;var O3R=T5O;O3R+=n1O;O3R+=j1O;O3R+=F1O;var N3R=x1O;N3R+=r1O;N3R+=n1O;var o3R=T5O;o3R+=D1O;o3R+=Y2O;o3R+=y4O;var f3R=T5O;f3R+=D1O;f3R+=Y2O;f3R+=y4O;var H3R=Y0O;H3R+=Y4O;H3R+=P0O;H3R+=K5O;var a3R=b1O;a3R+=D5O;a3R+=Y4O;a3R+=P0O;var Y3R=a2O;Y3R+=P0O;var D9R=b1O;D9R+=H2O;D9R+=f2O;var r9R=Q2O;r9R+=Y4O;r9R+=F0O;var c9R=P0O;c9R+=F0O;c9R+=D5O;c9R+=E0O;var F9R=P2O;F9R+=n4O;var T9R=T5O;T9R+=U2O;T9R+=T5O;T9R+=P0O;var y9R=F4O;y9R+=F1O;var k9R=F0O;k9R+=o2O;var x6R=v2O;x6R+=g0O;x6R+=P0O;x6R+=J2O;var w6R=R4O;w6R+=q1O;w6R+=T5O;w6R+=P0O;var z6R=J4O;z6R+=S2O;z6R+=M5O;z6R+=n1O;var r7A=N2O;r7A+=E0O;r7A+=E0O;r7A+=V2O;var t7A=A2O;t7A+=C2O;var d7A=R4O;d7A+=k4O;d7A+=p2O;d7A+=P0O;var q2A=O2O;q2A+=z2O;var I2A=T5O;I2A+=Z2O;I2A+=c4O;I2A+=t4O;var m2A=M5O;m2A+=B2O;m2A+=M5O;m2A+=p1O;var g2A=O0O;g2A+=j4O;var B2A=g2O;B2A+=E0O;B2A+=M5O;B2A+=n2O;var Z2A=b1O;Z2A+=J87.F8O;var u0A=b2O;u0A+=Y4O;u0A+=M5O;u0A+=P4O;var w0A=b1O;w0A+=d2O;var G0A=e5O;G0A+=t2O;G0A+=P0O;var t0A=K5O;t0A+=G2O;t0A+=E0O;t0A+=w2O;var d0A=u2O;d0A+=Y4O;d0A+=K5O;var b0A=F0O;b0A+=R2O;b0A+=k2O;b0A+=e2O;var n0A=m5O;n0A+=I5O;var g0A=M2O;g0A+=z5O;var B0A=m5O;B0A+=I5O;var Z0A=K2O;Z0A+=l2O;var z0A=s1O;z0A+=m2O;z0A+=K5O;var O0A=s1O;O0A+=m2O;O0A+=K5O;var p0A=I2O;p0A+=F0O;var E9A=r5O;E9A+=d4O;E9A+=N1O;E9A+=t4O;var X9A=i2O;X9A+=D5O;X9A+=h2O;X9A+=F0O;var n6A=i2O;n6A+=H2O;n6A+=y2O;var N6A=Z5O;N6A+=q2O;var S6A=p5O;S6A+=W2O;S6A+=n1O;var J6A=T2O;J6A+=F2O;J6A+=c2O;J6A+=s2O;var v6A=X2O;v6A+=E2O;var o6A=b1O;o6A+=J87.F8O;'use strict';J87.D8=function(r8){if(J87)return J87.B9(r8);};(function(){var d7O="expiredWarning";var b7O=' remaining';var B7O='DataTables Editor trial info - ';var O7O=" d";var p7O="133b";var C7O='Editor - Trial expired';var A7O='for Editor, please see https://editor.datatables.net/purchase';var V7O="abf2";var N7O='Your trial has now expired. To purchase a license ';var S7O='Thank you for trying DataTables Editor\n\n';var J7O="48f";var v7O="291";var o7O="3";var U7O="2";var P7O="95dd";var Q7O="b889";var H7O="7a74";var a7O="6";var Y7O="e44";var D2O="Tim";var L2O="33";var x2O="62";var W8O=1540339200;var q8O=265776994;var h8O=1000;var e8O=93;var Y6A=x2O;Y6A+=L2O;var D7=j2O;D7+=r2O;D7+=p0O;D7+=P0O;var r7=j2O;r7+=D2O;r7+=P0O;var j7=Y7O;j7+=a7O;J87.E7=function(X7){if(J87)return J87.B9(X7);};J87.C7=function(A7){if(J87)return J87.B9(A7);};J87.L1=function(x1){if(J87&&x1)return J87.Z9(x1);};J87.M4=function(e4){if(J87&&e4)return J87.Z9(e4);};var remaining=Math[J87.D8(H7O)?J87.X8O:f7O]((new Date((J87.m0(Q7O)?q8O:W8O)*h8O)[J87.O5(j7)?J87.X8O:r7]()-new Date()[J87.L5(P7O)?J87.X8O:D7]())/(h8O*k8O*(J87.M4(Y6A)?e8O:k8O)*Z8O));if(remaining<=f8O){var f6A=M5O;f6A+=U7O;f6A+=U7O;f6A+=o7O;var H6A=a7O;H6A+=v7O;var a6A=J7O;a6A+=a7O;alert((J87.O1(a6A)?S7O:J87.X8O)+(J87.L1(H6A)?J87.X8O:N7O)+(J87.K2(V7O)?J87.X8O:A7O));throw J87.C7(f6A)?C7O:J87.X8O;}else if(remaining<=(J87.E7(p7O)?J8O:v8O)){var P6A=O7O;P6A+=z7O;var Q6A=Y4O;Q6A+=z0O;Q6A+=Z7O;console[Q6A](B7O+remaining+P6A+(remaining===Q8O?g7O:n7O)+b7O);}window[d7O]=function(){var w7O="o purchase a license ";var G7O=" T";var t7O="Your trial has now expired.";var U6A=t7O;U6A+=G7O;U6A+=w7O;alert(S7O+U6A+A7O);};}());var DataTable=$[o6A][u7O];if(!DataTable||!DataTable[R7O]||!DataTable[v6A](J6A)){throw k7O;}var Editor=function(opts){var e7O="DataTables Editor must be initialised as a 'new' instance'";if(!(this instanceof Editor)){alert(e7O);}this[M7O](opts);};DataTable[S6A]=Editor;$[K7O][N6A][l7O]=Editor;var _editor_el=function(dis,ctx){var i7O='*[data-dte-e="';var V6A=m7O;V6A+=I7O;if(ctx===undefined){ctx=document;}return $(i7O+dis+V6A,ctx);};var __inlineCounter=f8O;var _pluck=function(a,prop){var A6A=h7O;A6A+=y7O;var out=[];$[A6A](a,function(idx,el){var C6A=q7O;C6A+=H4O;out[C6A](el[prop]);});return out;};var _api_file=function(name,id){var T7O=' in table ';var W7O='Unknown file id ';var p6A=b1O;p6A+=D5O;p6A+=S2O;p6A+=K5O;var table=this[p6A](name);var file=table[id];if(!file){throw W7O+id+T7O+name;}return table[id];};var _api_files=function(name){var X7O='Unknown file table name: ';var O6A=b1O;O6A+=F7O;O6A+=c7O;if(!name){return Editor[s7O];}var table=Editor[O6A][name];if(!table){throw X7O+name;}return table;};var _objectKeys=function(o){var j7O="erty";var x7O="sOwn";var out=[];for(var key in o){var z6A=E7O;z6A+=x7O;z6A+=L7O;z6A+=j7O;if(o[z6A](key)){out[r7O](key);}}return out;};var _deepCompare=function(o1,o2){var Q6t="bject";var B6A=Y4O;B6A+=D7O;B6A+=H4O;var Z6A=Y6t;Z6A+=Z7O;Z6A+=a6t;if(typeof o1!==J87.j8O||typeof o2!==J87.j8O){return o1==o2;}var o1Props=_objectKeys(o1);var o2Props=_objectKeys(o2);if(o1Props[Z6A]!==o2Props[B6A]){return H6t;}for(var i=f8O,ien=o1Props[f6t];i<ien;i++){var g6A=z0O;g6A+=Q6t;var propName=o1Props[i];if(typeof o1[propName]===g6A){if(!_deepCompare(o1[propName],o2[propName])){return H6t;}}else if(o1[propName]!=o2[propName]){return H6t;}}return P6t;};Editor[n6A]=function(opts,classes,host){var s3t="multiReturn";var l3t='multi-value';var K3t='msg-label';var R3t="none";var t3t='input-control';var B3t='<div data-dte-e="field-processing" class="';var z3t='<div data-dte-e="msg-info" class="';var p3t='<div data-dte-e="msg-message" class="';var C3t='msg-error';var A3t='<div data-dte-e="msg-error" class="';var V3t="multiRestore";var N3t='<div data-dte-e="msg-multi" class="';var S3t='<span data-dte-e="multi-info" class="';var o3t='<div data-dte-e="input-control" class="';var Q3t='<label data-dte-e="label" class="';var H3t="typePrefix";var s9t="Pr";var q9t="own field type ";var y9t="d - unkn";var h9t="Error adding fi";var k9t="tings";var G9t="lFromD";var d9t="aFn";var b9t="SetObjectDat";var n9t="fix";var g9t="namePre";var O9t="abel";var p9t="\" ";var C9t="eI";var N9t="l\" c";var S9t="v data-dte-e=\"msg-labe";var v9t="g-labe";var o9t="nf";var U9t="elI";var P9t="lab";var H9t="data-dte-e=\"input\" class";var r6t="trol";var j6t="putCon";var x6t="-e=\"multi-value\"";var s6t="ltiValue";var W6t="spa";var i6t="est";var I6t="</div>";var m6t="\">";var l6t="sg-me";var K6t="ssag";var M6t="nfo";var g6t="ls";var z6t="msg-";var O6t="-multi";var p6t="msg";var C6t="ulti-info";var V6t="cessi";var N6t="d-pro";var c9A=P0O;c9A+=M5O;c9A+=J4O;c9A+=H4O;var T9A=J4O;T9A+=U6t;T9A+=o6t;var W9A=z0O;W9A+=J87.F8O;var q9A=F0O;q9A+=z0O;q9A+=z5O;var l9A=z0O;l9A+=J87.F8O;var K9A=z5O;K9A+=v6t;K9A+=J6t;var M9A=M2O;M9A+=z5O;var e9A=S6t;e9A+=N6t;e9A+=V6t;e9A+=A6t;var k9A=z5O;k9A+=C6t;var R9A=p6t;R9A+=O6t;var u9A=z6t;u9A+=v0O;u9A+=Z6t;var w9A=z6t;w9A+=x1O;w9A+=B6t;var G9A=u2O;G9A+=g6t;var t9A=P0O;t9A+=n6t;var d9A=M2O;d9A+=z5O;var b9A=b6t;b9A+=d6t;var n9A=t6t;n9A+=D5O;n9A+=y1O;n9A+=G6t;var g9A=w6t;g9A+=u6t;var B9A=R6t;B9A+=k6t;var Z9A=m7O;Z9A+=G6t;var z9A=p6t;z9A+=e6t;z9A+=D5O;z9A+=M6t;var O9A=v0O;O9A+=K6t;O9A+=P0O;var p9A=m7O;p9A+=G6t;var C9A=z5O;C9A+=l6t;C9A+=Z6t;var A9A=m6t;A9A+=I6t;var V9A=t6t;V9A+=D5O;V9A+=u6t;var N9A=n1O;N9A+=i6t;N9A+=j0O;var S9A=h6t;S9A+=F0O;S9A+=y6t;S9A+=G6t;var J9A=R6t;J9A+=q6t;J9A+=W6t;J9A+=T6t;var v9A=D5O;v9A+=M6t;var o9A=r0O;o9A+=F6t;o9A+=z0O;var U9A=c6t;U9A+=s6t;var P9A=X6t;P9A+=E6t;P9A+=x6t;P9A+=L6t;var Q9A=x1O;Q9A+=j6t;Q9A+=r6t;var f9A=m7O;f9A+=G6t;var H9A=D5O;H9A+=J87.F8O;H9A+=D6t;H9A+=E0O;var a9A=Y9t;a9A+=a9t;a9A+=H9t;a9A+=f9t;var Y9A=R6t;Y9A+=Q9t;Y9A+=G6t;var D6A=P9t;D6A+=U9t;D6A+=o9t;D6A+=z0O;var r6A=m7O;r6A+=G6t;var j6A=z5O;j6A+=K5O;j6A+=v9t;j6A+=Y4O;var L6A=J9t;L6A+=S9t;L6A+=N9t;L6A+=V9t;var x6A=m7O;x6A+=G6t;var E6A=D5O;E6A+=F0O;var X6A=A9t;X6A+=b1O;X6A+=C9t;X6A+=F0O;var s6A=p9t;s6A+=B6t;s6A+=n1O;s6A+=f9t;var c6A=Y4O;c6A+=O9t;var F6A=e5O;F6A+=z9t;F6A+=Z9t;F6A+=B9t;var T6A=g9t;T6A+=n9t;var W6A=y5O;W6A+=K7O;W6A+=b9t;W6A+=d9t;var y6A=t9t;y6A+=G9t;y6A+=M5O;y6A+=w9t;var h6A=F0O;h6A+=M5O;h6A+=w9t;var m6A=u9t;m6A+=L7O;var e6A=R9t;e6A+=k9t;var k6A=i2O;k6A+=D5O;k6A+=h2O;k6A+=F0O;var R6A=B0O;R6A+=g0O;var G6A=E0O;G6A+=p2O;G6A+=P0O;var t6A=e9t;t6A+=M9t;var d6A=K9t;d6A+=P0O;d6A+=Y4O;d6A+=F0O;var b6A=z5O;b6A+=l9t;var that=this;var multiI18n=host[m9t][b6A];opts=$[I9t](P6t,{},Editor[d6A][i9t],opts);if(!Editor[t6A][opts[G6A]]){var u6A=E0O;u6A+=F1O;var w6A=h9t;w6A+=h2O;w6A+=y9t;w6A+=q9t;throw w6A+opts[u6A];}this[K5O]=$[R6A]({},Editor[k6A][e6A],{type:Editor[W9t][opts[y4O]],name:opts[T9t],classes:classes,host:host,opts:opts,multiValue:H6t});if(!opts[F9t]){var l6A=J87.F8O;l6A+=B9t;var K6A=H5O;K6A+=D5O;K6A+=a0O;K6A+=y5O;var M6A=D5O;M6A+=F0O;opts[M6A]=K6A+opts[l6A];}if(opts[m6A]){var i6A=c9t;i6A+=M5O;i6A+=s9t;i6A+=X9t;var I6A=F0O;I6A+=E9t;opts[I6A]=opts[i6A];}if(opts[h6A]===g7O){opts[u9t]=opts[T9t];}var dtPrivateApi=DataTable[B0O][x9t];this[y6A]=function(d){var j9t='editor';var q6A=F0O;q6A+=M5O;q6A+=E0O;q6A+=M5O;return dtPrivateApi[L9t](opts[q6A])(d,j9t);};this[r9t]=dtPrivateApi[W6A](opts[u9t]);var template=$(D9t+classes[Y3t]+a3t+classes[H3t]+opts[y4O]+a3t+classes[T6A]+opts[T9t]+a3t+opts[F6A]+f3t+Q3t+classes[c6A]+s6A+Editor[X6A](opts[E6A])+x6A+opts[P3t]+L6A+classes[j6A]+r6A+opts[D6A]+Y9A+U3t+a9A+classes[H9A]+f9A+o3t+classes[Q9A]+v3t+P9A+classes[U9A]+f3t+multiI18n[J3t]+S3t+classes[o9A]+f3t+multiI18n[v9A]+J9A+S9A+N3t+classes[V3t]+f3t+multiI18n[N9A]+V9A+A3t+classes[C3t]+A9A+p3t+classes[C9A]+p9A+opts[O9A]+O3t+z3t+classes[z9A]+Z9A+opts[Z3t]+B9A+g9A+B3t+classes[g3t]+n3t+n9A);var input=this[b3t](b9A,opts);if(input!==d3t){_editor_el(t3t,template)[G3t](input);}else{template[w3t](u3t,R3t);}this[d9A]=$[t9A](P6t,{},Editor[k3t][G9A][e3t],{container:template,inputControl:_editor_el(t3t,template),label:_editor_el(M3t,template),fieldInfo:_editor_el(w9A,template),labelInfo:_editor_el(K3t,template),fieldError:_editor_el(C3t,template),fieldMessage:_editor_el(u9A,template),multi:_editor_el(l3t,template),multiReturn:_editor_el(R9A,template),multiInfo:_editor_el(k9A,template),processing:_editor_el(e9A,template)});this[M9A][K9A][l9A](m3t,function(){var W3t="tiEditable";var h9A=E0O;h9A+=P4O;h9A+=T5O;h9A+=P0O;var i9A=I3t;i9A+=i3t;i9A+=P0O;i9A+=F0O;var I9A=h3t;I9A+=y3t;var m9A=q3t;m9A+=W3t;if(that[K5O][T3t][m9A]&&!template[I9A](classes[i9A])&&opts[h9A]!==F3t){var y9A=y1O;y9A+=M5O;y9A+=Y4O;that[y9A](g7O);that[c3t]();}});this[q9A][s3t][W9A](T9A,function(){var E3t="Restore";var F9A=z5O;F9A+=X3t;F9A+=D5O;F9A+=E3t;that[F9A]();});$[c9A](this[K5O][y4O],function(name,fn){if(typeof fn===x3t&&that[name]===undefined){that[name]=function(){var s9A=y5O;s9A+=c4O;s9A+=L3t;var args=Array[j3t][r3t][D3t](arguments);args[Y8t](name);var ret=that[s9A][a8t](that,args);return ret===undefined?that:ret;};}});};Editor[X9A][E9A]={def:function(set){var Q8t='default';var f8t="defa";var j9A=n4O;j9A+=b1O;var x9A=z0O;x9A+=H8t;var opts=this[K5O][x9A];if(set===undefined){var L9A=f8t;L9A+=X3t;var def=opts[L9A]!==undefined?opts[Q8t]:opts[P8t];return typeof def===x3t?def():def;}opts[j9A]=set;return this;},disable:function(){var C8t='disable';var N8t="ine";var a3A=U8t;a3A+=o8t;var Y3A=I3t;Y3A+=v8t;Y3A+=J8t;var D9A=S8t;D9A+=w9t;D9A+=N8t;D9A+=n1O;var r9A=F0O;r9A+=z0O;r9A+=z5O;this[r9A][D9A][V8t](this[K5O][A8t][Y3A]);this[a3A](C8t);return this;},displayed:function(){var P3A=p8t;P3A+=P4O;var Q3A=J4O;Q3A+=K5O;Q3A+=K5O;var f3A=O8t;f3A+=z0O;f3A+=F0O;f3A+=P4O;var H3A=z8t;H3A+=K5O;var container=this[e3t][Z8t];return container[H3A](f3A)[f6t]&&container[Q3A](P3A)!=B8t?P6t:H6t;},enable:function(){var n8t="emoveC";var v3A=X1O;v3A+=K5O;v3A+=i3t;v3A+=h5O;var o3A=J4O;o3A+=g8t;o3A+=K5O;o3A+=c7O;var U3A=n1O;U3A+=n8t;U3A+=b8t;this[e3t][Z8t][U3A](this[K5O][o3A][v3A]);this[b3t](d8t);return this;},enabled:function(){var G8t="asClass";var t8t="isabled";var V3A=F0O;V3A+=t8t;var N3A=H4O;N3A+=G8t;var S3A=J4O;S3A+=w8t;S3A+=u8t;S3A+=R8t;var J3A=M2O;J3A+=z5O;return this[J3A][S3A][N3A](this[K5O][A8t][V3A])===H6t;},error:function(msg,fn){var l8t="_msg";var M8t="Messag";var k8t="fieldE";var n3A=k8t;n3A+=u4O;var g3A=F0O;g3A+=z0O;g3A+=z5O;var B3A=e8t;B3A+=M8t;B3A+=P0O;var Z3A=y5O;Z3A+=E0O;Z3A+=P4O;Z3A+=L3t;var A3A=K8t;A3A+=l5O;var classes=this[K5O][A3A];if(msg){var p3A=P0O;p3A+=g1O;p3A+=z0O;p3A+=n1O;var C3A=F0O;C3A+=D4O;this[C3A][Z8t][V8t](classes[p3A]);}else{var z3A=P0O;z3A+=n1O;z3A+=D1O;z3A+=n1O;var O3A=n1O;O3A+=P0O;O3A+=T1O;O3A+=y3t;this[e3t][Z8t][O3A](classes[z3A]);}this[Z3A](B3A,msg);return this[l8t](this[g3A][n3A],msg,fn);},fieldInfo:function(msg){var d3A=F0O;d3A+=z0O;d3A+=z5O;var b3A=m8t;b3A+=K5O;b3A+=Z7O;return this[b3A](this[d3A][Z3t],msg);},isMultiValue:function(){return this[K5O][I8t]&&this[K5O][i8t][f6t]!==Q8O;},inError:function(){var y8t="ainer";var w3A=G5O;w3A+=V5O;var G3A=h8t;G3A+=y8t;var t3A=F0O;t3A+=z0O;t3A+=z5O;return this[t3A][G3A][q8t](this[K5O][A8t][w3A]);},input:function(){var c8t='input, select, textarea';var W8t="contai";var k3A=W8t;k3A+=R8t;var R3A=y5O;R3A+=c4O;R3A+=T5O;R3A+=o8t;var u3A=T8t;u3A+=E0O;return this[K5O][y4O][u3A]?this[R3A](F8t):$(c8t,this[e3t][k3A]);},focus:function(){var L8t="lect, textar";var x8t="input, se";var E8t="tai";var e3A=E0O;e3A+=P4O;e3A+=t4O;if(this[K5O][e3A][c3t]){var M3A=b1O;M3A+=z0O;M3A+=s8t;M3A+=K5O;this[b3t](M3A);}else{var m3A=X8t;m3A+=L5O;var l3A=S8t;l3A+=E8t;l3A+=J87.F8O;l3A+=G5O;var K3A=x8t;K3A+=L8t;K3A+=P0O;K3A+=M5O;$(K3A,this[e3t][l3A])[m3A]();}return this;},get:function(){var D8t="Val";var r8t="isMulti";var j8t="_ty";var h3A=Z7O;h3A+=P0O;h3A+=E0O;var i3A=j8t;i3A+=t4O;i3A+=i2O;i3A+=J87.F8O;var I3A=r8t;I3A+=D8t;I3A+=d0O;I3A+=P0O;if(this[I3A]()){return undefined;}var val=this[i3A](h3A);return val!==undefined?val:this[P8t]();},hide:function(animate){var H0t="lid";var a0t="slideUp";var W3A=b1O;W3A+=J87.F8O;var q3A=H4O;q3A+=z0O;q3A+=L0O;var y3A=F0O;y3A+=D4O;var el=this[y3A][Z8t];if(animate===undefined){animate=P6t;}if(this[K5O][q3A][Y0t]()&&animate&&$[W3A][a0t]){var T3A=K5O;T3A+=H0t;T3A+=P0O;T3A+=f0t;el[T3A]();}else{el[w3t](u3t,B8t);}return this;},label:function(str){var E3A=H4O;E3A+=E0O;E3A+=z5O;E3A+=Y4O;var s3A=F0O;s3A+=G2O;s3A+=M5O;s3A+=y7O;var c3A=F0O;c3A+=D4O;var F3A=F0O;F3A+=z0O;F3A+=z5O;var label=this[F3A][P3t];var labelInfo=this[c3A][Q0t][s3A]();if(str===undefined){var X3A=H4O;X3A+=P0t;return label[X3A]();}label[E3A](str);label[U0t](labelInfo);return this;},labelInfo:function(msg){var o0t="ms";var L3A=F0O;L3A+=z0O;L3A+=z5O;var x3A=y5O;x3A+=o0t;x3A+=Z7O;return this[x3A](this[L3A][Q0t],msg);},message:function(msg,fn){var r3A=b1O;r3A+=v0t;r3A+=J0t;r3A+=S0t;var j3A=y5O;j3A+=z5O;j3A+=K5O;j3A+=Z7O;return this[j3A](this[e3t][r3A],msg,fn);},multiGet:function(id){var O0t="lue";var p0t="MultiVa";var V0t="tiValue";var N0t="isMul";var a8A=N0t;a8A+=V0t;var value;var multiValues=this[K5O][A0t];var multiIds=this[K5O][i8t];if(id===undefined){value={};for(var i=f8O;i<multiIds[f6t];i++){var Y8A=y1O;Y8A+=M5O;Y8A+=Y4O;var D3A=C0t;D3A+=p0t;D3A+=O0t;value[multiIds[i]]=this[D3A]()?multiValues[multiIds[i]]:this[Y8A]();}}else if(this[a8A]()){value=multiValues[id];}else{value=this[z0t]();}return value;},multiRestore:function(){var Z0t="_multiValueCheck";this[K5O][I8t]=P6t;this[Z0t]();},multiSet:function(id,val){var d0t="ltiIds";var b0t="alue";var n0t="V";var g0t="ltiValueC";var B0t="_mu";var o8A=B0t;o8A+=g0t;o8A+=E2O;var U8A=z5O;U8A+=l9t;U8A+=n0t;U8A+=b0t;var H8A=c6t;H8A+=d0t;var multiValues=this[K5O][A0t];var multiIds=this[K5O][H8A];if(val===undefined){val=id;id=undefined;}var set=function(idSrc,val){if($[t0t](multiIds)===-Q8O){var f8A=T5O;f8A+=G0t;multiIds[f8A](idSrc);}multiValues[idSrc]=val;};if($[w0t](val)&&id===undefined){var Q8A=P0O;Q8A+=u0t;$[Q8A](val,function(idSrc,innerVal){set(idSrc,innerVal);});}else if(id===undefined){var P8A=P0O;P8A+=u0t;$[P8A](multiIds,function(i,idSrc){set(idSrc,val);});}else{set(id,val);}this[K5O][U8A]=P6t;this[o8A]();return this;},name:function(){var v8A=z0O;v8A+=H8t;return this[K5O][v8A][T9t];},node:function(){return this[e3t][Z8t][f8O];},processing:function(set){this[e3t][g3t][w3t](u3t,set?R0t:B8t);return this;},set:function(val,multiCheck){var s0t="_multiValueC";var c0t='set';var M0t="iV";var e0t="tyDecod";var k0t="enti";var N8A=k0t;N8A+=e0t;N8A+=P0O;var S8A=X9t;S8A+=E0O;S8A+=K5O;var J8A=c0O;J8A+=M0t;J8A+=K0t;J8A+=l0t;var decodeFn=function(d){var T0t='\n';var W0t='\'';var q0t='"';var h0t='<';var i0t='>';return typeof d!==m0t?d:d[I0t](/&gt;/g,i0t)[I0t](/&lt;/g,h0t)[I0t](/&amp;/g,y0t)[I0t](/&quot;/g,q0t)[I0t](/&#39;/g,W0t)[I0t](/&#10;/g,T0t);};this[K5O][J8A]=H6t;var decode=this[K5O][S8A][N8A];if(decode===undefined||decode===P6t){var V8A=C0t;V8A+=F0t;if($[V8A](val)){for(var i=f8O,ien=val[f6t];i<ien;i++){val[i]=decodeFn(val[i]);}}else{val=decodeFn(val);}}this[b3t](c0t,val);if(multiCheck===undefined||multiCheck===P6t){var A8A=s0t;A8A+=E2O;this[A8A]();}return this;},show:function(animate){var L0t="ideDown";var X0t="hos";var p8A=b1O;p8A+=J87.F8O;var C8A=X0t;C8A+=E0O;var el=this[e3t][Z8t];if(animate===undefined){animate=P6t;}if(this[K5O][C8A][Y0t]()&&animate&&$[p8A][E0t]){var O8A=x0t;O8A+=L0t;el[O8A]();}else{var z8A=I3t;z8A+=T5O;z8A+=j0t;z8A+=P4O;el[w3t](z8A,g7O);}return this;},val:function(val){var Z8A=r0t;Z8A+=E0O;return val===undefined?this[j2O]():this[Z8A](val);},compare:function(value,original){var compare=this[K5O][T3t][D0t]||_deepCompare;return compare(value,original);},dataSrc:function(){var B8A=F0O;B8A+=Y5t;B8A+=M5O;return this[K5O][T3t][B8A];},destroy:function(){var f5t="contain";var H5t="Fn";var a5t="stroy";var d8A=n4O;d8A+=a5t;var b8A=U8t;b8A+=P0O;b8A+=H5t;var n8A=W1O;n8A+=T1O;var g8A=f5t;g8A+=G5O;this[e3t][g8A][n8A]();this[b8A](d8A);return this;},multiEditable:function(){var Q5t="tiEditab";var t8A=c6t;t8A+=Y4O;t8A+=Q5t;t8A+=S2O;return this[K5O][T3t][t8A];},multiIds:function(){return this[K5O][i8t];},multiInfoShown:function(show){var u8A=J4O;u8A+=K5O;u8A+=K5O;var w8A=z5O;w8A+=l9t;w8A+=F6t;w8A+=z0O;var G8A=F0O;G8A+=D4O;this[G8A][w8A][u8A]({display:show?R0t:B8t});},multiReset:function(){var P5t="multiValu";var R8A=P5t;R8A+=c7O;this[K5O][i8t]=[];this[K5O][R8A]={};},submittable:function(){return this[K5O][T3t][U5t];},valFromData:d3t,valToData:d3t,_errorNode:function(){var o5t="fieldError";return this[e3t][o5t];},_msg:function(el,msg,fn){var p5t="lideUp";var C5t=":visible";var v5t="ni";var K8A=M5O;K8A+=v5t;K8A+=J5t;K8A+=P0O;var M8A=S5t;M8A+=E0O;if(msg===undefined){return el[N5t]();}if(typeof msg===x3t){var e8A=E0O;e8A+=V5t;var k8A=j5O;k8A+=T5O;k8A+=D5O;var editor=this[K5O][A5t];msg=msg(editor,new DataTable[k8A](editor[K5O][e8A]));}if(el[M8A]()[C0t](C5t)&&$[K7O][K8A]){el[N5t](msg);if(msg){el[E0t](fn);}else{var l8A=K5O;l8A+=p5t;el[l8A](fn);}}else{var I8A=J87.F8O;I8A+=z0O;I8A+=J87.F8O;I8A+=P0O;var m8A=I3t;m8A+=B1O;m8A+=z7O;el[N5t](msg||g7O)[w3t](m8A,msg?R0t:I8A);if(fn){fn();}}return this;},_multiValueCheck:function(){var I5t="multiNoEdit";var m5t="noMulti";var l5t="multiInfo";var K5t="oc";var k5t="inputControl";var u5t="multiEditable";var w5t="ltiId";var G5t="tiValu";var d5t="Retur";var z5t="toggleC";var O5t="cla";var o0A=O5t;o0A+=K5O;o0A+=l5O;var U0A=z5t;U0A+=j0t;U0A+=Z5t;var P0A=q3t;P0A+=J6t;var Q0A=F0O;Q0A+=z0O;Q0A+=z5O;var f0A=D5O;f0A+=J87.F8O;f0A+=b1O;f0A+=z0O;var H0A=B5t;H0A+=z5O;H0A+=Y4O;var a0A=F0O;a0A+=z0O;a0A+=z5O;var Y0A=q3t;Y0A+=J6t;var D8A=D5O;D8A+=T2O;D8A+=g5t;D8A+=J87.F8O;var r8A=H4O;r8A+=z0O;r8A+=K5O;r8A+=E0O;var j8A=n5t;j8A+=z0O;j8A+=b5t;var L8A=J4O;L8A+=K5O;L8A+=K5O;var x8A=z5O;x8A+=l9t;x8A+=d5t;x8A+=J87.F8O;var y8A=z0O;y8A+=t5t;y8A+=K5O;var h8A=z5O;h8A+=v6t;h8A+=G5t;h8A+=P0O;var i8A=c6t;i8A+=w5t;i8A+=K5O;var last;var ids=this[K5O][i8A];var values=this[K5O][A0t];var isMultiValue=this[K5O][h8A];var isMultiEditable=this[K5O][y8A][u5t];var val;var different=H6t;if(ids){var q8A=S2O;q8A+=A6t;q8A+=E0O;q8A+=H4O;for(var i=f8O;i<ids[q8A];i++){val=values[ids[i]];if(i>f8O&&!_deepCompare(val,last)){different=P6t;break;}last=val;}}if(different&&isMultiValue||!isMultiEditable&&this[R5t]()){var F8A=J4O;F8A+=K5O;F8A+=K5O;var T8A=c0O;T8A+=D5O;var W8A=J87.F8O;W8A+=z0O;W8A+=L1O;this[e3t][k5t][w3t]({display:W8A});this[e3t][T8A][F8A]({display:R0t});}else{var E8A=J87.F8O;E8A+=e5t;var X8A=M5t;X8A+=K5O;var s8A=n5t;s8A+=K5t;s8A+=o6t;var c8A=J4O;c8A+=K5O;c8A+=K5O;this[e3t][k5t][c8A]({display:s8A});this[e3t][r0O][X8A]({display:E8A});if(isMultiValue&&!different){this[R9t](last,H6t);}}this[e3t][x8A][L8A]({display:ids&&ids[f6t]>Q8O&&different&&!isMultiValue?j8A:B8t});var i18n=this[K5O][r8A][D8A][Y0A];this[a0A][l5t][H0A](isMultiEditable?i18n[f0A]:i18n[m5t]);this[Q0A][P0A][U0A](this[K5O][o0A][I5t],!isMultiEditable);this[K5O][A5t][i5t]();return P6t;},_typeFn:function(name){var h5t="nshi";var A0A=E0O;A0A+=P4O;A0A+=t4O;var V0A=d0O;V0A+=h5t;V0A+=y5t;var N0A=K5O;N0A+=H4O;N0A+=q5t;var S0A=W5t;S0A+=T5t;var J0A=x0t;J0A+=W5O;J0A+=P0O;var v0A=F4O;v0A+=F1O;var args=Array[v0A][J0A][S0A](arguments);args[N0A]();args[V0A](this[K5O][T3t]);var fn=this[K5O][A0A][name];if(fn){var C0A=H4O;C0A+=t2O;C0A+=E0O;return fn[a8t](this[K5O][C0A],args);}}};Editor[p0A][O0A]={};Editor[k3t][i9t]={"className":J87.X8O,"data":J87.X8O,"def":J87.X8O,"fieldInfo":J87.X8O,"id":J87.X8O,"label":J87.X8O,"labelInfo":J87.X8O,"name":d3t,"type":F5t,"message":J87.X8O,"multiEditable":P6t,"submit":P6t};Editor[k3t][z0A][Z0A]={type:d3t,name:d3t,classes:d3t,opts:d3t,host:d3t};Editor[k3t][B0A][g0A]={container:d3t,label:d3t,labelInfo:d3t,fieldInfo:d3t,fieldError:d3t,fieldMessage:d3t};Editor[c5t]={};Editor[n0A][b0A]={"init":function(dte){},"open":function(dte,append,fn){},"close":function(dte,fn){}};Editor[d0A][s5t]={"create":function(conf){},"get":function(conf){},"set":function(conf,val){},"enable":function(conf){},"disable":function(conf){}};Editor[c5t][t0A]={"ajaxUrl":d3t,"ajax":d3t,"dataSource":d3t,"domTable":d3t,"opts":d3t,"displayController":d3t,"fields":{},"order":[],"id":-Q8O,"displayed":H6t,"processing":H6t,"modifier":d3t,"action":d3t,"idSrc":d3t,"unique":f8O};Editor[c5t][X5t]={"label":d3t,"fn":d3t,"className":d3t};Editor[c5t][E5t]={onReturn:x5t,onBlur:L5t,onBackground:j5t,onComplete:G0A,onEsc:L5t,onFieldError:w0A,submit:r5t,focus:f8O,buttons:P6t,title:P6t,message:P6t,drawType:H6t,scope:D5t};Editor[u0A]={};(function(window,document,$,DataTable){var n2t='<div class="DTED_Lightbox_Background"><div/></div>';var g2t='<div class="DTED_Lightbox_Content">';var B2t='<div class="DTED_Lightbox_Content_Wrapper">';var K1t='div.DTED_Lightbox_Shown';var Z1t='div.DTE_Footer';var N1t='DTED_Lightbox_Mobile';var c4t="box";var h4t="DTED_Lightbox";var B4t="_shown";var C4t="lightbox";var S4t="displayCo";var J4t="rapper\">";var v4t="htbox_W";var o4t="<div class=\"DTED DTED_Lig";var U4t="ner\">";var P4t="\"DTED_Lightbox_Contai";var Q4t="<div class=";var f4t="Lightbox_Close\"></div>";var H4t="ass=\"DTED_";var B8O=25;var H4A=F0O;H4A+=D5O;H4A+=K5O;H4A+=Y4t;var a4A=a4t;a4A+=H4t;a4A+=f4t;var Y4A=w6t;Y4A+=y1O;Y4A+=G6t;var D5A=w6t;D5A+=y1O;D5A+=G6t;var r5A=R6t;r5A+=Q9t;r5A+=G6t;var j5A=Q4t;j5A+=P4t;j5A+=U4t;var L5A=o4t;L5A+=v4t;L5A+=J4t;var k0A=S4t;k0A+=J87.F8O;k0A+=N4t;k0A+=V4t;var R0A=P0O;R0A+=A4t;R0A+=F0O;var self;Editor[Y0t][C4t]=$[R0A](P6t,{},Editor[c5t][k0A],{"init":function(dte){self[p4t]();return self;},"open":function(dte,append,callback){var b4t="_show";var O4t="ild";var l0A=y5O;l0A+=e3t;var K0A=n4O;K0A+=E0O;K0A+=M5O;K0A+=y7O;var M0A=y7O;M0A+=O4t;M0A+=n1O;M0A+=z4t;var e0A=Z4t;e0A+=E0O;e0A+=P0O;if(self[B4t]){if(callback){callback();}return;}self[e0A]=dte;var content=self[g4t][n4t];content[M0A]()[K0A]();content[U0t](append)[U0t](self[l0A][u0O]);self[B4t]=P6t;self[b4t](callback);},"close":function(dte,callback){var d4t="_sh";var i0A=d4t;i0A+=z0O;i0A+=t4t;i0A+=J87.F8O;var I0A=y5O;I0A+=G4t;I0A+=n4O;var m0A=Z4t;m0A+=E0O;m0A+=P0O;if(!self[B4t]){if(callback){callback();}return;}self[m0A]=dte;self[I0A](callback);self[i0A]=H6t;},node:function(dte){return self[g4t][Y3t][f8O];},"_init":function(){var k4t='div.DTED_Lightbox_Content';var R4t="_ready";var u4t="opaci";var w4t="acit";var F0A=X9t;F0A+=w4t;F0A+=P4O;var T0A=J4O;T0A+=Z5t;var W0A=u4t;W0A+=c4O;var q0A=y5O;q0A+=F0O;q0A+=z0O;q0A+=z5O;var y0A=h8t;y0A+=P0O;y0A+=J2O;var h0A=y5O;h0A+=M2O;h0A+=z5O;if(self[R4t]){return;}var dom=self[h0A];dom[y0A]=$(k4t,self[q0A][Y3t]);dom[Y3t][w3t](W0A,f8O);dom[e4t][T0A](F0A,f8O);},"_show":function(callback){var M1t='<div class="DTED_Lightbox_Shown"/>';var k1t="ckground";var A1t="offsetAni";var V1t='height';var J1t="ientation";var v1t="au";var U1t="lc";var P1t="ghtCa";var H1t="_a";var j4t="gr";var L4t="back";var x4t="bi";var E4t="D_Lightbox";var X4t="k.DTE";var F4t=".DTED_Light";var W4t="Wrapper";var q4t="tent_";var y4t="div.DTED_Lightbox_";var i4t="click.";var I4t="TED_Lightbox";var l4t="_scrollT";var K4t="tion";var M4t="orie";var z5A=M4t;z5A+=J2O;z5A+=M5O;z5A+=K4t;var O5A=l4t;O5A+=X9t;var C5A=m4t;C5A+=F2O;C5A+=Z5O;C5A+=I4t;var V5A=i4t;V5A+=h4t;var N5A=O8t;N5A+=D5O;N5A+=J87.F8O;N5A+=F0O;var S5A=y4t;S5A+=k2O;S5A+=q4t;S5A+=W4t;var o5A=e5O;o5A+=T4t;o5A+=F4t;o5A+=c4t;var P5A=s4t;P5A+=J4O;P5A+=X4t;P5A+=E4t;var Q5A=x4t;Q5A+=J87.F8O;Q5A+=F0O;var f5A=e5O;f5A+=z0O;f5A+=r0t;var a5A=L4t;a5A+=j4t;a5A+=r4t;a5A+=D4t;var Y5A=Y1t;Y5A+=a1t;var D0A=H1t;D0A+=J87.F8O;D0A+=D5O;D0A+=f1t;var r0A=y5O;r0A+=Q1t;r0A+=P1t;r0A+=U1t;var j0A=Y1t;j0A+=a1t;var L0A=O8t;L0A+=o1t;L0A+=P4O;var x0A=J4O;x0A+=z0O;x0A+=J87.F8O;x0A+=b1O;var E0A=v1t;E0A+=Y2O;var X0A=S8t;X0A+=C5O;var s0A=D8O;s0A+=J1t;var c0A=Z4t;c0A+=z0O;c0A+=z5O;var that=this;var dom=self[c0A];if(window[s0A]!==undefined){$(S1t)[V8t](N1t);}dom[X0A][w3t](V1t,E0A);dom[Y3t][w3t]({top:-self[x0A][A1t]});$(L0A)[U0t](self[g4t][e4t])[U0t](self[g4t][j0A]);self[r0A]();self[C1t][D0A](dom[Y5A],{opacity:Q8O,top:f8O},callback);self[C1t][p1t](dom[a5A],{opacity:Q8O});setTimeout(function(){var z1t="nde";var O1t="text-i";var H5A=O1t;H5A+=z1t;H5A+=J2O;$(Z1t)[w3t](H5A,-Q8O);},S8O);dom[f5A][Q5A](P5A,function(e){var U5A=J4O;U5A+=B1t;U5A+=r0t;self[C1t][U5A]();});dom[e4t][g1t](o5A,function(e){var J5A=O8t;J5A+=n1t;J5A+=b1t;var v5A=y5O;v5A+=F0O;v5A+=E0O;v5A+=P0O;self[v5A][J5A]();});$(S5A,dom[Y3t])[N5A](V5A,function(e){var t1t='DTED_Lightbox_Content_Wrapper';if($(e[d1t])[q8t](t1t)){var A5A=y5O;A5A+=F0O;A5A+=E0O;A5A+=P0O;self[A5A][e4t]();}});$(window)[g1t](C5A,function(){var G1t="_heightCa";var p5A=G1t;p5A+=U1t;self[p5A]();});self[O5A]=$(S1t)[w1t]();if(window[z5A]!==undefined){var b5A=u1t;b5A+=g0O;var n5A=O8t;n5A+=z0O;n5A+=F0O;n5A+=P4O;var g5A=J87.F8O;g5A+=z0O;g5A+=E0O;var B5A=R1t;B5A+=k1t;var Z5A=J87.F8O;Z5A+=d4O;var kids=$(S1t)[e1t]()[Z5A](dom[B5A])[g5A](dom[Y3t]);$(n5A)[b5A](M1t);$(K1t)[U0t](kids);}},"_heightCalc":function(){var s1t='div.DTE_Body_Content';var c1t='div.DTE_Header';var W1t="ght";var q1t="rHe";var y1t="oute";var h1t="terHei";var m1t="ei";var l1t="maxH";var R5A=l1t;R5A+=m1t;R5A+=I1t;R5A+=E0O;var u5A=t4t;u5A+=i1t;var w5A=r4t;w5A+=h1t;w5A+=Z7O;w5A+=B5t;var G5A=Y1t;G5A+=u1t;G5A+=P0O;G5A+=n1O;var t5A=y1t;t5A+=q1t;t5A+=D5O;t5A+=W1t;var d5A=Q1t;d5A+=W1t;var dom=self[g4t];var maxHeight=$(window)[d5A]()-self[T1t][F1t]*P8O-$(c1t,dom[Y3t])[t5A]()-$(Z1t,dom[G5A])[w5A]();$(s1t,dom[u5A])[w3t](R5A,maxHeight);},"_hide":function(callback){var C2t="chil";var V2t="orientation";var N2t="lTop";var S2t="scrol";var v2t="etAn";var U2t="ackgroun";var f2t=".DTED_Lightbo";var Y2t="unbi";var j1t="x_Content_Wrap";var L1t="div.DTED_Lightbo";var E1t="click.DTED_Light";var X1t="unb";var x5A=X1t;x5A+=D5O;x5A+=J87.F8O;x5A+=F0O;var E5A=E1t;E5A+=c4t;var X5A=X1t;X5A+=D5O;X5A+=D4t;var s5A=Y1t;s5A+=x1t;s5A+=t4O;s5A+=n1O;var c5A=L1t;c5A+=j1t;c5A+=r1t;var F5A=s4t;F5A+=D1t;F5A+=h4t;var T5A=Y2t;T5A+=D4t;var W5A=a2t;W5A+=F0O;var q5A=H2t;q5A+=f2t;q5A+=p1O;var y5A=Q2t;y5A+=O8t;y5A+=x1O;y5A+=F0O;var h5A=J4O;h5A+=P2t;var I5A=O8t;I5A+=U2t;I5A+=F0O;var l5A=o2t;l5A+=v2t;l5A+=D5O;var K5A=Y1t;K5A+=M5O;K5A+=J2t;K5A+=G5O;var M5A=y5O;M5A+=S2t;M5A+=N2t;var dom=self[g4t];if(!callback){callback=function(){};}if(window[V2t]!==undefined){var e5A=n1O;e5A+=P0O;e5A+=s1O;e5A+=A2t;var k5A=C2t;k5A+=F0O;k5A+=W1O;k5A+=J87.F8O;var show=$(K1t);show[k5A]()[p2t](S1t);show[e5A]();}$(S1t)[O2t](N1t)[w1t](self[M5A]);self[C1t][p1t](dom[K5A],{opacity:f8O,top:self[T1t][l5A]},function(){var z2t="eta";var m5A=F0O;m5A+=z2t;m5A+=J4O;m5A+=H4O;$(this)[m5A]();callback();});self[C1t][p1t](dom[I5A],{opacity:f8O},function(){var i5A=n4O;i5A+=w9t;i5A+=J4O;i5A+=H4O;$(this)[i5A]();});dom[h5A][y5A](q5A);dom[W5A][T5A](F5A);$(c5A,dom[s5A])[X5A](E5A);$(window)[x5A](Z2t);},"_dte":d3t,"_ready":H6t,"_shown":H6t,"_dom":{"wrapper":$(L5A+j5A+B2t+g2t+O3t+r5A+D5A+Y4A),"background":$(n2t),"close":$(a4A),"content":d3t}});self=Editor[H4A][C4t];self[T1t]={"offsetAni":B8O,"windowPadding":B8O};}(window,document,jQuery,jQuery[K7O][u7O]));(function(window,document,$,DataTable){var a91='<div class="DTED_Envelope_Close">&times;</div>';var Y91='<div class="DTED_Envelope_Background"><div/></div>';var D61='<div class="DTED_Envelope_Container"></div>';var N61="wra";var P61="tent_Wrapper";var q7t='normal';var k7t="eight";var E2t="blo";var q2t="appendChild";var i2t="_do";var l2t="envelope";var e2t="layController";var k2t="apper\">";var R2t="_Envelope_Wr";var u2t=" DTED";var w2t="<div class=\"DTED";var G2t="ED_Envelope_Shadow\"></div";var t2t="ass=\"DT";var b2t="envel";var i8O=600;var u8O=50;var z2A=J4O;z2A+=z0O;z2A+=J87.F8O;z2A+=b1O;var O2A=b2t;O2A+=z0O;O2A+=t4O;var p2A=I3t;p2A+=Y4t;var C2A=h6t;C2A+=d2t;C2A+=G6t;var A2A=a4t;A2A+=t2t;A2A+=G2t;A2A+=G6t;var V2A=w2t;V2A+=u2t;V2A+=R2t;V2A+=k2t;var P4A=b2O;P4A+=e2t;var Q4A=z5O;Q4A+=z0O;Q4A+=F0O;Q4A+=I5O;var f4A=M2t;f4A+=K2t;var self;Editor[Y0t][l2t]=$[f4A](P6t,{},Editor[Q4A][P4A],{"init":function(dte){self[C1t]=dte;self[p4t]();return self;},"open":function(dte,append,callback){var m2t="_sho";var A4A=m2t;A4A+=t4t;var V4A=J4O;V4A+=Y4O;V4A+=I2t;var N4A=i2t;N4A+=z5O;var S4A=h8t;S4A+=z4t;S4A+=E0O;var J4A=y5O;J4A+=F0O;J4A+=D4O;var v4A=F0O;v4A+=P0O;v4A+=h2t;var o4A=J4O;o4A+=y2t;o4A+=J87.F8O;var U4A=y5O;U4A+=F0O;U4A+=z0O;U4A+=z5O;self[C1t]=dte;$(self[U4A][n4t])[o4A]()[v4A]();self[g4t][n4t][q2t](append);self[J4A][S4A][q2t](self[N4A][V4A]);self[A4A](callback);},"close":function(dte,callback){var C4A=Z4t;C4A+=W2t;self[C4A]=dte;self[T2t](callback);},node:function(dte){var p4A=i2t;p4A+=z5O;return self[p4A][Y3t][f8O];},"_init":function(){var Q7t='visible';var f7t="_cssBackgroundOpacity";var H7t='hidden';var a7t="visbility";var j2t="_r";var L2t="D_Envelope_Container";var x2t="iv.";var X2t="opacit";var c2t="ity";var F2t="visbil";var k4A=F2t;k4A+=c2t;var R4A=s2t;R4A+=P0O;var u4A=p8t;u4A+=P4O;var w4A=y5O;w4A+=F0O;w4A+=z0O;w4A+=z5O;var G4A=X2t;G4A+=P4O;var t4A=E2t;t4A+=J4O;t4A+=o6t;var d4A=F0O;d4A+=R2O;var b4A=y5O;b4A+=M2O;b4A+=z5O;var n4A=y5O;n4A+=F0O;n4A+=z0O;n4A+=z5O;var g4A=Y1t;g4A+=x1t;g4A+=t4O;g4A+=n1O;var B4A=F0O;B4A+=x2t;B4A+=e0O;B4A+=L2t;var Z4A=h8t;Z4A+=Q1O;var z4A=y5O;z4A+=F0O;z4A+=z0O;z4A+=z5O;var O4A=j2t;O4A+=P0O;O4A+=M5O;O4A+=r2t;if(self[O4A]){return;}self[z4A][Z4A]=$(B4A,self[g4t][Y3t])[f8O];document[D2t][q2t](self[g4t][e4t]);document[D2t][q2t](self[g4t][g4A]);self[n4A][e4t][Y7t][a7t]=H7t;self[b4A][e4t][Y7t][d4A]=t4A;self[f7t]=$(self[g4t][e4t])[w3t](G4A);self[w4A][e4t][Y7t][u4A]=R4A;self[g4t][e4t][Y7t][k4A]=Q7t;},"_show":function(callback){var E7t="ody";var X7t="html,b";var s7t="tHeight";var c7t="offse";var T7t="windowScroll";var i7t="marginLeft";var I7t="px";var l7t="offsetWidth";var K7t="_heightCalc";var M7t="opacity";var e7t='auto';var R7t="hRow";var u7t="findAtt";var w7t="styl";var G7t="round";var t7t="ackg";var d7t="ci";var b7t="opa";var n7t="ock";var g7t="ani";var B7t="undOpacity";var Z7t="kgro";var z7t="sBac";var O7t="_cs";var p7t="D_Envelope";var C7t="elope";var A7t="DTED_Env";var V7t="box_Content_Wrapper";var N7t="div.DTED_Light";var S7t="rap";var J7t="_Envelope";var v7t="click.DTE";var o7t="velope";var U7t="_En";var P7t="esize.DTED";var n1A=n1O;n1A+=P7t;n1A+=U7t;n1A+=o7t;var g1A=O8t;g1A+=D5O;g1A+=D4t;var p1A=v7t;p1A+=Z5O;p1A+=J7t;var C1A=t4t;C1A+=S7t;C1A+=t4O;C1A+=n1O;var A1A=N7t;A1A+=V7t;var N1A=s4t;N1A+=D1t;N1A+=A7t;N1A+=C7t;var S1A=Z4t;S1A+=D4O;var v1A=v7t;v1A+=p7t;var o1A=J4O;o1A+=P2t;var D4A=J4O;D4A+=z0O;D4A+=J87.F8O;D4A+=b1O;var r4A=y5O;r4A+=F0O;r4A+=z0O;r4A+=z5O;var j4A=O7t;j4A+=z7t;j4A+=Z7t;j4A+=B7t;var L4A=g7t;L4A+=z5O;L4A+=M5O;L4A+=W2t;var x4A=n5t;x4A+=n7t;var E4A=b7t;E4A+=d7t;E4A+=c4O;var X4A=O8t;X4A+=t7t;X4A+=G7t;var s4A=T5O;s4A+=p1O;var c4A=E0O;c4A+=z0O;c4A+=T5O;var F4A=J4O;F4A+=w8t;F4A+=P0O;F4A+=J2O;var T4A=o2t;T4A+=P0O;T4A+=E0O;var W4A=E0O;W4A+=z0O;W4A+=T5O;var q4A=w7t;q4A+=P0O;var y4A=t4t;y4A+=S7t;y4A+=t4O;y4A+=n1O;var h4A=y5O;h4A+=e3t;var i4A=K5O;i4A+=c4O;i4A+=S2O;var I4A=y5O;I4A+=u7t;I4A+=n1t;I4A+=R7t;var m4A=E2t;m4A+=b5t;var l4A=L0O;l4A+=P4O;l4A+=Y4O;l4A+=P0O;var K4A=Y1t;K4A+=u1t;K4A+=G5O;var M4A=H4O;M4A+=k7t;var e4A=y5O;e4A+=F0O;e4A+=z0O;e4A+=z5O;var that=this;var formHeight;if(!callback){callback=function(){};}self[e4A][n4t][Y7t][M4A]=e7t;var style=self[g4t][K4A][l4A];style[M7t]=f8O;style[Y0t]=m4A;var targetRow=self[I4A]();var height=self[K7t]();var width=targetRow[l7t];style[Y0t]=B8t;style[M7t]=Q8O;self[g4t][Y3t][Y7t][m7t]=width+I7t;self[g4t][Y3t][i4A][i7t]=-(width/P8O)+I7t;self[h4A][y4A][q4A][W4A]=$(targetRow)[T4A]()[h7t]+targetRow[y7t]+I7t;self[g4t][F4A][Y7t][c4A]=-Q8O*height-O8O+s4A;self[g4t][X4A][Y7t][E4A]=f8O;self[g4t][e4t][Y7t][Y0t]=x4A;$(self[g4t][e4t])[L4A]({'opacity':self[j4A]},q7t);$(self[r4A][Y3t])[W7t]();if(self[D4A][T7t]){var H1A=F7t;H1A+=J87.F8O;H1A+=b1O;var a1A=c7t;a1A+=s7t;var Y1A=X7t;Y1A+=E7t;$(Y1A)[x7t]({"scrollTop":$(targetRow)[L7t]()[h7t]+targetRow[a1A]-self[H1A][F1t]},function(){var D7t="onten";var j7t="anim";var Q1A=j7t;Q1A+=r7t;var f1A=J4O;f1A+=D7t;f1A+=E0O;$(self[g4t][f1A])[Q1A]({"top":f8O},i8O,callback);});}else{var U1A=Y61;U1A+=D5O;U1A+=f1t;var P1A=i2t;P1A+=z5O;$(self[P1A][n4t])[U1A]({"top":f8O},i8O,callback);}$(self[g4t][o1A])[g1t](v1A,function(e){var J1A=J4O;J1A+=Y4O;J1A+=z0O;J1A+=r0t;self[C1t][J1A]();});$(self[S1A][e4t])[g1t](N1A,function(e){var H61="oun";var a61="backg";var V1A=a61;V1A+=n1O;V1A+=H61;V1A+=F0O;self[C1t][V1A]();});$(A1A,self[g4t][C1A])[g1t](p1A,function(e){var f61="D_Envelope_C";var Z1A=e0O;Z1A+=f61;Z1A+=Q61;Z1A+=P61;var z1A=E7O;z1A+=K5O;z1A+=y3t;var O1A=E0O;O1A+=U61;O1A+=j2O;if($(e[O1A])[z1A](Z1A)){var B1A=a2t;B1A+=F0O;self[C1t][B1A]();}});$(window)[g1A](n1A,function(){self[K7t]();});},"_heightCalc":function(){var t61="outerHeight";var d61="heightCalc";var b61="Calc";var n61="eig";var B61="E_Heade";var Z61="div.DT";var p61="div.DTE_F";var C61="_Body_Content";var A61="div.DTE";var V61="ppe";var S61="ight";var J61="He";var o61="uterH";var q1A=z0O;q1A+=o61;q1A+=k7t;var y1A=Y1t;y1A+=a1t;var h1A=F0O;h1A+=z0O;h1A+=z5O;var i1A=y5O;i1A+=E6t;var I1A=v61;I1A+=J61;I1A+=S61;var m1A=N61;m1A+=V61;m1A+=n1O;var l1A=y5O;l1A+=F0O;l1A+=z0O;l1A+=z5O;var K1A=A61;K1A+=C61;var M1A=p61;M1A+=O61;var e1A=r4t;e1A+=z61;var k1A=t4t;k1A+=n1O;k1A+=a1t;var R1A=y5O;R1A+=F0O;R1A+=D4O;var u1A=Z61;u1A+=B61;u1A+=n1O;var w1A=J4O;w1A+=z0O;w1A+=J87.F8O;w1A+=b1O;var G1A=g61;G1A+=D5O;G1A+=I1t;G1A+=E0O;var t1A=H4O;t1A+=n61;t1A+=H4O;t1A+=E0O;var d1A=y5O;d1A+=e3t;var b1A=Q1t;b1A+=Z7O;b1A+=B5t;b1A+=b61;var formHeight;formHeight=self[T1t][b1A]?self[T1t][d61](self[d1A][Y3t]):$(self[g4t][n4t])[e1t]()[t1A]();var maxHeight=$(window)[G1A]()-self[w1A][F1t]*P8O-$(u1A,self[R1A][k1A])[e1A]()-$(M1A,self[g4t][Y3t])[t61]();$(K1A,self[l1A][m1A])[w3t](I1A,maxHeight);return $(self[i1A][h1A][y1A])[q1A]();},"_hide":function(callback){var q61="unbind";var y61='click.DTED_Lightbox';var l61="nima";var K61="unbin";var M61="htbox";var e61="DTED_Lig";var k61="bac";var R61="nbi";var u61="v.DTED_Lightbox_Co";var w61="k.DTED_Lightbox";var G61="clic";var H2A=G61;H2A+=w61;var a2A=Q2t;a2A+=g1t;var Y2A=Z4t;Y2A+=z0O;Y2A+=z5O;var D1A=X1O;D1A+=u61;D1A+=J87.F8O;D1A+=P61;var r1A=d0O;r1A+=R61;r1A+=D4t;var j1A=k61;j1A+=b1t;var L1A=y5O;L1A+=F0O;L1A+=z0O;L1A+=z5O;var x1A=s4t;x1A+=D1t;x1A+=e61;x1A+=M61;var E1A=K61;E1A+=F0O;var X1A=i2t;X1A+=z5O;var T1A=M5O;T1A+=l61;T1A+=E0O;T1A+=P0O;var W1A=m61;W1A+=J2O;if(!callback){callback=function(){};}$(self[g4t][W1A])[T1A]({"top":-(self[g4t][n4t][y7t]+u8O)},i8O,function(){var h61="fadeOut";var i61="pper";var I61="backgrou";var s1A=I61;s1A+=D4t;var c1A=N61;c1A+=i61;var F1A=y5O;F1A+=F0O;F1A+=z0O;F1A+=z5O;$([self[F1A][c1A],self[g4t][s1A]])[h61](q7t,callback);});$(self[X1A][u0O])[E1A](x1A);$(self[L1A][j1A])[r1A](y61);$(D1A,self[Y2A][Y3t])[a2A](H2A);$(window)[q61](Z2t);},"_findAttachRow":function(){var s61='head';var F61="taTa";var W61="cre";var v2A=W61;v2A+=r7t;var o2A=y5O;o2A+=F0O;o2A+=E0O;o2A+=P0O;var P2A=M5O;P2A+=E0O;P2A+=E0O;P2A+=u0t;var Q2A=T61;Q2A+=F61;Q2A+=z2O;var f2A=c61;f2A+=S2O;var dt=$(self[C1t][K5O][f2A])[Q2A]();if(self[T1t][P2A]===s61){var U2A=H4O;U2A+=X61;U2A+=P0O;U2A+=n1O;return dt[E61]()[U2A]();}else if(self[o2A][K5O][x61]===v2A){var S2A=H4O;S2A+=h7O;S2A+=n4O;S2A+=n1O;var J2A=w9t;J2A+=O8t;J2A+=S2O;return dt[J2A]()[S2A]();}else{var N2A=n1O;N2A+=L61;return dt[N2A](self[C1t][K5O][j61])[r61]();}},"_dte":d3t,"_ready":H6t,"_cssBackgroundOpacity":Q8O,"_dom":{"wrapper":$(V2A+A2A+D61+C2A)[f8O],"background":$(Y91)[f8O],"close":$(a91)[f8O],"content":d3t}});self=Editor[p2A][O2A];self[z2A]={"windowPadding":u8O,"heightCalc":d3t,"attach":H91,"windowScroll":P6t};}(window,document,jQuery,jQuery[Z2A][B2A]));Editor[g2A][f91]=function(cfg,after){var d91="rd";var b91="unsh";var Z91="editF";var z91="Reset";var p91='initField';var A91="d '";var V91="g fiel";var N91="ror addin";var J91="s name";var v91="'. A field already exists with thi";var U91="Error adding field. The field requires a `name` option";var Q91="displayReorder";var l2A=y5O;l2A+=Q91;if($[P91](cfg)){for(var i=f8O,iLen=cfg[f6t];i<iLen;i++){this[f91](cfg[i]);}}else{var e2A=Q2O;e2A+=f2O;var t2A=i2O;t2A+=D5O;t2A+=P0O;t2A+=y2O;var n2A=J87.F8O;n2A+=M5O;n2A+=z5O;n2A+=P0O;var name=cfg[n2A];if(name===undefined){throw U91;}if(this[K5O][o91][name]){var d2A=v91;d2A+=J91;var b2A=S91;b2A+=N91;b2A+=V91;b2A+=A91;throw b2A+name+d2A;}this[C91](p91,cfg);var field=new Editor[t2A](cfg,this[A8t][O91],this);if(this[K5O][u2O]){var u2A=P0O;u2A+=M5O;u2A+=J4O;u2A+=H4O;var w2A=q3t;w2A+=J6t;w2A+=z91;var G2A=Z91;G2A+=B91;var editFields=this[K5O][G2A];field[w2A]();$[u2A](editFields,function(idSrc,edit){var k2A=r0O;k2A+=g91;k2A+=E0O;var R2A=F0O;R2A+=M5O;R2A+=E0O;R2A+=M5O;var val;if(edit[R2A]){val=field[n91](edit[u9t]);}field[k2A](idSrc,val!==undefined?val:field[P8t]());});}this[K5O][e2A][name]=field;if(after===undefined){this[K5O][v1O][r7O](name);}else if(after===d3t){var M2A=b91;M2A+=q5t;this[K5O][v1O][M2A](name);}else{var K2A=z0O;K2A+=d91;K2A+=P0O;K2A+=n1O;var idx=$[t0t](after,this[K5O][v1O]);this[K5O][K2A][t91](idx+Q8O,f8O,name);}}this[l2A](this[v1O]());return this;};Editor[j3t][m2A]=function(newAjax){if(newAjax){this[K5O][G91]=newAjax;return this;}return this[K5O][G91];};Editor[I2A][e4t]=function(){var i2A=w91;i2A+=u91;i2A+=J87.F8O;var onBackground=this[K5O][R91][k91];if(typeof onBackground===i2A){onBackground(this);}else if(onBackground===j5t){this[e91]();}else if(onBackground===L5t){this[u0O]();}else if(onBackground===x5t){var h2A=M91;h2A+=z5O;h2A+=U1O;this[h2A]();}return this;};Editor[j3t][e91]=function(){var y2A=y5O;y2A+=n5t;y2A+=d0O;y2A+=n1O;this[y2A]();return this;};Editor[j3t][q2A]=function(cells,fieldNames,show,opts){var y91='individual';var T2A=O8t;T2A+=d0O;T2A+=K91;T2A+=P0O;var W2A=l91;W2A+=m91;var that=this;if(this[I91](function(){that[i91](cells,fieldNames,opts);})){return this;}if($[w0t](fieldNames)){opts=fieldNames;fieldNames=undefined;show=P6t;}else if(typeof fieldNames===h91){show=fieldNames;fieldNames=undefined;opts=undefined;}if($[w0t](show)){opts=show;show=P6t;}if(show===undefined){show=P6t;}opts=$[I9t]({},this[K5O][W2A][T2A],opts);var editFields=this[C91](y91,cells,fieldNames);this[q91](cells,editFields,W91,opts,function(){var Z31="ormInfo";var A31='<div class="DTE_Processing_Indicator"><span></div>';var V31="bg";var N31='attach';var v31='resize.';var o31="_preopen";var U31="mOpti";var Q31="nc";var H31="v cl";var Y31="\"><div/></";var D91="v class=\"";var r91="\" /";var j91="nter";var L91="poi";var x91="</div";var s91="epend";var F91="tons";var T91="ocu";var b7A=y5O;b7A+=b1O;b7A+=T91;b7A+=K5O;var n7A=N2O;n7A+=O8t;n7A+=O8t;n7A+=C2O;var B7A=e5O;B7A+=D5O;B7A+=b5t;var Z7A=J4O;Z7A+=Y4O;Z7A+=T4t;var p7A=N2O;p7A+=E0O;p7A+=F91;var S7A=c91;S7A+=A9t;S7A+=Z7O;S7A+=P0O;var J7A=F0O;J7A+=z0O;J7A+=z5O;var v7A=r5O;v7A+=s91;var o7A=J4O;o7A+=X91;o7A+=z4t;var U7A=P0O;U7A+=E91;var P7A=J4O;P7A+=y2t;P7A+=J87.F8O;var H7A=x91;H7A+=G6t;var a7A=L91;a7A+=j91;var Y7A=R6t;Y7A+=k6t;var D2A=r91;D2A+=G6t;var r2A=w9t;r2A+=z2O;var j2A=J9t;j2A+=D91;var L2A=m7O;L2A+=G6t;var x2A=Y4O;x2A+=D5O;x2A+=L1O;x2A+=n1O;var E2A=m7O;E2A+=G6t;var X2A=Y31;X2A+=a31;var s2A=J9t;s2A+=H31;s2A+=M5O;s2A+=f31;var c2A=F7t;c2A+=Q31;c2A+=Y5t;var F2A=y5O;F2A+=P31;F2A+=U31;F2A+=V2O;var namespace=that[F2A](opts);var ret=that[o31](W91);if(!ret){return that;}$(window)[Q61](v31+namespace,function(){var J31="bubblePosition";that[J31]();});var nodes=[];that[K5O][S31]=nodes[c2A][a8t](nodes,_pluck(editFields,N31));var classes=that[A8t][i91];var background=$(s2A+classes[V31]+X2A);var container=$(D9t+classes[Y3t]+E2A+D9t+classes[x2A]+L2A+j2A+classes[r2A]+f3t+D9t+classes[u0O]+D2A+A31+Y7A+O3t+D9t+classes[a7A]+C31+H7A);if(show){var Q7A=p31;Q7A+=F0O;Q7A+=P4O;var f7A=O8t;f7A+=z0O;f7A+=r2t;container[p2t](f7A);background[p2t](Q7A);}var liner=container[P7A]()[U7A](f8O);var table=liner[e1t]();var close=table[o7A]();liner[U0t](that[e3t][O31]);table[v7A](that[J7A][z31]);if(opts[S7A]){var A7A=b1O;A7A+=Z31;var V7A=F0O;V7A+=z0O;V7A+=z5O;var N7A=T5O;N7A+=n1O;N7A+=B31;N7A+=g0O;liner[N7A](that[V7A][A7A]);}if(opts[J3t]){var C7A=F0O;C7A+=z0O;C7A+=z5O;liner[G3t](that[C7A][g31]);}if(opts[p7A]){table[U0t](that[e3t][n31]);}var pair=$()[f91](container)[f91](background);that[b31](function(submitComplete){that[p1t](pair,{opacity:f8O},function(){var w31="cInfo";var G31="ynami";var t31="earD";var z7A=d31;z7A+=t31;z7A+=G31;z7A+=w31;var O7A=m4t;O7A+=F2O;pair[u31]();$(window)[R31](O7A+namespace);that[z7A]();});});background[Z7A](function(){that[e91]();});close[B7A](function(){var g7A=d31;g7A+=z0O;g7A+=r0t;that[g7A]();});that[n7A]();that[p1t](pair,{opacity:Q8O});that[b7A](that[K5O][k31],opts[c3t]);that[e31](W91);});return this;};Editor[d7A][t7A]=function(){var x31='top';var E31="bot";var X31="be";var s31="bottom";var q31='div.DTE_Bubble_Liner';var y31='div.DTE_Bubble';var I31="rig";var m31="idth";var l31="out";var K31="bb";var p8O=15;var s7A=Y4O;s7A+=M31;s7A+=E0O;s7A+=H4O;var c7A=J4O;c7A+=K5O;c7A+=K5O;var F7A=O8t;F7A+=d0O;F7A+=K31;F7A+=S2O;var T7A=t4t;T7A+=F9t;T7A+=E0O;T7A+=H4O;var W7A=l31;W7A+=G5O;W7A+=c5O;W7A+=m31;var q7A=I31;q7A+=H4O;q7A+=E0O;var y7A=E0O;y7A+=X9t;var h7A=S2O;h7A+=i31;var i7A=h31;i7A+=Z7O;i7A+=B5t;var I7A=S2O;I7A+=b1O;I7A+=E0O;var m7A=Y4O;m7A+=D7O;m7A+=H4O;var l7A=E0O;l7A+=z0O;l7A+=T5O;var G7A=P0O;G7A+=u0t;var wrapper=$(y31),liner=$(q31),nodes=this[K5O][S31];var position={top:f8O,left:f8O,right:f8O,bottom:f8O};$[G7A](nodes,function(i,node){var F31="ffse";var W31="fsetWidth";var K7A=c1O;K7A+=W31;var M7A=Y4O;M7A+=T31;var e7A=I31;e7A+=H4O;e7A+=E0O;var k7A=Y4O;k7A+=T31;var R7A=E0O;R7A+=z0O;R7A+=T5O;var u7A=Z7O;u7A+=G2O;var w7A=z0O;w7A+=F31;w7A+=E0O;var pos=$(node)[w7A]();node=$(node)[u7A](f8O);position[R7A]+=pos[h7t];position[c31]+=pos[k7A];position[e7A]+=pos[M7A]+node[K7A];position[s31]+=pos[h7t]+node[y7t];});position[l7A]/=nodes[m7A];position[I7A]/=nodes[f6t];position[i7A]/=nodes[f6t];position[s31]/=nodes[h7A];var top=position[y7A],left=(position[c31]+position[q7A])/P8O,width=liner[W7A](),visLeft=left-width/P8O,visRight=visLeft+width,docWidth=$(window)[T7A](),padding=p8O,classes=this[A8t][F7A];wrapper[c7A]({top:top,left:left});if(liner[s7A]&&liner[L7t]()[h7t]<f8O){var E7A=X31;E7A+=Y4O;E7A+=L61;var X7A=E31;X7A+=E0O;X7A+=z0O;X7A+=z5O;wrapper[w3t](x31,position[X7A])[V8t](E7A);}else{var L7A=O8t;L7A+=P0O;L7A+=B1t;L7A+=t4t;var x7A=L31;x7A+=j31;wrapper[x7A](L7A);}if(visRight+padding>docWidth){var j7A=Y4O;j7A+=P0O;j7A+=y5t;var diff=visRight-docWidth;liner[w3t](j7A,visLeft<padding?-(visLeft-padding):-(diff+padding));}else{liner[w3t](r31,visLeft<padding?-(visLeft-padding):f8O);}return this;};Editor[j3t][r7A]=function(buttons){var a81="actio";var Q6R=P0O;Q6R+=z5O;Q6R+=D31;var f6R=Y81;f6R+=z0O;f6R+=J87.F8O;f6R+=K5O;var H6R=M2O;H6R+=z5O;var D7A=y5O;D7A+=R1t;D7A+=K5O;D7A+=W5O;var that=this;if(buttons===D7A){var a6R=a81;a6R+=J87.F8O;var Y6R=H81;Y6R+=f81;buttons=[{text:this[Y6R][this[K5O][a6R]][U5t],action:function(){this[U5t]();}}];}else if(!$[P91](buttons)){buttons=[buttons];}$(this[H6R][f6R])[Q6R]();$[Q81](buttons,function(i,btn){var C81="tabIndex";var A81="className";var V81="rin";var N81="ton/>";var v81="class";var U81="press";var O6R=N2O;O6R+=K0O;var p6R=F0O;p6R+=z0O;p6R+=z5O;var V6R=P81;V6R+=U81;var S6R=z0O;S6R+=J87.F8O;var J6R=c61;J6R+=o81;var v6R=Y5t;v6R+=N4t;var o6R=v81;o6R+=Z9t;o6R+=B9t;var U6R=J81;U6R+=S81;U6R+=N81;var P6R=K5O;P6R+=E0O;P6R+=V81;P6R+=Z7O;if(typeof btn===P6R){btn={text:btn,action:function(){this[U5t]();}};}var text=btn[F5t]||btn[P3t];var action=btn[x61]||btn[K7O];$(U6R,{'class':that[A8t][z31][X5t]+(btn[A81]?a3t+btn[o6R]:g7O)})[N5t](typeof text===x3t?text(that):text||g7O)[v6R](J6R,btn[C81]!==undefined?btn[C81]:f8O)[S6R](p81,function(e){var O81="eyCode";var N6R=o6t;N6R+=O81;if(e[N6R]===A8O&&action){action[D3t](that);}})[Q61](V6R,function(e){var A6R=P81;A6R+=z81;A6R+=o1t;A6R+=P0O;if(e[A6R]===A8O){e[Z81]();}})[Q61](m3t,function(e){e[Z81]();if(action){var C6R=B81;C6R+=Y4O;action[C6R](that);}})[p2t](that[p6R][O6R]);});return this;};Editor[j3t][z6R]=function(fieldName){var R81="eldNa";var u81="_fi";var w81="include";var b81="orde";var g81="nA";var Z6R=Q2O;Z6R+=Y4O;Z6R+=F0O;Z6R+=K5O;var that=this;var fields=this[K5O][Z6R];if(typeof fieldName===m0t){var b6R=D5O;b6R+=g81;b6R+=n81;var n6R=b81;n6R+=n1O;var g6R=d81;g6R+=G5O;var B6R=b1O;B6R+=v0t;that[B6R](fieldName)[t81]();delete fields[fieldName];var orderIdx=$[t0t](fieldName,this[K5O][g6R]);this[K5O][n6R][t91](orderIdx,Q8O);var includeIdx=$[b6R](fieldName,this[K5O][k31]);if(includeIdx!==-Q8O){var t6R=K5O;t6R+=T5O;t6R+=G81;var d6R=w81;d6R+=k3t;d6R+=K5O;this[K5O][d6R][t6R](includeIdx,Q8O);}}else{var G6R=u81;G6R+=R81;G6R+=c91;$[Q81](this[G6R](fieldName),function(i,name){var k81="clear";that[k81](name);});}return this;};Editor[w6R][u0O]=function(){var u6R=y5O;u6R+=J4O;u6R+=P2t;this[u6R](H6t);return this;};Editor[j3t][e81]=function(arg1,arg2,arg3,arg4){var F81="_ti";var T81="mb";var I81="onClass";var m81="displayRe";var K81="tC";var E6R=M81;E6R+=K81;E6R+=l81;E6R+=W2t;var X6R=y5O;X6R+=P0O;X6R+=y1O;X6R+=Q1O;var W6R=P0O;W6R+=M5O;W6R+=J4O;W6R+=H4O;var q6R=y5O;q6R+=m81;q6R+=v1O;var y6R=O1O;y6R+=D5O;y6R+=I81;var h6R=b1O;h6R+=i81;var i6R=F0O;i6R+=z0O;i6R+=z5O;var I6R=h81;I6R+=b1O;I6R+=D5O;I6R+=G5O;var m6R=n1t;m6R+=E0O;m6R+=y81;var l6R=z5O;l6R+=z0O;l6R+=F0O;l6R+=P0O;var e6R=q81;e6R+=W81;var k6R=J87.F8O;k6R+=d0O;k6R+=T81;k6R+=G5O;var R6R=F81;R6R+=r2t;var that=this;var fields=this[K5O][o91];var count=Q8O;if(this[R6R](function(){that[e81](arg1,arg2,arg3,arg4);})){return this;}if(typeof arg1===k6R){count=arg1;arg1=arg2;arg2=arg3;}this[K5O][e6R]={};for(var i=f8O;i<count;i++){var K6R=Q2O;K6R+=Y4O;K6R+=F0O;K6R+=K5O;var M6R=c81;M6R+=Y4O;M6R+=s81;this[K5O][M6R][i]={fields:this[K5O][K6R]};}var argOpts=this[X81](arg1,arg2,arg3,arg4);this[K5O][l6R]=E81;this[K5O][m6R]=e81;this[K5O][I6R]=d3t;this[i6R][h6R][Y7t][Y0t]=R0t;this[y6R]();this[q6R](this[o91]());$[W6R](fields,function(name,field){var L81="multiSe";var x81="Res";var s6R=n4O;s6R+=b1O;var T6R=c0O;T6R+=D5O;T6R+=x81;T6R+=G2O;field[T6R]();for(var i=f8O;i<count;i++){var c6R=F0O;c6R+=P0O;c6R+=b1O;var F6R=L81;F6R+=E0O;field[F6R](i,field[c6R]());}field[R9t](field[s6R]());});this[X6R](E6R,d3t,function(){that[j81]();that[r81](argOpts[T3t]);argOpts[D81]();});return this;};Editor[j3t][x6R]=function(parent,url,opts){var P01='POST';var Q01="dependent";var H01="nge";var a01="cha";var N9R=Y01;N9R+=z4t;N9R+=E0O;var S9R=z0O;S9R+=J87.F8O;var J9R=J87.F8O;J9R+=z0O;J9R+=F0O;J9R+=P0O;var r6R=a01;r6R+=H01;var j6R=Q2O;j6R+=y2O;var L6R=f01;L6R+=g1O;L6R+=M5O;L6R+=P4O;if($[L6R](parent)){for(var i=f8O,ien=parent[f6t];i<ien;i++){this[Q01](parent[i],url,opts);}return this;}var that=this;var field=this[j6R](parent);var ajaxOpts={type:P01,dataType:U01};opts=$[I9t]({event:r6R,data:d3t,preUpdate:d3t,postUpdate:d3t},opts);var update=function(json){var Z01="tUpdat";var z01='show';var O01='val';var p01='update';var C01="Updat";var o01="pos";var o9R=o01;o9R+=E0O;o9R+=f0t;o9R+=v01;var U9R=J01;U9R+=P0O;var P9R=H4O;P9R+=D5O;P9R+=F0O;P9R+=P0O;var H9R=G5O;H9R+=n1O;H9R+=z0O;H9R+=n1O;var a9R=z5O;a9R+=S01;a9R+=N01;a9R+=P0O;var D6R=V01;D6R+=A01;if(opts[D6R]){var Y9R=V01;Y9R+=C01;Y9R+=P0O;opts[Y9R](json);}$[Q81]({labels:M3t,options:p01,values:O01,messages:a9R,errors:H9R},function(jsonProp,fieldFn){if(json[jsonProp]){var f9R=h7O;f9R+=y7O;$[f9R](json[jsonProp],function(field,val){var Q9R=S6t;Q9R+=F0O;that[Q9R](field)[fieldFn](val);});}});$[Q81]([P9R,z01,d8t,U9R],function(i,key){if(json[key]){that[key](json[key]);}});if(opts[o9R]){var v9R=o01;v9R+=Z01;v9R+=P0O;opts[v9R](json);}field[g3t](H6t);};$(field[J9R]())[S9R](opts[N9R],function(e){var u01="ob";var w01="ction";var n01="oce";var g01="elds";var g9R=F0O;g9R+=M5O;g9R+=E0O;g9R+=M5O;var B9R=t9t;B9R+=Y4O;var Z9R=t9t;Z9R+=Y4O;Z9R+=d0O;Z9R+=c7O;var z9R=n1O;z9R+=L61;z9R+=K5O;var O9R=D1O;O9R+=t4t;var p9R=c9t;p9R+=M5O;var C9R=P0O;C9R+=B01;C9R+=K9t;C9R+=g01;var A9R=n1O;A9R+=L61;A9R+=K5O;var V9R=r5O;V9R+=n01;V9R+=b01;if($(field[r61]())[d01](e[d1t])[f6t]===f8O){return;}field[V9R](P6t);var data={};data[A9R]=that[K5O][t01]?_pluck(that[K5O][C9R],p9R):d3t;data[O9R]=data[G01]?data[z9R][f8O]:d3t;data[Z9R]=that[B9R]();if(opts[g9R]){var ret=opts[u9t](data);if(ret){opts[u9t]=ret;}}if(typeof url===x3t){var n9R=t9t;n9R+=Y4O;var o=url(field[n9R](),data,update);if(o){var t9R=b1O;t9R+=d0O;t9R+=J87.F8O;t9R+=w01;var d9R=E0O;d9R+=H4O;d9R+=P0O;d9R+=J87.F8O;var b9R=u01;b9R+=R01;b9R+=J4O;b9R+=E0O;if(typeof o===b9R&&typeof o[d9R]===t9R){var G9R=E0O;G9R+=g61;G9R+=J87.F8O;o[G9R](function(resolved){if(resolved){update(resolved);}});}else{update(o);}}}else{var R9R=M5O;R9R+=k01;R9R+=p1O;var w9R=D5O;w9R+=e01;if($[w9R](url)){var u9R=P0O;u9R+=p1O;u9R+=E0O;u9R+=g0O;$[u9R](ajaxOpts,url);}else{ajaxOpts[M01]=url;}$[R9R]($[I9t](ajaxOpts,{url:url,data:data,success:update}));}});return this;};Editor[j3t][k9R]=function(){var m01="ller";var l01="displayContro";var K01="dt";var m9R=F2O;m9R+=K01;m9R+=P0O;var l9R=n4O;l9R+=L0O;l9R+=D1O;l9R+=P4O;var K9R=l01;K9R+=m01;var M9R=J4O;M9R+=S2O;M9R+=U61;if(this[K5O][I01]){var e9R=e5O;e9R+=z0O;e9R+=r0t;this[e9R]();}this[M9R]();var controller=this[K5O][K9R];if(controller[l9R]){controller[t81](this);}$(document)[R31](m9R+this[K5O][i01]);this[e3t]=d3t;this[K5O]=d3t;};Editor[j3t][T0O]=function(name){var h01="fieldNames";var i9R=y5O;i9R+=h01;var I9R=P0O;I9R+=n1t;I9R+=H4O;var that=this;$[I9R](this[i9R](name),function(i,n){var h9R=I3t;h9R+=V5t;that[O91](n)[h9R]();});return this;};Editor[j3t][Y0t]=function(show){var y01='open';if(show===undefined){return this[K5O][I01];}return this[show?y01:L5t]();};Editor[y9R][I01]=function(){var q9R=b1O;q9R+=H2O;q9R+=y2O;q9R+=K5O;return $[q01](this[K5O][q9R],function(field,name){var W9R=W01;W9R+=F0O;return field[W9R]()?name:d3t;});};Editor[T9R][F9R]=function(){return this[K5O][T01][r61](this);};Editor[j3t][c9R]=function(items,arg1,arg2,arg3,arg4){var X9R=F01;X9R+=K5O;var s9R=Z4t;s9R+=M5O;s9R+=w9t;s9R+=c01;var that=this;if(this[I91](function(){that[q81](items,arg1,arg2,arg3,arg4);})){return this;}var argOpts=this[X81](arg1,arg2,arg3,arg4);this[q91](items,this[s9R](s01,items),E81,argOpts[X9R],function(){that[j81]();that[r81](argOpts[T3t]);argOpts[D81]();});return this;};Editor[j3t][X01]=function(name){var that=this;$[Q81](this[E01](name),function(i,n){var E9R=z4t;E9R+=v8t;E9R+=Y4O;E9R+=P0O;that[O91](n)[E9R]();});return this;};Editor[j3t][e8t]=function(name,msg){var j01="_messa";var x01="glob";if(msg===undefined){var L9R=x01;L9R+=K0t;L9R+=L01;var x9R=j01;x9R+=Z7O;x9R+=P0O;this[x9R](this[e3t][O31],name);this[K5O][L9R]=name;}else{var j9R=b1O;j9R+=H2O;j9R+=y2O;this[j9R](name)[e8t](msg);}return this;};Editor[j3t][r9R]=function(name){var r01='Unknown field name - ';var fields=this[K5O][o91];if(!fields[name]){throw r01+name;}return fields[name];};Editor[j3t][D9R]=function(){return $[q01](this[K5O][o91],function(field,name){return name;});};Editor[Y3R][a3R]=_api_file;Editor[j3t][H3R]=_api_files;Editor[f3R][j2O]=function(name){var U3R=Y0O;U3R+=P0O;U3R+=Y4O;U3R+=F0O;var that=this;if(!name){var Q3R=Q2O;Q3R+=y2O;Q3R+=K5O;name=this[Q3R]();}if($[P91](name)){var out={};$[Q81](name,function(i,n){var P3R=Z7O;P3R+=P0O;P3R+=E0O;out[n]=that[O91](n)[P3R]();});return out;}return this[U3R](name)[j2O]();};Editor[o3R][D01]=function(names,animate){var Y51="_fieldNam";var v3R=Y51;v3R+=c7O;var that=this;$[Q81](this[v3R](names),function(i,n){var J3R=H4O;J3R+=D5O;J3R+=F0O;J3R+=P0O;that[O91](n)[J3R](animate);});return this;};Editor[j3t][a51]=function(includeHash){var S3R=z5O;S3R+=M5O;S3R+=T5O;return $[S3R](this[K5O][t01],function(edit,idSrc){return includeHash===P6t?H51+idSrc:idSrc;});};Editor[j3t][N3R]=function(inNames){var o51="obalErr";var U51="gl";var P51="ames";var Q51="_fieldN";var C3R=f51;C3R+=a6t;var A3R=Q51;A3R+=P51;var V3R=U51;V3R+=o51;V3R+=D8O;var formError=$(this[e3t][O31]);if(this[K5O][V3R]){return P6t;}var names=this[A3R](inNames);for(var i=f8O,ien=names[C3R];i<ien;i++){var p3R=x1O;p3R+=L01;if(this[O91](names[i])[p3R]()){return P6t;}}return H6t;};Editor[O3R][z3R]=function(cell,fieldName,opts){var O51="inline";var C51="ptio";var A51="rmO";var V51="ual";var N51="individ";var S51="TE_Field";var v51="tidy";var d3R=y5O;d3R+=v51;var b3R=J51;b3R+=S51;var g3R=h7O;g3R+=J4O;g3R+=H4O;var B3R=N51;B3R+=V51;var Z3R=B6t;Z3R+=A51;Z3R+=C51;Z3R+=p51;var that=this;if($[w0t](fieldName)){opts=fieldName;fieldName=undefined;}opts=$[I9t]({},this[K5O][Z3R][O51],opts);var editFields=this[C91](B3R,cell,fieldName);var node,field;var countOuter=f8O,countInner;var closed=H6t;var classes=this[A8t][O51];$[g3R](editFields,function(i,editField){var z51='Cannot edit more than one row inline at a time';var n3R=p8t;n3R+=P4O;n3R+=W81;if(countOuter>f8O){throw z51;}node=$(editField[Z51][f8O]);countInner=f8O;$[Q81](editField[n3R],function(j,f){var B51='Cannot edit more than one field inline at a time';if(countInner>f8O){throw B51;}field=f;countInner++;});countOuter++;});if($(b3R,node)[f6t]){return this;}if(this[d3R](function(){that[O51](cell,fieldName,opts);})){return this;}this[q91](cell,editFields,g51,opts,function(){var F51="utto";var W51="liner";var y51='<div class="DTE_Processing_Indicator"><span/></div>';var h51="contents";var i51="det";var m51="iv cl";var e51="lin";var k51="idth:";var R51=" style=\"w";var u51="wid";var w51="px\"";var d51="rmE";var b51="closeReg";var n51="_focu";var a8R=n51;a8R+=K5O;var c3R=y5O;c3R+=b51;var W3R=B6t;W3R+=d51;W3R+=u4O;var q3R=F0O;q3R+=z0O;q3R+=z5O;var y3R=J87.F8O;y3R+=z0O;y3R+=F0O;y3R+=P0O;var h3R=M5O;h3R+=T5O;h3R+=T5O;h3R+=g0O;var i3R=n1O;i3R+=B31;i3R+=j0t;i3R+=t51;var I3R=b1O;I3R+=x1O;I3R+=F0O;var m3R=t6t;m3R+=D5O;m3R+=u6t;var l3R=N2O;l3R+=G51;l3R+=Q61;l3R+=K5O;var K3R=w51;K3R+=G6t;var M3R=u51;M3R+=E0O;M3R+=H4O;var e3R=m7O;e3R+=R51;e3R+=k51;var k3R=e51;k3R+=P0O;k3R+=n1O;var R3R=M51;R3R+=K51;var u3R=Y1t;u3R+=a1t;var w3R=l51;w3R+=m51;w3R+=I51;var G3R=i51;G3R+=n1t;G3R+=H4O;var t3R=y5O;t3R+=V01;t3R+=q4O;var namespace=that[r81](opts);var ret=that[t3R](g51);if(!ret){return that;}var children=node[h51]()[G3R]();node[U0t]($(w3R+classes[u3R]+f3t+R3R+classes[k3R]+e3R+node[M3R]()+K3R+y51+O3t+D9t+classes[l3R]+v3t+m3R));node[I3R](q51+classes[W51][i3R](/ /g,T51))[h3R](field[y3R]())[U0t](that[q3R][W3R]);if(opts[n31]){var F3R=O8t;F3R+=F51;F3R+=J87.F8O;F3R+=K5O;var T3R=F0O;T3R+=D5O;T3R+=y1O;T3R+=F2O;node[d01](T3R+classes[F3R][I0t](/ /g,T51))[U0t](that[e3t][n31]);}that[c3R](function(submitComplete){var c51="ff";var X3R=J4O;X3R+=U6t;X3R+=o6t;var s3R=z0O;s3R+=c51;closed=P6t;$(document)[s3R](X3R+namespace);if(!submitComplete){var E3R=n4O;E3R+=h2t;node[h51]()[E3R]();node[U0t](children);}that[s51]();});setTimeout(function(){var x3R=z0O;x3R+=J87.F8O;if(closed){return;}$(document)[x3R](m3t+namespace,function(e){var j51="lf";var L51="ndS";var x51="_typeF";var Y8R=x1O;Y8R+=X51;Y8R+=E51;var D3R=z0O;D3R+=t4t;D3R+=J87.F8O;D3R+=K5O;var r3R=x51;r3R+=J87.F8O;var j3R=M5O;j3R+=L51;j3R+=P0O;j3R+=j51;var L3R=b1O;L3R+=J87.F8O;var back=$[L3R][r51]?D51:j3R;if(!field[r3R](D3R,e[d1t])&&$[Y8R](node[f8O],$(e[d1t])[Y41]()[back]())===-Q8O){that[e91]();}});},f8O);that[a8R]([field],opts[c3t]);that[e31](g51);});return this;};Editor[j3t][a41]=function(name,msg){var f41="essage";var H41="formInf";if(msg===undefined){var f8R=H41;f8R+=z0O;var H8R=m8t;H8R+=f41;this[H8R](this[e3t][f8R],name);}else{var Q8R=v0O;Q8R+=Z6t;this[O91](name)[Q8R](msg);}return this;};Editor[j3t][u2O]=function(mode){var P41="Not currently in an editing ";var o8R=n1t;o8R+=u91;o8R+=J87.F8O;if(!mode){var P8R=Q41;P8R+=y81;return this[K5O][P8R];}if(!this[K5O][x61]){var U8R=P41;U8R+=u2O;throw U8R;}this[K5O][o8R]=mode;return this;};Editor[v8R][J8R]=function(){return this[K5O][j61];};Editor[j3t][U41]=function(fieldNames){var that=this;if(fieldNames===undefined){var S8R=b1O;S8R+=B91;fieldNames=this[S8R]();}if($[P91](fieldNames)){var N8R=P0O;N8R+=M5O;N8R+=J4O;N8R+=H4O;var out={};$[N8R](fieldNames,function(i,name){var o41="iGet";var A8R=z5O;A8R+=X3t;A8R+=o41;var V8R=b1O;V8R+=v0t;out[name]=that[V8R](name)[A8R]();});return out;}return this[O91](fieldNames)[U41]();};Editor[C8R][v41]=function(fieldNames,val){var S41="Object";var J41="isPla";var p8R=J41;p8R+=x1O;p8R+=S41;var that=this;if($[p8R](fieldNames)&&val===undefined){$[Q81](fieldNames,function(name,value){var N41="iSe";var O8R=c0O;O8R+=N41;O8R+=E0O;that[O91](name)[O8R](value);});}else{var z8R=q3t;z8R+=E0O;z8R+=D5O;z8R+=V41;this[O91](fieldNames)[z8R](val);}return this;};Editor[j3t][r61]=function(name){var B8R=D5O;B8R+=K5O;B8R+=F0t;var that=this;if(!name){var Z8R=D8O;Z8R+=n4O;Z8R+=n1O;name=this[Z8R]();}return $[B8R](name)?$[q01](name,function(n){var n8R=J87.F8O;n8R+=o1t;n8R+=P0O;var g8R=b1O;g8R+=A41;g8R+=F0O;return that[g8R](n)[n8R]();}):this[O91](name)[r61]();};Editor[j3t][b8R]=function(name,fn){$(this)[R31](this[C41](name),fn);return this;};Editor[j3t][Q61]=function(name,fn){var p41="eventNam";var t8R=y5O;t8R+=p41;t8R+=P0O;var d8R=z0O;d8R+=J87.F8O;$(this)[d8R](this[t8R](name),fn);return this;};Editor[G8R][w8R]=function(name,fn){var u8R=z0O;u8R+=J87.F8O;u8R+=P0O;$(this)[u8R](this[C41](name),fn);return this;};Editor[j3t][q4O]=function(){var t41="_displayReorder";var d41="seReg";var b41="_clo";var Z41="tOp";var z41="cus";var T8R=z5O;T8R+=O41;var W8R=b1O;W8R+=z0O;W8R+=z41;var q8R=f0O;q8R+=Z41;q8R+=B41;var h8R=d81;h8R+=G5O;var i8R=g41;i8R+=d2O;var I8R=Y1t;I8R+=x1t;I8R+=r1t;var m8R=F0O;m8R+=z0O;m8R+=z5O;var l8R=z0O;l8R+=T5O;l8R+=P0O;l8R+=J87.F8O;var K8R=n41;K8R+=W1O;K8R+=q4O;var R8R=b41;R8R+=d41;var that=this;this[t41]();this[R8R](function(submitComplete){var w41="ntr";var G41="isplayCo";var e8R=J4O;e8R+=B1t;e8R+=K5O;e8R+=P0O;var k8R=F0O;k8R+=G41;k8R+=w41;k8R+=V4t;that[K5O][k8R][e8R](that,function(){var R41="arDynamicInfo";var u41="_cle";var M8R=u41;M8R+=R41;that[M8R]();});});var ret=this[K8R](E81);if(!ret){return this;}this[K5O][T01][l8R](this,this[m8R][I8R]);this[i8R]($[q01](this[K5O][h8R],function(name){var y8R=b1O;y8R+=B91;return that[K5O][y8R][name];}),this[K5O][q8R][W8R]);this[e31](T8R);return this;};Editor[j3t][F8R]=function(set){var W41="All fields, and no additional fields, must be provided for ordering.";var y41="sort";var I41="sli";var m41="sor";var l41="oin";var e41="Reor";var k41="_display";var a0R=k41;a0R+=e41;a0R+=n4O;a0R+=n1O;var Y0R=z0O;Y0R+=M41;var D8R=K5O;D8R+=K41;D8R+=t51;var r8R=B2O;r8R+=l41;var j8R=m41;j8R+=E0O;var L8R=I41;L8R+=t51;var x8R=z0O;x8R+=n1O;x8R+=F0O;x8R+=G5O;var c8R=f01;c8R+=i41;c8R+=P4O;if(!set){return this[K5O][v1O];}if(arguments[f6t]&&!$[c8R](set)){var E8R=W5t;E8R+=Y4O;E8R+=Y4O;var X8R=I41;X8R+=t51;var s8R=r5O;s8R+=K4O;set=Array[s8R][X8R][E8R](arguments);}if(this[K5O][x8R][L8R]()[j8R]()[r8R](h41)!==set[D8R]()[y41]()[q41](h41)){throw W41;}$[I9t](this[K5O][Y0R],set);this[a0R]();return this;};Editor[j3t][H0R]=function(items,arg1,arg2,arg3,arg4){var L41='node';var x41='initRemove';var s41="_crudAr";var T41="ionClass";var J0R=g2O;J0R+=E0O;J0R+=M5O;var v0R=y5O;v0R+=Y01;v0R+=Q1O;var o0R=O1O;o0R+=T41;var U0R=b2O;U0R+=F41;var P0R=b1O;P0R+=z0O;P0R+=c41;var Q0R=s41;Q0R+=l2O;var f0R=Y4O;f0R+=P0O;f0R+=J87.F8O;f0R+=X41;var that=this;if(this[I91](function(){that[E41](items,arg1,arg2,arg3,arg4);})){return this;}if(items[f0R]===undefined){items=[items];}var argOpts=this[Q0R](arg1,arg2,arg3,arg4);var editFields=this[C91](s01,items);this[K5O][x61]=E41;this[K5O][j61]=items;this[K5O][t01]=editFields;this[e3t][P0R][Y7t][U0R]=B8t;this[o0R]();this[v0R](x41,[_pluck(editFields,L41),_pluck(editFields,J0R),items],function(){var r41="Remove";var j41="tMulti";var S0R=M81;S0R+=j41;S0R+=r41;that[D41](S0R,[editFields,items],function(){var a11="leM";var Y11="_assem";var A0R=b1O;A0R+=z0O;A0R+=J4O;A0R+=L5O;var V0R=z0O;V0R+=T5O;V0R+=E0O;V0R+=K5O;var N0R=Y11;N0R+=O8t;N0R+=a11;N0R+=O41;that[N0R]();that[r81](argOpts[V0R]);argOpts[D81]();var opts=that[K5O][R91];if(opts[A0R]!==d3t){var C0R=P0O;C0R+=E91;$(H11,that[e3t][n31])[C0R](opts[c3t])[c3t]();}});});return this;};Editor[p0R][O0R]=function(set,val){var Q11="lainObj";var z0R=f11;z0R+=Q11;z0R+=P0O;z0R+=P11;var that=this;if(!$[z0R](set)){var o={};o[set]=val;set=o;}$[Q81](set,function(n,v){var B0R=K5O;B0R+=P0O;B0R+=E0O;var Z0R=Y0O;Z0R+=P0O;Z0R+=y2O;that[Z0R](n)[B0R](v);});return this;};Editor[j3t][U11]=function(names,animate){var that=this;$[Q81](this[E01](names),function(i,n){that[O91](n)[U11](animate);});return this;};Editor[j3t][U5t]=function(successCallback,errorCallback,formatdata,hide){var t0R=P0O;t0R+=u4O;var g0R=S6t;g0R+=s81;var that=this,fields=this[K5O][g0R],errorFields=[],errorReady=f8O,sent=H6t;if(this[K5O][g3t]||!this[K5O][x61]){return this;}this[o11](P6t);var send=function(){var J11='initSubmit';var b0R=v11;b0R+=z0O;b0R+=J87.F8O;var n0R=y5O;n0R+=a1O;n0R+=J87.F8O;n0R+=E0O;if(errorFields[f6t]!==errorReady||sent){return;}that[n0R](J11,[that[K5O][b0R]],function(result){var S11="_processin";if(result===H6t){var d0R=S11;d0R+=Z7O;that[d0R](H6t);return;}sent=P6t;that[w4O](successCallback,errorCallback,formatdata,hide);});};this[t0R]();$[Q81](fields,function(name,field){var N11="inError";if(field[N11]()){var G0R=T5O;G0R+=G0t;errorFields[G0R](name);}});$[Q81](errorFields,function(i,name){fields[name][e8t](g7O,function(){errorReady++;send();});});send();return this;};Editor[j3t][V11]=function(set){if(set===undefined){return this[K5O][V11];}this[K5O][V11]=set===d3t?d3t:$(set);return this;};Editor[j3t][J3t]=function(title){var C11="hea";var A11="eader";var M0R=H4O;M0R+=P0t;var k0R=H4O;k0R+=A11;var R0R=J4O;R0R+=g8t;R0R+=l5O;var u0R=C11;u0R+=p11;var w0R=M2O;w0R+=z5O;var header=$(this[w0R][u0R])[e1t](q51+this[R0R][k0R][n4t]);if(title===undefined){var e0R=H4O;e0R+=E0O;e0R+=z5O;e0R+=Y4O;return header[e0R]();}if(typeof title===x3t){title=title(this,new DataTable[O11](this[K5O][E61]));}header[M0R](title);return this;};Editor[K0R][l0R]=function(field,value){if(value!==undefined||$[w0t](field)){var m0R=r0t;m0R+=E0O;return this[m0R](field,value);}return this[j2O](field);};var apiRegister=DataTable[O11][I0R];function __getInst(api){var g11="oInit";var B11="context";var Z11="ito";var i0R=z11;i0R+=F0O;i0R+=Z11;i0R+=n1O;var ctx=api[B11][f8O];return ctx[g11][n11]||ctx[i0R];}function __setBasic(inst,opts,type,plural){var w11='1';var G11=/%d/;var t11="onfi";var b11="_b";var W0R=z5O;W0R+=S01;W0R+=N01;W0R+=P0O;if(!opts){opts={};}if(opts[n31]===undefined){var h0R=b11;h0R+=d11;h0R+=D5O;h0R+=J4O;opts[n31]=h0R;}if(opts[J3t]===undefined){var q0R=H81;q0R+=f81;var y0R=E0O;y0R+=U1O;y0R+=Y4O;y0R+=P0O;opts[y0R]=inst[q0R][type][J3t];}if(opts[W0R]===undefined){var T0R=L31;T0R+=P0O;if(type===T0R){var F0R=J4O;F0R+=t11;F0R+=c41;var confirm=inst[m9t][type][F0R];opts[a41]=plural!==Q8O?confirm[y5O][I0t](G11,plural):confirm[w11];}else{opts[a41]=g7O;}}return opts;}apiRegister(u11,function(){return __getInst(this);});apiRegister(R11,function(opts){var k11="eat";var s0R=b6t;s0R+=P0O;s0R+=Y5t;s0R+=P0O;var c0R=b6t;c0R+=k11;c0R+=P0O;var inst=__getInst(this);inst[c0R](__setBasic(inst,opts,s0R));return this;});apiRegister(e11,function(opts){var E0R=h5O;E0R+=D5O;E0R+=E0O;var X0R=P0O;X0R+=F0O;X0R+=D5O;X0R+=E0O;var inst=__getInst(this);inst[X0R](this[f8O][f8O],__setBasic(inst,opts,E0R));return this;});apiRegister(x0R,function(opts){var L0R=P0O;L0R+=B01;var inst=__getInst(this);inst[L0R](this[f8O],__setBasic(inst,opts,M11));return this;});apiRegister(K11,function(opts){var l11="emov";var j0R=n1O;j0R+=l11;j0R+=P0O;var inst=__getInst(this);inst[E41](this[f8O][f8O],__setBasic(inst,opts,j0R,Q8O));return this;});apiRegister(r0R,function(opts){var D0R=m11;D0R+=z0O;D0R+=A2t;var inst=__getInst(this);inst[E41](this[f8O],__setBasic(inst,opts,D0R,this[f8O][f6t]));return this;});apiRegister(Y5R,function(type,opts){if(!type){type=g51;}else if($[w0t](type)){opts=type;type=g51;}__getInst(this)[type](this[f8O][f8O],opts);return this;});apiRegister(a5R,function(opts){__getInst(this)[i91](this[f8O],opts);return this;});apiRegister(H5R,_api_file);apiRegister(f5R,_api_files);$(document)[Q5R](I11,function(e,ctx,json){var y11="pac";var i11="iles";var o5R=b1O;o5R+=i11;var U5R=F0O;U5R+=E0O;var P5R=h11;P5R+=c91;P5R+=y11;P5R+=P0O;if(e[P5R]!==U5R){return;}if(json&&json[o5R]){$[Q81](json[s7O],function(name,files){Editor[s7O][name]=files;});}});Editor[v5R]=function(msg,tn){var F11="ps://datatables.net/tn/";var T11="mation, please refer to htt";var W11="e infor";var q11=" For mor";var J5R=q11;J5R+=W11;J5R+=T11;J5R+=F11;throw tn?msg+J5R+tn:msg;};Editor[c11]=function(data,props,fn){var s11="isArr";var N5R=s11;N5R+=z7O;var S5R=Y4O;S5R+=v8t;S5R+=h2O;var i,ien,dataPoint;props=$[I9t]({label:S5R,value:X11},props);if($[N5R](data)){for(i=f8O,ien=data[f6t];i<ien;i++){var V5R=D5O;V5R+=e01;dataPoint=data[i];if($[V5R](dataPoint)){var C5R=E11;C5R+=n1O;var A5R=z0t;A5R+=l0t;fn(dataPoint[props[A5R]]===undefined?dataPoint[props[P3t]]:dataPoint[props[x11]],dataPoint[props[P3t]],i,dataPoint[C5R]);}else{fn(dataPoint,dataPoint,i);}}}else{var p5R=P0O;p5R+=M5O;p5R+=J4O;p5R+=H4O;i=f8O;$[p5R](data,function(key,val){fn(val,key,i);i++;});}};Editor[L11]=function(id){var O5R=W1O;O5R+=T5O;O5R+=Y4O;O5R+=j11;return id[O5R](/\./g,h41);};Editor[z5R]=function(editor,conf,files,progressCallback,completeCallback){var U71="_limitLeft";var U21="fileReadText";var P21='A server error occurred while uploading the file';var Q21="e</i";var f21="loading fil";var H21="<i>Up";var a21="oad";var D11="URL";var r11="readAsData";var Z4R=r11;Z4R+=D11;var g5R=z0O;g5R+=Y21;g5R+=a21;var B5R=H21;B5R+=f21;B5R+=Q21;B5R+=G6t;var Z5R=J87.F8O;Z5R+=B9t;var reader=new FileReader();var counter=f8O;var ids=[];var generalError=P21;editor[e8t](conf[Z5R],g7O);progressCallback(conf,conf[U21]||B5R);reader[g5R]=function(e){var w21="plo";var G21='post';var t21="readAsDataURL";var d21=" for upload plug-in";var b21=" specified";var n21="No Ajax option";var B21="ajaxData";var Z21='uploadField';var z21='action';var p21="loa";var A21="ppend";var V21="xD";var J21="Uploa";var v21="bmit.DTE_Uplo";var o21="preSu";var y5R=B2O;y5R+=K5O;y5R+=z0O;y5R+=J87.F8O;var h5R=o21;h5R+=v21;h5R+=t5O;var I5R=V01;I5R+=J21;I5R+=F0O;var l5R=F0O;l5R+=M5O;l5R+=E0O;l5R+=M5O;var M5R=S21;M5R+=N21;var e5R=M5O;e5R+=B2O;e5R+=M5O;e5R+=p1O;var R5R=M5O;R5R+=k01;R5R+=p1O;var u5R=M5O;u5R+=B2O;u5R+=M5O;u5R+=p1O;var w5R=M5O;w5R+=k01;w5R+=V21;w5R+=E9t;var G5R=d0O;G5R+=T5O;G5R+=B1t;G5R+=t5O;var t5R=M5O;t5R+=A21;var d5R=J87.F8O;d5R+=M5O;d5R+=z5O;d5R+=P0O;var b5R=C21;b5R+=p21;b5R+=F0O;var n5R=x1t;n5R+=O21;n5R+=F0O;var data=new FormData();var ajax;data[n5R](z21,b5R);data[U0t](Z21,conf[d5R]);data[t5R](G5R,files[counter]);if(conf[w5R]){conf[B21](data);}if(conf[u5R]){ajax=conf[G91];}else if($[w0t](editor[K5O][R5R])){var k5R=C1O;k5R+=p1O;ajax=editor[K5O][G91][g21]?editor[K5O][k5R][g21]:editor[K5O][G91];}else if(typeof editor[K5O][e5R]===M5R){ajax=editor[K5O][G91];}if(!ajax){var K5R=n21;K5R+=b21;K5R+=d21;throw K5R;}if(typeof ajax===m0t){ajax={url:ajax};}if(typeof ajax[l5R]===x3t){var m5R=L0O;m5R+=h31;m5R+=A6t;var d={};var ret=ajax[u9t](d);if(ret!==undefined&&typeof ret!==m5R){d=ret;}$[Q81](d,function(key,value){data[U0t](key,value);});}var preRet=editor[D41](I5R,[conf[T9t],files[counter],data]);if(preRet===H6t){var i5R=f51;i5R+=a6t;if(counter<files[i5R]-Q8O){counter++;reader[t21](files[counter]);}else{completeCallback[D3t](editor,ids);}return;}var submit=H6t;editor[Q61](h5R,function(){submit=P6t;return H6t;});$[G91]($[I9t]({},ajax,{type:G21,data:data,dataType:y5R,contentType:H6t,processData:H6t,xhr:function(){var M21="onprogress";var e21="aden";var k21="onlo";var R21="xhr";var u21="ajaxSett";var W5R=d0O;W5R+=w21;W5R+=M5O;W5R+=F0O;var q5R=u21;q5R+=x1O;q5R+=l2O;var xhr=$[q5R][R21]();if(xhr[W5R]){var s5R=k21;s5R+=e21;s5R+=F0O;var T5R=d0O;T5R+=T5O;T5R+=p21;T5R+=F0O;xhr[T5R][M21]=function(e){var h21=':';var i21="%";var I21="total";var m21="loaded";var l21="oFixed";var K21="lengthComputable";if(e[K21]){var c5R=Y4O;c5R+=z4t;c5R+=Z7O;c5R+=a6t;var F5R=E0O;F5R+=l21;var percent=(e[m21]/e[I21]*M8O)[F5R](f8O)+i21;progressCallback(conf,files[c5R]===Q8O?percent:counter+h21+files[f6t]+a3t+percent);}};xhr[g21][s5R]=function(e){var W21='Processing';var q21="ingTe";var y21="process";var X5R=y21;X5R+=q21;X5R+=p1O;X5R+=E0O;progressCallback(conf,conf[X5R]||W21);};}return xhr;},success:function(json){var f71="ub";var H71="ataURL";var a71="readAsD";var Y71="les";var L21="t.DTE_Up";var x21="preSubmi";var X21="adXhrSuccess";var F21="ors";var T21="Err";var Y4R=P0O;Y4R+=u4O;var D5R=Y6t;D5R+=X41;var r5R=O91;r5R+=T21;r5R+=F21;var j5R=J87.F8O;j5R+=c21;j5R+=P0O;var L5R=s21;L5R+=X21;var x5R=E21;x5R+=J87.F8O;x5R+=E0O;var E5R=x21;E5R+=L21;E5R+=p21;E5R+=F0O;editor[R31](E5R);editor[x5R](L5R,[conf[j5R],json]);if(json[r5R]&&json[j21][D5R]){var errors=json[j21];for(var i=f8O,ien=errors[f6t];i<ien;i++){editor[e8t](errors[i][T9t],errors[i][r21]);}}else if(json[Y4R]){var a4R=G5O;a4R+=n1O;a4R+=z0O;a4R+=n1O;editor[e8t](json[a4R]);}else if(!json[g21]||!json[g21][F9t]){var H4R=D21;H4R+=z0O;H4R+=n1O;editor[H4R](conf[T9t],generalError);}else{var v4R=f51;v4R+=E0O;v4R+=H4O;var o4R=D5O;o4R+=F0O;var U4R=d0O;U4R+=w21;U4R+=M5O;U4R+=F0O;var f4R=Y0O;f4R+=Y71;if(json[f4R]){var Q4R=Y0O;Q4R+=S2O;Q4R+=K5O;$[Q81](json[Q4R],function(table,files){var P4R=b1O;P4R+=D5O;P4R+=Y4O;P4R+=c7O;if(!Editor[s7O][table]){Editor[s7O][table]={};}$[I9t](Editor[P4R][table],files);});}ids[r7O](json[U4R][o4R]);if(counter<files[v4R]-Q8O){var J4R=a71;J4R+=H71;counter++;reader[J4R](files[counter]);}else{var S4R=B81;S4R+=Y4O;completeCallback[S4R](editor,ids);if(submit){var N4R=K5O;N4R+=f71;N4R+=z5O;N4R+=U1O;editor[N4R]();}}}progressCallback(conf);},error:function(xhr){var P71="rErr";var Q71="uploadXh";var O4R=J87.F8O;O4R+=M5O;O4R+=z5O;O4R+=P0O;var p4R=G5O;p4R+=n1O;p4R+=D8O;var C4R=J87.F8O;C4R+=M5O;C4R+=z5O;C4R+=P0O;var A4R=Q71;A4R+=P71;A4R+=D8O;var V4R=z11;V4R+=A2t;V4R+=J2O;editor[V4R](A4R,[conf[C4R],xhr]);editor[p4R](conf[O4R],generalError);progressCallback(conf);}}));};files=$[q01](files,function(val){return val;});if(conf[U71]!==undefined){var z4R=Y4O;z4R+=z4t;z4R+=X41;files[t91](conf[U71],files[z4R]);}reader[Z4R](files[f8O]);};Editor[j3t][B4R]=function(init){var w6X="lle";var G6X="layContro";var n6X='xhr.dt.dte';var Z6X='init.dt.dte';var O6X='foot';var C6X="events";var o6X='<div data-dte-e="form_buttons" class="';var U6X='"/></div>';var P6X='"><div class="';var Q6X="info";var f6X='<div data-dte-e="form_info" class="';var H6X='<div data-dte-e="form_error" class="';var a6X='</form>';var Y6X="tag";var D71="footer";var r71='<div data-dte-e="body_content" class="';var L71="legacyAjax";var x71="dataSources";var X71="dbTable";var s71="domTable";var c71="odel";var T71="aj";var W71="domTabl";var y71="rces";var h71="dataSo";var i71="formOption";var I71="qu";var m71="uni";var K71="div ";var M71="\" class=\"";var e71="<div data-dte-e=\"processing";var k71="cat";var R71="indi";var u71="class=";var w71="e-e=\"body\" ";var G71="<div data-dt";var d71="-e=\"foot\" class=";var b71="<form data-dte-e=\"form\"";var n71="t\" class=\"";var g71="=\"form_conten";var B71="<div data-dte-e";var Z71="ad\"";var z71="v data-dte-e=\"he";var p71="ataT";var C71="Tools";var A71="formCo";var V71="m_";var S71="dy_conten";var v71="que";var o71="itComplete";var h1R=x1O;h1R+=o71;var i1R=z11;i1R+=y1O;i1R+=Q1O;var G1R=d0O;G1R+=J87.F8O;G1R+=D5O;G1R+=v71;var d1R=J71;d1R+=Z7O;var b1R=p31;b1R+=S71;b1R+=E0O;var n1R=p31;n1R+=r2t;var g1R=O8t;g1R+=z0O;g1R+=r2t;var B1R=b1O;B1R+=z0O;B1R+=z0O;B1R+=N71;var Z1R=P31;Z1R+=V71;Z1R+=n4t;var z1R=A71;z1R+=J87.F8O;z1R+=W2t;z1R+=J2O;var O1R=Y1t;O1R+=M5O;O1R+=T5O;O1R+=r1t;var A1R=P0O;A1R+=M5O;A1R+=J4O;A1R+=H4O;var U1R=n2O;U1R+=C71;var P1R=F0O;P1R+=p71;P1R+=v8t;P1R+=S2O;var Q1R=m7O;Q1R+=q6t;Q1R+=G6t;var f1R=O71;f1R+=Y2O;f1R+=J87.F8O;f1R+=K5O;var H1R=g61;H1R+=M5O;H1R+=F0O;H1R+=G5O;var a1R=Y1t;a1R+=x1t;a1R+=r1t;var Y1R=J9t;Y1R+=z71;Y1R+=Z71;Y1R+=L6t;var D4R=m7O;D4R+=q6t;D4R+=G6t;var r4R=b1O;r4R+=z0O;r4R+=n1O;r4R+=z5O;var j4R=D21;j4R+=D8O;var L4R=m7O;L4R+=q6t;L4R+=G6t;var x4R=B71;x4R+=g71;x4R+=n71;var E4R=m7O;E4R+=G6t;var X4R=b71;X4R+=L6t;var s4R=m7O;s4R+=q6t;s4R+=G6t;var c4R=m61;c4R+=J2O;var F4R=X6t;F4R+=E6t;F4R+=d71;F4R+=m7O;var T4R=R6t;T4R+=q6t;T4R+=F0O;T4R+=t71;var W4R=m7O;W4R+=q6t;W4R+=G6t;var q4R=m61;q4R+=J87.F8O;q4R+=E0O;var y4R=m7O;y4R+=G6t;var h4R=t4t;h4R+=i1t;var i4R=G71;i4R+=w71;i4R+=u71;i4R+=m7O;var I4R=R71;I4R+=k71;I4R+=D8O;var m4R=e71;m4R+=M71;var l4R=m7O;l4R+=G6t;var K4R=R6t;K4R+=K71;K4R+=l71;var M4R=m71;M4R+=I71;M4R+=P0O;var e4R=K8t;e4R+=K5O;e4R+=P0O;e4R+=K5O;var k4R=i71;k4R+=K5O;var R4R=h71;R4R+=d0O;R4R+=y71;var u4R=g2O;u4R+=q71;u4R+=V5t;var w4R=E0O;w4R+=v8t;w4R+=S2O;var G4R=W71;G4R+=P0O;var t4R=T71;t4R+=M5O;t4R+=F71;t4R+=Y4O;var d4R=w9t;d4R+=O8t;d4R+=Y4O;d4R+=P0O;var b4R=r0t;b4R+=G51;b4R+=x1O;b4R+=l2O;var n4R=z5O;n4R+=c71;n4R+=K5O;var g4R=P0O;g4R+=A4t;g4R+=F0O;init=$[I9t](P6t,{},Editor[i9t],init);this[K5O]=$[g4R](P6t,{},Editor[n4R][b4R],{table:init[s71]||init[d4R],dbTable:init[X71]||d3t,ajaxUrl:init[t4R],ajax:init[G91],idSrc:init[E71],dataSource:init[G4R]||init[w4R]?Editor[x71][u4R]:Editor[R4R][N5t],formOptions:init[k4R],legacyAjax:init[L71],template:init[V11]?$(init[V11])[u31]():d3t});this[A8t]=$[I9t](P6t,{},Editor[e4R]);this[m9t]=init[m9t];Editor[c5t][j71][M4R]++;var that=this;var classes=this[A8t];this[e3t]={"wrapper":$(K4R+classes[Y3t]+l4R+m4R+classes[g3t][I4R]+n3t+i4R+classes[D2t][h4R]+y4R+r71+classes[D2t][q4R]+W4R+T4R+F4R+classes[D71][Y3t]+f3t+D9t+classes[D71][c4R]+s4R+O3t+O3t)[f8O],"form":$(X4R+classes[z31][Y6X]+E4R+x4R+classes[z31][n4t]+L4R+a6X)[f8O],"formError":$(H6X+classes[z31][j4R]+v3t)[f8O],"formInfo":$(f6X+classes[r4R][Q6X]+D4R)[f8O],"header":$(Y1R+classes[g31][a1R]+P6X+classes[H1R][n4t]+U6X)[f8O],"buttons":$(o6X+classes[z31][f1R]+Q1R)[f8O]};if($[K7O][P1R][U1R]){var N1R=m11;N1R+=z0O;N1R+=A2t;var S1R=P0O;S1R+=F0O;S1R+=D5O;S1R+=E0O;var J1R=v6X;J1R+=P0O;var v1R=P0O;v1R+=M5O;v1R+=J4O;v1R+=H4O;var o1R=J6X;o1R+=S6X;var ttButtons=$[K7O][u7O][o1R][N6X];var i18n=this[m9t];$[v1R]([J1R,S1R,N1R],function(i,val){var A6X="sButtonText";var V6X='editor_';var V1R=O71;V1R+=E0O;V1R+=z0O;V1R+=J87.F8O;ttButtons[V6X+val][A6X]=i18n[val][V1R];});}$[A1R](init[C6X],function(evt,fn){that[Q61](evt,function(){var p6X="sh";var p1R=x1t;p1R+=T5O;p1R+=Y4O;p1R+=P4O;var C1R=p6X;C1R+=D5O;C1R+=b1O;C1R+=E0O;var args=Array[j3t][r3t][D3t](arguments);args[C1R]();fn[p1R](that,args);});});var dom=this[e3t];var wrapper=dom[O1R];dom[z1R]=_editor_el(Z1R,dom[z31])[f8O];dom[B1R]=_editor_el(O6X,wrapper)[f8O];dom[g1R]=_editor_el(n1R,wrapper)[f8O];dom[z6X]=_editor_el(b1R,wrapper)[f8O];dom[g3t]=_editor_el(d1R,wrapper)[f8O];if(init[o91]){var t1R=t5O;t1R+=F0O;this[t1R](init[o91]);}$(document)[Q61](Z6X+this[K5O][G1R],function(e,settings,json){var u1R=c61;u1R+=Y4O;u1R+=P0O;var w1R=J87.F8O;w1R+=r2O;w1R+=i3t;w1R+=P0O;if(that[K5O][E61]&&settings[w1R]===$(that[K5O][u1R])[j2O](f8O)){var R1R=B6X;R1R+=D5O;R1R+=g6X;settings[R1R]=that;}})[Q61](n6X+this[K5O][i01],function(e,settings,json){var t6X="ptionsUpd";var d6X="_o";var b6X="nTa";var M1R=Z7O;M1R+=P0O;M1R+=E0O;var e1R=b6X;e1R+=O8t;e1R+=S2O;var k1R=E0O;k1R+=i3t;k1R+=P0O;if(json&&that[K5O][k1R]&&settings[e1R]===$(that[K5O][E61])[M1R](f8O)){var K1R=d6X;K1R+=t6X;K1R+=Y5t;K1R+=P0O;that[K1R](json);}});try{var m1R=I3t;m1R+=Y4t;var l1R=b2O;l1R+=G6X;l1R+=w6X;l1R+=n1O;this[K5O][l1R]=Editor[Y0t][init[m1R]][u6X](this);}catch(e){var k6X='Cannot find display controller ';var I1R=X1O;I1R+=R6X;I1R+=Y4O;I1R+=z7O;throw k6X+init[I1R];}this[i1R](h1R,[]);};Editor[j3t][y1R]=function(){var l6X="emove";var e6X="removeCl";var L1R=n1O;L1R+=P0O;L1R+=s1O;L1R+=A2t;var X1R=f0O;X1R+=E0O;var F1R=J4O;F1R+=n1O;F1R+=d6t;var T1R=B2O;T1R+=z0O;T1R+=D5O;T1R+=J87.F8O;var W1R=e6X;W1R+=z9t;var q1R=Q41;q1R+=y81;q1R+=K5O;var classesActions=this[A8t][q1R];var action=this[K5O][x61];var wrapper=$(this[e3t][Y3t]);wrapper[W1R]([classesActions[e81],classesActions[q81],classesActions[E41]][T1R](a3t));if(action===F1R){var s1R=v6X;s1R+=P0O;var c1R=M6X;c1R+=z9t;wrapper[c1R](classesActions[s1R]);}else if(action===X1R){var x1R=P0O;x1R+=F0O;x1R+=U1O;var E1R=K6X;E1R+=b8t;wrapper[E1R](classesActions[x1R]);}else if(action===L1R){var j1R=n1O;j1R+=l6X;wrapper[V8t](classesActions[j1R]);}};Editor[j3t][r1R]=function(data,success,error,submitParams){var Z9X='?';var z9X="param";var A9X="deleteBody";var S9X="uns";var J9X="mplete";var v9X="let";var o9X="com";var U9X="complete";var Q9X=/_id_/;var f9X="lit";var a9X="Of";var Y9X="ajaxUr";var D6X=',';var j6X='idSrc';var y6X="POS";var h6X="nctio";var I6X="DELET";var m6X="eteBo";var y2R=M5O;y2R+=B2O;y2R+=M5O;y2R+=p1O;var m2R=m2O;m2R+=m6X;m2R+=r2t;var l2R=I6X;l2R+=p5O;var z2R=i6X;z2R+=Z7O;var N2R=b1O;N2R+=d0O;N2R+=h6X;N2R+=J87.F8O;var J2R=c81;J2R+=f2O;var v2R=f0O;v2R+=E0O;var o2R=C1O;o2R+=F71;o2R+=Y4O;var U2R=M5O;U2R+=B2O;U2R+=M5O;U2R+=p1O;var D1R=y6X;D1R+=r2O;var that=this;var action=this[K5O][x61];var thrown;var opts={type:D1R,dataType:U01,data:d3t,error:[function(xhr,text,err){thrown=err;}],success:[],complete:[function(xhr,text){var x6X="nseJSON";var E6X="eJSO";var X6X="respo";var s6X="rseJSON";var c6X="onseTe";var F6X="resp";var T6X="Te";var W6X="sponse";var q6X="nu";var K8O=204;var a2R=q6X;a2R+=T5t;var Y2R=W1O;Y2R+=W6X;Y2R+=T6X;Y2R+=U0O;var json=d3t;if(xhr[r21]===K8O||xhr[Y2R]===a2R){json={};}else{try{var P2R=F6X;P2R+=c6X;P2R+=U0O;var Q2R=T5O;Q2R+=M5O;Q2R+=s6X;var f2R=X6X;f2R+=p51;f2R+=E6X;f2R+=Z9t;var H2R=X6X;H2R+=x6X;json=xhr[H2R]?xhr[f2R]:$[Q2R](xhr[P2R]);}catch(e){}}if($[w0t](json)||$[P91](json)){success(json,xhr[r21]>=l8O,xhr);}else{error(xhr,text,thrown);}}]};var a;var ajaxSrc=this[K5O][U2R]||this[K5O][o2R];var id=action===v2R||action===L6X?_pluck(this[K5O][J2R],j6X):d3t;if($[P91](id)){var S2R=r6X;S2R+=x1O;id=id[S2R](D6X);}if($[w0t](ajaxSrc)&&ajaxSrc[action]){ajaxSrc=ajaxSrc[action];}if(typeof ajaxSrc===N2R){var V2R=Y9X;V2R+=Y4O;var uri=d3t;var method=d3t;if(this[K5O][V2R]){var p2R=o81;p2R+=a9X;var C2R=J4O;C2R+=W1O;C2R+=M5O;C2R+=W2t;var A2R=G91;A2R+=H9X;A2R+=n1O;A2R+=Y4O;var url=this[K5O][A2R];if(url[C2R]){uri=url[action];}if(uri[p2R](a3t)!==-Q8O){var O2R=R6X;O2R+=f9X;a=uri[O2R](a3t);method=a[f8O];uri=a[Q8O];}uri=uri[I0t](Q9X,id);}ajaxSrc(method,uri,data,success,error);return;}else if(typeof ajaxSrc===z2R){if(ajaxSrc[P9X](a3t)!==-Q8O){var Z2R=R6X;Z2R+=f9X;a=ajaxSrc[Z2R](a3t);opts[y4O]=a[f8O];opts[M01]=a[Q8O];}else{var B2R=d0O;B2R+=n1O;B2R+=Y4O;opts[B2R]=ajaxSrc;}}else{var u2R=M2t;u2R+=W2t;u2R+=J87.F8O;u2R+=F0O;var optsCopy=$[I9t]({},ajaxSrc||{});if(optsCopy[U9X]){var b2R=o9X;b2R+=T5O;b2R+=v9X;b2R+=P0O;var n2R=o9X;n2R+=T5O;n2R+=S2O;n2R+=W2t;var g2R=F7t;g2R+=J9X;opts[g2R][Y8t](optsCopy[n2R]);delete optsCopy[b2R];}if(optsCopy[e8t]){var w2R=P0O;w2R+=n1O;w2R+=D1O;w2R+=n1O;var G2R=D21;G2R+=z0O;G2R+=n1O;var t2R=S9X;t2R+=G4t;t2R+=y5t;var d2R=P0O;d2R+=g1O;d2R+=z0O;d2R+=n1O;opts[d2R][t2R](optsCopy[G2R]);delete optsCopy[w2R];}opts=$[u2R]({},opts,optsCopy);}opts[M01]=opts[M01][I0t](Q9X,id);if(opts[u9t]){var K2R=N9X;K2R+=D4t;var M2R=F0O;M2R+=M5O;M2R+=w9t;var e2R=g2O;e2R+=E0O;e2R+=M5O;var k2R=b1O;k2R+=Q2t;k2R+=V9X;k2R+=J87.F8O;var R2R=F0O;R2R+=M5O;R2R+=w9t;var isFn=typeof opts[R2R]===k2R;var newData=isFn?opts[e2R](data):opts[M2R];data=isFn&&newData?newData:$[K2R](P6t,data,newData);}opts[u9t]=data;if(opts[y4O]===l2R&&(opts[m2R]===undefined||opts[A9X]===P6t)){var h2R=C9X;h2R+=p9X;var i2R=d0O;i2R+=O9X;var I2R=F0O;I2R+=M5O;I2R+=w9t;var params=$[z9X](opts[I2R]);opts[i2R]+=opts[M01][h2R](Z9X)===-Q8O?Z9X+params:y0t+params;delete opts[u9t];}$[y2R](opts);};Editor[j3t][p1t]=function(target,style,time,callback){var g9X="funct";if($[K7O][x7t]){var W2R=Y61;W2R+=D5O;W2R+=B9X;W2R+=W2t;var q2R=L0O;q2R+=X9t;target[q2R]()[W2R](style,time,callback);}else{var T2R=g9X;T2R+=y81;target[w3t](style);if(typeof time===T2R){time[D3t](target);}else if(callback){callback[D3t](target);}}};Editor[j3t][F2R]=function(){var t9X="formEr";var d9X="Content";var n9X="rmIn";var r2R=b1O;r2R+=z0O;r2R+=n1O;r2R+=z5O;var j2R=B6t;j2R+=n9X;j2R+=b1O;j2R+=z0O;var L2R=M5O;L2R+=T5O;L2R+=b9X;var x2R=D2t;x2R+=d9X;var E2R=X5t;E2R+=K5O;var X2R=t9X;X2R+=D1O;X2R+=n1O;var s2R=b1O;s2R+=O61;var c2R=H4O;c2R+=X61;c2R+=G5O;var dom=this[e3t];$(dom[Y3t])[G3t](dom[c2R]);$(dom[s2R])[U0t](dom[X2R])[U0t](dom[E2R]);$(dom[x2R])[L2R](dom[j2R])[U0t](dom[r2R]);};Editor[j3t][G9X]=function(){var R9X="onBlur";var u9X="preBlu";var w9X="fun";var a7R=w9X;a7R+=V9X;a7R+=J87.F8O;var Y7R=u9X;Y7R+=n1O;var D2R=z11;D2R+=A2t;D2R+=J87.F8O;D2R+=E0O;var opts=this[K5O][R91];var onBlur=opts[R9X];if(this[D2R](Y7R)===H6t){return;}if(typeof onBlur===a7R){onBlur(this);}else if(onBlur===x5t){var H7R=M91;H7R+=k9X;this[H7R]();}else if(onBlur===L5t){this[e9X]();}};Editor[j3t][s51]=function(){var K9X="wrapp";var M9X="removeC";var N7R=G5O;N7R+=V5O;var J7R=M9X;J7R+=b8t;var v7R=K9X;v7R+=G5O;var o7R=F0O;o7R+=D5O;o7R+=y1O;o7R+=F2O;var U7R=b1O;U7R+=D5O;U7R+=h2O;U7R+=s81;var P7R=D21;P7R+=z0O;P7R+=n1O;var Q7R=b1O;Q7R+=D5O;Q7R+=P0O;Q7R+=y2O;var f7R=K8t;f7R+=l5O;if(!this[K5O]){return;}var errorClass=this[f7R][Q7R][P7R];var fields=this[K5O][U7R];$(o7R+errorClass,this[e3t][v7R])[J7R](errorClass);$[Q81](fields,function(name,field){var S7R=P0O;S7R+=n1O;S7R+=D1O;S7R+=n1O;field[S7R](g7O)[a41](g7O);});this[N7R](g7O)[a41](g7O);};Editor[V7R][e9X]=function(submitComplete){var W9X='focus.editor-focus';var q9X="seIcb";var i9X="loseC";var m9X='preClose';var z7R=J4O;z7R+=Y4O;z7R+=t2O;z7R+=P0O;var O7R=z11;O7R+=l9X;var p7R=O8t;p7R+=z0O;p7R+=F0O;p7R+=P4O;if(this[D41](m9X)===H6t){return;}if(this[K5O][I9X]){var A7R=J4O;A7R+=i9X;A7R+=O8t;this[K5O][A7R](submitComplete);this[K5O][I9X]=d3t;}if(this[K5O][h9X]){var C7R=y9X;C7R+=q9X;this[K5O][h9X]();this[K5O][C7R]=d3t;}$(p7R)[R31](W9X);this[K5O][I01]=H6t;this[O7R](z7R);};Editor[j3t][b31]=function(fn){this[K5O][I9X]=fn;};Editor[j3t][X81]=function(arg1,arg2,arg3,arg4){var F9X="main";var T9X="olean";var g7R=l91;g7R+=m91;var B7R=N9X;B7R+=D4t;var Z7R=p31;Z7R+=T9X;var that=this;var title;var buttons;var show;var opts;if($[w0t](arg1)){opts=arg1;}else if(typeof arg1===Z7R){show=arg1;opts=arg2;}else{title=arg1;buttons=arg2;show=arg3;opts=arg4;}if(show===undefined){show=P6t;}if(title){that[J3t](title);}if(buttons){that[n31](buttons);}return{opts:$[B7R]({},this[K5O][g7R][F9X],opts),maybeOpen:function(){if(show){that[q4O]();}}};};Editor[n7R][b7R]=function(name){var c9X="appl";var t7R=K5O;t7R+=G4t;t7R+=y5t;var d7R=K5O;d7R+=K41;d7R+=J4O;d7R+=P0O;var args=Array[j3t][d7R][D3t](arguments);args[t7R]();var fn=this[K5O][J1O][name];if(fn){var G7R=c9X;G7R+=P4O;return fn[G7R](this,args);}};Editor[j3t][w7R]=function(includeFields){var H3X="ndTo";var E9X="ncludeFields";var X9X="formContent";var s9X="yOrder";var W7R=p8t;W7R+=s9X;var K7R=F0O;K7R+=G2O;K7R+=M5O;K7R+=y7O;var e7R=z5O;e7R+=u8t;e7R+=J87.F8O;var k7R=z0O;k7R+=M41;var R7R=Y0O;R7R+=P0O;R7R+=Y4O;R7R+=s81;var u7R=F0O;u7R+=D4O;var that=this;var formContent=$(this[u7R][X9X]);var fields=this[K5O][R7R];var order=this[K5O][k7R];var template=this[K5O][V11];var mode=this[K5O][u2O]||e7R;if(includeFields){this[K5O][k31]=includeFields;}else{var M7R=D5O;M7R+=E9X;includeFields=this[K5O][M7R];}formContent[e1t]()[K7R]();$[Q81](order,function(i,fieldOrName){var Y3X='editor-field[name="';var D9X="aft";var r9X="r-template=";var L9X="eakInArray";var l7R=x9X;l7R+=L9X;var name=fieldOrName instanceof Editor[k3t]?fieldOrName[T9t]():fieldOrName;if(that[l7R](name,includeFields)!==-Q8O){if(template&&mode===E81){var y7R=x1t;y7R+=b9X;var h7R=m7O;h7R+=I7O;var i7R=j9X;i7R+=W2O;i7R+=r9X;i7R+=m7O;var I7R=J87.F8O;I7R+=z0O;I7R+=F0O;I7R+=P0O;var m7R=D9X;m7R+=P0O;m7R+=n1O;template[d01](Y3X+name+a3X)[m7R](fields[name][I7R]());template[d01](i7R+name+h7R)[y7R](fields[name][r61]());}else{formContent[U0t](fields[name][r61]());}}});if(template&&mode===E81){var q7R=x1t;q7R+=t4O;q7R+=H3X;template[q7R](formContent);}this[D41](W7R,[this[K5O][I01],this[K5O][x61],formContent]);};Editor[T7R][F7R]=function(items,editFields,type,formOptions,setupDone){var J3X="_actionClass";var v3X="editD";var o3X="ifier";var U3X="loc";var P3X="isplayReorder";var Q3X="Ed";var f3X="nod";var A6P=F0O;A6P+=M5O;A6P+=E0O;A6P+=M5O;var V6P=f3X;V6P+=P0O;var N6P=u6X;N6P+=Q3X;N6P+=U1O;var S6P=Z4t;S6P+=P3X;var J6P=Y6t;J6P+=Z7O;J6P+=a6t;var v6P=x0t;v6P+=D5O;v6P+=J4O;v6P+=P0O;var o6P=D8O;o6P+=F0O;o6P+=P0O;o6P+=n1O;var j7R=z5O;j7R+=z0O;j7R+=F0O;j7R+=P0O;var L7R=O8t;L7R+=U3X;L7R+=o6t;var x7R=K5O;x7R+=c4O;x7R+=S2O;var E7R=F0O;E7R+=z0O;E7R+=z5O;var X7R=s1O;X7R+=F0O;X7R+=o3X;var s7R=v3X;s7R+=M5O;s7R+=E0O;s7R+=M5O;var c7R=c81;c7R+=f2O;var that=this;var fields=this[K5O][o91];var usedFields=[];var includeInOrder;var editData={};this[K5O][c7R]=editFields;this[K5O][s7R]=editData;this[K5O][X7R]=items;this[K5O][x61]=q81;this[E7R][z31][x7R][Y0t]=L7R;this[K5O][j7R]=type;this[J3X]();$[Q81](fields,function(name,field){var N3X="iRese";var S3X="tiIds";var P6P=q3t;P6P+=S3X;var D7R=h7O;D7R+=y7O;var r7R=q3t;r7R+=E0O;r7R+=N3X;r7R+=E0O;field[r7R]();includeInOrder=H6t;editData[name]={};$[D7R](editFields,function(idSrc,edit){var C3X="ltiSet";var A3X="layFields";var V3X="scope";var Y6P=S6t;Y6P+=F0O;Y6P+=K5O;if(edit[Y6P][name]){var H6P=n1O;H6P+=z0O;H6P+=t4t;var a6P=K5O;a6P+=G81;var val=field[n91](edit[u9t]);editData[name][idSrc]=val===d3t?g7O:$[P91](val)?val[a6P]():val;if(!formOptions||formOptions[V3X]===H6P){var Q6P=b2O;Q6P+=A3X;var f6P=c6t;f6P+=C3X;field[f6P](idSrc,val!==undefined?val:field[P8t]());if(!edit[p3X]||edit[Q6P][name]){includeInOrder=P6t;}}else{if(!edit[p3X]||edit[p3X][name]){field[v41](idSrc,val!==undefined?val:field[P8t]());includeInOrder=P6t;}}}});if(field[P6P]()[f6t]!==f8O&&includeInOrder){var U6P=T5O;U6P+=G0t;usedFields[U6P](name);}});var currOrder=this[o6P]()[v6P]();for(var i=currOrder[J6P]-Q8O;i>=f8O;i--){if($[t0t](currOrder[i][O3X](),usedFields)===-Q8O){currOrder[t91](i,Q8O);}}this[S6P](currOrder);this[D41](N6P,[_pluck(editFields,V6P)[f8O],_pluck(editFields,A6P)[f8O],items,type],function(){var Z3X="ultiEdit";var z3X="tM";var p6P=x1O;p6P+=D5O;p6P+=z3X;p6P+=Z3X;var C6P=z11;C6P+=A2t;C6P+=J2O;that[C6P](p6P,[editFields,items,type],function(){setupDone();});});};Editor[O6P][z6P]=function(trigger,args,promiseComplete){var R3X="then";var u3X="result";var t3X='Cancelled';var d3X="Event";var b3X='pre';var g3X="Eve";var B3X="resu";if(!args){args=[];}if($[P91](trigger)){for(var i=f8O,ien=trigger[f6t];i<ien;i++){var Z6P=E21;Z6P+=J2O;this[Z6P](trigger[i],args);}}else{var n6P=B3X;n6P+=Y4O;n6P+=E0O;var g6P=x1O;g6P+=n4O;g6P+=p9X;var B6P=g3X;B6P+=J87.F8O;B6P+=E0O;var e=$[B6P](trigger);$(this)[n3X](e,args);if(trigger[g6P](b3X)===f8O&&e[n6P]===H6t){$(this)[n3X]($[d3X](trigger+t3X),args);}if(promiseComplete){var d6P=z0O;d6P+=O8t;d6P+=R01;d6P+=P11;var b6P=W1O;b6P+=G3X;b6P+=w3X;if(e[b6P]&&typeof e[u3X]===d6P&&e[u3X][R3X]){var t6P=a6t;t6P+=P0O;t6P+=J87.F8O;e[u3X][t6P](promiseComplete);}else{promiseComplete();}}return e[u3X];}};Editor[j3t][G6P]=function(input){var K3X="ring";var M3X="bst";var e3X=/^on([A-Z])/;var e6P=r6X;e6P+=D5O;e6P+=J87.F8O;var u6P=S2O;u6P+=J87.F8O;u6P+=k3X;u6P+=H4O;var w6P=K5O;w6P+=T5O;w6P+=Y4O;w6P+=U1O;var name;var names=input[w6P](a3t);for(var i=f8O,ien=names[u6P];i<ien;i++){var R6P=B9X;R6P+=E0O;R6P+=J4O;R6P+=H4O;name=names[i];var onStyle=name[R6P](e3X);if(onStyle){var k6P=G3X;k6P+=M3X;k6P+=K3X;name=onStyle[Q8O][l3X]()+name[k6P](U8O);}names[i]=name;}return names[e6P](a3t);};Editor[j3t][M6P]=function(node){var l6P=S6t;l6P+=F0O;l6P+=K5O;var K6P=P0O;K6P+=M5O;K6P+=J4O;K6P+=H4O;var foundField=d3t;$[K6P](this[K5O][l6P],function(name,field){var m3X="lengt";var I6P=m3X;I6P+=H4O;var m6P=J87.F8O;m6P+=z0O;m6P+=F0O;m6P+=P0O;if($(field[m6P]())[d01](node)[I6P]){foundField=field;}});return foundField;};Editor[i6P][E01]=function(fieldNames){if(fieldNames===undefined){return this[o91]();}else if(!$[P91](fieldNames)){return[fieldNames];}return fieldNames;};Editor[h6P][I3X]=function(fieldsIn,focus){var W3X=/^jq:/;var q3X='div.DTE ';var y3X="repl";var h3X='jq:';var i3X="numb";var q6P=i3X;q6P+=G5O;var that=this;var field;var fields=$[q01](fieldsIn,function(fieldOrName){var y6P=S21;y6P+=D5O;y6P+=J87.F8O;y6P+=Z7O;return typeof fieldOrName===y6P?that[K5O][o91][fieldOrName]:fieldOrName;});if(typeof focus===q6P){field=fields[focus];}else if(focus){if(focus[P9X](h3X)===f8O){var W6P=y3X;W6P+=M5O;W6P+=J4O;W6P+=P0O;field=$(q3X+focus[W6P](W3X,g7O));}else{field=this[K5O][o91][focus];}}this[K5O][T3X]=field;if(field){field[c3t]();}};Editor[T6P][F6P]=function(opts){var V8X="tton";var N8X="mess";var S8X="tl";var o8X="und";var U8X="lurOnBackgro";var P8X="ur";var Q8X="blurOnBackground";var f8X="onReturn";var a8X="submitOnReturn";var Y8X="submitOnBlur";var D3X="lur";var r3X="onB";var L3X="closeOnComplete";var x3X="Inline";var E3X=".d";var X3X="ubmitOnBlu";var s3X="trin";var c3X="unction";var F3X="nction";var p9P=P81;p9P+=d0O;p9P+=T5O;var C9P=z0O;C9P+=J87.F8O;var J9P=z0O;J9P+=J87.F8O;var o9P=Y81;o9P+=V2O;var P9P=b1O;P9P+=d0O;P9P+=F3X;var H9P=b1O;H9P+=c3X;var a9P=K5O;a9P+=s3X;a9P+=Z7O;var X6P=K5O;X6P+=X3X;X6P+=n1O;var c6P=E3X;c6P+=W2t;c6P+=x3X;var that=this;var inlineCount=__inlineCounter++;var namespace=c6P+inlineCount;if(opts[L3X]!==undefined){var s6P=J87.F8O;s6P+=z0O;s6P+=J87.F8O;s6P+=P0O;opts[j3X]=opts[L3X]?L5t:s6P;}if(opts[X6P]!==undefined){var x6P=e5O;x6P+=I2t;var E6P=r3X;E6P+=D3X;opts[E6P]=opts[Y8X]?x5t:x6P;}if(opts[a8X]!==undefined){var j6P=J87.F8O;j6P+=z0O;j6P+=L1O;var L6P=K5O;L6P+=H8X;opts[f8X]=opts[a8X]?L6P:j6P;}if(opts[Q8X]!==undefined){var Y9P=J87.F8O;Y9P+=e5t;var D6P=O8t;D6P+=Y4O;D6P+=P8X;var r6P=O8t;r6P+=U8X;r6P+=o8X;opts[k91]=opts[r6P]?D6P:Y9P;}this[K5O][R91]=opts;this[K5O][v8X]=inlineCount;if(typeof opts[J3t]===a9P||typeof opts[J3t]===H9P){var Q9P=J6t;Q9P+=J8X;var f9P=E0O;f9P+=D5O;f9P+=S8X;f9P+=P0O;this[f9P](opts[Q9P]);opts[J3t]=P6t;}if(typeof opts[a41]===m0t||typeof opts[a41]===P9P){var U9P=N8X;U9P+=M5O;U9P+=Z7O;U9P+=P0O;this[a41](opts[U9P]);opts[a41]=P6t;}if(typeof opts[o9P]!==h91){var v9P=N2O;v9P+=V8X;v9P+=K5O;this[n31](opts[n31]);opts[v9P]=P6t;}$(document)[J9P](A8X+namespace,function(e){var b8X="canReturnSubmit";var n8X="FromNode";var g8X="_field";var B8X="emen";var Z8X="El";var O8X="keyCo";var p8X="ayed";var N9P=X1O;N9P+=C8X;N9P+=p8X;var S9P=O8X;S9P+=n4O;if(e[S9P]===A8O&&that[K5O][N9P]){var V9P=z8X;V9P+=Z8X;V9P+=B8X;V9P+=E0O;var el=$(document[V9P]);if(el){var A9P=g8X;A9P+=n8X;var field=that[A9P](el);if(field[b8X](el)){e[Z81]();}}}});$(document)[C9P](p9P+namespace,function(e){var s8X="onEsc";var c8X="ault";var F8X="ef";var T8X="preventD";var W8X="nRetur";var q8X="fu";var y8X="ieldFrom";var h8X="eturnSubmit";var i8X="canR";var I8X="unc";var m8X="turnSub";var l8X="canRe";var M8X="ode";var e8X="yC";var R8X="splay";var u8X="Code";var w8X="arents";var t8X="Form_B";var d8X=".DTE_";var w8O=39;var G8O=37;var M9P=d8X;M9P+=t8X;M9P+=G8X;M9P+=K5O;var e9P=T5O;e9P+=w8X;var t9P=P81;t9P+=u8X;var z9P=F0O;z9P+=D5O;z9P+=R8X;z9P+=h5O;var O9P=k8X;O9P+=e8X;O9P+=M8X;var el=$(document[K8X]);if(e[O9P]===A8O&&that[K5O][z9P]){var n9P=l8X;n9P+=m8X;n9P+=z5O;n9P+=U1O;var g9P=b1O;g9P+=I8X;g9P+=J6t;g9P+=Q61;var B9P=i8X;B9P+=h8X;var Z9P=g41;Z9P+=y8X;Z9P+=Y1O;Z9P+=P0O;var field=that[Z9P](el);if(field&&typeof field[B9P]===g9P&&field[n9P](el)){var b9P=q8X;b9P+=F3X;if(opts[f8X]===x5t){e[Z81]();that[U5t]();}else if(typeof opts[f8X]===b9P){var d9P=z0O;d9P+=W8X;d9P+=J87.F8O;e[Z81]();opts[d9P](that,e);}}}else if(e[t9P]===g8O){var k9P=Q61;k9P+=p5O;k9P+=K5O;k9P+=J4O;var u9P=Q61;u9P+=p5O;u9P+=K5O;u9P+=J4O;var G9P=T8X;G9P+=F8X;G9P+=c8X;e[G9P]();if(typeof opts[s8X]===x3t){var w9P=Q61;w9P+=p5O;w9P+=X8X;opts[w9P](that,e);}else if(opts[s8X]===j5t){that[e91]();}else if(opts[u9P]===L5t){var R9P=e5O;R9P+=z0O;R9P+=r0t;that[R9P]();}else if(opts[k9P]===x5t){that[U5t]();}}else if(el[e9P](M9P)[f6t]){var m9P=k8X;m9P+=e8X;m9P+=o1t;m9P+=P0O;var K9P=k8X;K9P+=e8X;K9P+=z0O;K9P+=n4O;if(e[K9P]===G8O){var l9P=T5O;l9P+=W1O;l9P+=y1O;el[l9P](H11)[c3t]();}else if(e[m9P]===w8O){var i9P=X8t;i9P+=L5O;var I9P=O8t;I9P+=S81;I9P+=Y2O;I9P+=J87.F8O;el[E8X](I9P)[i9P]();}}});this[K5O][h9X]=function(){var h9P=P81;h9P+=x8X;$(document)[R31](h9P+namespace);$(document)[R31](p81+namespace);};return namespace;};Editor[j3t][y9P]=function(direction,action,data){var j8X="ax";var L8X="legacyAj";var q9P=L8X;q9P+=j8X;if(!this[K5O][q9P]||!data){return;}if(direction===r8X){if(action===D8X||action===M11){var F9P=f0O;F9P+=E0O;var T9P=g2O;T9P+=E0O;T9P+=M5O;var W9P=P0O;W9P+=n1t;W9P+=H4O;var id;$[W9P](data[u9t],function(rowId,values){var Y0X='Editor: Multi-row editing is not supported by the legacy Ajax data format';if(id!==undefined){throw Y0X;}id=rowId;});data[T9P]=data[u9t][id];if(action===F9P){var c9P=D5O;c9P+=F0O;data[c9P]=id;}}else{data[F9t]=$[q01](data[u9t],function(values,id){return id;});delete data[u9t];}}else{var E9P=g2O;E9P+=w9t;var s9P=n1O;s9P+=z0O;s9P+=t4t;if(!data[u9t]&&data[s9P]){var X9P=F0O;X9P+=M5O;X9P+=w9t;data[X9P]=[data[H91]];}else if(!data[E9P]){var x9P=g2O;x9P+=E0O;x9P+=M5O;data[x9P]=[];}}};Editor[L9P][a0X]=function(json){var j9P=X9t;j9P+=H0X;var that=this;if(json[j9P]){var D9P=b1O;D9P+=H2O;D9P+=Y4O;D9P+=s81;var r9P=h7O;r9P+=J4O;r9P+=H4O;$[r9P](this[K5O][D9P],function(name,field){var Q0X="update";var f0X="pd";var Y3P=X9t;Y3P+=H0X;if(json[Y3P][name]!==undefined){var a3P=d0O;a3P+=f0X;a3P+=Y5t;a3P+=P0O;var fieldInst=that[O91](name);if(fieldInst&&fieldInst[a3P]){fieldInst[Q0X](json[P0X][name]);}}});}};Editor[H3P][U0X]=function(el,msg){var A0X="yed";var V0X="tm";var N0X="eOut";var S0X="fad";var J0X="isplayed";var v0X="tabl";var o0X="imat";var P3P=w91;P3P+=E0O;P3P+=y81;var Q3P=Y61;Q3P+=o0X;Q3P+=P0O;var f3P=b1O;f3P+=J87.F8O;var canAnimate=$[f3P][Q3P]?P6t:H6t;if(typeof msg===P3P){var o3P=v0X;o3P+=P0O;var U3P=j5O;U3P+=T5O;U3P+=D5O;msg=msg(this,new DataTable[U3P](this[K5O][o3P]));}el=$(el);if(canAnimate){var v3P=K5O;v3P+=Y2O;v3P+=T5O;el[v3P]();}if(!msg){var J3P=F0O;J3P+=J0X;if(this[K5O][J3P]&&canAnimate){var S3P=S0X;S3P+=N0X;el[S3P](function(){el[N5t](g7O);});}else{var A3P=s2t;A3P+=P0O;var V3P=b2O;V3P+=F41;var N3P=H4O;N3P+=V0X;N3P+=Y4O;el[N3P](g7O)[w3t](V3P,A3P);}}else{var C3P=p8t;C3P+=A0X;if(this[K5O][C3P]&&canAnimate){el[N5t](msg)[W7t]();}else{var O3P=F0O;O3P+=R2O;var p3P=J4O;p3P+=K5O;p3P+=K5O;el[N5t](msg)[p3P](O3P,R0t);}}};Editor[z3P][i5t]=function(){var p0X="multiInfoShown";var C0X="multiE";var Z3P=f51;Z3P+=E0O;Z3P+=H4O;var fields=this[K5O][o91];var include=this[K5O][k31];var show=P6t;var state;if(!include){return;}for(var i=f8O,ien=include[Z3P];i<ien;i++){var B3P=C0X;B3P+=B01;B3P+=V5t;var field=fields[include[i]];var multiEditable=field[B3P]();if(field[R5t]()&&multiEditable&&show){state=P6t;show=H6t;}else if(field[R5t]()&&!multiEditable){state=P6t;}else{state=H6t;}fields[include[i]][p0X](state);}};Editor[j3t][g3P]=function(type){var b0X="focus.editor-";var g0X='submit.editor-internal';var B0X="eFocus";var Z0X="captu";var z0X="iInfo";var O0X="_mult";var M3P=z0O;M3P+=T5O;M3P+=z4t;var e3P=O0X;e3P+=z0X;var t3P=N2O;t3P+=K91;t3P+=P0O;var b3P=z0O;b3P+=b1O;b3P+=b1O;var n3P=Z0X;n3P+=n1O;n3P+=B0X;var that=this;var focusCapture=this[K5O][T01][n3P];if(focusCapture===undefined){focusCapture=P6t;}$(this[e3t][z31])[b3P](g0X)[Q61](g0X,function(e){var n0X="reventDefault";var d3P=T5O;d3P+=n0X;e[d3P]();});if(focusCapture&&(type===E81||type===t3P)){var G3P=b0X;G3P+=c3t;$(S1t)[Q61](G3P,function(){var w0X='.DTE';var G0X="iveElem";var d0X="DTED";var k3P=Y4O;k3P+=M31;k3P+=E0O;k3P+=H4O;var R3P=F2O;R3P+=d0X;var u3P=t0X;u3P+=J87.F8O;u3P+=B41;var w3P=Q41;w3P+=G0X;w3P+=P0O;w3P+=J2O;if($(document[K8X])[Y41](w0X)[f6t]===f8O&&$(document[w3P])[u3P](R3P)[k3P]===f8O){if(that[K5O][T3X]){that[K5O][T3X][c3t]();}}});}this[e3P]();this[D41](M3P,[type,this[K5O][x61]]);return P6t;};Editor[j3t][K3P]=function(type){var e0X="Icb";var k0X='cancelOpen';var R0X="closeI";var u0X='preOpen';var y3P=W01;y3P+=F0O;var m3P=M5O;m3P+=P11;m3P+=y81;var l3P=f1O;l3P+=P0O;l3P+=J87.F8O;l3P+=E0O;if(this[l3P](u0X,[type,this[K5O][m3P]])===H6t){var i3P=R0X;i3P+=J4O;i3P+=O8t;var I3P=x1O;I3P+=Y4O;I3P+=D5O;I3P+=L1O;this[s51]();this[D41](k0X,[type,this[K5O][x61]]);if((this[K5O][u2O]===I3P||this[K5O][u2O]===W91)&&this[K5O][i3P]){var h3P=e5O;h3P+=t2O;h3P+=P0O;h3P+=e0X;this[K5O][h3P]();}this[K5O][h9X]=d3t;return H6t;}this[K5O][y3P]=type;return P6t;};Editor[q3P][W3P]=function(processing){var m0X='div.DTE';var l0X="leClass";var K0X="togg";var M0X="cessing";var X3P=R4O;X3P+=t51;X3P+=Z5t;X3P+=N21;var s3P=z11;s3P+=A2t;s3P+=J87.F8O;s3P+=E0O;var c3P=R4O;c3P+=M0X;var F3P=K0X;F3P+=l0X;var T3P=J4O;T3P+=g8t;T3P+=K5O;T3P+=c7O;var procClass=this[T3P][g3t][z8X];$([m0X,this[e3t][Y3t]])[F3P](procClass,processing);this[K5O][c3P]=processing;this[s3P](X3P,[processing]);};Editor[j3t][E3P]=function(successCallback,errorCallback,formatdata,hide){var Z5X="_ajax";var z5X="rocess";var O5X="Comp";var p5X="ete";var C5X="mpl";var A5X="onCo";var N5X="_pr";var S5X="tCompl";var E0X="hanged";var X0X="fC";var s0X="allI";var c0X="editData";var T0X="ount";var W0X="editC";var q0X="tFields";var y0X="dbT";var h0X="_legacyAja";var i0X="eS";var I0X="xU";var k8P=M5O;k8P+=k01;k8P+=I0X;k8P+=O9X;var u8P=T5O;u8P+=n1O;u8P+=i0X;u8P+=H8X;var w8P=h0X;w8P+=p1O;var a8P=P0O;a8P+=X1O;a8P+=E0O;var D3P=y0X;D3P+=v8t;D3P+=S2O;var r3P=f0O;r3P+=q0X;var j3P=W0X;j3P+=T0X;var L3P=b1O;L3P+=D5O;L3P+=a0O;L3P+=K5O;var x3P=P0O;x3P+=p1O;x3P+=E0O;var that=this;var i,iLen,eventRet,errorNodes;var changed=H6t,allData={},changedData={};var setBuilder=DataTable[x3P][x9t][F0X];var dataSource=this[K5O][J1O];var fields=this[K5O][L3P];var editCount=this[K5O][j3P];var modifier=this[K5O][j61];var editFields=this[K5O][r3P];var editData=this[K5O][c0X];var opts=this[K5O][R91];var changedSubmit=opts[U5t];var submitParamsLocal;var action=this[K5O][x61];var submitParams={"action":action,"data":{}};if(this[K5O][D3P]){var Y8P=y0X;Y8P+=M5O;Y8P+=n5t;Y8P+=P0O;submitParams[E61]=this[K5O][Y8P];}if(action===e81||action===a8P){var O8P=s0X;O8P+=X0X;O8P+=E0X;var p8P=M5O;p8P+=T5t;var C8P=J4O;C8P+=n1O;C8P+=P0O;C8P+=r7t;var H8P=P0O;H8P+=M5O;H8P+=J4O;H8P+=H4O;$[H8P](editFields,function(idSrc,edit){var j0X="Em";var L0X="mptyObje";var x0X="isE";var A8P=x0X;A8P+=L0X;A8P+=P11;var V8P=C0t;V8P+=j0X;V8P+=t5t;V8P+=r0X;var allRowData={};var changedRowData={};$[Q81](fields,function(name,field){var o5X='-many-count';var U5X=/\[.*$/;var P5X="omData";var Q5X="valFr";var f5X="multiG";var H5X="exOf";var Y5X="ttable";var f8P=M91;f8P+=D0X;f8P+=Y5X;if(edit[o91][name]&&field[f8P]()){var S8P=n1O;S8P+=P0O;S8P+=B1O;S8P+=j11;var J8P=a5X;J8P+=I7O;var v8P=x1O;v8P+=F0O;v8P+=H5X;var o8P=f01;o8P+=n1O;o8P+=E51;var Q8P=f5X;Q8P+=G2O;var multiGet=field[Q8P]();var builder=setBuilder(name);if(multiGet[idSrc]===undefined){var U8P=F0O;U8P+=Y5t;U8P+=M5O;var P8P=Q5X;P8P+=P5X;var originalVal=field[P8P](edit[U8P]);builder(allRowData,originalVal);return;}var value=multiGet[idSrc];var manyBuilder=$[o8P](value)&&name[v8P](J8P)!==-Q8O?setBuilder(name[S8P](U5X,g7O)+o5X):d3t;builder(allRowData,value);if(manyBuilder){var N8P=Y4O;N8P+=M31;N8P+=a6t;manyBuilder(allRowData,value[N8P]);}if(action===M11&&(!editData[name]||!field[D0t](value,editData[name][idSrc]))){builder(changedRowData,value);changed=P6t;if(manyBuilder){manyBuilder(changedRowData,value[f6t]);}}}});if(!$[V8P](allRowData)){allData[idSrc]=allRowData;}if(!$[A8P](changedRowData)){changedData[idSrc]=changedRowData;}});if(action===C8P||changedSubmit===p8P||changedSubmit===O8P&&changed){var z8P=F0O;z8P+=M5O;z8P+=E0O;z8P+=M5O;submitParams[z8P]=allData;}else if(changedSubmit===v5X&&changed){var Z8P=F0O;Z8P+=M5O;Z8P+=E0O;Z8P+=M5O;submitParams[Z8P]=changedData;}else{var t8P=J5X;t8P+=S5X;t8P+=G2O;t8P+=P0O;var d8P=N5X;d8P+=V5X;var n8P=A5X;n8P+=C5X;n8P+=p5X;var g8P=z0O;g8P+=J87.F8O;g8P+=O5X;g8P+=B4O;var B8P=M5O;B8P+=J4O;B8P+=u91;B8P+=J87.F8O;this[K5O][B8P]=d3t;if(opts[g8P]===L5t&&(hide===undefined||hide)){this[e9X](H6t);}else if(typeof opts[n8P]===x3t){opts[j3X](this);}if(successCallback){var b8P=J4O;b8P+=M5O;b8P+=T5t;successCallback[b8P](this);}this[d8P](H6t);this[D41](t8P);return;}}else if(action===E41){$[Q81](editFields,function(idSrc,edit){var G8P=F0O;G8P+=M5O;G8P+=E0O;G8P+=M5O;submitParams[u9t][idSrc]=edit[G8P];});}this[w8P](r8X,action,submitParams);submitParamsLocal=$[I9t](P6t,{},submitParams);if(formatdata){formatdata(submitParams);}if(this[D41](u8P,[submitParams,action])===H6t){var R8P=n41;R8P+=z5X;R8P+=N21;this[R8P](H6t);return;}var submitWire=this[K5O][G91]||this[K5O][k8P]?this[Z5X]:this[B5X];submitWire[D3t](this,submitParams,function(json,notGood,xhr){var g5X="_submitSuccess";that[g5X](json,notGood,submitParams,submitParamsLocal,that[K5O][x61],editCount,hide,successCallback,errorCallback,xhr);},function(xhr,err,thrown){var n5X="submitErr";var M8P=v11;M8P+=Q61;var e8P=y5O;e8P+=n5X;e8P+=D8O;that[e8P](xhr,err,thrown,errorCallback,submitParams,that[K5O][M8P]);},submitParams);};Editor[j3t][B5X]=function(data,success,error,submitParams){var e5X="urce";var k5X="So";var R5X="_data";var u5X="dua";var w5X="indiv";var G5X="fnGetObjectDataFn";var t5X="Sr";var i8P=n1O;i8P+=b5X;i8P+=d5X;var I8P=D5O;I8P+=F0O;I8P+=t5X;I8P+=J4O;var m8P=y5O;m8P+=G5X;var l8P=P0O;l8P+=p1O;l8P+=E0O;var K8P=M5O;K8P+=J4O;K8P+=E0O;K8P+=y81;var that=this;var action=data[K8P];var out={data:[]};var idGet=DataTable[l8P][x9t][m8P](this[K5O][I8P]);var idSet=DataTable[B0O][x9t][F0X](this[K5O][E71]);if(action!==i8P){var T8P=h81;T8P+=Q2O;T8P+=n1O;var W8P=w5X;W8P+=D5O;W8P+=u5X;W8P+=Y4O;var q8P=R5X;q8P+=k5X;q8P+=e5X;var y8P=z5O;y8P+=M5O;y8P+=D5O;y8P+=J87.F8O;var h8P=z5O;h8P+=z0O;h8P+=F0O;h8P+=P0O;var originalData=this[K5O][h8P]===y8P?this[q8P](s01,this[j61]()):this[C91](W8P,this[T8P]());$[Q81](data[u9t],function(key,vals){var l5X="Ext";var K5X="aTab";var M5X="Ex";var E8P=g2O;E8P+=w9t;var X8P=h5O;X8P+=U1O;var s8P=g41;s8P+=J87.F8O;s8P+=M5X;s8P+=K2t;var c8P=c9t;c8P+=K5X;c8P+=S2O;c8P+=l5X;var F8P=b1O;F8P+=J87.F8O;var toSave;var extender=$[F8P][c8P][x9t][s8P];if(action===X8P){var rowData=originalData[key][u9t];toSave=extender({},rowData,P6t);toSave=extender(toSave,vals,P6t);}else{toSave=extender({},vals,P6t);}var overrideId=idGet(toSave);if(action===D8X&&overrideId===undefined){idSet(toSave,+new Date()+g7O+key);}else{idSet(toSave,overrideId);}out[E8P][r7O](toSave);});}success(out);};Editor[x8P][L8P]=function(json,notGood,submitParams,submitParamsLocal,action,editCount,hide,successCallback,errorCallback,xhr){var b4X="onComplet";var n4X='postRemove';var g4X="Re";var B4X="_dataSourc";var Z4X="mm";var z4X='postEdit';var O4X="eEd";var p4X='postCreate';var C4X='preCreate';var A4X="crea";var V4X='id';var S4X="_dataSou";var v4X="Data";var o4X='prep';var U4X="mov";var P4X="tSuccess";var Q4X='<br>';var x5X="erro";var E5X="ful";var X5X="submitUnsuccess";var s5X='postSubmit';var c5X='receive';var T5X="dif";var W5X="gacyAja";var q5X="eldErr";var h5X="ieldEr";var i5X="_processi";var I5X="plete";var m5X="ubmitCom";var X0P=K5O;X0P+=m5X;X0P+=I5X;var s0P=y5O;s0P+=Y01;s0P+=Q1O;var c0P=i5X;c0P+=A6t;var Q0P=Y4O;Q0P+=P0O;Q0P+=A6t;Q0P+=a6t;var f0P=b1O;f0P+=h5X;f0P+=D1O;f0P+=y5X;var H0P=Y0O;H0P+=q5X;H0P+=D8O;H0P+=K5O;var Y0P=G5O;Y0P+=n1O;Y0P+=D8O;var D8P=y5O;D8P+=S2O;D8P+=W5X;D8P+=p1O;var r8P=s1O;r8P+=T5X;r8P+=F5X;var j8P=Y0O;j8P+=h2O;j8P+=s81;var that=this;var setData;var fields=this[K5O][j8P];var opts=this[K5O][R91];var modifier=this[K5O][r8P];this[D8P](c5X,action,json);this[D41](s5X,[json,submitParams,action,xhr]);if(!json[Y0P]){var a0P=D21;a0P+=z0O;a0P+=n1O;json[a0P]=J87.X8O;}if(!json[H0P]){json[j21]=[];}if(notGood||json[e8t]||json[f0P][Q0P]){var C0P=X5X;C0P+=E5X;var A0P=x5X;A0P+=n1O;var P0P=P0O;P0P+=g1O;P0P+=z0O;P0P+=n1O;var globalError=[];if(json[P0P]){globalError[r7O](json[e8t]);}$[Q81](json[j21],function(i,err){var f4X=': ';var H4X="nam";var a4X="onFieldError";var Y4X="position";var D5X="_anima";var r5X='focus';var j5X="eldError";var L5X="nF";var field=fields[err[T9t]];if(field[I01]()){var o0P=S91;o0P+=D1O;o0P+=n1O;var U0P=P0O;U0P+=n1O;U0P+=D1O;U0P+=n1O;field[U0P](err[r21]||o0P);if(i===f8O){var S0P=J87.T8O;S0P+=J87.F8O;var v0P=z0O;v0P+=L5X;v0P+=D5O;v0P+=j5X;if(opts[v0P]===r5X){var J0P=D5X;J0P+=W2t;that[J0P]($(that[e3t][z6X],that[K5O][Y3t]),{scrollTop:$(field[r61]())[Y4X]()[h7t]},m8O);field[c3t]();}else if(typeof opts[a4X]===S0P){opts[a4X](that,err);}}}else{var V0P=S91;V0P+=V5O;var N0P=H4X;N0P+=P0O;globalError[r7O](field[N0P]()+f4X+(err[r21]||V0P));}});this[A0P](globalError[q41](Q4X));this[D41](C0P,[json]);if(errorCallback){var p0P=J4O;p0P+=K0t;p0P+=Y4O;errorCallback[p0P](that,json);}}else{var F0P=J5X;F0P+=P4X;var T0P=f1O;T0P+=z4t;T0P+=E0O;var e0P=n1O;e0P+=P0O;e0P+=U4X;e0P+=P0O;var O0P=h5O;O0P+=U1O;var store={};if(json[u9t]&&(action===e81||action===O0P)){var k0P=F0O;k0P+=M5O;k0P+=E0O;k0P+=M5O;var R0P=F7t;R0P+=z5O;R0P+=z5O;R0P+=U1O;var u0P=Z4t;u0P+=E9t;u0P+=c01;this[C91](o4X,action,modifier,submitParamsLocal,json,store);for(var i=f8O;i<json[u9t][f6t];i++){var d0P=P0O;d0P+=X1O;d0P+=E0O;var B0P=R9t;B0P+=v4X;var Z0P=y5O;Z0P+=J4X;var z0P=S4X;z0P+=N4X;z0P+=P0O;setData=json[u9t][i];var id=this[z0P](V4X,setData);this[Z0P](B0P,[json,setData,action]);if(action===e81){var b0P=A4X;b0P+=W2t;var n0P=v6X;n0P+=P0O;var g0P=y5O;g0P+=Y01;g0P+=Q1O;this[g0P](C4X,[json,setData,id]);this[C91](n0P,fields,setData,store);this[D41]([b0P,p4X],[json,setData,id]);}else if(action===d0P){var w0P=P0O;w0P+=F0O;w0P+=D5O;w0P+=E0O;var G0P=y5O;G0P+=P0O;G0P+=y1O;G0P+=Q1O;var t0P=r5O;t0P+=O4X;t0P+=U1O;this[D41](t0P,[json,setData,id]);this[C91](M11,modifier,fields,setData,store);this[G0P]([w0P,z4X],[json,setData,id]);}}this[u0P](R0P,action,modifier,json[k0P],store);}else if(action===e0P){var I0P=F7t;I0P+=Z4X;I0P+=U1O;var m0P=B4X;m0P+=P0O;var l0P=m11;l0P+=z0O;l0P+=A2t;var K0P=V01;K0P+=g4X;K0P+=z5O;K0P+=d5X;var M0P=z11;M0P+=l9X;this[C91](o4X,action,modifier,submitParamsLocal,json,store);this[M0P](K0P,[json,this[a51]()]);this[C91](L6X,modifier,fields,store);this[D41]([l0P,n4X],[json,this[a51]()]);this[m0P](I0P,action,modifier,json[u9t],store);}if(editCount===this[K5O][v8X]){var i0P=y9X;i0P+=r0t;this[K5O][x61]=d3t;if(opts[j3X]===i0P&&(hide===undefined||hide)){var y0P=g2O;y0P+=w9t;var h0P=y5O;h0P+=e5O;h0P+=t2O;h0P+=P0O;this[h0P](json[y0P]?P6t:H6t);}else if(typeof opts[j3X]===x3t){var q0P=b4X;q0P+=P0O;opts[q0P](this);}}if(successCallback){var W0P=J4O;W0P+=M5O;W0P+=Y4O;W0P+=Y4O;successCallback[W0P](that,json);}this[T0P](F0P,[json,setData,action]);}this[c0P](H6t);this[s0P](X0P,[json,setData,action]);};Editor[E0P][x0P]=function(xhr,err,thrown,errorCallback,submitParams,action){var G4X="bmit";var t4X="postSu";var d4X="ys";var a5P=U5t;a5P+=S91;a5P+=V5O;var Y5P=y5O;Y5P+=J4X;var D0P=K5O;D0P+=d4X;D0P+=W2t;D0P+=z5O;var r0P=P0O;r0P+=g1O;r0P+=D8O;var j0P=t4X;j0P+=G4X;var L0P=f1O;L0P+=Q1O;this[L0P](j0P,[d3t,submitParams,action,xhr]);this[e8t](this[m9t][r0P][D0P]);this[o11](H6t);if(errorCallback){errorCallback[D3t](this,xhr,err,thrown);}this[Y5P]([a5P,w4X],[xhr,err,thrown,submitParams]);};Editor[j3t][H5P]=function(fn){var i4X="clos";var m4X="sett";var l4X="tures";var K4X="oFea";var M4X="rSide";var e4X="bServ";var k4X="Ap";var R4X="essing";var u4X="proc";var C5P=b2O;C5P+=Y4O;C5P+=z7O;var A5P=D5O;A5P+=Y21;A5P+=D5O;A5P+=L1O;var V5P=F0O;V5P+=D5O;V5P+=C8X;V5P+=z7O;var J5P=u4X;J5P+=R4X;var P5P=k4X;P5P+=D5O;var Q5P=g2O;Q5P+=q71;Q5P+=v8t;Q5P+=S2O;var f5P=b1O;f5P+=J87.F8O;var that=this;var dt=this[K5O][E61]?new $[f5P][Q5P][P5P](this[K5O][E61]):d3t;var ssp=H6t;if(dt){var v5P=e4X;v5P+=P0O;v5P+=M4X;var o5P=K4X;o5P+=l4X;var U5P=m4X;U5P+=x1O;U5P+=l2O;ssp=dt[U5P]()[f8O][o5P][v5P];}if(this[K5O][J5P]){var S5P=z0O;S5P+=J87.F8O;S5P+=P0O;this[S5P](w4X,function(){var I4X="ra";if(ssp){var N5P=F0O;N5P+=I4X;N5P+=t4t;dt[e5t](N5P,fn);}else{setTimeout(function(){fn();},S8O);}});return P6t;}else if(this[V5P]()===A5P||this[C5P]()===W91){var p5P=i4X;p5P+=P0O;this[e5t](p5P,function(){var h4X="ubmitComplete";var O5P=r5O;O5P+=V5X;if(!that[K5O][O5P]){setTimeout(function(){if(that[K5O]){fn();}},S8O);}else{var z5P=K5O;z5P+=h4X;that[e5t](z5P,function(e,json){var y4X='draw';if(ssp&&json){dt[e5t](y4X,fn);}else{setTimeout(function(){if(that[K5O]){fn();}},S8O);}});}})[e91]();return P6t;}return H6t;};Editor[Z5P][q4X]=function(name,arr){for(var i=f8O,ien=arr[f6t];i<ien;i++){if(name==arr[i]){return i;}}return-Q8O;};Editor[B5P]={"table":d3t,"ajaxUrl":d3t,"fields":[],"display":W4X,"ajax":d3t,"idSrc":T4X,"events":{},"i18n":{"create":{"button":F4X,"title":c4X,"submit":s4X},"edit":{"button":r8O,"title":X4X,"submit":A01},"remove":{"button":g5P,"title":n5P,"submit":b5P,"confirm":{"_":E4X,"1":d5P}},"error":{"system":t5P},multi:{title:x4X,info:L4X,restore:G5P,noMulti:j4X},"datetime":{previous:r4X,next:D4X,months:[w5P,u5P,R5P,k5P,Y1X,a1X,H1X,e5P,f1X,M5P,Q1X,P1X],weekdays:[K5P,l5P,U1X,m5P,o1X,v1X,I5P],amPm:[J1X,i5P],unknown:h41}},formOptions:{bubble:$[I9t]({},Editor[c5t][E5t],{title:H6t,message:H6t,buttons:h5P,submit:y5P}),inline:$[I9t]({},Editor[q5P][E5t],{buttons:H6t,submit:v5X}),main:$[I9t]({},Editor[c5t][E5t])},legacyAjax:H6t};(function(){var n2X='keyless';var S2X="rowIds";var P2X="any";var t1X="indexes";var V1X="ces";var N1X="our";var S1X="dataS";var m1P=H4O;m1P+=E0O;m1P+=z5O;m1P+=Y4O;var n4P=g2O;n4P+=q71;n4P+=M5O;n4P+=z2O;var W5P=S1X;W5P+=N1X;W5P+=V1X;var __dataSources=Editor[W5P]={};var __dtIsSsp=function(dt,editor){var O1X="oFeatures";var p1X="erverSi";var C1X="Typ";var A1X="draw";var F5P=A1X;F5P+=C1X;F5P+=P0O;var T5P=O8t;T5P+=F5O;T5P+=p1X;T5P+=n4O;return dt[j71]()[f8O][O1X][T5P]&&editor[K5O][R91][F5P]!==B8t;};var __dtApi=function(table){var z1X="DataTable";return $(table)[z1X]();};var __dtHighlight=function(node){node=$(node);setTimeout(function(){var B1X='highlight';var Z1X="ddClass";var c5P=M5O;c5P+=Z1X;node[c5P](B1X);setTimeout(function(){var d1X='noHighlight';var b1X="addCla";var n1X="hlight";var g1X="hig";var I8O=550;var X5P=g1X;X5P+=n1X;var s5P=b1X;s5P+=Z5t;node[s5P](d1X)[O2t](X5P);setTimeout(function(){node[O2t](d1X);},I8O);},m8O);},O8O);};var __dtRowSelector=function(out,dt,identifier,fields,idFn){var E5P=P0O;E5P+=M5O;E5P+=J4O;E5P+=H4O;dt[G01](identifier)[t1X]()[E5P](function(idx){var G1X="Unable to find row identi";var C8O=14;var x5P=D1O;x5P+=t4t;var row=dt[x5P](idx);var data=row[u9t]();var idSrc=idFn(data);if(idSrc===undefined){var j5P=G1X;j5P+=b1O;j5P+=F5X;var L5P=P0O;L5P+=u4O;Editor[L5P](j5P,C8O);}out[idSrc]={idSrc:idSrc,data:data,node:row[r61](),fields:fields,type:D5t};});};var __dtFieldsFromIdx=function(dt,fields,idx){var i1X="lease specify the field name.";var I1X="om source. P";var m1X="o automatically determine field fr";var l1X="Unable t";var K1X="editField";var M1X="aoColumns";var e1X="ttin";var k1X="editFi";var R1X="mD";var u1X="eac";var w1X="isEmpt";var Q4P=w1X;Q4P+=r0X;var H4P=u1X;H4P+=H4O;var Y4P=R1X;Y4P+=M5O;Y4P+=w9t;var D5P=k1X;D5P+=h2O;D5P+=F0O;var r5P=r0t;r5P+=e1X;r5P+=l2O;var field;var col=dt[r5P]()[f8O][M1X][idx];var dataSrc=col[K1X]!==undefined?col[D5P]:col[Y4P];var resolvedFields={};var run=function(field,dataSrc){if(field[T9t]()===dataSrc){var a4P=J87.F8O;a4P+=M5O;a4P+=z5O;a4P+=P0O;resolvedFields[field[a4P]()]=field;}};$[H4P](fields,function(name,fieldInst){var f4P=C0t;f4P+=F0t;if($[f4P](dataSrc)){for(var i=f8O;i<dataSrc[f6t];i++){run(fieldInst,dataSrc[i]);}}else{run(fieldInst,dataSrc);}});if($[Q4P](resolvedFields)){var U4P=l1X;U4P+=m1X;U4P+=I1X;U4P+=i1X;var P4P=D21;P4P+=D8O;Editor[P4P](U4P,N8O);}return resolvedFields;};var __dtCellSelector=function(out,dt,identifier,allFields,idFn,forceFields){var v4P=D5O;v4P+=J87.F8O;v4P+=n4O;v4P+=h1X;var o4P=t51;o4P+=T5t;o4P+=K5O;dt[o4P](identifier)[v4P]()[Q81](function(idx){var T1X="column";var W1X="obj";var q1X="Name";var y1X="attac";var Z4P=p8t;Z4P+=P4O;Z4P+=I2O;Z4P+=s81;var z4P=B0O;z4P+=g0O;var O4P=Z7O;O4P+=P0O;O4P+=E0O;var p4P=T5O;p4P+=d0O;p4P+=K5O;p4P+=H4O;var C4P=E11;C4P+=u0t;var A4P=y1X;A4P+=H4O;var V4P=J87.F8O;V4P+=z0O;V4P+=n4O;V4P+=q1X;var N4P=W1X;N4P+=P0O;N4P+=P11;var S4P=n1O;S4P+=z0O;S4P+=t4t;var J4P=D1O;J4P+=t4t;var cell=dt[w1O](idx);var row=dt[J4P](idx[S4P]);var data=row[u9t]();var idSrc=idFn(data);var fields=forceFields||__dtFieldsFromIdx(dt,allFields,idx[T1X]);var isNode=typeof identifier===N4P&&identifier[V4P]||identifier instanceof $;var prevDisplayFields,prevAttach;if(out[idSrc]){prevAttach=out[idSrc][Z51];prevDisplayFields=out[idSrc][p3X];}__dtRowSelector(out,dt,idx[H91],allFields,idFn);out[idSrc][A4P]=prevAttach||[];out[idSrc][C4P][p4P](isNode?$(identifier)[O4P](f8O):cell[r61]());out[idSrc][p3X]=prevDisplayFields||{};$[z4P](out[idSrc][Z4P],fields);});};var __dtColumnSelector=function(out,dt,identifier,fields,idFn){var F1X="ell";var B4P=J4O;B4P+=F1X;B4P+=K5O;dt[B4P](d3t,identifier)[t1X]()[Q81](function(idx){__dtCellSelector(out,dt,idx,fields,idFn);});};var __dtjqId=function(id){var s1X="$1";var c1X="\\";var g4P=c1X;g4P+=s1X;return typeof id===m0t?H51+id[I0t](/(:|\.|\[|\]|,)/g,g4P):H51+id;};__dataSources[n4P]={id:function(data){var x1X="taFn";var E1X="_fnGetObject";var X1X="dSr";var d4P=D5O;d4P+=X1X;d4P+=J4O;var b4P=E1X;b4P+=T61;b4P+=x1X;var idFn=DataTable[B0O][x9t][b4P](this[K5O][d4P]);return idFn(data);},individual:function(identifier,fieldNames){var r1X="pi";var j1X="etObjectDataFn";var L1X="nG";var G4P=g41;G4P+=L1X;G4P+=j1X;var t4P=z0O;t4P+=j5O;t4P+=r1X;var idFn=DataTable[B0O][t4P][G4P](this[K5O][E71]);var dt=__dtApi(this[K5O][E61]);var fields=this[K5O][o91];var out={};var forceFields;var responsiveNode;if(fieldNames){if(!$[P91](fieldNames)){fieldNames=[fieldNames];}forceFields={};$[Q81](fieldNames,function(i,name){forceFields[name]=fields[name];});}__dtCellSelector(out,dt,identifier,fields,idFn,forceFields);return out;},fields:function(identifier){var a2X="lumns";var Y2X="nObject";var D1X="colum";var k4P=J4O;k4P+=h2O;k4P+=Y4O;k4P+=K5O;var R4P=D1X;R4P+=J87.F8O;R4P+=K5O;var u4P=f11;u4P+=Y4O;u4P+=u8t;u4P+=Y2X;var w4P=z0O;w4P+=j5O;w4P+=T5O;w4P+=D5O;var idFn=DataTable[B0O][w4P][L9t](this[K5O][E71]);var dt=__dtApi(this[K5O][E61]);var fields=this[K5O][o91];var out={};if($[u4P](identifier)&&(identifier[G01]!==undefined||identifier[R4P]!==undefined||identifier[k4P]!==undefined)){var M4P=F7t;M4P+=a2X;var e4P=n1O;e4P+=L61;e4P+=K5O;if(identifier[e4P]!==undefined){__dtRowSelector(out,dt,identifier[G01],fields,idFn);}if(identifier[M4P]!==undefined){__dtColumnSelector(out,dt,identifier[H2X],fields,idFn);}if(identifier[f2X]!==undefined){__dtCellSelector(out,dt,identifier[f2X],fields,idFn);}}else{__dtRowSelector(out,dt,identifier,fields,idFn);}return out;},create:function(fields,data){var K4P=w9t;K4P+=O8t;K4P+=Y4O;K4P+=P0O;var dt=__dtApi(this[K5O][K4P]);if(!__dtIsSsp(dt,this)){var m4P=J87.F8O;m4P+=z0O;m4P+=F0O;m4P+=P0O;var l4P=n1O;l4P+=z0O;l4P+=t4t;var row=dt[l4P][f91](data);__dtHighlight(row[m4P]());}},edit:function(identifier,fields,data,store){var J2X="_fnExtend";var v2X="dataTableExt";var o2X="oA";var Q2X="rawType";var h4P=J87.F8O;h4P+=z0O;h4P+=J87.F8O;h4P+=P0O;var i4P=F0O;i4P+=Q2X;var I4P=E0O;I4P+=V5t;var that=this;var dt=__dtApi(this[K5O][I4P]);if(!__dtIsSsp(dt,this)||this[K5O][R91][i4P]===h4P){var q4P=J4O;q4P+=K0t;q4P+=Y4O;var y4P=D5O;y4P+=F0O;var rowId=__dataSources[u7O][y4P][q4P](this,data);var row;try{row=dt[H91](__dtjqId(rowId));}catch(e){row=dt;}if(!row[P2X]()){row=dt[H91](function(rowIdx,rowData,rowNode){var U2X="dataT";var T4P=J4O;T4P+=M5O;T4P+=T5t;var W4P=U2X;W4P+=V5t;return rowId==__dataSources[W4P][F9t][T4P](that,rowData);});}if(row[P2X]()){var X4P=x1O;X4P+=j5O;X4P+=i41;X4P+=P4O;var s4P=F0O;s4P+=M5O;s4P+=E0O;s4P+=M5O;var c4P=o2X;c4P+=T5O;c4P+=D5O;var F4P=b1O;F4P+=J87.F8O;var extender=$[F4P][v2X][c4P][J2X];var toSave=extender({},row[s4P](),P6t);toSave=extender(toSave,data,P6t);row[u9t](toSave);var idx=$[X4P](rowId,store[S2X]);store[S2X][t91](idx,Q8O);}else{var E4P=t5O;E4P+=F0O;row=dt[H91][E4P](data);}__dtHighlight(row[r61]());}},remove:function(identifier,fields,store){var A2X="every";var V2X="ws";var N2X="lled";var x4P=W5t;x4P+=J87.F8O;x4P+=t51;x4P+=N2X;var that=this;var dt=__dtApi(this[K5O][E61]);var cancelled=store[x4P];if(cancelled[f6t]===f8O){var L4P=W1O;L4P+=T1O;dt[G01](identifier)[L4P]();}else{var Y1P=D1O;Y1P+=V2X;var j4P=n1O;j4P+=z0O;j4P+=V2X;var indexes=[];dt[j4P](identifier)[A2X](function(){var D4P=D5O;D4P+=J87.F8O;D4P+=X51;D4P+=E51;var r4P=D5O;r4P+=F0O;var id=__dataSources[u7O][r4P][D3t](that,this[u9t]());if($[D4P](id,cancelled)===-Q8O){indexes[r7O](this[o81]());}});dt[Y1P](indexes)[E41]();}},prep:function(action,identifier,submit,json,store){var z2X="ncelled";var O2X="cancelle";var C2X="cancelled";var a1P=P0O;a1P+=F0O;a1P+=D5O;a1P+=E0O;if(action===a1P){var H1P=F0O;H1P+=Y5t;H1P+=M5O;var cancelled=json[C2X]||[];store[S2X]=$[q01](submit[H1P],function(val,key){var p2X="isEmptyObject";var f1P=F0O;f1P+=M5O;f1P+=E0O;f1P+=M5O;return!$[p2X](submit[f1P][key])&&$[t0t](key,cancelled)===-Q8O?key:undefined;});}else if(action===L6X){var P1P=O2X;P1P+=F0O;var Q1P=W5t;Q1P+=z2X;store[Q1P]=json[P1P]||[];}},commit:function(action,identifier,data,store){var g2X="drawType";var Z2X="rowId";var U1P=E0O;U1P+=M5O;U1P+=O8t;U1P+=S2O;var that=this;var dt=__dtApi(this[K5O][U1P]);if(action===M11&&store[S2X][f6t]){var o1P=Z2X;o1P+=K5O;var ids=store[o1P];var row;var compare=function(id){return function(rowIdx,rowData,rowNode){var B2X="dataTabl";var S1P=W5t;S1P+=T5t;var J1P=D5O;J1P+=F0O;var v1P=B2X;v1P+=P0O;return id==__dataSources[v1P][J1P][S1P](that,rowData);};};for(var i=f8O,ien=ids[f6t];i<ien;i++){var V1P=Y61;V1P+=P4O;try{var N1P=n1O;N1P+=L61;row=dt[N1P](__dtjqId(ids[i]));}catch(e){row=dt;}if(!row[V1P]()){row=dt[H91](compare(ids[i]));}if(row[P2X]()){row[E41]();}}}var drawType=this[K5O][R91][g2X];if(drawType!==B8t){var A1P=F0O;A1P+=n1O;A1P+=M5O;A1P+=t4t;dt[A1P](drawType);}}};function __html_id(identifier){var t2X=" or `id` of: ";var d2X="Could not find an element with `data-editor-id`";var b2X='[data-editor-id="';var context=document;if(identifier!==n2X){var p1P=Y4O;p1P+=M31;p1P+=E0O;p1P+=H4O;context=$(b2X+identifier+a3X);if(context[f6t]===f8O){var C1P=K5O;C1P+=E0O;C1P+=n1O;C1P+=N21;context=typeof identifier===C1P?$(__dtjqId(identifier)):$(identifier);}if(context[p1P]===f8O){var O1P=d2X;O1P+=t2X;throw O1P+identifier;}}return context;}function __html_el(identifier,name){var G2X='[data-editor-field="';var z1P=m7O;z1P+=I7O;var context=__html_id(identifier);return $(G2X+name+z1P,context);}function __html_els(identifier,names){var Z1P=Y6t;Z1P+=X41;var out=$();for(var i=f8O,ien=names[Z1P];i<ien;i++){var B1P=M5O;B1P+=F0O;B1P+=F0O;out=out[B1P](__html_el(identifier,names[i]));}return out;}function __html_get(identifier,dataSrc){var e2X="e]";var k2X="ditor-valu";var R2X="itor";var u2X="ta-ed";var t1P=B5t;t1P+=w2X;var d1P=g2O;d1P+=u2X;d1P+=R2X;d1P+=D0O;var b1P=M5O;b1P+=E0O;b1P+=E0O;b1P+=n1O;var n1P=j9X;n1P+=k2X;n1P+=e2X;var g1P=b1O;g1P+=F7O;g1P+=N71;var el=__html_el(identifier,dataSrc);return el[g1P](n1P)[f6t]?el[b1P](d1P):el[t1P]();}function __html_set(identifier,fields,data){var G1P=P0O;G1P+=M5O;G1P+=J4O;G1P+=H4O;$[G1P](fields,function(name,field){var h2X="r-value";var i2X="ta-edit";var I2X='[data-editor-value]';var l2X="aS";var K2X="romData";var M2X="lF";var w1P=t9t;w1P+=M2X;w1P+=K2X;var val=field[w1P](data);if(val!==undefined){var u1P=c9t;u1P+=l2X;u1P+=N4X;var el=__html_el(identifier,field[u1P]());if(el[m2X](I2X)[f6t]){var R1P=g2O;R1P+=i2X;R1P+=z0O;R1P+=h2X;el[y2X](R1P,val);}else{var l1P=H4O;l1P+=E0O;l1P+=z5O;l1P+=Y4O;el[Q81](function(){var F2X="moveCh";var T2X="Child";var W2X="rst";var q2X="hildNodes";var e1P=Y4O;e1P+=M31;e1P+=E0O;e1P+=H4O;var k1P=J4O;k1P+=q2X;while(this[k1P][e1P]){var K1P=b1O;K1P+=D5O;K1P+=W2X;K1P+=T2X;var M1P=W1O;M1P+=F2X;M1P+=D5O;M1P+=y2O;this[M1P](this[K1P]);}})[l1P](val);}}});}__dataSources[m1P]={id:function(data){var idFn=DataTable[B0O][x9t][L9t](this[K5O][E71]);return idFn(data);},initField:function(cfg){var c2X='[data-editor-label="';var h1P=m7O;h1P+=I7O;var i1P=h11;i1P+=z5O;i1P+=P0O;var I1P=F0O;I1P+=E9t;var label=$(c2X+(cfg[I1P]||cfg[i1P])+h1P);if(!cfg[P3t]&&label[f6t]){var q1P=H4O;q1P+=E0O;q1P+=w2X;var y1P=j0t;y1P+=O8t;y1P+=h2O;cfg[y1P]=label[q1P]();}},individual:function(identifier,fieldNames){var Y7X='Cannot automatically determine field name from data source';var D2X="keyl";var r2X='[data-editor-id]';var j2X='data-editor-field';var L2X="Sel";var x2X="and";var E2X="r-i";var s2X="sA";var r1P=P0O;r1P+=M5O;r1P+=J4O;r1P+=H4O;var j1P=P0O;j1P+=M5O;j1P+=J4O;j1P+=H4O;var L1P=Q2O;L1P+=Y4O;L1P+=s81;var x1P=W5t;x1P+=T5t;var E1P=H4O;E1P+=E0O;E1P+=w2X;var X1P=f51;X1P+=a6t;var s1P=D5O;s1P+=s2X;s1P+=n81;var attachEl;if(identifier instanceof $||identifier[X2X]){var F1P=P0O;F1P+=W2O;F1P+=E2X;F1P+=F0O;var T1P=x2X;T1P+=L2X;T1P+=b1O;attachEl=identifier;if(!fieldNames){var W1P=M5O;W1P+=E0O;W1P+=N4t;fieldNames=[$(identifier)[W1P](j2X)];}var back=$[K7O][r51]?D51:T1P;identifier=$(identifier)[Y41](r2X)[back]()[u9t](F1P);}if(!identifier){var c1P=D2X;c1P+=S01;identifier=c1P;}if(fieldNames&&!$[s1P](fieldNames)){fieldNames=[fieldNames];}if(!fieldNames||fieldNames[X1P]===f8O){throw Y7X;}var out=__dataSources[E1P][o91][x1P](this,identifier);var fields=this[K5O][L1P];var forceFields={};$[j1P](fieldNames,function(i,name){forceFields[name]=fields[name];});$[r1P](out,function(id,set){var H7X="toArray";var a7X='cell';var D1P=E0O;D1P+=P4O;D1P+=T5O;D1P+=P0O;set[D1P]=a7X;set[Z51]=attachEl?$(attachEl):__html_els(identifier,fieldNames)[H7X]();set[o91]=fields;set[p3X]=forceFields;});return out;},fields:function(identifier){var Q7X="eyl";var f7X="ngt";var P2P=n1O;P2P+=z0O;P2P+=t4t;var Y2P=H4O;Y2P+=E0O;Y2P+=w2X;var out={};var self=__dataSources[Y2P];if($[P91](identifier)){var a2P=Y4O;a2P+=P0O;a2P+=f7X;a2P+=H4O;for(var i=f8O,ien=identifier[a2P];i<ien;i++){var H2P=Y0O;H2P+=P0O;H2P+=y2O;H2P+=K5O;var res=self[H2P][D3t](this,identifier[i]);out[identifier[i]]=res[identifier[i]];}return out;}var data={};var fields=this[K5O][o91];if(!identifier){var f2P=o6t;f2P+=Q7X;f2P+=c7O;f2P+=K5O;identifier=f2P;}$[Q81](fields,function(name,field){var P7X="ataSrc";var Q2P=F0O;Q2P+=P7X;var val=__html_get(identifier,field[Q2P]());field[r9t](data,val===d3t?undefined:val);});out[identifier]={idSrc:identifier,data:data,node:document,fields:fields,type:P2P};return out;},create:function(fields,data){if(data){var U2P=D5O;U2P+=F0O;var id=__dataSources[N5t][U2P][D3t](this,data);try{if(__html_id(id)[f6t]){__html_set(id,fields,data);}}catch(e){}}},edit:function(identifier,fields,data){var o2P=D5O;o2P+=F0O;var id=__dataSources[N5t][o2P][D3t](this,data)||n2X;__html_set(id,fields,data);},remove:function(identifier,fields){var v2P=W1O;v2P+=z5O;v2P+=d5X;__html_id(identifier)[v2P]();}};}());Editor[J2P]={"wrapper":e0O,"processing":{"indicator":S2P,"active":g3t},"header":{"wrapper":N2P,"content":V2P},"body":{"wrapper":A2P,"content":U7X},"footer":{"wrapper":o7X,"content":v7X},"form":{"wrapper":C2P,"content":p2P,"tag":J87.X8O,"info":J7X,"error":O2P,"buttons":z2P,"button":S7X},"field":{"wrapper":N7X,"typePrefix":V7X,"namePrefix":A7X,"label":Z2P,"input":C7X,"inputControl":B2P,"error":p7X,"msg-label":O7X,"msg-error":z7X,"msg-message":Z7X,"msg-info":g2P,"multiValue":n2P,"multiInfo":B7X,"multiRestore":b2P,"multiNoEdit":d2P,"disabled":t2P,"processing":g7X},"actions":{"create":G2P,"edit":n7X,"remove":w2P},"inline":{"wrapper":b7X,"liner":u2P,"buttons":R2P},"bubble":{"wrapper":d7X,"liner":t7X,"table":k2P,"close":e2P,"pointer":M2P,"bg":G7X}};(function(){var T6Y="removeSingle";var W6Y='selectedSingle';var R6Y="formMessage";var d6Y='buttons-edit';var V6Y='buttons-create';var v6Y="confirm";var E7X="editor_remove";var W7X="select_single";var q7X="subm";var y7X="formButtons";var h7X="or_";var i7X="ditor_ed";var I7X="xte";var K7X="TableTools";var M7X="elect";var e7X="-remove";var k7X="gle";var R7X="editSin";var u7X="ditSingl";var B6H=N9X;B6H+=D4t;var Z6H=B0O;Z6H+=g0O;var z6H=w7X;z6H+=F0O;var O6H=P0O;O6H+=u7X;O6H+=P0O;var p6H=f0O;p6H+=E0O;var C6H=R7X;C6H+=k7X;var r7P=n31;r7P+=e7X;var E7P=H91;E7P+=K5O;var X7P=K5O;X7P+=M7X;X7P+=h5O;var N7P=M2t;N7P+=E0O;if(DataTable[K7X]){var E2P=l7X;E2P+=m7X;E2P+=E0O;var X2P=P0O;X2P+=I7X;X2P+=J87.F8O;X2P+=F0O;var y2P=P0O;y2P+=i7X;y2P+=U1O;var I2P=E0O;I2P+=P0O;I2P+=p1O;I2P+=E0O;var m2P=P0O;m2P+=I7X;m2P+=D4t;var l2P=f0O;l2P+=E0O;l2P+=h7X;l2P+=e81;var K2P=J6X;K2P+=S6X;var ttButtons=DataTable[K2P][N6X];var ttButtonBase={sButtonText:d3t,editor:d3t,formTitle:d3t};ttButtons[l2P]=$[m2P](P6t,ttButtons[I2P],ttButtonBase,{formButtons:[{label:d3t,fn:function(e){this[U5t]();}}],fnClick:function(button,config){var h2P=J4O;h2P+=l81;h2P+=W2t;var editor=config[n11];var i18nCreate=editor[m9t][e81];var buttons=config[y7X];if(!buttons[f8O][P3t]){var i2P=q7X;i2P+=U1O;buttons[f8O][P3t]=i18nCreate[i2P];}editor[h2P]({title:i18nCreate[J3t],buttons:buttons});}});ttButtons[y2P]=$[I9t](P6t,ttButtons[W7X],ttButtonBase,{formButtons:[{label:d3t,fn:function(e){this[U5t]();}}],fnClick:function(button,config){var X7X="SelectedIndexe";var s7X="fnGet";var c7X="rmBu";var F7X="labe";var T7X="tit";var s2P=T7X;s2P+=Y4O;s2P+=P0O;var F2P=F7X;F2P+=Y4O;var T2P=B6t;T2P+=c7X;T2P+=G51;T2P+=V2O;var W2P=P0O;W2P+=X1O;W2P+=g6X;var q2P=s7X;q2P+=X7X;q2P+=K5O;var selected=this[q2P]();if(selected[f6t]!==Q8O){return;}var editor=config[W2P];var i18nEdit=editor[m9t][q81];var buttons=config[T2P];if(!buttons[f8O][F2P]){var c2P=G3X;c2P+=O8t;c2P+=k9X;buttons[f8O][P3t]=i18nEdit[c2P];}editor[q81](selected[f8O],{title:i18nEdit[s2P],buttons:buttons});}});ttButtons[E7X]=$[X2P](P6t,ttButtons[E2P],ttButtonBase,{question:d3t,formButtons:[{label:d3t,fn:function(e){var that=this;this[U5t](function(json){var D7X="fnSelectNone";var r7X="fnGetInstance";var j7X="aTa";var L7X="Dat";var x7X="no";var r2P=x7X;r2P+=F0O;r2P+=P0O;var j2P=L7X;j2P+=j7X;j2P+=O8t;j2P+=S2O;var L2P=E0O;L2P+=V5t;var x2P=b1O;x2P+=J87.F8O;var tt=$[x2P][u7O][K7X][r7X]($(that[K5O][L2P])[j2P]()[E61]()[r2P]());tt[D7X]();});}}],fnClick:function(button,config){var J6Y="abe";var o6Y="edIndexes";var U6Y="fnGetSelect";var P6Y="formBu";var Q6Y="confi";var f6Y="confir";var H6Y="nfi";var a6Y="epla";var Y6Y="itl";var S7P=E0O;S7P+=Y6Y;S7P+=P0O;var J7P=S2O;J7P+=J87.F8O;J7P+=k3X;J7P+=H4O;var v7P=n1O;v7P+=a6Y;v7P+=J4O;v7P+=P0O;var P7P=F7t;P7P+=H6Y;P7P+=n1O;P7P+=z5O;var Q7P=f6Y;Q7P+=z5O;var f7P=Q6Y;f7P+=c41;var H7P=L0O;H7P+=n1O;H7P+=D5O;H7P+=A6t;var a7P=P6Y;a7P+=K0O;var Y7P=n1O;Y7P+=P0O;Y7P+=s1O;Y7P+=A2t;var D2P=U6Y;D2P+=o6Y;var rows=this[D2P]();if(rows[f6t]===f8O){return;}var editor=config[n11];var i18nRemove=editor[m9t][Y7P];var buttons=config[a7P];var question=typeof i18nRemove[v6Y]===H7P?i18nRemove[f7P]:i18nRemove[Q7P][rows[f6t]]?i18nRemove[v6Y][rows[f6t]]:i18nRemove[P7P][y5O];if(!buttons[f8O][P3t]){var o7P=M91;o7P+=D0X;o7P+=E0O;var U7P=Y4O;U7P+=J6Y;U7P+=Y4O;buttons[f8O][U7P]=i18nRemove[o7P];}editor[E41](rows,{message:question[v7P](/%d/g,rows[J7P]),title:i18nRemove[S7P],buttons:buttons});}});}var _buttons=DataTable[N7P][n31];$[I9t](_buttons,{create:{text:function(dt,node,config){var N6Y='buttons.create';var p7P=v6X;p7P+=P0O;var C7P=H81;C7P+=g5t;C7P+=J87.F8O;var A7P=P0O;A7P+=S6Y;var V7P=D5O;V7P+=T2O;V7P+=g5t;V7P+=J87.F8O;return dt[V7P](N6Y,config[A7P][C7P][p7P][X5t]);},className:V6Y,editor:d3t,formButtons:{text:function(editor){return editor[m9t][e81][U5t];},action:function(e){var O7P=q7X;O7P+=D5O;O7P+=E0O;this[O7P]();}},formMessage:d3t,formTitle:d3t,action:function(e,dt,node,config){var z6Y="mB";var O6Y="reOp";var p6Y="ton";var C6Y="ormBut";var A6Y="formTi";var u7P=E0O;u7P+=D5O;u7P+=E0O;u7P+=S2O;var w7P=H81;w7P+=g5t;w7P+=J87.F8O;var G7P=A6Y;G7P+=J8X;var t7P=z31;t7P+=J0t;t7P+=S0t;var d7P=b1O;d7P+=C6Y;d7P+=p6Y;d7P+=K5O;var b7P=v6X;b7P+=P0O;var g7P=T5O;g7P+=O6Y;g7P+=z4t;var B7P=z0O;B7P+=J87.F8O;B7P+=P0O;var Z7P=P31;Z7P+=z6Y;Z7P+=G8X;Z7P+=K5O;var z7P=N0O;z7P+=n1O;var that=this;var editor=config[z7P];var buttons=config[Z7P];this[g3t](P6t);editor[B7P](g7P,function(){var Z6Y="processi";var n7P=Z6Y;n7P+=A6t;that[n7P](H6t);})[b7P]({buttons:config[d7P],message:config[t7P],title:config[G7P]||editor[w7P][e81][u7P]});}},edit:{extend:B6Y,text:function(dt,node,config){var b6Y="tons.edit";var e7P=g6Y;e7P+=J87.F8O;var k7P=n6Y;k7P+=J87.F8O;var R7P=O71;R7P+=b6Y;return dt[m9t](R7P,config[n11][k7P][q81][e7P]);},className:d6Y,editor:d3t,formButtons:{text:function(editor){var K7P=K5O;K7P+=H8X;var M7P=P0O;M7P+=F0O;M7P+=D5O;M7P+=E0O;return editor[m9t][M7P][K7P];},action:function(e){this[U5t]();}},formMessage:d3t,formTitle:d3t,action:function(e,dt,node,config){var k6Y="formTitle";var w6Y="exes";var t6Y="Open";var s7P=J6t;s7P+=J8X;var c7P=h5O;c7P+=D5O;c7P+=E0O;var T7P=T5O;T7P+=n1O;T7P+=P0O;T7P+=t6Y;var W7P=z0O;W7P+=J87.F8O;W7P+=P0O;var q7P=J71;q7P+=Z7O;var y7P=Y6t;y7P+=Z7O;y7P+=E0O;y7P+=H4O;var h7P=G6Y;h7P+=P0O;h7P+=h1X;var i7P=x1O;i7P+=n4O;i7P+=h1X;var I7P=D5O;I7P+=J87.F8O;I7P+=F0O;I7P+=w6Y;var m7P=n1O;m7P+=z0O;m7P+=t4t;m7P+=K5O;var l7P=f0O;l7P+=E0O;l7P+=z0O;l7P+=n1O;var that=this;var editor=config[l7P];var rows=dt[m7P]({selected:P6t})[I7P]();var columns=dt[H2X]({selected:P6t})[i7P]();var cells=dt[f2X]({selected:P6t})[h7P]();var items=columns[f6t]||cells[y7P]?{rows:rows,columns:columns,cells:cells}:rows;this[q7P](P6t);editor[W7P](T7P,function(){var u6Y="proces";var F7P=u6Y;F7P+=i4O;that[F7P](H6t);})[c7P](items,{message:config[R6Y],buttons:config[y7X],title:config[k6Y]||editor[m9t][q81][s7P]});}},remove:{extend:X7P,limitTo:[E7P],text:function(dt,node,config){var e6Y='buttons.remove';var j7P=N2O;j7P+=G51;j7P+=z0O;j7P+=J87.F8O;var L7P=P0O;L7P+=X1O;L7P+=g6X;var x7P=D5O;x7P+=T2O;x7P+=g5t;x7P+=J87.F8O;return dt[x7P](e6Y,config[L7P][m9t][E41][j7P]);},className:r7P,editor:d3t,formButtons:{text:function(editor){return editor[m9t][E41][U5t];},action:function(e){this[U5t]();}},formMessage:function(editor,dt){var I6Y="ndexes";var m6Y="18n";var l6Y="onfirm";var K6Y="nfirm";var P6H=f51;P6H+=a6t;var Q6H=W1O;Q6H+=M6Y;Q6H+=J4O;Q6H+=P0O;var f6H=F7t;f6H+=K6Y;var H6H=i6X;H6H+=Z7O;var a6H=J4O;a6H+=l6Y;var Y6H=D5O;Y6H+=m6Y;var D7P=D5O;D7P+=I6Y;var rows=dt[G01]({selected:P6t})[D7P]();var i18n=editor[Y6H][E41];var question=typeof i18n[a6H]===H6H?i18n[v6Y]:i18n[v6Y][rows[f6t]]?i18n[v6Y][rows[f6t]]:i18n[f6H][y5O];return question[Q6H](/%d/g,rows[P6H]);},formTitle:d3t,action:function(e,dt,node,config){var q6Y="proce";var h6Y="Butto";var A6H=J6t;A6H+=J8X;var V6H=i6Y;V6H+=A2t;var N6H=z31;N6H+=r2O;N6H+=U1O;N6H+=S2O;var S6H=P31;S6H+=z5O;S6H+=h6Y;S6H+=p51;var J6H=C9X;J6H+=h1X;var v6H=T5O;v6H+=n1O;v6H+=y6Y;v6H+=O21;var o6H=z0O;o6H+=L1O;var U6H=q6Y;U6H+=b01;var that=this;var editor=config[n11];this[U6H](P6t);editor[o6H](v6H,function(){that[g3t](H6t);})[E41](dt[G01]({selected:P6t})[J6H](),{buttons:config[S6H],message:config[R6Y],title:config[N6H]||editor[m9t][V6H][A6H]});}}});_buttons[C6H]=$[I9t]({},_buttons[p6H]);_buttons[O6H][z6H]=W6Y;_buttons[T6Y]=$[Z6H]({},_buttons[E41]);_buttons[T6Y][B6H]=W6Y;}());Editor[W9t]={};Editor[g6H]=function(input,opts){var v3Y=/[haA]/;var o3Y=/[Hhm]|LT|LTS/;var U3Y="match";var P3Y=/[YMD]|L(?!T)|l/;var a3Y='-calendar';var L9Y='-time">';var x9Y='-calendar"/>';var E9Y='-month"/>';var X9Y="previous";var s9Y='-title">';var F9Y='<button>';var W9Y='<span/>';var q9Y='-label">';var u9Y=" datetime: Without momentjs only the format 'YYYY-MM-DD' can be used";var t9Y="Ti";var d9Y="Date";var b9Y="ults";var n9Y="efa";var g9Y="YY-MM-";var B9Y="Y";var Z9Y="v ";var z9Y="div cl";var O9Y="ate\">";var p9Y="-d";var C9Y="v clas";var A9Y=" cl";var V9Y="ft\">";var N9Y="Le";var S9Y="Right\">";var J9Y="icon";var o9Y="<div class";var U9Y="<select ";var f9Y="<sp";var H9Y="ct class=";var a9Y="<sel";var Y9Y="r\"/>";var D6Y="-ye";var r6Y=" c";var j6Y="ror\"/";var L6Y="-e";var x6Y="-titl";var E6Y="-err";var X6Y="itor-dateime-";var s6Y="atch";var c6Y="exO";var F6Y="tch";var G9H=F0O;G9H+=z0O;G9H+=z5O;var t9H=x1t;t9H+=O21;t9H+=F0O;var d9H=M5O;d9H+=T5O;d9H+=T5O;d9H+=g0O;var b9H=P0O;b9H+=n1O;b9H+=V5O;var n9H=x1t;n9H+=b9X;var g9H=F0O;g9H+=M5O;g9H+=W2t;var B9H=z5O;B9H+=M5O;B9H+=F6Y;var Z9H=P31;Z9H+=J5t;var z9H=G6Y;z9H+=c6Y;z9H+=b1O;var O9H=z5O;O9H+=s6Y;var p9H=h5O;p9H+=X6Y;var C9H=E6Y;C9H+=D8O;var A9H=b1O;A9H+=D5O;A9H+=J87.F8O;A9H+=F0O;var V9H=e6t;V9H+=E0O;V9H+=D5O;V9H+=v0O;var N9H=Y0O;N9H+=D4t;var S9H=x6Y;S9H+=P0O;var J9H=Y0O;J9H+=D4t;var v9H=e6t;v9H+=v01;var o9H=R6t;o9H+=Q9t;o9H+=G6t;var U9H=L6Y;U9H+=n1O;U9H+=j6Y;U9H+=G6t;var P9H=Y9t;P9H+=r6Y;P9H+=V9t;var Q9H=R6t;Q9H+=q6t;Q9H+=X1O;Q9H+=u6t;var f9H=t6t;f9H+=t71;var H9H=D6Y;H9H+=M5O;H9H+=Y9Y;var a9H=a9Y;a9H+=P0O;a9H+=H9Y;a9H+=m7O;var Y9H=f9Y;Y9H+=M5O;Y9H+=J87.F8O;Y9H+=Q9Y;var D6H=l51;D6H+=P9Y;D6H+=e5O;D6H+=I51;var r6H=U9Y;r6H+=e5O;r6H+=d11;r6H+=K51;var j6H=o9Y;j6H+=f9t;var L6H=R6t;L6H+=v9Y;L6H+=D5O;L6H+=u6t;var x6H=h6t;x6H+=X5t;x6H+=G6t;var E6H=J87.F8O;E6H+=M2t;E6H+=E0O;var X6H=e6t;X6H+=J9Y;X6H+=S9Y;var s6H=e6t;s6H+=J9Y;s6H+=N9Y;s6H+=V9Y;var c6H=Y9t;c6H+=A9Y;c6H+=M5O;c6H+=f31;var F6H=J9t;F6H+=C9Y;F6H+=K51;var T6H=p9Y;T6H+=O9Y;var W6H=R6t;W6H+=z9Y;W6H+=I51;var q6H=J9t;q6H+=Z9Y;q6H+=J4O;q6H+=V9t;var w6H=B9Y;w6H+=B9Y;w6H+=g9Y;w6H+=S0O;var G6H=b1O;G6H+=z0O;G6H+=c41;G6H+=Y5t;var t6H=n6Y;t6H+=J87.F8O;var d6H=F0O;d6H+=n9Y;d6H+=b9Y;var b6H=d9Y;b6H+=t9Y;b6H+=v0O;var n6H=P0O;n6H+=p1O;n6H+=W2t;n6H+=D4t;this[J4O]=$[n6H](P6t,{},Editor[b6H][d6H],opts);var classPrefix=this[J4O][G9Y];var i18n=this[J4O][t6H];if(!window[w9Y]&&this[J4O][G6H]!==w6H){var u6H=l7O;u6H+=u9Y;throw u6H;}var timeBlock=function(type){var T9Y='<select class="';var h9Y='-timeblock">';var i9Y="<div cla";var I9Y="p\">";var m9Y="iconU";var l9Y="utton>";var K9Y="ous";var M9Y="vi";var e9Y="wn\"";var k9Y="nDo";var R9Y="-ico";var y6H=h6t;y6H+=F0O;y6H+=y6t;y6H+=G6t;var h6H=h6t;h6H+=g6Y;h6H+=T6t;var i6H=R9Y;i6H+=k9Y;i6H+=e9Y;i6H+=G6t;var I6H=h6t;I6H+=F0O;I6H+=t71;var m6H=m7O;m6H+=q6t;m6H+=G6t;var l6H=Y9t;l6H+=a9t;l6H+=l71;var K6H=T5O;K6H+=W1O;K6H+=M9Y;K6H+=K9Y;var M6H=J81;M6H+=l9Y;var e6H=e6t;e6H+=m9Y;e6H+=I9Y;var k6H=a4t;k6H+=M5O;k6H+=f31;var R6H=i9Y;R6H+=Z5t;R6H+=f9t;return R6H+classPrefix+h9Y+k6H+classPrefix+e6H+M6H+i18n[K6H]+y9Y+O3t+l6H+classPrefix+q9Y+W9Y+T9Y+classPrefix+h41+type+m6H+I6H+D9t+classPrefix+i6H+F9Y+i18n[E8X]+h6H+y6H+O3t;};var gap=function(){var c9Y='<span>:</span>';return c9Y;};var structure=$(q6H+classPrefix+f3t+W6H+classPrefix+T6H+F6H+classPrefix+s9Y+c6H+classPrefix+s6H+F9Y+i18n[X9Y]+y9Y+O3t+D9t+classPrefix+X6H+F9Y+i18n[E6H]+x6H+L6H+j6H+classPrefix+q9Y+W9Y+r6H+classPrefix+E9Y+O3t+D6H+classPrefix+q9Y+Y9H+a9H+classPrefix+H9H+f9H+O3t+D9t+classPrefix+x9Y+Q9H+P9H+classPrefix+L9Y+timeBlock(j9Y)+gap()+timeBlock(r9Y)+gap()+timeBlock(D9Y)+timeBlock(Y3Y)+O3t+D9t+classPrefix+U9H+o9H);this[e3t]={container:structure,date:structure[d01](T51+classPrefix+v9H),title:structure[J9H](T51+classPrefix+S9H),calendar:structure[d01](T51+classPrefix+a3Y),time:structure[N9H](T51+classPrefix+V9H),error:structure[A9H](T51+classPrefix+C9H),input:$(input)};this[K5O]={d:d3t,display:d3t,namespace:p9H+Editor[H3Y][f3Y]++,parts:{date:this[J4O][Q3Y][O9H](P3Y)!==d3t,time:this[J4O][Q3Y][U3Y](o3Y)!==d3t,seconds:this[J4O][Q3Y][z9H](n7O)!==-Q8O,hours12:this[J4O][Z9H][B9H](v3Y)!==d3t}};this[e3t][Z8t][U0t](this[e3t][g9H])[n9H](this[e3t][J3Y])[U0t](this[e3t][b9H]);this[e3t][v01][d9H](this[e3t][J3t])[t9H](this[G9H][S3Y]);this[M7O]();};$[w9H](Editor[H3Y][u9H],{destroy:function(){var A3Y='.editor-datetime';var M9H=c1O;M9H+=b1O;var e9H=D5O;e9H+=N3Y;e9H+=d0O;e9H+=E0O;var k9H=M2O;k9H+=z5O;var R9H=P0O;R9H+=V3Y;R9H+=c4O;this[T2t]();this[e3t][Z8t][R31]()[R9H]();this[k9H][e9H][M9H](A3Y);},errorMsg:function(msg){var error=this[e3t][e8t];if(msg){var K9H=B5t;K9H+=w2X;error[K9H](msg);}else{var l9H=P0O;l9H+=z5O;l9H+=T5O;l9H+=c4O;error[l9H]();}},hide:function(){var C3Y="_hid";var m9H=C3Y;m9H+=P0O;this[m9H]();},max:function(date){var O3Y="_optionsTitle";this[J4O][p3Y]=date;this[O3Y]();this[z3Y]();},min:function(date){var n3Y="sTitle";var B3Y="etCalan";var i9H=Z3Y;i9H+=B3Y;i9H+=p11;var I9H=g3Y;I9H+=Q61;I9H+=n3Y;this[J4O][b3Y]=date;this[I9H]();this[i9H]();},owns:function(node){var y9H=S2O;y9H+=J87.F8O;y9H+=Z7O;y9H+=a6t;var h9H=F0O;h9H+=z0O;h9H+=z5O;return $(node)[Y41]()[m2X](this[h9H][Z8t])[y9H]>f8O;},val:function(set,write){var I3Y="setUTCDate";var K3Y="_writeOutp";var M3Y=/(\d{4})\-(\d{2})\-(\d{2})/;var e3Y="isValid";var k3Y="momentStrict";var u3Y="toD";var w3Y="oUtc";var t3Y="Title";var x9H=d3Y;x9H+=t3Y;var E9H=I3t;E9H+=T5O;E9H+=j0t;E9H+=P4O;if(set===undefined){return this[K5O][F0O];}if(set instanceof Date){var q9H=G3Y;q9H+=P0O;q9H+=r2O;q9H+=w3Y;this[K5O][F0O]=this[q9H](set);}else if(set===d3t||set===g7O){this[K5O][F0O]=d3t;}else if(typeof set===m0t){if(window[w9Y]){var T9H=u3Y;T9H+=M5O;T9H+=E0O;T9H+=P0O;var W9H=d0O;W9H+=E0O;W9H+=J4O;var m=window[w9Y][W9H](set,this[J4O][Q3Y],this[J4O][R3Y],this[J4O][k3Y]);this[K5O][F0O]=m[e3Y]()?m[T9H]():d3t;}else{var c9H=H9X;c9H+=r2O;c9H+=z81;var F9H=z5O;F9H+=Y5t;F9H+=J4O;F9H+=H4O;var match=set[F9H](M3Y);this[K5O][F0O]=match?new Date(Date[c9H](match[Q8O],match[P8O]-Q8O,match[U8O])):d3t;}}if(write||write===undefined){if(this[K5O][F0O]){var s9H=K3Y;s9H+=S81;this[s9H]();}else{var X9H=F0O;X9H+=z0O;X9H+=z5O;this[X9H][l3Y][z0t](set);}}if(!this[K5O][F0O]){this[K5O][F0O]=this[m3Y](new Date());}this[K5O][Y0t]=new Date(this[K5O][F0O][O3X]());this[K5O][E9H][I3Y](Q8O);this[x9H]();this[z3Y]();this[i3Y]();},_constructor:function(){var q8Y="_correctMonth";var w8Y='select';var g8Y='autocomplete';var B8Y="amPm";var Z8Y='pm';var O8Y="secondsIncrement";var p8Y="minutesIncrement";var C8Y="_optionsTime";var A8Y="last";var V8Y='div.editor-datetime-timeblock';var v8Y="atetime-timeb";var o8Y="div.editor-d";var U8Y="seconds";var P8Y="parts";var Q8Y="onChange";var f8Y="iner";var H8Y="tim";var a8Y="rt";var D3Y="s12";var r3Y="hour";var j3Y="tionsTitle";var x3Y="12";var E3Y="ours";var X3Y="onsTim";var c3Y="editor-dat";var F3Y="ditor-datetime click.";var T3Y="focus.e";var W3Y="tetime";var q3Y="r-da";var y3Y="keyup.edit";var h3Y="hange";var S8H=z0O;S8H+=J87.F8O;var W3H=J4O;W3H+=h3Y;var q3H=F0O;q3H+=z0O;q3H+=z5O;var m3H=y3Y;m3H+=z0O;m3H+=q3Y;m3H+=W3Y;var l3H=z0O;l3H+=J87.F8O;var u3H=T3Y;u3H+=F3Y;u3H+=c3Y;u3H+=A0O;var w3H=z0O;w3H+=J87.F8O;var G3H=z0O;G3H+=b1O;G3H+=b1O;var t3H=M5O;t3H+=s3Y;var d3H=F0O;d3H+=z0O;d3H+=z5O;var b3H=K5O;b3H+=P0O;b3H+=S8t;b3H+=s81;var n3H=g3Y;n3H+=X3Y;n3H+=P0O;var g3H=H4O;g3H+=E3Y;g3H+=x3Y;var B3H=H4O;B3H+=z0O;B3H+=L3Y;var Z3H=y5O;Z3H+=X9t;Z3H+=j3Y;var p3H=r3Y;p3H+=D3Y;var o3H=Y8Y;o3H+=a8Y;o3H+=K5O;var f3H=H8Y;f3H+=P0O;var r9H=F0O;r9H+=M5O;r9H+=E0O;r9H+=P0O;var j9H=S8t;j9H+=w9t;j9H+=f8Y;var L9H=F0O;L9H+=D4O;var that=this;var classPrefix=this[J4O][G9Y];var container=this[L9H][j9H];var i18n=this[J4O][m9t];var onChange=this[J4O][Q8Y];if(!this[K5O][P8Y][r9H]){var H3H=I3t;H3H+=Y4t;var a3H=J4O;a3H+=K5O;a3H+=K5O;var Y3H=F0O;Y3H+=Y5t;Y3H+=P0O;var D9H=F0O;D9H+=z0O;D9H+=z5O;this[D9H][Y3H][a3H](H3H,B8t);}if(!this[K5O][P8Y][f3H]){var U3H=J87.F8O;U3H+=z0O;U3H+=J87.F8O;U3H+=P0O;var P3H=I3t;P3H+=Y4t;var Q3H=M5t;Q3H+=K5O;this[e3t][J3Y][Q3H](P3H,U3H);}if(!this[K5O][o3H][U8Y]){var C3H=J4O;C3H+=X91;C3H+=P0O;C3H+=J87.F8O;var A3H=E0O;A3H+=p0O;A3H+=P0O;var V3H=F0O;V3H+=D4O;var N3H=P0O;N3H+=E91;var S3H=o8Y;S3H+=v8Y;S3H+=J8Y;var J3H=E0O;J3H+=D5O;J3H+=z5O;J3H+=P0O;var v3H=F0O;v3H+=z0O;v3H+=z5O;this[v3H][J3H][e1t](S3H)[N3H](P8O)[E41]();this[V3H][A3H][C3H](S8Y)[N8Y](Q8O)[E41]();}if(!this[K5O][P8Y][p3H]){var z3H=i6Y;z3H+=A2t;var O3H=F0O;O3H+=z0O;O3H+=z5O;this[O3H][J3Y][e1t](V8Y)[A8Y]()[z3H]();}this[Z3H]();this[C8Y](B3H,this[K5O][P8Y][g3H]?V8O:Z8O,Q8O);this[C8Y](r9Y,k8O,this[J4O][p8Y]);this[n3H](b3H,k8O,this[J4O][O8Y]);this[z8Y](Y3Y,[J1X,Z8Y],i18n[B8Y]);this[d3H][l3Y][t3H](g8Y,G3H)[w3H](u3H,function(){var t8Y="visib";var d8Y=":";var b8Y="sabl";var n8Y=":di";var K3H=y5O;K3H+=U11;var M3H=n8Y;M3H+=b8Y;M3H+=h5O;var e3H=d8Y;e3H+=t8Y;e3H+=S2O;var k3H=D5O;k3H+=K5O;var R3H=F0O;R3H+=z0O;R3H+=z5O;if(that[R3H][Z8t][k3H](e3H)||that[e3t][l3Y][C0t](M3H)){return;}that[z0t](that[e3t][l3Y][z0t](),H6t);that[K3H]();})[l3H](m3H,function(){var G8Y=":visib";var i3H=G8Y;i3H+=S2O;var I3H=D5O;I3H+=K5O;if(that[e3t][Z8t][I3H](i3H)){var y3H=D5O;y3H+=N3Y;y3H+=S81;var h3H=F0O;h3H+=z0O;h3H+=z5O;that[z0t](that[h3H][y3H][z0t](),H6t);}});this[q3H][Z8t][Q61](W3H,w8Y,function(){var H0Y="setTim";var a0Y="tput";var Y0Y="eOu";var D8Y="_writ";var r8Y="_writeOutput";var j8Y="setUTCH";var L8Y="setUTCHours";var x8Y='-ampm';var E8Y="hours";var X8Y="Time";var s8Y='-hours';var c8Y="_setTitle";var F8Y="Year";var T8Y="UTCFull";var W8Y='-year';var y8Y="tTit";var h8Y="_se";var i8Y="nder";var I8Y="_setCal";var m8Y="Cl";var K8Y="asC";var M8Y="-am";var e8Y="nute";var k8Y="-m";var R8Y="-seco";var u8Y="_positi";var J8H=u8Y;J8H+=Q61;var v8H=F0O;v8H+=D4O;var o8H=R8Y;o8H+=J87.F8O;o8H+=s81;var Q8H=k8Y;Q8H+=D5O;Q8H+=e8Y;Q8H+=K5O;var x3H=M8Y;x3H+=T5O;x3H+=z5O;var E3H=H4O;E3H+=K8Y;E3H+=b8t;var F3H=e6t;F3H+=s1O;F3H+=l8Y;var T3H=E7O;T3H+=K5O;T3H+=m8Y;T3H+=z9t;var select=$(this);var val=select[z0t]();if(select[T3H](classPrefix+F3H)){var s3H=I8Y;s3H+=M5O;s3H+=i8Y;var c3H=h8Y;c3H+=y8Y;c3H+=Y4O;c3H+=P0O;that[q8Y](that[K5O][Y0t],val);that[c3H]();that[s3H]();}else if(select[q8t](classPrefix+W8Y)){var X3H=R9t;X3H+=T8Y;X3H+=F8Y;that[K5O][Y0t][X3H](val);that[c8Y]();that[z3Y]();}else if(select[E3H](classPrefix+s8Y)||select[q8t](classPrefix+x3H)){var f8H=h8Y;f8H+=E0O;f8H+=X8Y;var j3H=E8Y;j3H+=x3Y;var L3H=T5O;L3H+=U61;L3H+=E0O;L3H+=K5O;if(that[K5O][L3H][j3H]){var a8H=t9t;a8H+=Y4O;var Y8H=F0O;Y8H+=D4O;var D3H=h8t;D3H+=M5O;D3H+=D5O;D3H+=R8t;var r3H=F0O;r3H+=D4O;var hours=$(that[r3H][D3H])[d01](T51+classPrefix+s8Y)[z0t]()*Q8O;var pm=$(that[Y8H][Z8t])[d01](T51+classPrefix+x8Y)[a8H]()===Z8Y;that[K5O][F0O][L8Y](hours===V8O&&!pm?f8O:pm&&hours!==V8O?hours+V8O:hours);}else{var H8H=j8Y;H8H+=r4t;H8H+=y5X;that[K5O][F0O][H8H](val);}that[f8H]();that[r8Y](P6t);onChange();}else if(select[q8t](classPrefix+Q8H)){var U8H=D8Y;U8H+=Y0Y;U8H+=a0Y;var P8H=y5O;P8H+=H0Y;P8H+=P0O;that[K5O][F0O][f0Y](val);that[P8H]();that[U8H](P6t);onChange();}else if(select[q8t](classPrefix+o8H)){that[K5O][F0O][Q0Y](val);that[i3Y]();that[r8Y](P6t);onChange();}that[v8H][l3Y][c3t]();that[J8H]();})[S8H](m3t,function(e){var y0Y="lander";var h0Y="Ca";var I0Y="UTCDate";var m0Y="tUTCFullYear";var l0Y="yea";var K0Y="setUTCMont";var M0Y="etUTCDate";var e0Y="utput";var k0Y="rit";var R0Y="change";var u0Y="selectedInd";var w0Y="ption";var G0Y='-iconDown';var t0Y="selectedIndex";var d0Y="tedIndex";var b0Y="han";var n0Y="tUTCMonth";var g0Y="etT";var z0Y="setUTC";var O0Y="setTitle";var A0Y="rge";var V0Y="par";var N0Y="Cla";var S0Y="Clas";var J0Y="onRigh";var v0Y="-ic";var o0Y="-i";var U0Y="stopPropagation";var P0Y="rg";var N8H=w9t;N8H+=P0Y;N8H+=P0O;N8H+=E0O;var nodeName=e[N8H][X2X][l3X]();if(nodeName===w8Y){return;}e[U0Y]();if(nodeName===H11){var K8H=o0Y;K8H+=F7t;K8H+=J87.F8O;K8H+=f0t;var M8H=h3t;M8H+=z81;M8H+=g8t;M8H+=K5O;var d8H=v0Y;d8H+=J0Y;d8H+=E0O;var b8H=H4O;b8H+=d11;b8H+=S0Y;b8H+=K5O;var p8H=I3t;p8H+=v8t;p8H+=Y4O;p8H+=h5O;var C8H=H4O;C8H+=d11;C8H+=N0Y;C8H+=Z5t;var A8H=V0Y;A8H+=Q1O;var V8H=w9t;V8H+=A0Y;V8H+=E0O;var button=$(e[V8H]);var parent=button[A8H]();var select;if(parent[C8H](p8H)){return;}if(parent[q8t](classPrefix+C0Y)){var n8H=B6t;n8H+=J4O;n8H+=d0O;n8H+=K5O;var g8H=D5O;g8H+=p0Y;var B8H=F0O;B8H+=z0O;B8H+=z5O;var Z8H=y5O;Z8H+=O0Y;var z8H=z0Y;z8H+=s5O;z8H+=Z0Y;var O8H=b2O;O8H+=F41;that[K5O][O8H][z8H](that[K5O][Y0t][B0Y]()-Q8O);that[Z8H]();that[z3Y]();that[B8H][g8H][n8H]();}else if(parent[b8H](classPrefix+d8H)){var e8H=b1O;e8H+=z0O;e8H+=s8t;e8H+=K5O;var k8H=D5O;k8H+=N3Y;k8H+=S81;var R8H=F0O;R8H+=z0O;R8H+=z5O;var u8H=Z3Y;u8H+=g0Y;u8H+=D5O;u8H+=J8X;var w8H=Z7O;w8H+=P0O;w8H+=n0Y;var G8H=X1O;G8H+=R6X;G8H+=F41;var t8H=p8t;t8H+=P4O;that[q8Y](that[K5O][t8H],that[K5O][G8H][w8H]()+Q8O);that[u8H]();that[z3Y]();that[R8H][k8H][e8H]();}else if(parent[M8H](classPrefix+K8H)){var I8H=J4O;I8H+=b0Y;I8H+=Z7O;I8H+=P0O;var m8H=l7X;m8H+=m7X;m8H+=d0Y;var l8H=T5O;l8H+=M5O;l8H+=n1O;l8H+=Q1O;select=parent[l8H]()[d01](w8Y)[f8O];select[t0Y]=select[t0Y]!==select[P0X][f6t]-Q8O?select[m8H]+Q8O:f8O;$(select)[I8H]();}else if(parent[q8t](classPrefix+G0Y)){var W8H=Y6t;W8H+=k3X;W8H+=H4O;var q8H=z0O;q8H+=w0Y;q8H+=K5O;var y8H=u0Y;y8H+=P0O;y8H+=p1O;var h8H=b1O;h8H+=x1O;h8H+=F0O;var i8H=S5t;i8H+=E0O;select=parent[i8H]()[h8H](w8Y)[f8O];select[y8H]=select[t0Y]===f8O?select[q8H][W8H]-Q8O:select[t0Y]-Q8O;$(select)[R0Y]();}else{var L8H=E0O;L8H+=D5O;L8H+=z5O;L8H+=P0O;var x8H=x9X;x8H+=k0Y;x8H+=y6Y;x8H+=e0Y;var E8H=K5O;E8H+=M0Y;var X8H=z5O;X8H+=Z0Y;var s8H=K0Y;s8H+=H4O;var c8H=l0Y;c8H+=n1O;var F8H=r0t;F8H+=m0Y;var T8H=R9t;T8H+=I0Y;if(!that[K5O][F0O]){that[K5O][F0O]=that[m3Y](new Date());}that[K5O][F0O][T8H](Q8O);that[K5O][F0O][F8H](button[u9t](c8H));that[K5O][F0O][s8H](button[u9t](X8H));that[K5O][F0O][E8H](button[u9t](i0Y));that[x8H](P6t);if(!that[K5O][P8Y][L8H]){setTimeout(function(){that[T2t]();},S8O);}else{var j8H=d3Y;j8H+=h0Y;j8H+=y0Y;that[j8H]();}onChange();}}else{that[e3t][l3Y][c3t]();}});},_compareDates:function(a,b){var q0Y="_dateToUtcString";return this[q0Y](a)===this[q0Y](b);},_correctMonth:function(date,month){var E0Y="tUTCDat";var s0Y="setUTCMonth";var F0Y="_daysInMonth";var T0Y="lYe";var W0Y="getUTCFu";var r8H=W0Y;r8H+=Y4O;r8H+=T0Y;r8H+=U61;var days=this[F0Y](date[r8H](),month);var correctDays=date[c0Y]()>days;date[s0Y](month);if(correctDays){var Y0H=R9t;Y0H+=X0Y;Y0H+=s5O;Y0H+=Z0Y;var D8H=r0t;D8H+=E0Y;D8H+=P0O;date[D8H](days);date[Y0H](month);}},_daysInMonth:function(year,month){var t8O=31;var d8O=30;var b8O=29;var n8O=28;var isLeap=year%o8O===f8O&&(year%M8O!==f8O||year%l8O===f8O);var months=[t8O,isLeap?b8O:n8O,t8O,d8O,t8O,d8O,t8O,t8O,d8O,t8O,d8O,t8O];return months[month];},_dateToUtc:function(s){var D0Y="getMinutes";var r0Y="getHours";var x0Y="getMo";var a0H=x0Y;a0H+=J87.F8O;a0H+=E0O;a0H+=H4O;return new Date(Date[X0Y](s[L0Y](),s[a0H](),s[j0Y](),s[r0Y](),s[D0Y](),s[Y5Y]()));},_dateToUtcString:function(d){var f5Y="_pad";var H5Y="getUTCFullYea";var a5Y="getUTCMo";var f0H=a5Y;f0H+=l8Y;var H0H=H5Y;H0H+=n1O;return d[H0H]()+h41+this[f5Y](d[f0H]()+Q8O)+h41+this[f5Y](d[c0Y]());},_hide:function(){var V5Y='click.';var N5Y='keydown.';var J5Y="conta";var v5Y="ody_Content";var o5Y="div.DTE_B";var J0H=Q5Y;J0H+=P5Y;J0H+=U5Y;var v0H=c1O;v0H+=b1O;var o0H=o5Y;o0H+=v5Y;var U0H=z0O;U0H+=b1O;U0H+=b1O;var P0H=F0O;P0H+=P0O;P0H+=E0O;P0H+=u0t;var Q0H=J5Y;Q0H+=D5O;Q0H+=J87.F8O;Q0H+=G5O;var namespace=this[K5O][S5Y];this[e3t][Q0H][P0H]();$(window)[R31](T51+namespace);$(document)[U0H](N5Y+namespace);$(o0H)[v0H](J0H+namespace);$(S1t)[R31](V5Y+namespace);},_hours24To12:function(val){return val===f8O?V8O:val>V8O?val-V8O:val;},_htmlDay:function(day){var e5Y="day";var k5Y='" data-month="';var R5Y='data-year="';var u5Y='-day" type="button" ';var w5Y='<td data-day="';var t5Y="abled";var d5Y='<td class="empty"></td>';var n5Y="oda";var g5Y="\" cla";var Z5Y="on class=\"";var z5Y="<but";var O5Y="utton ";var p5Y="-b";var C5Y="-day=\"";var A5Y="\" data";var t0H=g2O;t0H+=P4O;var d0H=A5Y;d0H+=C5Y;var b0H=z5O;b0H+=z0O;b0H+=J2O;b0H+=H4O;var n0H=P4O;n0H+=P0O;n0H+=M5O;n0H+=n1O;var g0H=p5Y;g0H+=O5Y;var B0H=z5Y;B0H+=E0O;B0H+=Z5Y;var Z0H=m7O;Z0H+=G6t;var z0H=B5Y;z0H+=J87.F8O;var O0H=g5Y;O0H+=f31;var p0H=F0O;p0H+=M5O;p0H+=P4O;var A0H=E0O;A0H+=n5Y;A0H+=P4O;var S0H=X1O;S0H+=A9t;S0H+=O8t;S0H+=J8t;if(day[b5Y]){return d5Y;}var classes=[i0Y];var classPrefix=this[J4O][G9Y];if(day[S0H]){var V0H=X1O;V0H+=K5O;V0H+=t5Y;var N0H=T5O;N0H+=G0t;classes[N0H](V0H);}if(day[A0H]){var C0H=E0O;C0H+=z0O;C0H+=g2O;C0H+=P4O;classes[r7O](C0H);}if(day[G5Y]){classes[r7O](B6Y);}return w5Y+day[p0H]+O0H+classes[z0H](a3t)+Z0H+B0H+classPrefix+g0H+classPrefix+u5Y+R5Y+day[n0H]+k5Y+day[b0H]+d0H+day[e5Y]+f3t+day[t0H]+y9Y+M5Y;},_htmlMonth:function(year,month){var R4Y='</table>';var u4Y='</thead>';var w4Y="_htmlMonthHead";var G4Y='-iconRight';var t4Y="bloc";var d4Y="spla";var b4Y=' weekNumber';var n4Y='<tr>';var g4Y="fYear";var B4Y="WeekO";var Z4Y="_htm";var z4Y="ber";var O4Y="howWeekNum";var p4Y="/t";var C4Y="disableDays";var A4Y="_compareDates";var V4Y="UT";var N4Y="mpareDates";var S4Y="_c";var J4Y="Day";var o4Y="UTCHour";var U4Y="setUTCHo";var P4Y="stD";var Q4Y="fir";var f4Y="firstDay";var H4Y="getUTCDay";var a4Y="eToUtc";var Y4Y="Mont";var D5Y="ysIn";var r5Y="_da";var j5Y="minDat";var L5Y="xDa";var x5Y="efix";var E5Y="sPr";var X5Y="-ta";var s5Y="Number";var c5Y="eek";var F5Y="wW";var T5Y="sho";var W5Y="ass=";var q5Y="able cl";var h5Y="ad>";var i5Y="<the";var I5Y="y>";var m5Y="<tb";var l5Y="ody>";var K5Y="</tb";var R8O=59;var z8O=23;var f5H=K5Y;f5H+=l5Y;var H5H=B5Y;H5H+=J87.F8O;var a5H=m5Y;a5H+=o1t;a5H+=I5Y;var Y5H=i5Y;Y5H+=h5Y;var D0H=m7O;D0H+=G6t;var r0H=y5Y;r0H+=q5Y;r0H+=W5Y;r0H+=m7O;var s0H=T5Y;s0H+=F5Y;s0H+=c5Y;s0H+=s5Y;var c0H=X5Y;c0H+=O8t;c0H+=Y4O;c0H+=P0O;var F0H=J4O;F0H+=g8t;F0H+=E5Y;F0H+=x5Y;var k0H=z5O;k0H+=M5O;k0H+=L5Y;k0H+=W2t;var R0H=j5Y;R0H+=P0O;var w0H=r5Y;w0H+=D5Y;w0H+=Y4Y;w0H+=H4O;var G0H=G3Y;G0H+=a4Y;var now=this[G0H](new Date()),days=this[w0H](year,month),before=new Date(Date[X0Y](year,month,Q8O))[H4Y](),data=[],row=[];if(this[J4O][f4Y]>f8O){var u0H=Q4Y;u0H+=P4Y;u0H+=M5O;u0H+=P4O;before-=this[J4O][u0H];if(before<f8O){before+=v8O;}}var cells=days+before,after=cells;while(after>v8O){after-=v8O;}cells+=v8O-after;var minDate=this[J4O][R0H];var maxDate=this[J4O][k0H];if(minDate){var e0H=U4Y;e0H+=L3Y;minDate[e0H](f8O);minDate[f0Y](f8O);minDate[Q0Y](f8O);}if(maxDate){var M0H=K5O;M0H+=G2O;M0H+=o4Y;M0H+=K5O;maxDate[M0H](z8O);maxDate[f0Y](R8O);maxDate[Q0Y](R8O);}for(var i=f8O,r=f8O;i<cells;i++){var i0H=y5O;i0H+=v4Y;i0H+=Y4O;i0H+=J4Y;var I0H=T5O;I0H+=d0O;I0H+=K5O;I0H+=H4O;var m0H=w91;m0H+=J6t;m0H+=Q61;var l0H=S4Y;l0H+=z0O;l0H+=N4Y;var K0H=V4Y;K0H+=z81;var day=new Date(Date[K0H](year,month,Q8O+(i-before))),selected=this[K5O][F0O]?this[l0H](day,this[K5O][F0O]):H6t,today=this[A4Y](day,now),empty=i<before||i>=days+before,disabled=minDate&&day<minDate||maxDate&&day>maxDate;var disableDays=this[J4O][C4Y];if($[P91](disableDays)&&$[t0t](day[H4Y](),disableDays)!==-Q8O){disabled=P6t;}else if(typeof disableDays===m0H&&disableDays(day)===P6t){disabled=P6t;}var dayConfig={day:Q8O+(i-before),month:month,year:year,selected:selected,today:today,disabled:disabled,empty:empty};row[I0H](this[i0H](dayConfig));if(++r===v8O){var T0H=R6t;T0H+=p4Y;T0H+=n1O;T0H+=G6t;var W0H=r6X;W0H+=x1O;var q0H=q7O;q0H+=H4O;var h0H=K5O;h0H+=O4Y;h0H+=z4Y;if(this[J4O][h0H]){var y0H=Z4Y;y0H+=Y4O;y0H+=B4Y;y0H+=g4Y;row[Y8t](this[y0H](i-before,month,year));}data[q0H](n4Y+row[W0H](g7O)+T0H);row=[];r=f8O;}}var classPrefix=this[J4O][F0H];var className=classPrefix+c0H;if(this[J4O][s0H]){className+=b4Y;}if(minDate){var E0H=O8t;E0H+=J8Y;var X0H=F0O;X0H+=D5O;X0H+=d4Y;X0H+=P4O;var underMin=minDate>new Date(Date[X0Y](year,month,Q8O,f8O,f8O,f8O));this[e3t][J3t][d01](q51+classPrefix+C0Y)[w3t](X0H,underMin?B8t:E0H);}if(maxDate){var j0H=t4Y;j0H+=o6t;var L0H=J4O;L0H+=Z5t;var x0H=F0O;x0H+=z0O;x0H+=z5O;var overMax=maxDate<new Date(Date[X0Y](year,month+Q8O,Q8O,f8O,f8O,f8O));this[x0H][J3t][d01](q51+classPrefix+G4Y)[L0H](u3t,overMax?B8t:j0H);}return r0H+className+D0H+Y5H+this[w4Y]()+u4Y+a5H+data[H5H](g7O)+f5H+R4Y;},_htmlMonthHead:function(){var i4Y="/th";var I4Y="</th>";var m4Y="h>";var l4Y="showWeekNumber";var e4Y="tD";var k4Y="firs";var Q5H=k4Y;Q5H+=e4Y;Q5H+=M5O;Q5H+=P4O;var a=[];var firstDay=this[J4O][Q5H];var i18n=this[J4O][m9t];var dayName=function(day){var K4Y="days";var M4Y="week";var P5H=M4Y;P5H+=K4Y;day+=firstDay;while(day>=v8O){day-=v8O;}return i18n[P5H][day];};if(this[J4O][l4Y]){var o5H=y5Y;o5H+=m4Y;o5H+=I4Y;var U5H=T5O;U5H+=d0O;U5H+=K5O;U5H+=H4O;a[U5H](o5H);}for(var i=f8O;i<v8O;i++){var S5H=R6t;S5H+=i4Y;S5H+=G6t;var J5H=R6t;J5H+=E0O;J5H+=H4O;J5H+=G6t;var v5H=T5O;v5H+=d0O;v5H+=K5O;v5H+=H4O;a[v5H](J5H+dayName(i)+S5H);}return a[q41](g7O);},_htmlWeekOfYear:function(d,m,y){var F4Y='-week">';var T4Y='<td class="';var W4Y="getDay";var y4Y="ix";var h4Y="classPre";var y8O=86400000;var N5H=h4Y;N5H+=b1O;N5H+=y4Y;var date=new Date(y,m,d,f8O,f8O,f8O,f8O);date[q4Y](date[j0Y]()+o8O-(date[W4Y]()||v8O));var oneJan=new Date(y,f8O,Q8O);var weekNum=Math[f7O](((date-oneJan)/y8O+Q8O)/v8O);return T4Y+this[J4O][N5H]+F4Y+weekNum+M5Y;},_options:function(selector,values,labels){var X4Y='<option value="';var C5H=S2O;C5H+=i31;var A5H=P0O;A5H+=z5O;A5H+=T5O;A5H+=c4O;var V5H=b1O;V5H+=G6Y;if(!labels){labels=values;}var select=this[e3t][Z8t][V5H](c4Y+this[J4O][G9Y]+h41+selector);select[A5H]();for(var i=f8O,ien=values[C5H];i<ien;i++){var O5H=R6t;O5H+=q6t;O5H+=s4Y;O5H+=T6t;var p5H=m7O;p5H+=G6t;select[U0t](X4Y+values[i]+p5H+labels[i]+O5H);}},_optionSet:function(selector,val){var L4Y="n:selected";var x4Y="own";var E4Y="nk";var t5H=d0O;t5H+=E4Y;t5H+=J87.F8O;t5H+=x4Y;var d5H=n6Y;d5H+=J87.F8O;var b5H=Y6t;b5H+=Z7O;b5H+=a6t;var n5H=s4Y;n5H+=L4Y;var g5H=b1O;g5H+=D5O;g5H+=J87.F8O;g5H+=F0O;var B5H=t9t;B5H+=Y4O;var Z5H=b1O;Z5H+=x1O;Z5H+=F0O;var z5H=M2O;z5H+=z5O;var select=this[z5H][Z8t][Z5H](c4Y+this[J4O][G9Y]+h41+selector);var span=select[z8t]()[e1t](S8Y);select[B5H](val);var selected=select[g5H](n5H);span[N5t](selected[b5H]!==f8O?selected[F5t]():this[J4O][d5H][t5H]);},_optionsTime:function(select,count,inc){var Q1Y="option value=\"";var f1Y="/opt";var H1Y="hoursAvailable";var a1Y="refix";var Y1Y="classP";var D4Y="aine";var r4Y="ct.";var j4Y="sele";var k5H=y5O;k5H+=T5O;k5H+=M5O;k5H+=F0O;var R5H=j4Y;R5H+=r4Y;var u5H=Y0O;u5H+=D4t;var w5H=F7t;w5H+=J2O;w5H+=D4Y;w5H+=n1O;var G5H=Y1Y;G5H+=a1Y;var classPrefix=this[J4O][G5H];var sel=this[e3t][w5H][u5H](R5H+classPrefix+h41+select);var start=f8O,end=count;var allowed=this[J4O][H1Y];var render=count===V8O?function(i){return i;}:this[k5H];if(count===V8O){start=Q8O;end=A8O;}for(var i=start;i<end;i+=inc){var e5H=D5O;e5H+=J87.F8O;e5H+=X51;e5H+=E51;if(!allowed||$[e5H](i,allowed)!==-Q8O){var l5H=R6t;l5H+=f1Y;l5H+=y81;l5H+=G6t;var K5H=R6t;K5H+=Q1Y;var M5H=M5O;M5H+=J2t;M5H+=g0O;sel[M5H](K5H+i+f3t+render(i)+l5H);}}},_optionsTitle:function(year,month){var O1Y="_range";var p1Y='year';var C1Y="months";var A1Y="yearRange";var V1Y="ear";var N1Y="tFullY";var S1Y="llYea";var J1Y="etFu";var v1Y="rRange";var o1Y="mont";var P1Y="_ra";var y5H=P1Y;y5H+=J87.F8O;y5H+=U1Y;var h5H=o1Y;h5H+=H4O;var i5H=P4O;i5H+=h7O;i5H+=v1Y;var I5H=Z7O;I5H+=J1Y;I5H+=S1Y;I5H+=n1O;var m5H=Z7O;m5H+=P0O;m5H+=N1Y;m5H+=V1Y;var classPrefix=this[J4O][G9Y];var i18n=this[J4O][m9t];var min=this[J4O][b3Y];var max=this[J4O][p3Y];var minYear=min?min[L0Y]():d3t;var maxYear=max?max[L0Y]():d3t;var i=minYear!==d3t?minYear:new Date()[m5H]()-this[J4O][A1Y];var j=maxYear!==d3t?maxYear:new Date()[I5H]()+this[J4O][i5H];this[z8Y](h5H,this[y5H](f8O,N8O),i18n[C1Y]);this[z8Y](p1Y,this[O1Y](i,j));},_pad:function(i){var z1Y='0';return i<S8O?z1Y+i:i;},_position:function(){var b1Y="idt";var n1Y="height";var g1Y="outerWidth";var B1Y="containe";var Z1Y="uterHeigh";var r5H=Y4O;r5H+=T31;var E5H=E0O;E5H+=z0O;E5H+=T5O;var X5H=r4t;X5H+=z61;var s5H=Y2O;s5H+=T5O;var c5H=z0O;c5H+=Z1Y;c5H+=E0O;var F5H=T8t;F5H+=E0O;var T5H=F0O;T5H+=z0O;T5H+=z5O;var W5H=B1Y;W5H+=n1O;var q5H=F0O;q5H+=z0O;q5H+=z5O;var offset=this[q5H][l3Y][L7t]();var container=this[e3t][W5H];var inputHeight=this[T5H][F5H][c5H]();container[w3t]({top:offset[s5H]+inputHeight,left:offset[c31]})[p2t](S1t);var calHeight=container[X5H]();var calWidth=container[g1Y]();var scrollTop=$(window)[w1t]();if(offset[E5H]+inputHeight+calHeight-scrollTop>$(window)[n1Y]()){var j5H=Y2O;j5H+=T5O;var L5H=J4O;L5H+=K5O;L5H+=K5O;var x5H=E0O;x5H+=X9t;var newTop=offset[x5H]-calHeight;container[L5H](j5H,newTop<f8O?f8O:newTop);}if(calWidth+offset[r5H]>$(window)[m7t]()){var Y4H=J4O;Y4H+=K5O;Y4H+=K5O;var D5H=t4t;D5H+=b1Y;D5H+=H4O;var newLeft=$(window)[D5H]()-calWidth;container[Y4H](r31,newLeft<f8O?f8O:newLeft);}},_range:function(start,end){var a=[];for(var i=start;i<=end;i++){var a4H=T5O;a4H+=d0O;a4H+=K5O;a4H+=H4O;a[a4H](i);}return a;},_setCalander:function(){var G1Y="lMont";var t1Y="isp";var d1Y="UTCMonth";var H4H=X1O;H4H+=R6X;H4H+=Y4O;H4H+=z7O;if(this[K5O][H4H]){var v4H=j2O;v4H+=d1Y;var o4H=I3t;o4H+=Y4t;var U4H=F0O;U4H+=t1Y;U4H+=F41;var P4H=y5O;P4H+=v4Y;P4H+=G1Y;P4H+=H4O;var Q4H=u1t;Q4H+=z4t;Q4H+=F0O;var f4H=P0O;f4H+=V3Y;f4H+=E0O;f4H+=P4O;this[e3t][S3Y][f4H]()[Q4H](this[P4H](this[K5O][U4H][w1Y](),this[K5O][o4H][v4H]()));}},_setTitle:function(){var R1Y='month';var N4H=b2O;N4H+=j0t;N4H+=P4O;var S4H=P4O;S4H+=P0O;S4H+=M5O;S4H+=n1O;var J4H=F0O;J4H+=C0t;J4H+=B1O;J4H+=z7O;this[u1Y](R1Y,this[K5O][J4H][B0Y]());this[u1Y](S4H,this[K5O][N4H][w1Y]());},_setTime:function(){var i1Y="_hours24To12";var I1Y="option";var m1Y="_optio";var l1Y="hours12";var K1Y="etUTCHours";var M1Y="arts";var e1Y="minute";var k1Y="etUTCMinu";var n4H=Z7O;n4H+=k1Y;n4H+=E0O;n4H+=c7O;var g4H=e1Y;g4H+=K5O;var A4H=T5O;A4H+=M1Y;var V4H=Z7O;V4H+=K1Y;var d=this[K5O][F0O];var hours=d?d[V4H]():f8O;if(this[K5O][A4H][l1Y]){var Z4H=T5O;Z4H+=z5O;var z4H=c21;z4H+=T5O;z4H+=z5O;var O4H=m1Y;O4H+=J87.F8O;O4H+=g91;O4H+=E0O;var p4H=H4O;p4H+=r4t;p4H+=y5X;var C4H=y5O;C4H+=I1Y;C4H+=V41;this[C4H](p4H,this[i1Y](hours));this[O4H](z4H,hours<V8O?J1X:Z4H);}else{var B4H=g3Y;B4H+=z0O;B4H+=J87.F8O;B4H+=V41;this[B4H](j9Y,hours);}this[u1Y](g4H,d?d[n4H]():f8O);this[u1Y](D9Y,d?d[Y5Y]():f8O);},_show:function(){var T1Y="_position";var W1Y="ze";var q1Y=" resi";var y1Y="TE_Body_Content";var h1Y="down.";var R4H=P81;R4H+=h1Y;var u4H=X8X;u4H+=n1O;u4H+=P5Y;u4H+=U5Y;var w4H=z0O;w4H+=J87.F8O;var G4H=J51;G4H+=y1Y;var t4H=q1Y;t4H+=W1Y;t4H+=F2O;var d4H=Q5Y;d4H+=z0O;d4H+=Y4O;d4H+=U5Y;var b4H=z0O;b4H+=J87.F8O;var that=this;var namespace=this[K5O][S5Y];this[T1Y]();$(window)[b4H](d4H+namespace+t4H+namespace,function(){that[T1Y]();});$(G4H)[w4H](u4H+namespace,function(){that[T1Y]();});$(document)[Q61](R4H+namespace,function(e){var s1Y="ide";var c1Y="keyCode";var F1Y="eyC";var k4H=o6t;k4H+=F1Y;k4H+=z0O;k4H+=n4O;if(e[k4H]===J8O||e[c1Y]===g8O||e[c1Y]===A8O){var e4H=y5O;e4H+=H4O;e4H+=s1Y;that[e4H]();}});setTimeout(function(){var M4H=H2t;M4H+=F2O;$(S1t)[Q61](M4H+namespace,function(e){var X1Y="arget";var m4H=w9t;m4H+=n1O;m4H+=Z7O;m4H+=G2O;var l4H=Y4O;l4H+=z4t;l4H+=Z7O;l4H+=a6t;var K4H=E0O;K4H+=X1Y;var parents=$(e[K4H])[Y41]();if(!parents[m2X](that[e3t][Z8t])[l4H]&&e[m4H]!==that[e3t][l3Y][f8O]){var I4H=y5O;I4H+=H4O;I4H+=D5O;I4H+=n4O;that[I4H]();}});},S8O);},_writeOutput:function(focus){var D1Y="men";var r1Y="omentStrict";var j1Y="ullYear";var L1Y="CF";var x1Y="getUT";var E1Y="getUTCM";var X4H=x1O;X4H+=D6t;X4H+=E0O;var s4H=F0O;s4H+=z0O;s4H+=z5O;var c4H=y5O;c4H+=T5O;c4H+=M5O;c4H+=F0O;var F4H=E1Y;F4H+=w8t;F4H+=H4O;var T4H=y5O;T4H+=T5O;T4H+=M5O;T4H+=F0O;var W4H=x1Y;W4H+=L1Y;W4H+=j1Y;var q4H=b1O;q4H+=D8O;q4H+=B9X;q4H+=E0O;var y4H=z5O;y4H+=r1Y;var h4H=d0O;h4H+=E0O;h4H+=J4O;var i4H=s1O;i4H+=D1Y;i4H+=E0O;var date=this[K5O][F0O];var out=window[i4H]?window[w9Y][h4H](date,undefined,this[J4O][R3Y],this[J4O][y4H])[q4H](this[J4O][Q3Y]):date[W4H]()+h41+this[T4H](date[F4H]()+Q8O)+h41+this[c4H](date[c0Y]());this[s4H][X4H][z0t](out);if(focus){var x4H=x1O;x4H+=D6t;x4H+=E0O;var E4H=M2O;E4H+=z5O;this[E4H][x4H][c3t]();}}});Editor[H3Y][f3Y]=f8O;Editor[L4H][i9t]={classPrefix:j4H,disableDays:d3t,firstDay:Q8O,format:r4H,hoursAvailable:d3t,i18n:Editor[i9t][m9t][D4H],maxDate:d3t,minDate:d3t,minutesIncrement:Q8O,momentStrict:P6t,momentLocale:Y1H,onChange:function(){},secondsIncrement:Q8O,showWeekNumber:H6t,yearRange:S8O};(function(){var B37="_container";var C37="uploadMany";var o37='</span>';var U37="noFileText";var s97="_picke";var F97="_picker";var W97="_closeFn";var z97="_inp";var V97="datepicker";var H97="cke";var x67="radio";var E67="dd";var h67='disabled';var i67="checked";var e67='input:checked';var b67="npu";var n67='input:last';var B67='_';var Z67='<input id="';var V67="itor_va";var v67="split";var H67="separator";var x7Y="inp";var E7Y="_addOptions";var s7Y='change.dte';var c7Y="multiple";var T7Y="put";var q7Y="ptions";var h7Y="optionsPair";var I7Y="_editor_val";var t7Y='text';var b7Y="<i";var z7Y="readonly";var O7Y="_v";var p7Y="_val";var C7Y="hidden";var A7Y="_i";var N7Y="prop";var j2Y="_enabled";var E2Y="upl";var I2Y="_input";var V2Y="_enab";var v2Y="_in";var P2Y="ssword";var Q2Y="lec";var f2Y="ox";var H2Y="eckb";var a2Y="ten";var Y2Y="load";var m9O=d0O;m9O+=T5O;m9O+=Y2Y;var o9O=M2t;o9O+=W2t;o9O+=J87.F8O;o9O+=F0O;var U9O=v01;U9O+=J3Y;var l6O=g2O;l6O+=E0O;l6O+=P0O;var L7H=M2t;L7H+=W2t;L7H+=D4t;var x7H=n1O;x7H+=M5O;x7H+=X1O;x7H+=z0O;var N7H=P0O;N7H+=p1O;N7H+=a2Y;N7H+=F0O;var S7H=J4O;S7H+=H4O;S7H+=H2Y;S7H+=f2Y;var u2H=P0O;u2H+=p1O;u2H+=W2t;u2H+=D4t;var w2H=r0t;w2H+=Q2Y;w2H+=E0O;var b2H=W2t;b2H+=p1O;b2H+=w9t;b2H+=l81;var O2H=Y8Y;O2H+=P2Y;var N2H=E0O;N2H+=P0O;N2H+=p1O;N2H+=E0O;var o2H=P0O;o2H+=n6t;var D1H=M2t;D1H+=W2t;D1H+=D4t;var fieldTypes=Editor[W9t];function _buttonText(conf,text){var S2Y="Choose file...";var J2Y="uploadText";var o2Y="d but";var U2Y="div.uploa";var H1H=U2Y;H1H+=o2Y;H1H+=Y2O;H1H+=J87.F8O;var a1H=v2Y;a1H+=D6t;a1H+=E0O;if(text===d3t||text===undefined){text=conf[J2Y]||S2Y;}conf[a1H][d01](H1H)[N5t](text);}function _commonUpload(editor,conf,dropCallback,multiple){var U7Y='change';var P7Y='input[type=file]';var Q7Y='div.clearValue button';var f7Y='div.rendered';var H7Y='noDrop';var L2Y='dragleave dragexit';var F2Y='drop';var T2Y='div.drop';var W2Y="Drag and drop a file here to upload";var q2Y="dragDropText";var y2Y='div.drop span';var h2Y="drago";var i2Y="dragDrop";var m2Y='<div class="cell limitHide">';var l2Y='<button class="';var K2Y='<input type="file" ';var M2Y='<div class="cell upload limitHide">';var e2Y='<div class="row">';var k2Y="sses";var R2Y="utt";var u2Y="_upload\">";var w2Y="s=\"editor";var G2Y="le\">";var t2Y="u_tab";var d2Y="iv class=\"e";var b2Y="utton class=\"";var n2Y="tiple";var g2Y="arValue\">";var B2Y="<div class=\"cell cl";var Z2Y="nd\">";var z2Y="seco";var O2Y="<div class=\"row ";var p2Y="<div class=\"drop\"><span/></di";var C2Y="ass=\"cell\">";var A2Y="lass=\"rendered\"/>";var N2Y="ileRea";var E1H=z0O;E1H+=J87.F8O;var c1H=J4O;c1H+=K41;c1H+=b5t;var F1H=z0O;F1H+=J87.F8O;var t1H=i2O;t1H+=N2Y;t1H+=p11;var d1H=V2Y;d1H+=J8t;var b1H=R6t;b1H+=v9Y;b1H+=t71;var n1H=R6t;n1H+=q6t;n1H+=a31;var g1H=t6t;g1H+=t71;var B1H=h6t;B1H+=X1O;B1H+=y1O;B1H+=G6t;var Z1H=Y9t;Z1H+=a9t;Z1H+=J4O;Z1H+=A2Y;var z1H=a4t;z1H+=C2Y;var O1H=t6t;O1H+=t71;var p1H=p2Y;p1H+=y1O;p1H+=G6t;var C1H=O2Y;C1H+=z2Y;C1H+=Z2Y;var A1H=R6t;A1H+=q6t;A1H+=d2t;A1H+=G6t;var V1H=t6t;V1H+=y6t;V1H+=G6t;var N1H=B2Y;N1H+=P0O;N1H+=g2Y;var S1H=q6t;S1H+=G6t;var J1H=c6t;J1H+=Y4O;J1H+=n2Y;var v1H=J81;v1H+=b2Y;var o1H=l51;o1H+=d2Y;o1H+=t2Y;o1H+=G2Y;var U1H=M51;U1H+=w2Y;U1H+=u2Y;var P1H=O8t;P1H+=R2Y;P1H+=Q61;var Q1H=b1O;Q1H+=z0O;Q1H+=n1O;Q1H+=z5O;var f1H=J4O;f1H+=Y4O;f1H+=M5O;f1H+=k2Y;var btnClass=editor[f1H][Q1H][P1H];var container=$(U1H+o1H+e2Y+M2Y+v1H+btnClass+C31+K2Y+(multiple?J1H:g7O)+S1H+O3t+N1H+l2Y+btnClass+C31+V1H+A1H+C1H+m2Y+p1H+O1H+z1H+Z1H+B1H+g1H+n1H+b1H);conf[I2Y]=container;conf[d1H]=P6t;_buttonText(conf);if(window[t1H]&&conf[i2Y]!==H6t){var i1H=z0O;i1H+=J87.F8O;var I1H=X9t;I1H+=z4t;var l1H=h2Y;l1H+=y1O;l1H+=G5O;var M1H=z0O;M1H+=J87.F8O;var G1H=b1O;G1H+=D5O;G1H+=J87.F8O;G1H+=F0O;container[d01](y2Y)[F5t](conf[q2Y]||W2Y);var dragDrop=container[G1H](T2Y);dragDrop[Q61](F2Y,function(e){var x2Y="originalEvent";var X2Y="taTransfer";var s2Y="oveCl";var c2Y="_enabl";var w1H=c2Y;w1H+=P0O;w1H+=F0O;if(conf[w1H]){var e1H=z0O;e1H+=y1O;e1H+=P0O;e1H+=n1O;var k1H=m11;k1H+=s2Y;k1H+=z9t;var R1H=g2O;R1H+=X2Y;var u1H=E2Y;u1H+=z0O;u1H+=M5O;u1H+=F0O;Editor[u1H](editor,conf,e[x2Y][R1H][s7O],_buttonText,dropCallback);dragDrop[k1H](e1H);}return H6t;})[M1H](L2Y,function(e){if(conf[j2Y]){var K1H=z0O;K1H+=A2t;K1H+=n1O;dragDrop[O2t](K1H);}return H6t;})[Q61](l1H,function(e){var r2Y='over';if(conf[j2Y]){var m1H=M6X;m1H+=d11;m1H+=K5O;dragDrop[m1H](r2Y);}return H6t;});editor[Q61](I1H,function(){var D2Y='dragover.DTE_Upload drop.DTE_Upload';$(S1t)[Q61](D2Y,function(e){return H6t;});})[i1H](L5t,function(){var a7Y="d drop.DTE_Upload";var Y7Y="dragover.DTE_Uploa";var q1H=Y7Y;q1H+=a7Y;var y1H=z0O;y1H+=b1O;y1H+=b1O;var h1H=O8t;h1H+=z0O;h1H+=F0O;h1H+=P4O;$(h1H)[y1H](q1H);});}else{var T1H=b1O;T1H+=D5O;T1H+=J87.F8O;T1H+=F0O;var W1H=M5O;W1H+=T5O;W1H+=t4O;W1H+=D4t;container[V8t](H7Y);container[W1H](container[T1H](f7Y));}container[d01](Q7Y)[F1H](c1H,function(){var X1H=K5O;X1H+=P0O;X1H+=E0O;var s1H=C21;s1H+=Y4O;s1H+=z0O;s1H+=t5O;Editor[W9t][s1H][X1H][D3t](editor,conf,g7O);});container[d01](P7Y)[E1H](U7Y,function(){var x1H=b1O;x1H+=F7O;x1H+=P0O;x1H+=K5O;Editor[g21](editor,conf,this[x1H],_buttonText,function(ids){var v7Y="ype=file]";var o7Y="t[t";var j1H=T8t;j1H+=o7Y;j1H+=v7Y;var L1H=B81;L1H+=Y4O;dropCallback[L1H](editor,ids);container[d01](j1H)[z0t](g7O);});});return container;}function _triggerChange(input){setTimeout(function(){var J7Y="trigger";var r1H=y7O;r1H+=M5O;r1H+=A6t;r1H+=P0O;input[J7Y](r1H,{editor:P6t,editorSet:P6t});},f8O);}var baseFieldType=$[D1H](P6t,{},Editor[c5t][s5t],{get:function(conf){var Y2H=y1O;Y2H+=M5O;Y2H+=Y4O;return conf[I2Y][Y2H]();},set:function(conf,val){conf[I2Y][z0t](val);_triggerChange(conf[I2Y]);},enable:function(conf){var S7Y="sabled";var H2H=F0O;H2H+=D5O;H2H+=S7Y;var a2H=v2Y;a2H+=T5O;a2H+=d0O;a2H+=E0O;conf[a2H][N7Y](H2H,H6t);},disable:function(conf){var V7Y="disab";var P2H=V7Y;P2H+=J8t;var Q2H=T5O;Q2H+=n1O;Q2H+=X9t;var f2H=A7Y;f2H+=N3Y;f2H+=d0O;f2H+=E0O;conf[f2H][Q2H](P2H,P6t);},canReturnSubmit:function(conf,node){return P6t;}});fieldTypes[C7Y]={create:function(conf){conf[p7Y]=conf[x11];return d3t;},get:function(conf){var U2H=O7Y;U2H+=K0t;return conf[U2H];},set:function(conf,val){conf[p7Y]=val;}};fieldTypes[z7Y]=$[o2H](P6t,{},baseFieldType,{create:function(conf){var g7Y='<input/>';var B7Y="Id";var Z7Y="af";var S2H=W2t;S2H+=U0O;var J2H=D5O;J2H+=F0O;var v2H=K5O;v2H+=Z7Y;v2H+=P0O;v2H+=B7Y;conf[I2Y]=$(g7Y)[y2X]($[I9t]({id:Editor[v2H](conf[J2H]),type:S2H,readonly:F3t},conf[y2X]||{}));return conf[I2Y][f8O];}});fieldTypes[N2H]=$[I9t](P6t,{},baseFieldType,{create:function(conf){var d7Y="nput/";var n7Y="safeI";var p2H=Y5t;p2H+=N4t;var C2H=n7Y;C2H+=F0O;var A2H=M5O;A2H+=G51;A2H+=n1O;var V2H=b7Y;V2H+=d7Y;V2H+=G6t;conf[I2Y]=$(V2H)[A2H]($[I9t]({id:Editor[C2H](conf[F9t]),type:t7Y},conf[p2H]||{}));return conf[I2Y][f8O];}});fieldTypes[O2H]=$[I9t](P6t,{},baseFieldType,{create:function(conf){var u7Y="t/>";var w7Y="<inpu";var G7Y="swor";var n2H=M5O;n2H+=E0O;n2H+=E0O;n2H+=n1O;var g2H=T5O;g2H+=d11;g2H+=G7Y;g2H+=F0O;var B2H=D5O;B2H+=F0O;var Z2H=P0O;Z2H+=p1O;Z2H+=W2t;Z2H+=D4t;var z2H=w7Y;z2H+=u7Y;conf[I2Y]=$(z2H)[y2X]($[Z2H]({id:Editor[L11](conf[B2H]),type:g2H},conf[n2H]||{}));return conf[I2Y][f8O];}});fieldTypes[b2H]=$[I9t](P6t,{},baseFieldType,{create:function(conf){var k7Y='<textarea/>';var R7Y="eId";var G2H=A7Y;G2H+=J87.F8O;G2H+=T5O;G2H+=S81;var t2H=M5O;t2H+=E0O;t2H+=E0O;t2H+=n1O;var d2H=K5O;d2H+=M5O;d2H+=b1O;d2H+=R7Y;conf[I2Y]=$(k7Y)[y2X]($[I9t]({id:Editor[d2H](conf[F9t])},conf[t2H]||{}));return conf[G2H][f8O];},canReturnSubmit:function(conf,node){return H6t;}});fieldTypes[w2H]=$[u2H](P6t,{},baseFieldType,{_addOptions:function(conf,opts,append){var i7Y="irs";var m7Y="placeholderDisabled";var l7Y="placeholderValue";var K7Y="holder";var M7Y="place";var e7Y="placeholder";var R2H=v2Y;R2H+=T5O;R2H+=S81;var elOpts=conf[R2H][f8O][P0X];var countOffset=f8O;if(!append){elOpts[f6t]=f8O;if(conf[e7Y]!==undefined){var e2H=X1O;e2H+=A9t;e2H+=z2O;e2H+=F0O;var k2H=M7Y;k2H+=K7Y;var placeholderValue=conf[l7Y]!==undefined?conf[l7Y]:g7O;countOffset+=Q8O;elOpts[f8O]=new Option(conf[k2H],placeholderValue);var disabled=conf[m7Y]!==undefined?conf[m7Y]:P6t;elOpts[f8O][C7Y]=disabled;elOpts[f8O][e2H]=disabled;elOpts[f8O][I7Y]=placeholderValue;}}else{var M2H=Y4O;M2H+=P0O;M2H+=J87.F8O;M2H+=X41;countOffset=elOpts[M2H];}if(opts){var K2H=T5O;K2H+=M5O;K2H+=i7Y;Editor[K2H](opts,conf[h7Y],function(val,label,i,attr){var option=new Option(label,val);option[I7Y]=val;if(attr){$(option)[y2X](attr);}elOpts[i+countOffset]=option;});}},create:function(conf){var F7Y='<select/>';var W7Y="ect";var y7Y="pOpt";var T2H=D5O;T2H+=y7Y;T2H+=K5O;var W2H=z0O;W2H+=q7Y;var q2H=K5O;q2H+=h2O;q2H+=W7Y;var i2H=z0O;i2H+=J87.F8O;var I2H=D5O;I2H+=F0O;var m2H=M5O;m2H+=G51;m2H+=n1O;var l2H=y5O;l2H+=D5O;l2H+=J87.F8O;l2H+=T7Y;conf[l2H]=$(F7Y)[m2H]($[I9t]({id:Editor[L11](conf[I2H]),multiple:conf[c7Y]===P6t},conf[y2X]||{}))[i2H](s7Y,function(e,d){var X7Y="_lastSet";var h2H=h5O;h2H+=D5O;h2H+=Y2O;h2H+=n1O;if(!d||!d[h2H]){var y2H=r0t;y2H+=S2O;y2H+=P11;conf[X7Y]=fieldTypes[y2H][j2O](conf);}});fieldTypes[q2H][E7Y](conf,conf[W2H]||conf[T2H]);return conf[I2Y][f8O];},update:function(conf,options,append){var r7Y="select";var j7Y="_addO";var L7Y="_las";var X2H=y5O;X2H+=x7Y;X2H+=d0O;X2H+=E0O;var s2H=L7Y;s2H+=E0O;s2H+=V41;var c2H=j7Y;c2H+=q7Y;var F2H=r0t;F2H+=S2O;F2H+=J4O;F2H+=E0O;fieldTypes[F2H][c2H](conf,options,append);var lastSet=conf[s2H];if(lastSet!==undefined){fieldTypes[r7Y][R9t](conf,lastSet,P6t);}_triggerChange(conf[X2H]);},get:function(conf){var a67="para";var Y67='option:selected';var D7Y="Arr";var j2H=Y4O;j2H+=z4t;j2H+=Z7O;j2H+=a6t;var x2H=Y2O;x2H+=D7Y;x2H+=z7O;var E2H=z5O;E2H+=M5O;E2H+=T5O;var val=conf[I2Y][d01](Y67)[E2H](function(){return this[I7Y];})[x2H]();if(conf[c7Y]){var L2H=r0t;L2H+=a67;L2H+=Y2O;L2H+=n1O;return conf[H67]?val[q41](conf[L2H]):val;}return val[j2H]?val[f8O]:d3t;},set:function(conf,val,localUpdate){var J67='option';var o67="_la";var U67="ple";var P67="parato";var Q67="lder";var f67="placeho";var U7H=f67;U7H+=Q67;var f7H=P0O;f7H+=M5O;f7H+=J4O;f7H+=H4O;var H7H=A7Y;H7H+=J87.F8O;H7H+=D6t;H7H+=E0O;var a7H=y5O;a7H+=x1O;a7H+=T5O;a7H+=S81;var Y7H=K5O;Y7H+=P0O;Y7H+=P67;Y7H+=n1O;var D2H=c6t;D2H+=w3X;D2H+=D5O;D2H+=U67;if(!localUpdate){var r2H=o67;r2H+=L0O;r2H+=F5O;r2H+=G2O;conf[r2H]=val;}if(conf[D2H]&&conf[Y7H]&&!$[P91](val)){val=typeof val===m0t?val[v67](conf[H67]):[];}else if(!$[P91](val)){val=[val];}var i,len=val[f6t],found,allFound=H6t;var options=conf[a7H][d01](J67);conf[H7H][d01](J67)[f7H](function(){var N67="ditor_v";var S67="lected";var P7H=r0t;P7H+=S67;found=H6t;for(i=f8O;i<len;i++){var Q7H=y5O;Q7H+=P0O;Q7H+=N67;Q7H+=K0t;if(this[Q7H]==val[i]){found=P6t;allFound=P6t;break;}}this[P7H]=found;});if(conf[U7H]&&!allFound&&!conf[c7Y]&&options[f6t]){options[f8O][G5Y]=P6t;}if(!localUpdate){var o7H=A7Y;o7H+=J87.F8O;o7H+=T7Y;_triggerChange(conf[o7H]);}return allFound;},destroy:function(conf){var J7H=z0O;J7H+=b1O;J7H+=b1O;var v7H=A7Y;v7H+=p0Y;conf[v7H][J7H](s7Y);}});fieldTypes[S7H]=$[N7H](P6t,{},baseFieldType,{_addOptions:function(conf,opts,append){var V7H=v2Y;V7H+=T5O;V7H+=S81;var val,label;var jqInput=conf[V7H];var offset=f8O;if(!append){jqInput[b5Y]();}else{offset=$(F8t,jqInput)[f6t];}if(opts){var A7H=Y8Y;A7H+=D5O;A7H+=n1O;A7H+=K5O;Editor[A7H](opts,conf[h7Y],function(val,label,i,attr){var g67='" type="checkbox" />';var z67='<div>';var O67="feI";var p67=" for=\"";var C67="/label>";var A67="input:las";var g7H=B6X;g7H+=V67;g7H+=Y4O;var B7H=E11;B7H+=n1O;var Z7H=A67;Z7H+=E0O;var z7H=R6t;z7H+=C67;var O7H=D5O;O7H+=F0O;var p7H=R6t;p7H+=P3t;p7H+=p67;var C7H=A9t;C7H+=O67;C7H+=F0O;jqInput[U0t](z67+Z67+Editor[C7H](conf[F9t])+B67+(i+offset)+g67+p7H+Editor[L11](conf[O7H])+B67+(i+offset)+f3t+label+z7H+O3t);$(Z7H,jqInput)[B7H](X11,val)[f8O][g7H]=val;if(attr){var n7H=M5O;n7H+=s3Y;$(n67,jqInput)[n7H](attr);}});}},create:function(conf){var w67="ipOpts";var G67='<div />';var t67="_inpu";var d67="eckbo";var G7H=A7Y;G7H+=b67;G7H+=E0O;var t7H=F01;t7H+=D5O;t7H+=Q61;t7H+=K5O;var d7H=y7O;d7H+=d67;d7H+=p1O;var b7H=t67;b7H+=E0O;conf[b7H]=$(G67);fieldTypes[d7H][E7Y](conf,conf[t7H]||conf[w67]);return conf[G7H][f8O];},get:function(conf){var l67="dValue";var K67="ecte";var M67="unselectedValue";var k67="fin";var R67="oi";var u67="sep";var M7H=u67;M7H+=U61;M7H+=Y5t;M7H+=D8O;var e7H=B2O;e7H+=R67;e7H+=J87.F8O;var u7H=S2O;u7H+=A6t;u7H+=a6t;var w7H=k67;w7H+=F0O;var out=[];var selected=conf[I2Y][w7H](e67);if(selected[u7H]){selected[Q81](function(){var R7H=B6X;R7H+=V67;R7H+=Y4O;out[r7O](this[R7H]);});}else if(conf[M67]!==undefined){var k7H=Q2t;k7H+=l7X;k7H+=K67;k7H+=l67;out[r7O](conf[k7H]);}return conf[H67]===undefined||conf[H67]===d3t?out:out[e7H](conf[M7H]);},set:function(conf,val){var m67='|';var i7H=Y4O;i7H+=D7O;i7H+=H4O;var I7H=C0t;I7H+=F0t;var m7H=D5O;m7H+=b67;m7H+=E0O;var l7H=b1O;l7H+=G6Y;var K7H=y5O;K7H+=x1O;K7H+=D6t;K7H+=E0O;var jqInputs=conf[K7H][l7H](m7H);if(!$[I7H](val)&&typeof val===m0t){val=val[v67](conf[H67]||m67);}else if(!$[P91](val)){val=[val];}var i,len=val[i7H],found;jqInputs[Q81](function(){var I67="or_val";found=H6t;for(i=f8O;i<len;i++){var h7H=y5O;h7H+=q81;h7H+=I67;if(this[h7H]==val[i]){found=P6t;break;}}this[i67]=found;});_triggerChange(jqInputs);},enable:function(conf){var W7H=r5O;W7H+=X9t;var q7H=D5O;q7H+=N3Y;q7H+=d0O;q7H+=E0O;var y7H=b1O;y7H+=G6Y;conf[I2Y][y7H](q7H)[W7H](h67,H6t);},disable:function(conf){var c7H=x1O;c7H+=T5O;c7H+=S81;var F7H=b1O;F7H+=x1O;F7H+=F0O;var T7H=y5O;T7H+=x1O;T7H+=D6t;T7H+=E0O;conf[T7H][F7H](c7H)[N7Y](h67,P6t);},update:function(conf,options,append){var q67="check";var y67="addOptions";var E7H=y5O;E7H+=y67;var X7H=Z7O;X7H+=P0O;X7H+=E0O;var s7H=q67;s7H+=O8t;s7H+=f2Y;var checkbox=fieldTypes[s7H];var currVal=checkbox[X7H](conf);checkbox[E7H](conf,options,append);checkbox[R9t](conf,currVal);}});fieldTypes[x7H]=$[L7H](P6t,{},baseFieldType,{_addOptions:function(conf,opts,append){var W67="emp";var val,label;var jqInput=conf[I2Y];var offset=f8O;if(!append){var j7H=W67;j7H+=E0O;j7H+=P4O;jqInput[j7H]();}else{var r7H=x1O;r7H+=T5O;r7H+=d0O;r7H+=E0O;offset=$(r7H,jqInput)[f6t];}if(opts){var D7H=Y8Y;D7H+=D5O;D7H+=n1O;D7H+=K5O;Editor[D7H](opts,conf[h7Y],function(val,label,i,attr){var c67='<label for="';var F67="e=\"";var T67="\" type=\"radio\" nam";var P6O=M5O;P6O+=E0O;P6O+=E0O;P6O+=n1O;var Q6O=m7O;Q6O+=G6t;var f6O=J87.F8O;f6O+=M5O;f6O+=z5O;f6O+=P0O;var H6O=T67;H6O+=F67;var a6O=R6t;a6O+=F0O;a6O+=D5O;a6O+=u6t;var Y6O=x1t;Y6O+=T5O;Y6O+=g0O;jqInput[Y6O](a6O+Z67+Editor[L11](conf[F9t])+B67+(i+offset)+H6O+conf[f6O]+C31+c67+Editor[L11](conf[F9t])+B67+(i+offset)+Q6O+label+U3t+O3t);$(n67,jqInput)[P6O](X11,val)[f8O][I7Y]=val;if(attr){var U6O=M5O;U6O+=E0O;U6O+=E0O;U6O+=n1O;$(n67,jqInput)[U6O](attr);}});}},create:function(conf){var X67="O";var s67="ip";var V6O=z0O;V6O+=T5O;V6O+=P0O;V6O+=J87.F8O;var N6O=z0O;N6O+=J87.F8O;var S6O=s67;S6O+=X67;S6O+=H8t;var J6O=X9t;J6O+=H0X;var v6O=y5O;v6O+=M5O;v6O+=E67;v6O+=L4O;var o6O=l51;o6O+=P9Y;o6O+=q6t;o6O+=G6t;conf[I2Y]=$(o6O);fieldTypes[x67][v6O](conf,conf[J6O]||conf[S6O]);this[N6O](V6O,function(){var A6O=y5O;A6O+=x7Y;A6O+=S81;conf[A6O][d01](F8t)[Q81](function(){var j67="ecked";var L67="_pre";var C6O=L67;C6O+=z81;C6O+=H4O;C6O+=j67;if(this[C6O]){this[i67]=P6t;}});});return conf[I2Y][f8O];},get:function(conf){var D67="put:checked";var r67="itor_v";var z6O=B6X;z6O+=r67;z6O+=M5O;z6O+=Y4O;var O6O=x1O;O6O+=D67;var p6O=v2Y;p6O+=T7Y;var el=conf[p6O][d01](O6O);return el[f6t]?el[f8O][z6O]:undefined;},set:function(conf,val){var b6O=b1O;b6O+=x1O;b6O+=F0O;var Z6O=b1O;Z6O+=D5O;Z6O+=D4t;var that=this;conf[I2Y][Z6O](F8t)[Q81](function(){var U97="hecke";var P97="preC";var Q97="ked";var f97="che";var a97="reChe";var Y97="_preChecked";this[Y97]=H6t;if(this[I7Y]==val){var g6O=n41;g6O+=a97;g6O+=H97;g6O+=F0O;var B6O=f97;B6O+=J4O;B6O+=Q97;this[B6O]=P6t;this[g6O]=P6t;}else{var n6O=y5O;n6O+=P97;n6O+=U97;n6O+=F0O;this[i67]=H6t;this[n6O]=H6t;}});_triggerChange(conf[I2Y][b6O](e67));},enable:function(conf){var o97="sable";var G6O=F0O;G6O+=D5O;G6O+=o97;G6O+=F0O;var t6O=T8t;t6O+=E0O;var d6O=b1O;d6O+=D5O;d6O+=J87.F8O;d6O+=F0O;conf[I2Y][d6O](t6O)[N7Y](G6O,H6t);},disable:function(conf){var k6O=F0O;k6O+=C0t;k6O+=V5t;k6O+=F0O;var R6O=D5O;R6O+=N3Y;R6O+=d0O;R6O+=E0O;var u6O=b1O;u6O+=D5O;u6O+=D4t;var w6O=v2Y;w6O+=T7Y;conf[w6O][u6O](R6O)[N7Y](k6O,P6t);},update:function(conf,options,append){var J97="filt";var v97="value=\"";var K6O=a5X;K6O+=v97;var M6O=J97;M6O+=G5O;var e6O=b1O;e6O+=D5O;e6O+=J87.F8O;e6O+=F0O;var radio=fieldTypes[x67];var currVal=radio[j2O](conf);radio[E7Y](conf,options,append);var inputs=conf[I2Y][e6O](F8t);radio[R9t](conf,inputs[M6O](K6O+currVal+a3X)[f6t]?currVal:inputs[N8Y](f8O)[y2X](X11));}});fieldTypes[l6O]=$[I9t](P6t,{},baseFieldType,{create:function(conf){var d97='date';var b97='type';var O97="RFC_2822";var p97="dateFormat";var C97="ryui";var A97="jq";var N97='<input />';var S97="afeI";var I6O=D5O;I6O+=F0O;var m6O=K5O;m6O+=S97;m6O+=F0O;conf[I2Y]=$(N97)[y2X]($[I9t]({id:Editor[m6O](conf[I6O]),type:t7Y},conf[y2X]));if($[V97]){var h6O=A97;h6O+=d0O;h6O+=P0O;h6O+=C97;var i6O=M5O;i6O+=E67;i6O+=y3t;conf[I2Y][i6O](h6O);if(!conf[p97]){conf[p97]=$[V97][O97];}setTimeout(function(){var n97='#ui-datepicker-div';var B97="dateImage";var Z97="both";var T6O=X9t;T6O+=B41;var q6O=P0O;q6O+=p1O;q6O+=a2Y;q6O+=F0O;var y6O=z97;y6O+=S81;$(conf[y6O])[V97]($[q6O]({showOn:Z97,dateFormat:conf[p97],buttonImage:conf[B97],buttonImageOnly:P6t,onSelect:function(){var g97="focu";var W6O=g97;W6O+=K5O;conf[I2Y][W6O]()[H2t]();}},conf[T6O]));$(n97)[w3t](u3t,B8t);},S8O);}else{var F6O=Y5t;F6O+=E0O;F6O+=n1O;conf[I2Y][F6O](b97,d97);}return conf[I2Y][f8O];},set:function(conf,val){var G97="datepic";var t97='hasDatepicker';var c6O=A7Y;c6O+=J87.F8O;c6O+=D6t;c6O+=E0O;if($[V97]&&conf[c6O][q8t](t97)){var X6O=y7O;X6O+=Y61;X6O+=U1Y;var s6O=G97;s6O+=k8X;s6O+=n1O;conf[I2Y][s6O](q4Y,val)[X6O]();}else{var E6O=y1O;E6O+=M5O;E6O+=Y4O;$(conf[I2Y])[E6O](val);}},enable:function(conf){var k97="icker";var R97="datep";var u97="nable";var w97="atepi";var x6O=F0O;x6O+=w97;x6O+=H97;x6O+=n1O;if($[x6O]){var r6O=P0O;r6O+=u97;var j6O=R97;j6O+=k97;var L6O=y5O;L6O+=x7Y;L6O+=S81;conf[L6O][j6O](r6O);}else{var Y9O=r5O;Y9O+=z0O;Y9O+=T5O;var D6O=v2Y;D6O+=T7Y;$(conf[D6O])[Y9O](h67,H6t);}},disable:function(conf){var e97="datepicke";if($[V97]){var H9O=J01;H9O+=P0O;var a9O=e97;a9O+=n1O;conf[I2Y][a9O](H9O);}else{var f9O=z97;f9O+=S81;$(conf[f9O])[N7Y](h67,P6t);}},owns:function(conf,node){var l97='div.ui-datepicker-header';var K97='div.ui-datepicker';var M97="nts";var P9O=S2O;P9O+=i31;var Q9O=t0X;Q9O+=M97;return $(node)[Q9O](K97)[P9O]||$(node)[Y41](l97)[f6t]?P6t:H6t;}});fieldTypes[U9O]=$[o9O](P6t,{},baseFieldType,{create:function(conf){var q97="ut ";var y97="saf";var h97="icke";var i97="atetime";var I97="keyInpu";var m97="eF";var w9O=d31;w9O+=t2O;w9O+=m97;w9O+=J87.F8O;var G9O=z0O;G9O+=J87.F8O;var b9O=I97;b9O+=E0O;var B9O=F0O;B9O+=i97;var Z9O=H81;Z9O+=f81;var z9O=b1O;z9O+=i81;z9O+=Y5t;var O9O=w7X;O9O+=F0O;var p9O=v2Y;p9O+=T5O;p9O+=S81;var C9O=y5O;C9O+=T5O;C9O+=h97;C9O+=n1O;var A9O=M5O;A9O+=E0O;A9O+=E0O;A9O+=n1O;var V9O=E0O;V9O+=P0O;V9O+=U0O;var N9O=y97;N9O+=P0O;N9O+=R5O;N9O+=F0O;var S9O=M2t;S9O+=K2t;var J9O=b7Y;J9O+=N3Y;J9O+=q97;J9O+=Q9Y;var v9O=z97;v9O+=S81;conf[v9O]=$(J9O)[y2X]($[S9O](P6t,{id:Editor[N9O](conf[F9t]),type:V9O},conf[A9O]));conf[C9O]=new Editor[H3Y](conf[p9O],$[O9O]({format:conf[z9O],i18n:this[Z9O][B9O],onChange:function(){_triggerChange(conf[I2Y]);}},conf[T3t]));conf[W97]=function(){var n9O=H4O;n9O+=D5O;n9O+=F0O;n9O+=P0O;var g9O=y5O;g9O+=T5O;g9O+=T4t;g9O+=G5O;conf[g9O][n9O]();};if(conf[b9O]===H6t){var d9O=k8X;d9O+=P4O;d9O+=x8X;conf[I2Y][Q61](d9O,function(e){var T97="entDefault";var t9O=r5O;t9O+=Y01;t9O+=T97;e[t9O]();});}this[G9O](L5t,conf[w9O]);return conf[I2Y][f8O];},set:function(conf,val){var u9O=z97;u9O+=d0O;u9O+=E0O;conf[F97][z0t](val);_triggerChange(conf[u9O]);},owns:function(conf,node){var c97="owns";return conf[F97][c97](node);},errorMessage:function(conf,msg){var X97="errorMsg";var R9O=s97;R9O+=n1O;conf[R9O][X97](msg);},destroy:function(conf){var E97="_pi";var M9O=E97;M9O+=J4O;M9O+=k8X;M9O+=n1O;var e9O=z0O;e9O+=b1O;e9O+=b1O;var k9O=z0O;k9O+=b1O;k9O+=b1O;this[k9O](L5t,conf[W97]);conf[I2Y][e9O](A8X);conf[M9O][t81]();},minDate:function(conf,min){var L97="min";var x97="_pick";var K9O=x97;K9O+=P0O;K9O+=n1O;conf[K9O][L97](min);},maxDate:function(conf,max){var l9O=s97;l9O+=n1O;conf[l9O][v61](max);}});fieldTypes[m9O]=$[I9t](P6t,{},baseFieldType,{create:function(conf){var editor=this;var container=_commonUpload(editor,conf,function(val){var j97="dTyp";var I9O=b1O;I9O+=A41;I9O+=j97;I9O+=c7O;Editor[I9O][g21][R9t][D3t](editor,conf,val[f8O]);});return container;},get:function(conf){return conf[p7Y];},set:function(conf,val){var V37="ddC";var N37='noClear';var S37="rText";var J37="cle";var v37="ov";var P37="<spa";var Q37="No fi";var f37="ndered";var H37="v.re";var a37="clearValue button";var Y37="div.";var D97="earTex";var r97="oad.";var D9O=E2Y;D9O+=r97;D9O+=P0O;D9O+=S6Y;var r9O=x7Y;r9O+=d0O;r9O+=E0O;var E9O=e5O;E9O+=D97;E9O+=E0O;var X9O=Y37;X9O+=a37;var h9O=b2O;h9O+=Y4O;h9O+=z7O;var i9O=y5O;i9O+=z0t;conf[i9O]=val;var container=conf[I2Y];if(conf[h9O]){var W9O=y5O;W9O+=z0t;var q9O=X1O;q9O+=H37;q9O+=f37;var y9O=b1O;y9O+=D5O;y9O+=J87.F8O;y9O+=F0O;var rendered=container[y9O](q9O);if(conf[W9O]){var T9O=y5O;T9O+=t9t;T9O+=Y4O;rendered[N5t](conf[Y0t](conf[T9O]));}else{var s9O=Q37;s9O+=Y4O;s9O+=P0O;var c9O=P37;c9O+=T6t;var F9O=b5X;F9O+=D31;rendered[F9O]()[U0t](c9O+(conf[U37]||s9O)+o37);}}var button=container[d01](X9O);if(val&&conf[E9O]){var L9O=m11;L9O+=v37;L9O+=j31;var x9O=J37;x9O+=M5O;x9O+=S37;button[N5t](conf[x9O]);container[L9O](N37);}else{var j9O=M5O;j9O+=V37;j9O+=g8t;j9O+=K5O;container[j9O](N37);}conf[I2Y][d01](r9O)[n3X](D9O,[conf[p7Y]]);},enable:function(conf){var A37="isabl";var H3O=V2Y;H3O+=J8t;var a3O=F0O;a3O+=A37;a3O+=P0O;a3O+=F0O;var Y3O=b1O;Y3O+=D5O;Y3O+=J87.F8O;Y3O+=F0O;conf[I2Y][Y3O](F8t)[N7Y](a3O,H6t);conf[H3O]=P6t;},disable:function(conf){var Q3O=T5O;Q3O+=n1O;Q3O+=z0O;Q3O+=T5O;var f3O=x1O;f3O+=T7Y;conf[I2Y][d01](f3O)[Q3O](h67,P6t);conf[j2Y]=H6t;},canReturnSubmit:function(conf,node){return H6t;}});fieldTypes[C37]=$[I9t](P6t,{},baseFieldType,{_showHide:function(conf){var g37='div.limitHide';var Z37="limit";var z37="lim";var O37="Left";var p37="imit";var J3O=y5O;J3O+=t9t;J3O+=Y4O;var v3O=s4O;v3O+=p37;v3O+=O37;var o3O=O8t;o3O+=B1t;o3O+=J4O;o3O+=o6t;var U3O=z37;U3O+=U1O;var P3O=y5O;P3O+=z0t;if(!conf[Z37]){return;}conf[B37][d01](g37)[w3t](u3t,conf[P3O][f6t]>=conf[U3O]?B8t:o3O);conf[v3O]=conf[Z37]-conf[J3O][f6t];},create:function(conf){var b37="lick";var n37="n.remov";var p3O=O71;p3O+=Y2O;p3O+=n37;p3O+=P0O;var C3O=J4O;C3O+=b37;var A3O=c6t;A3O+=Y4O;A3O+=E0O;A3O+=D5O;var V3O=K6X;V3O+=b8t;var editor=this;var container=_commonUpload(editor,conf,function(val){var t37="concat";var d37="eldTyp";var N3O=Y0O;N3O+=d37;N3O+=c7O;var S3O=O7Y;S3O+=M5O;S3O+=Y4O;conf[S3O]=conf[p7Y][t37](val);Editor[N3O][C37][R9t][D3t](editor,conf,conf[p7Y]);},P6t);container[V3O](A3O)[Q61](C3O,p3O,function(e){var u37='idx';var w37="gation";var G37="stopPro";var g3O=K5O;g3O+=P0O;g3O+=E0O;var B3O=O91;B3O+=H0O;var Z3O=K5O;Z3O+=T5O;Z3O+=U6t;Z3O+=P0O;var z3O=g2O;z3O+=E0O;z3O+=M5O;var O3O=G37;O3O+=Y8Y;O3O+=w37;e[O3O]();var idx=$(this)[z3O](u37);conf[p7Y][Z3O](idx,Q8O);Editor[B3O][C37][g3O][D3t](editor,conf,conf[p7Y]);});conf[B37]=container;return container;},get:function(conf){var n3O=y5O;n3O+=y1O;n3O+=M5O;n3O+=Y4O;return conf[n3O];},set:function(conf,val){var X37='<span>';var s37="No fil";var y37="l/";var h37="<u";var i37="endTo";var I37=".rendered";var m37='Upload collections must have an array as a value';var l37="adMany";var K37="_showH";var M37="dler";var e37="ggerHan";var k37="tri";var R37="upload.";var W3O=O7Y;W3O+=M5O;W3O+=Y4O;var q3O=R37;q3O+=n11;var y3O=k37;y3O+=e37;y3O+=M37;var h3O=D5O;h3O+=b67;h3O+=E0O;var i3O=v2Y;i3O+=D6t;i3O+=E0O;var I3O=K37;I3O+=D5O;I3O+=F0O;I3O+=P0O;var m3O=s21;m3O+=l37;if(!val){val=[];}if(!$[P91](val)){throw m37;}conf[p7Y]=val;var that=this;var container=conf[I2Y];if(conf[Y0t]){var G3O=Y6t;G3O+=X41;var t3O=b5X;t3O+=T5O;t3O+=E0O;t3O+=P4O;var d3O=d2t;d3O+=I37;var b3O=b1O;b3O+=D5O;b3O+=J87.F8O;b3O+=F0O;var rendered=container[b3O](d3O)[t3O]();if(val[G3O]){var u3O=u1t;u3O+=i37;var w3O=h37;w3O+=y37;w3O+=G6t;var list=$(w3O)[u3O](rendered);$[Q81](val,function(i,file){var c37='</li>';var F37=' remove" data-idx="';var T37=' <button class="';var W37="imes;</button>";var q37="\">&t";var K3O=q37;K3O+=W37;var M3O=K8t;M3O+=l5O;var e3O=F0O;e3O+=C0t;e3O+=M6Y;e3O+=P4O;var k3O=R6t;k3O+=K41;k3O+=G6t;var R3O=M5O;R3O+=T5O;R3O+=t4O;R3O+=D4t;list[R3O](k3O+conf[e3O](file,i)+T37+that[M3O][z31][X5t]+F37+i+K3O+c37);});}else{var l3O=s37;l3O+=c7O;rendered[U0t](X37+(conf[U37]||l3O)+o37);}}Editor[W9t][m3O][I3O](conf);conf[i3O][d01](h3O)[y3O](q3O,[conf[W3O]]);},enable:function(conf){var E37="disa";var c3O=E37;c3O+=O8t;c3O+=J8t;var F3O=T5O;F3O+=n1O;F3O+=z0O;F3O+=T5O;var T3O=b1O;T3O+=x1O;T3O+=F0O;conf[I2Y][T3O](F8t)[F3O](c3O,H6t);conf[j2Y]=P6t;},disable:function(conf){var E3O=T5O;E3O+=n1O;E3O+=z0O;E3O+=T5O;var X3O=x1O;X3O+=T5O;X3O+=d0O;X3O+=E0O;var s3O=z97;s3O+=S81;conf[s3O][d01](X3O)[E3O](h67,P6t);conf[j2Y]=H6t;},canReturnSubmit:function(conf,node){return H6t;}});}());if(DataTable[x3O][x37]){var r3O=L37;r3O+=F0O;r3O+=K5O;var j3O=e9t;j3O+=M9t;var L3O=M2t;L3O+=E0O;L3O+=g0O;$[L3O](Editor[j3O],DataTable[B0O][r3O]);}DataTable[D3O][Y8O]=Editor[a8O];Editor[s7O]={};Editor[j3t][j37]=H8O;Editor[r37]=D37;return Editor;}));
+
+/**
+ * @summary     DataTables Editor
+ * @description Table editing library for DataTables
+ * @version     1.8.0
+ * @file        dataTables.editor.js
+ * @author      SpryMedia Ltd
+ * @contact     www.datatables.net/contact
+ */
+
+/*jslint evil: true, undef: true, browser: true */
+/*globals jQuery,alert,console */
+
+(function( factory ){
+	if ( typeof define === 'function' && define.amd ) {
+		// AMD
+		// @jscrambler disable *
+		define( ['jquery', 'datatables.net'], function ( $ ) {
+			return factory( $, window, document );
+		} );
+	}
+	else if ( typeof exports === 'object' ) {
+		// CommonJS
+		// @jscrambler disable *
+		module.exports = function (root, $) {
+			if ( ! root ) {
+				root = window;
+			}
+
+			if ( ! $ || ! $.fn.dataTable ) {
+				$ = require('datatables.net')(root, $).$;
+			}
+
+			return factory( $, root, root.document );
+		};
+	}
+	else {
+		// Browser
+		factory( jQuery, window, document );
+	}
+}(function( $, window, document, undefined ) {
+'use strict';
+var DataTable = $.fn.dataTable;
+
+
+if ( ! DataTable || ! DataTable.versionCheck || ! DataTable.versionCheck('1.10.7') ) {
+	throw 'Editor requires DataTables 1.10.7 or newer';
+}
+
+/**
+ * Editor is a plug-in for <a href="http://datatables.net">DataTables</a> which
+ * provides an interface for creating, reading, editing and deleting and entries
+ * (a CRUD interface) in a DataTable. The documentation presented here is
+ * primarily focused on presenting the API for Editor. For a full list of
+ * features, examples and the server interface protocol, please refer to the <a
+ * href="http://editor.datatables.net">Editor web-site</a>.
+ *
+ * Note that in this documentation, for brevity, the `DataTable` refers to the
+ * jQuery parameter `jQuery.fn.dataTable` through which it may be  accessed.
+ * Therefore, when creating a new Editor instance, use `jQuery.fn.Editor` as
+ * shown in the examples below.
+ *
+ *  @class
+ *  @param {object} [oInit={}] Configuration object for Editor. Options
+ *    are defined by {@link Editor.defaults}.
+ *  @requires jQuery 1.7+
+ *  @requires DataTables 1.10+
+ */
+var Editor = function ( opts )
+{
+	if ( ! (this instanceof Editor) ) {
+		alert( "DataTables Editor must be initialised as a 'new' instance'" );
+	}
+
+	this._constructor( opts );
+};
+
+// Export Editor as a DataTables property
+DataTable.Editor = Editor;
+$.fn.DataTable.Editor = Editor;
+
+// Internal methods
+
+
+/**
+ * Get an Editor node based on the data-dte-e (element) attribute and return it
+ * as a jQuery object.
+ *  @param {string} dis The data-dte-e attribute name to match for the element
+ *  @param {node} [ctx=document] The context for the search - recommended this
+ *    parameter is included for performance.
+ *  @returns {jQuery} jQuery object of found node(s).
+ *  @private
+ */
+var _editor_el = function ( dis, ctx )
+{
+	if ( ctx === undefined ) {
+		ctx = document;
+	}
+
+	return $('*[data-dte-e="'+dis+'"]', ctx);
+};
+
+
+/** @internal Counter for unique event namespaces in the inline control */
+var __inlineCounter = 0;
+
+var _pluck = function ( a, prop )
+{
+	var out = [];
+
+	$.each( a, function ( idx, el ) {
+		out.push( el[ prop ] );
+	} );
+
+	return out;
+};
+
+// The file and file methods are common on both the DataTables and Editor APIs
+// so rather than writing the same methods twice, they are defined once here and
+// assigned as required.
+var _api_file = function ( name, id )
+{
+	var table = this.files( name ); // can throw. `this` will be Editor or
+	var file = table[ id ];         //  DataTables.Api context. Both work.
+
+	if ( ! file ) {
+		throw 'Unknown file id '+ id +' in table '+ name;
+	}
+
+	return table[ id ];
+};
+
+var _api_files = function ( name )
+{
+	if ( ! name ) {
+		return Editor.files;
+	}
+
+	var table = Editor.files[ name ];
+
+	if ( ! table ) {
+		throw 'Unknown file table name: '+ name;
+	}
+
+	return table;
+};
+
+/**
+ * Get the keys of an object / array
+ *
+ * @param  {object} o Object to get the keys of
+ * @return {array} Keys
+ */
+var _objectKeys = function ( o ) {
+	var out = [];
+
+	for ( var key in o ) {
+		if ( o.hasOwnProperty( key ) ) {
+			out.push( key );
+		}
+	}
+
+	return out;
+};
+
+/**
+ * Compare parameters for difference - diving into arrays and objects if
+ * needed, allowing the object reference to be different, but the contents to
+ * match.
+ *
+ * Please note that LOOSE type checking is used
+ *
+ * @param  {*} o1 Object to compare
+ * @param  {*} o2 Object to compare
+ * @return {boolean} `true` if matching, `false` otherwise
+ */
+var _deepCompare = function (o1, o2) {
+	if ( typeof o1 !== 'object' || typeof o2 !== 'object' ) {
+		return o1 == o2;
+	}
+
+	var o1Props = _objectKeys( o1 );
+	var o2Props = _objectKeys( o2 );
+
+	if (o1Props.length !== o2Props.length) {
+		return false;
+	}
+
+	for ( var i=0, ien=o1Props.length ; i<ien ; i++ ) {
+		var propName = o1Props[i];
+
+		if ( typeof o1[propName] === 'object' ) {
+			if ( ! _deepCompare( o1[propName], o2[propName] ) ) {
+				return false;
+			}
+		}
+		else if (o1[propName] != o2[propName]) {
+			return false;
+		}
+	}
+
+	return true;
+};
+// Field class
+
+
+Editor.Field = function ( opts, classes, host ) {
+	var that = this;
+	var multiI18n = host.i18n.multi;
+
+	opts = $.extend( true, {}, Editor.Field.defaults, opts );
+	
+	if ( ! Editor.fieldTypes[ opts.type ] ) {
+		throw "Error adding field - unknown field type "+opts.type;
+	}
+
+	this.s = $.extend( {}, Editor.Field.settings, { // has to be a shallow copy!
+		type:       Editor.fieldTypes[ opts.type ],
+		name:       opts.name,
+		classes:    classes,
+		host:       host,
+		opts:       opts,
+		multiValue: false
+	} );
+
+	// No id, so assign one to have the label reference work
+	if ( ! opts.id ) {
+		opts.id = 'DTE_Field_'+opts.name;
+	}
+
+	// Backwards compatibility
+	if ( opts.dataProp ) {
+		opts.data = opts.dataProp;
+	}
+
+	// If no `data` option is given, then we use the name from the field as the
+	// data prop to read data for the field from DataTables
+	if ( opts.data === '' ) {
+		opts.data = opts.name;
+	}
+
+	// Get and set functions in the data object for the record
+	var dtPrivateApi = DataTable.ext.oApi;
+	this.valFromData = function ( d ) { // get val from data
+		// wrapper to automatically pass `editor` as the type
+		return dtPrivateApi._fnGetObjectDataFn( opts.data )( d, 'editor' );
+	};
+	this.valToData = dtPrivateApi._fnSetObjectDataFn( opts.data ); // set val to data
+
+	// Field HTML structure
+	var template = $(
+		'<div class="'+classes.wrapper+' '+classes.typePrefix+opts.type+' '+classes.namePrefix+opts.name+' '+opts.className+'">'+
+			'<label data-dte-e="label" class="'+classes.label+'" for="'+Editor.safeId(opts.id)+'">'+
+				opts.label+
+				'<div data-dte-e="msg-label" class="'+classes['msg-label']+'">'+opts.labelInfo+'</div>'+
+			'</label>'+
+			'<div data-dte-e="input" class="'+classes.input+'">'+
+				// Field specific HTML is added here if there is any
+				'<div data-dte-e="input-control" class="'+classes.inputControl+'"/>'+
+				'<div data-dte-e="multi-value" class="'+classes.multiValue+'">'+
+					multiI18n.title+
+					'<span data-dte-e="multi-info" class="'+classes.multiInfo+'">'+
+						multiI18n.info+
+					'</span>'+
+				'</div>'+
+				'<div data-dte-e="msg-multi" class="'+classes.multiRestore+'">'+
+					multiI18n.restore+
+				'</div>'+
+				'<div data-dte-e="msg-error" class="'+classes['msg-error']+'"></div>'+
+				'<div data-dte-e="msg-message" class="'+classes['msg-message']+'">'+opts.message+'</div>'+
+				'<div data-dte-e="msg-info" class="'+classes['msg-info']+'">'+opts.fieldInfo+'</div>'+
+			'</div>'+
+			'<div data-dte-e="field-processing" class="'+classes.processing+'"><span/></div>'+
+		'</div>');
+
+	var input = this._typeFn( 'create', opts );
+	if ( input !== null ) {
+		_editor_el('input-control', template).prepend( input );
+	}
+	else {
+		template.css('display', "none");
+	}
+
+	this.dom = $.extend( true, {}, Editor.Field.models.dom, {
+		container:    template,
+		inputControl: _editor_el('input-control', template),
+		label:        _editor_el('label', template),
+		fieldInfo:    _editor_el('msg-info', template),
+		labelInfo:    _editor_el('msg-label', template),
+		fieldError:   _editor_el('msg-error', template),
+		fieldMessage: _editor_el('msg-message', template),
+		multi:        _editor_el('multi-value', template),
+		multiReturn:  _editor_el('msg-multi', template),
+		multiInfo:    _editor_el('multi-info', template),
+		processing:   _editor_el('field-processing', template)
+	} );
+
+	// On click - set a common value for the field
+	this.dom.multi.on( 'click', function () {
+		if ( that.s.opts.multiEditable && ! template.hasClass( classes.disabled ) && opts.type !== 'readonly' ) {
+			that.val('');
+			that.focus();
+		}
+	} );
+
+	this.dom.multiReturn.on( 'click', function () {
+		that.multiRestore();
+	} );
+
+	// Field type extension methods - add a method to the field for the public
+	// methods that each field type defines beyond the default ones that already
+	// exist as part of this instance
+	$.each( this.s.type, function ( name, fn ) {
+		if ( typeof fn === 'function' && that[name] === undefined ) {
+			that[ name ] = function () {
+				var args = Array.prototype.slice.call( arguments );
+
+				args.unshift( name );
+				var ret = that._typeFn.apply( that, args );
+
+				// Return the given value if there is one, or the field instance
+				// for chaining if there is no value
+				return ret === undefined ?
+					that :
+					ret;
+			};
+		}
+	} );
+};
+
+
+Editor.Field.prototype = {
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Public
+	 */
+	def: function ( set ) {
+		var opts = this.s.opts;
+
+		if ( set === undefined ) {
+			// Backwards compat
+			var def = opts['default'] !== undefined ?
+				opts['default'] :
+				opts.def;
+
+			return typeof def === 'function' ?
+				def() :
+				def;
+		}
+
+		opts.def = set;
+		return this;
+	},
+
+	disable: function () {
+		this.dom.container.addClass( this.s.classes.disabled );
+
+		this._typeFn( 'disable' );
+
+		return this;
+	},
+
+	displayed: function () {
+		var container = this.dom.container;
+
+		return container.parents('body').length && container.css('display') != 'none' ?
+			true :
+			false;
+	},
+
+	enable: function () {
+		this.dom.container.removeClass( this.s.classes.disabled );
+
+		this._typeFn( 'enable' );
+
+		return this;
+	},
+
+	enabled: function () {
+		return this.dom.container.hasClass( this.s.classes.disabled ) === false;
+	},
+
+	error: function ( msg, fn ) {
+		var classes = this.s.classes;
+
+		// Add or remove the error class
+		if ( msg ) {
+			this.dom.container.addClass( classes.error );
+		}
+		else {
+			this.dom.container.removeClass( classes.error );
+		}
+
+		this._typeFn( 'errorMessage', msg );
+
+		return this._msg( this.dom.fieldError, msg, fn );
+	},
+
+	fieldInfo: function ( msg ) {
+		return this._msg( this.dom.fieldInfo, msg );
+	},
+
+	isMultiValue: function () {
+		return this.s.multiValue && this.s.multiIds.length !== 1;
+	},
+
+	inError: function () {
+		return this.dom.container.hasClass( this.s.classes.error );
+	},
+
+	input: function () {
+		return this.s.type.input ?
+			this._typeFn( 'input' ) :
+			$('input, select, textarea', this.dom.container);
+	},
+
+	focus: function () {
+		if ( this.s.type.focus ) {
+			this._typeFn( 'focus' );
+		}
+		else {
+			$('input, select, textarea', this.dom.container).focus();
+		}
+
+		return this;
+	},
+
+	get: function () {
+		// When multi-value a single get is undefined
+		if ( this.isMultiValue() ) {
+			return undefined;
+		}
+
+		var val = this._typeFn( 'get' );
+		return val !== undefined ?
+			val :
+			this.def();
+	},
+
+	hide: function ( animate ) {
+		var el = this.dom.container;
+
+		if ( animate === undefined ) {
+			animate = true;
+		}
+
+		if ( this.s.host.display() && animate && $.fn.slideUp ) {
+			el.slideUp();
+		}
+		else {
+			el.css( 'display', 'none' );
+		}
+		return this;
+	},
+
+	label: function ( str ) {
+		var label = this.dom.label;
+		var labelInfo = this.dom.labelInfo.detach();
+
+		if ( str === undefined ) {
+			return label.html();
+		}
+
+		label.html( str );
+		label.append( labelInfo );
+		return this;
+	},
+
+	labelInfo: function ( msg ) {
+		return this._msg( this.dom.labelInfo, msg );
+	},
+
+	message: function ( msg, fn ) {
+		return this._msg( this.dom.fieldMessage, msg, fn );
+	},
+
+	// There is no `multiVal()` as its arguments could be ambiguous
+	// id is an idSrc value _only_
+	multiGet: function ( id ) {
+		var value;
+		var multiValues = this.s.multiValues;
+		var multiIds = this.s.multiIds;
+
+		if ( id === undefined ) {
+			// Get an object with the values for each item being edited
+			value = {};
+
+			for ( var i=0 ; i<multiIds.length ; i++ ) {
+				value[ multiIds[i] ] = this.isMultiValue() ?
+					multiValues[ multiIds[i] ] :
+					this.val();
+			}
+		}
+		else if ( this.isMultiValue() ) {
+			// Individual value
+			value = multiValues[ id ];
+		}
+		else {
+			// Common value
+			value = this.val();
+		}
+
+		return value;
+	},
+	
+	multiRestore: function () {
+		this.s.multiValue = true;
+		this._multiValueCheck();
+	},
+
+	multiSet: function ( id, val )
+	{
+		var multiValues = this.s.multiValues;
+		var multiIds = this.s.multiIds;
+
+		if ( val === undefined ) {
+			val = id;
+			id = undefined;
+		}
+
+		// Set
+		var set = function ( idSrc, val ) {
+			// Get an individual item's value - add the id to the edit ids if
+			// it isn't already in the set.
+			if ( $.inArray( multiIds ) === -1 ) {
+				multiIds.push( idSrc );
+			}
+
+			multiValues[ idSrc ] = val;
+		};
+
+		if ( $.isPlainObject( val ) && id === undefined ) {
+			// idSrc / value pairs passed in
+			$.each( val, function ( idSrc, innerVal ) {
+				set( idSrc, innerVal );
+			} );
+		}
+		else if ( id === undefined ) {
+			// Set same value for all existing ids
+			$.each( multiIds, function ( i, idSrc ) {
+				set( idSrc, val );
+			} );
+		}
+		else {
+			// Setting an individual property
+			set( id, val );
+		}
+
+		this.s.multiValue = true;
+		this._multiValueCheck();
+
+		return this;
+	},
+
+	name: function () {
+		return this.s.opts.name;
+	},
+
+	node: function () {
+		return this.dom.container[0];
+	},
+
+	processing: function (set) {
+		this.dom.processing.css('display', set ? 'block' : 'none');
+		return this;
+	},
+
+	// multiCheck is not publically documented
+	set: function ( val, multiCheck ) {
+		var decodeFn = function ( d ) {
+			return typeof d !== 'string' ?
+				d :
+				d
+					.replace(/&gt;/g, '>')
+					.replace(/&lt;/g, '<')
+					.replace(/&amp;/g, '&')
+					.replace(/&quot;/g, '"')
+					.replace(/&#39;/g, '\'')
+					.replace(/&#10;/g, '\n');
+		};
+
+		this.s.multiValue = false;
+
+		var decode = this.s.opts.entityDecode;
+		if ( decode === undefined || decode === true ) {
+			if ( $.isArray( val ) ) {
+				for ( var i=0, ien=val.length ; i<ien ; i++ ) {
+					val[i] = decodeFn( val[i] );
+				}
+			}
+			else {
+				val = decodeFn( val );
+			}
+		}
+
+		this._typeFn( 'set', val );
+
+		if ( multiCheck === undefined || multiCheck === true ) {
+			this._multiValueCheck();
+		}
+
+		return this;
+	},
+
+	show: function ( animate ) {
+		var el = this.dom.container;
+
+		if ( animate === undefined ) {
+			animate = true;
+		}
+
+		if ( this.s.host.display() && animate && $.fn.slideDown ) {
+			el.slideDown();
+		}
+		else {
+			el.css( 'display', '' ); // empty to restore css default (flex or block)
+		}
+		return this;
+	},
+
+	val: function ( val ) {
+		return val === undefined ?
+			this.get() :
+			this.set( val );
+	},
+
+
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Internal - Called from Editor only and are not publicly documented -
+	 * these APIs can change!
+	 */
+	compare: function ( value, original ) {
+		var compare = this.s.opts.compare || _deepCompare;
+		return compare( value, original );
+	},
+
+	dataSrc: function () {
+		return this.s.opts.data;
+	},
+
+	destroy: function () {
+		// remove element
+		this.dom.container.remove();
+
+		// field's own destroy method if there is one
+		this._typeFn( 'destroy' );
+		return this;
+	},
+
+	multiEditable: function () {
+		return this.s.opts.multiEditable;
+	},
+
+	multiIds: function () {
+		return this.s.multiIds;
+	},
+
+	multiInfoShown: function ( show ) {
+		this.dom.multiInfo.css( { display: show ? 'block' : 'none' } );
+	},
+
+	multiReset: function () {
+		this.s.multiIds = [];
+		this.s.multiValues = {};
+	},
+
+	submittable: function () {
+		return this.s.opts.submit;
+	},
+
+	valFromData: null,
+
+	valToData: null,
+
+
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Private
+	 */
+	_errorNode: function () {
+		return this.dom.fieldError;
+	},
+
+	_msg: function ( el, msg, fn ) {
+		if ( msg === undefined ) {
+			return el.html();
+		}
+
+		if ( typeof msg === 'function' ) {
+			var editor = this.s.host;
+			msg = msg( editor, new DataTable.Api( editor.s.table ) );
+		}
+
+		if ( el.parent().is(":visible") && $.fn.animate ) {
+			el.html( msg );
+
+			if ( msg ) {
+				el.slideDown( fn ); // fn can be undefined - so jQuery won't execute it
+			}
+			else {
+				el.slideUp( fn );
+			}
+		}
+		else {
+			// Not visible, so immediately set, or blank out the element
+			el
+				.html( msg || '' )
+				.css( 'display', msg ? 'block' : 'none' );
+
+			if ( fn ) {
+				fn();
+			}
+		}
+
+		return this;
+	},
+
+	_multiValueCheck: function () {
+		var last;
+		var ids = this.s.multiIds;
+		var values = this.s.multiValues;
+		var isMultiValue = this.s.multiValue;
+		var isMultiEditable = this.s.opts.multiEditable;
+		var val;
+		var different = false;
+
+		if ( ids ) {
+			for ( var i=0 ; i<ids.length ; i++ ) {
+				val = values[ ids[i] ];
+
+				if ( i > 0 && ! _deepCompare( val, last ) ) {
+					different = true;
+					break;
+				}
+
+				last = val;
+			}
+		}
+
+		if ( (different && isMultiValue) || (!isMultiEditable && this.isMultiValue()) ) {
+			// Different values or same values, but not multiple editable
+			this.dom.inputControl.css( { display: 'none' } );
+			this.dom.multi.css( { display: 'block' } );
+		}
+		else {
+			// All the same value
+			this.dom.inputControl.css( { display: 'block' } );
+			this.dom.multi.css( { display: 'none' } );
+
+			if ( isMultiValue && ! different ) {
+				this.set( last, false );
+			}
+		}
+
+		this.dom.multiReturn.css( {
+			display: ids && ids.length > 1 && different && ! isMultiValue ?
+				'block' :
+				'none'
+		} );
+
+		// Update information label
+		var i18n =  this.s.host.i18n.multi;
+		this.dom.multiInfo.html( isMultiEditable ? i18n.info : i18n.noMulti);
+		this.dom.multi.toggleClass( this.s.classes.multiNoEdit, ! isMultiEditable );
+
+		this.s.host._multiInfo();
+
+		return true;
+	},
+
+	_typeFn: function ( name /*, ... */ ) {
+		// Remove the name from the arguments list, so the rest can be passed
+		// straight into the field type
+		var args = Array.prototype.slice.call( arguments );
+		args.shift();
+
+		// Insert the options as the first parameter - all field type methods
+		// take the field's configuration object as the first parameter
+		args.unshift( this.s.opts );
+
+		var fn = this.s.type[ name ];
+		if ( fn ) {
+			return fn.apply( this.s.host, args );
+		}
+	}
+};
+
+
+Editor.Field.models = {};
+
+
+/**
+ * Initialisation options that can be given to Editor.Field at initialisation
+ * time.
+ *  @namespace
+ */
+Editor.Field.defaults = {
+	/**
+	 * Class name to assign to the field's container element (in addition to the other
+	 * classes that Editor assigns by default).
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"className": "",
+
+	/**
+	 * The data property (`mData` in DataTables terminology) that is used to
+	 * read from and write to the table. If not given then it will take the same
+	 * value as the `name` that is given in the field object. Note that `data`
+	 * can be given as null, which will result in Editor not using a DataTables
+	 * row property for the value of the field for either getting or setting
+	 * data.
+	 *
+	 * In previous versions of Editor (1.2-) this was called `dataProp`. The old
+	 * name can still be used for backwards compatibility, but the new form is
+	 * preferred.
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"data": "",
+
+	/**
+	 * The default value for the field. Used when creating new rows (editing will
+	 * use the currently set value). If given as a function the function will be
+	 * executed and the returned value used as the default
+	 *
+	 * In Editor 1.2 and earlier this field was called `default` - however
+	 * `default` is a reserved word in Javascript, so it couldn't be used
+	 * unquoted. `default` will still work with Editor 1.3, but the new property
+	 * name of `def` is preferred.
+	 *  @type string|function
+	 *  @default <i>Empty string</i>
+	 */
+	"def": "",
+
+	/**
+	 * Helpful information text about the field that is shown below the input control.
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"fieldInfo": "",
+
+	/**
+	 * The ID of the field. This is used by the `label` HTML tag as the "for" attribute 
+	 * improved accessibility. Although this using this parameter is not mandatory,
+	 * it is a good idea to assign the ID to the DOM element that is the input for the
+	 * field (if this is applicable).
+	 *  @type string
+	 *  @default <i>Calculated</i>
+	 */
+	"id": "",
+
+	/**
+	 * The label to display for the field input (i.e. the name that is visually 
+	 * assigned to the field).
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"label": "",
+
+	/**
+	 * Helpful information text about the field that is shown below the field label.
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"labelInfo": "",
+
+	/**
+	 * The name for the field that is submitted to the server. This is the only
+	 * mandatory parameter in the field description object.
+	 *  @type string
+	 *  @default <i>null</i>
+	 */
+	"name": null,
+
+	/**
+	 * The input control that is presented to the end user. The options available 
+	 * are defined by {@link Editor.fieldTypes} and any extensions made 
+	 * to that object.
+	 *  @type string
+	 *  @default text
+	 */
+	"type": "text",
+
+	/**
+	 * Information message for the field - expected to be dynamic
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 */
+	"message": "",
+
+	/**
+	 * Allow a field to be editable when multiple rows are selected
+	 *  @type boolean
+	 *  @default  true
+	 */
+	"multiEditable": true,
+
+	/**
+	 * Indicate if the field's value can be submitted
+	 *  @type boolean
+	 *  @default  true
+	 */
+	"submit": true
+};
+
+
+
+/**
+ * 
+ *  @namespace
+ */
+Editor.Field.models.settings = {
+	type: null,
+	name: null,
+	classes: null,
+	opts: null,
+	host: null
+};
+
+
+
+/**
+ * 
+ *  @namespace
+ */
+Editor.Field.models.dom = {
+	container: null,
+	label: null,
+	labelInfo: null,
+	fieldInfo: null,
+	fieldError: null,
+	fieldMessage: null
+};
+
+
+/*
+ * Models
+ */
+
+/**
+ * Object models container, for the various models that DataTables has available
+ * to it. These models define the objects that are used to hold the active state
+ * and configuration of the table.
+ *  @namespace
+ */
+Editor.models = {};
+
+
+/**
+ * Editor makes very few assumptions about how its form will actually be
+ * displayed to the end user (where in the DOM, interaction etc), instead
+ * focusing on providing form interaction controls only. To actually display
+ * a form in the browser we need to use a display controller, and then select
+ * which one we want to use at initialisation time using the `display`
+ * option. For example a display controller could display the form in a
+ * lightbox (as the default display controller does), it could completely
+ * empty the document and put only the form in place, ir could work with
+ * DataTables to use `fnOpen` / `fnClose` to show the form in a "details" row
+ * and so on.
+ *
+ * Editor has two built-in display controllers ('lightbox' and 'envelope'),
+ * but others can readily be created and installed for use as plug-ins. When
+ * creating a display controller plug-in you **must** implement the methods
+ * in this control. Additionally when closing the display internally you
+ * **must** trigger a `requestClose` event which Editor will listen
+ * for and act upon (this allows Editor to ask the user if they are sure
+ * they want to close the form, for example).
+ *  @namespace
+ */
+Editor.models.displayController = {
+	/**
+	 * Initialisation method, called by Editor when itself, initialises.
+	 *  @param {object} dte The DataTables Editor instance that has requested
+	 *    the action - this allows access to the Editor API if required.
+	 *  @returns {object} The object that Editor will use to run the 'open'
+	 *    and 'close' methods against. If static methods are used then
+	 *    just return the object that holds the init, open and close methods,
+	 *    however, this allows the display to be created with a 'new'
+	 *    instance of an object is the display controller calls for that.
+	 *  @type function
+	 */
+	"init": function ( dte ) {},
+
+	/**
+	 * Display the form (add it to the visual display in the document)
+	 *  @param {object} dte The DataTables Editor instance that has requested
+	 *    the action - this allows access to the Editor API if required.
+	 *  @param {element} append The DOM node that contains the form to be
+	 *    displayed
+	 *  @param {function} [fn] Callback function that is to be executed when
+	 *    the form has been displayed. Note that this parameter is optional.
+	 */
+	"open": function ( dte, append, fn ) {},
+
+	/**
+	 * Hide the form (remove it form the visual display in the document)
+	 *  @param {object} dte The DataTables Editor instance that has requested
+	 *    the action - this allows access to the Editor API if required.
+	 *  @param {function} [fn] Callback function that is to be executed when
+	 *    the form has been hidden. Note that this parameter is optional.
+	 */
+	"close": function ( dte, fn ) {}
+};
+
+
+
+/**
+ * Model object for input types which are available to fields (assigned to
+ * {@link Editor.fieldTypes}). Any plug-ins which add additional
+ * input types to Editor **must** implement the methods in this object 
+ * (dummy functions are given in the model so they can be used as defaults
+ * if extending this object).
+ *
+ * All functions in the model are executed in the Editor's instance scope,
+ * so you have full access to the settings object and the API methods if
+ * required.
+ *  @namespace
+ *  @example
+ *    // Add a simple text input (the 'text' type that is built into Editor
+ *    // does this, so you wouldn't implement this exactly as show, but it
+ *    // it is a good example.
+ *
+ *    var Editor = $.fn.Editor;
+ *
+ *    Editor.fieldTypes.myInput = $.extend( true, {}, Editor.models.type, {
+ *      "create": function ( conf ) {
+ *        // We store the 'input' element in the configuration object so
+ *        // we can easily access it again in future.
+ *        conf._input = document.createElement('input');
+ *        conf._input.id = conf.id;
+ *        return conf._input;
+ *      },
+ *    
+ *      "get": function ( conf ) {
+ *        return conf._input.value;
+ *      },
+ *    
+ *      "set": function ( conf, val ) {
+ *        conf._input.value = val;
+ *      },
+ *    
+ *      "enable": function ( conf ) {
+ *        conf._input.disabled = false;
+ *      },
+ *    
+ *      "disable": function ( conf ) {
+ *        conf._input.disabled = true;
+ *      }
+ *    } );
+ */
+Editor.models.fieldType = {
+	/**
+	 * Create the field - this is called when the field is added to the form.
+	 * Note that this is called at initialisation time, or when the 
+	 * {@link Editor#add} API method is called, not when the form is displayed. 
+	 * If you need to know when the form is shown, you can use the API to listen 
+	 * for the `open` event.
+	 *  @param {object} conf The configuration object for the field in question:
+	 *    {@link Editor.models.field}.
+	 *  @returns {element|null} The input element (or a wrapping element if a more
+	 *    complex input is required) or null if nothing is to be added to the
+	 *    DOM for this input type.
+	 *  @type function
+	 */
+	"create": function ( conf ) {},
+
+	/**
+	 * Get the value from the field
+	 *  @param {object} conf The configuration object for the field in question:
+	 *    {@link Editor.models.field}.
+	 *  @returns {*} The value from the field - the exact value will depend on the
+	 *    formatting required by the input type control.
+	 *  @type function
+	 */
+	"get": function ( conf ) {},
+
+	/**
+	 * Set the value for a field
+	 *  @param {object} conf The configuration object for the field in question:
+	 *    {@link Editor.models.field}.
+	 *  @param {*} val The value to set the field to - the exact value will
+	 *    depend on the formatting required by the input type control.
+	 *  @type function
+	 */
+	"set": function ( conf, val ) {},
+
+	/**
+	 * Enable the field - i.e. allow user interface
+	 *  @param {object} conf The configuration object for the field in question:
+	 *    {@link Editor.models.field}.
+	 *  @type function
+	 */
+	"enable": function ( conf ) {},
+
+	/**
+	 * Disable the field - i.e. disallow user interface
+	 *  @param {object} conf The configuration object for the field in question:
+	 *    {@link Editor.models.field}.
+	 *  @type function
+	 */
+	"disable": function ( conf ) {}
+};
+
+
+
+/**
+ * Settings object for Editor - this provides the state for each instance of
+ * Editor and can be accessed through the instance's `s` property. Note that the
+ * settings object is considered to be "private" and thus is liable to change
+ * between versions. As such if you do read any of the setting parameters,
+ * please keep this in mind when upgrading!
+ *  @namespace
+ */
+Editor.models.settings = {
+	/**
+	 * URL to submit Ajax data to.
+	 * This is directly set by the initialisation parameter / default of the same name.
+	 *  @type string
+	 *  @default null
+	 */
+	"ajaxUrl": null,
+
+	/**
+	 * Ajax submit function.
+	 * This is directly set by the initialisation parameter / default of the same name.
+	 *  @type function
+	 *  @default null
+	 */
+	"ajax": null,
+
+	/**
+	 * Data source for get and set data actions. This allows Editor to perform
+	 * as an Editor for virtually any data source simply by defining additional
+	 * data sources.
+	 *  @type object
+	 *  @default null
+	 */
+	"dataSource": null,
+
+	/**
+	 * DataTable selector, can be anything that the Api supports
+	 * This is directly set by the initialisation parameter / default of the same name.
+	 *  @type string
+	 *  @default null
+	 */
+	"domTable": null,
+
+	/**
+	 * The initialisation object that was given by the user - stored for future reference.
+	 * This is directly set by the initialisation parameter / default of the same name.
+	 *  @type string
+	 *  @default null
+	 */
+	"opts": null,
+
+	/**
+	 * The display controller object for the Form.
+	 * This is directly set by the initialisation parameter / default of the same name.
+	 *  @type string
+	 *  @default null
+	 */
+	"displayController": null,
+
+	/**
+	 * The form fields - see {@link Editor.models.field} for details of the 
+	 * objects held in this array.
+	 *  @type object
+	 *  @default null
+	 */
+	"fields": {},
+
+	/**
+	 * Field order - order that the fields will appear in on the form. Array of strings,
+	 * the names of the fields.
+	 *  @type array
+	 *  @default null
+	 */
+	"order": [],
+
+	/**
+	 * The ID of the row being edited (set to -1 on create and remove actions)
+	 *  @type string
+	 *  @default null
+	 */
+	"id": -1,
+
+	/**
+	 * Flag to indicate if the form is currently displayed or not and what type of display
+	 *  @type string
+	 *  @default null
+	 */
+	"displayed": false,
+
+	/**
+	 * Flag to indicate if the form is current in a processing state (true) or not (false)
+	 *  @type string
+	 *  @default null
+	 */
+	"processing": false,
+
+	/**
+	 * Developer provided identifier for the elements to be edited (i.e. at
+	 * `dt-type row-selector` to select rows to edit or delete.
+	 *  @type array
+	 *  @default null
+	 */
+	"modifier": null,
+
+	/**
+	 * The current form action - 'create', 'edit' or 'remove'. If no current action then
+	 * it is set to null.
+	 *  @type string
+	 *  @default null
+	 */
+	"action": null,
+
+	/**
+	 * JSON property from which to read / write the row's ID property.
+	 *  @type string
+	 *  @default null
+	 */
+	"idSrc": null,
+
+	/**
+	 * Unique instance counter to be able to remove events
+	 */
+	"unique": 0
+};
+
+
+
+/**
+ * Model of the buttons that can be used with the {@link Editor#buttons}
+ * method for creating and displaying buttons (also the {@link Editor#button}
+ * argument option for the {@link Editor#create}, {@link Editor#edit} and 
+ * {@link Editor#remove} methods). Although you don't need to extend this object,
+ * it is available for reference to show the options available.
+ *  @namespace
+ */
+Editor.models.button = {
+	/**
+	 * The text to put into the button. This can be any HTML string you wish as 
+	 * it will be rendered as HTML (allowing images etc to be shown inside the
+	 * button).
+	 *  @type string
+	 *  @default null
+	 */
+	"label": null,
+
+	/**
+	 * Callback function which the button is activated. For example for a 'submit' 
+	 * button you would call the {@link Editor#submit} API method, while for a cancel button
+	 * you would call the {@link Editor#close} API method. Note that the function is executed 
+	 * in the scope of the Editor instance, so you can call the Editor's API methods 
+	 * using the `this` keyword.
+	 *  @type function
+	 *  @default null
+	 */
+	"fn": null,
+
+	/**
+	 * The CSS class(es) to apply to the button which can be useful for styling buttons 
+	 * which preform different functions each with a distinctive visual appearance.
+	 *  @type string
+	 *  @default null
+	 */
+	"className": null
+};
+
+
+
+/**
+ * This is really an internal namespace
+ *
+ *  @namespace
+ */
+Editor.models.formOptions = {
+	/**
+	 * Action to take when the return key is pressed when focused in a form
+	 * element. Cam be `submit` or `none`. Could also be `blur` or `close`, but
+	 * why would you ever want that. Replaces `submitOnReturn` from 1.4.
+	 * 
+	 * @type string
+	 */
+	onReturn: 'submit',
+
+	/**
+	 * Action to take on blur. Can be `close`, `submit` or `none`. Replaces
+	 * `submitOnBlur` from 1.4
+	 * 
+	 * @type string
+	 */
+	onBlur: 'close',
+
+	/**
+	 * Action to take when the lightbox background is clicked - can be `close`,
+	 * `submit`, `blur` or `none`. Replaces `blurOnBackground` from 1.4
+	 * 
+	 * @type string
+	 */
+	onBackground: 'blur',
+
+	/**
+	 * Close for at the end of the Ajax request. Can be `close` or `none`.
+	 * Replaces `closeOnComplete` from 1.4.
+	 * 
+	 * @type string
+	 */
+	onComplete: 'close',
+
+	/**
+	 * Action to take when the `esc` key is pressed when focused in the form -
+	 * can be `close`, `submit`, `blur` or `none`
+	 * 
+	 * @type string
+	 */
+	onEsc: 'close',
+
+	/**
+	 * Action to take when a field error is detected in the returned JSON - can
+	 * be `focus` or `none`
+	 * 
+	 * @type string
+	 */
+	onFieldError: 'focus',
+
+	/**
+	 * Data to submit to the server when submitting a form. If an option is
+	 * selected that results in no data being submitted, the Ajax request will
+	 * not be made Can be `all`, `changed` or `allIfChanged`. This effects the
+	 * edit action only.
+	 *
+	 * @type string
+	 */
+	submit: 'all',
+
+	/**
+	 * Field identifier to focus on
+	 * 
+	 * @type null|integer|string
+	 */
+	focus: 0,
+
+	/**
+	 * Buttons to show in the form
+	 * 
+	 * @type string|boolean|array|object
+	 */
+	buttons: true,
+
+	/**
+	 * Form title
+	 * 
+	 * @type string|boolean
+	 */
+	title: true,
+
+	/**
+	 * Form message
+	 * 
+	 * @type string|boolean
+	 */
+	message: true,
+
+	/**
+	 * DataTables redraw option
+	 * 
+	 * @type string|boolean
+	 */
+	drawType: false,
+
+	/**
+	 * Editing scope. Can be `row` or `cell`.
+	 * 
+	 * @type string
+	 */
+	scope: 'row'
+};
+
+
+/*
+ * Display controllers
+ */
+
+/**
+ * Display controllers. See {@link Editor.models.displayController} for
+ * full information about the display controller options for Editor. The display
+ * controllers given in this object can be utilised by specifying the
+ * {@link Editor.defaults.display} option.
+ *  @namespace
+ */
+Editor.display = {};
+
+
+(function(window, document, $, DataTable) {
+
+
+var self;
+
+Editor.display.lightbox = $.extend( true, {}, Editor.models.displayController, {
+	/*
+	 * API methods
+	 */
+	"init": function ( dte ) {
+		self._init();
+		return self;
+	},
+
+	"open": function ( dte, append, callback ) {
+		if ( self._shown ) {
+			if ( callback ) {
+				callback();
+			}
+			return;
+		}
+
+		self._dte = dte;
+
+		var content = self._dom.content;
+		content.children().detach();
+		content
+			.append( append )
+			.append( self._dom.close );
+
+		self._shown = true;
+		self._show( callback );
+	},
+
+	"close": function ( dte, callback ) {
+		if ( !self._shown ) {
+			if ( callback ) {
+				callback();
+			}
+			return;
+		}
+
+		self._dte = dte;
+		self._hide( callback );
+
+		self._shown = false;
+	},
+
+	node: function ( dte ) {
+		return self._dom.wrapper[0];
+	},
+
+
+	/*
+	 * Private methods
+	 */
+	"_init": function () {
+		if ( self._ready ) {
+			return;
+		}
+
+		var dom = self._dom;
+		dom.content = $('div.DTED_Lightbox_Content', self._dom.wrapper);
+
+		dom.wrapper.css( 'opacity', 0 );
+		dom.background.css( 'opacity', 0 );
+	},
+
+
+	"_show": function ( callback ) {
+		var that = this;
+		var dom = self._dom;
+
+		// Mobiles have very poor position fixed abilities, so we need to know
+		// when using mobile A media query isn't good enough
+		if ( window.orientation !== undefined ) {
+			$('body').addClass( 'DTED_Lightbox_Mobile' );
+		}
+
+		// Adjust size for the content
+		dom.content.css( 'height', 'auto' );
+		dom.wrapper.css( {
+			top: -self.conf.offsetAni
+		} );
+
+		$('body')
+			.append( self._dom.background )
+			.append( self._dom.wrapper );
+
+		self._heightCalc();
+
+		self._dte._animate(
+			dom.wrapper,
+			{
+				opacity: 1,
+				top: 0
+			},
+			callback
+		);
+		self._dte._animate( dom.background, {
+			opacity: 1
+		} );
+
+		// Terrible Chrome workaround. Since m53 the footer would be incorrectly
+		// offset. This triggers a rerender. See thread 38145
+		setTimeout( function () {
+			$('div.DTE_Footer').css( 'text-indent', -1 );
+		}, 10 );
+
+		// Event handlers - assign on show (and unbind on hide) rather than init
+		// since we might need to refer to different editor instances - 12563
+		dom.close.bind( 'click.DTED_Lightbox', function (e) {
+			self._dte.close();
+		} );
+
+		dom.background.bind( 'click.DTED_Lightbox', function (e) {
+			self._dte.background();
+		} );
+
+		$('div.DTED_Lightbox_Content_Wrapper', dom.wrapper).bind( 'click.DTED_Lightbox', function (e) {
+			if ( $(e.target).hasClass('DTED_Lightbox_Content_Wrapper') ) {
+				self._dte.background();
+			}
+		} );
+
+		$(window).bind( 'resize.DTED_Lightbox', function () {
+			self._heightCalc();
+		} );
+
+		self._scrollTop = $('body').scrollTop();
+
+		// For smaller screens we need to hide the other elements in the
+		// document since iOS and Android both mess up display:fixed when
+		// the virtual keyboard is shown
+		if ( window.orientation !== undefined ) {
+			var kids = $('body').children().not( dom.background ).not( dom.wrapper );
+			$('body').append( '<div class="DTED_Lightbox_Shown"/>' );
+			$('div.DTED_Lightbox_Shown').append( kids );
+		}
+	},
+
+
+	"_heightCalc": function () {
+		// Set the max-height for the form content
+		var dom = self._dom;
+		var maxHeight = $(window).height() - (self.conf.windowPadding*2) -
+			$('div.DTE_Header', dom.wrapper).outerHeight() -
+			$('div.DTE_Footer', dom.wrapper).outerHeight();
+
+		$('div.DTE_Body_Content', dom.wrapper).css(
+			'maxHeight',
+			maxHeight
+		);
+	},
+
+
+	"_hide": function ( callback ) {
+		var dom = self._dom;
+
+		if ( !callback ) {
+			callback = function () {};
+		}
+
+		if ( window.orientation !== undefined  ) {
+			var show = $('div.DTED_Lightbox_Shown');
+			show.children().appendTo('body');
+			show.remove();
+		}
+
+		// Restore scroll state
+		$('body')
+			.removeClass( 'DTED_Lightbox_Mobile' )
+			.scrollTop( self._scrollTop );
+
+		self._dte._animate(
+			dom.wrapper,
+			{
+				opacity: 0,
+				top: self.conf.offsetAni
+			},
+			function () {
+				$(this).detach();
+				callback();
+			}
+		);
+		self._dte._animate(
+			dom.background,
+			{
+				opacity: 0
+			},
+			function () {
+				$(this).detach();
+			}
+		);
+
+		// Event handlers
+		dom.close.unbind( 'click.DTED_Lightbox' );
+		dom.background.unbind( 'click.DTED_Lightbox' );
+		$('div.DTED_Lightbox_Content_Wrapper', dom.wrapper).unbind( 'click.DTED_Lightbox' );
+		$(window).unbind( 'resize.DTED_Lightbox' );
+	},
+
+
+	/*
+	 * Private properties
+	 */
+	"_dte": null,
+	"_ready": false,
+	"_shown": false,
+	"_dom": {
+		"wrapper": $(
+			'<div class="DTED DTED_Lightbox_Wrapper">'+
+				'<div class="DTED_Lightbox_Container">'+
+					'<div class="DTED_Lightbox_Content_Wrapper">'+
+						'<div class="DTED_Lightbox_Content">'+
+						'</div>'+
+					'</div>'+
+				'</div>'+
+			'</div>'
+		),
+
+		"background": $(
+			'<div class="DTED_Lightbox_Background"><div/></div>'
+		),
+
+		"close": $(
+			'<div class="DTED_Lightbox_Close"></div>'
+		),
+
+		"content": null
+	}
+} );
+
+self = Editor.display.lightbox;
+
+self.conf = {
+	"offsetAni": 25,
+	"windowPadding": 25
+};
+
+
+}(window, document, jQuery, jQuery.fn.dataTable));
+
+
+
+(function(window, document, $, DataTable) {
+
+
+var self;
+
+Editor.display.envelope = $.extend( true, {}, Editor.models.displayController, {
+	/*
+	 * API methods
+	 */
+	"init": function ( dte ) {
+		self._dte = dte;
+		self._init();
+		return self;
+	},
+
+
+	"open": function ( dte, append, callback ) {
+		self._dte = dte;
+		$(self._dom.content).children().detach();
+		self._dom.content.appendChild( append );
+		self._dom.content.appendChild( self._dom.close );
+
+		self._show( callback );
+	},
+
+
+	"close": function ( dte, callback ) {
+		self._dte = dte;
+		self._hide( callback );
+	},
+
+	node: function ( dte ) {
+		return self._dom.wrapper[0];
+	},
+
+
+	/*
+	 * Private methods
+	 */
+	"_init": function () {
+		if ( self._ready ) {
+			return;
+		}
+
+		self._dom.content = $('div.DTED_Envelope_Container', self._dom.wrapper)[0];
+
+		document.body.appendChild( self._dom.background );
+		document.body.appendChild( self._dom.wrapper );
+
+		// For IE6-8 we need to make it a block element to read the opacity...
+		self._dom.background.style.visbility = 'hidden';
+		self._dom.background.style.display = 'block';
+		self._cssBackgroundOpacity = $(self._dom.background).css('opacity');
+		self._dom.background.style.display = 'none';
+		self._dom.background.style.visbility = 'visible';
+	},
+
+
+	"_show": function ( callback ) {
+		var that = this;
+		var formHeight;
+
+		if ( !callback ) {
+			callback = function () {};
+		}
+
+		// Adjust size for the content
+		self._dom.content.style.height = 'auto';
+
+		var style = self._dom.wrapper.style;
+		style.opacity = 0;
+		style.display = 'block';
+
+		var targetRow = self._findAttachRow();
+		var height = self._heightCalc();
+		var width = targetRow.offsetWidth;
+
+		style.display = 'none';
+		style.opacity = 1;
+
+		// Prep the display
+		self._dom.wrapper.style.width = width+"px";
+		self._dom.wrapper.style.marginLeft = -(width/2)+"px";
+		self._dom.wrapper.style.top = ($(targetRow).offset().top + targetRow.offsetHeight)+"px";
+		self._dom.content.style.top = ((-1 * height) - 20)+"px";
+
+		// Start animating in the background
+		self._dom.background.style.opacity = 0;
+		self._dom.background.style.display = 'block';
+		$(self._dom.background).animate( {
+			'opacity': self._cssBackgroundOpacity
+		}, 'normal' );
+
+		// Animate in the display
+		$(self._dom.wrapper).fadeIn();
+
+		// Slide the slider down to 'open' the view
+		if ( self.conf.windowScroll ) {
+			// Scroll the window so we can see the editor first
+			$('html,body').animate( {
+				"scrollTop": $(targetRow).offset().top + targetRow.offsetHeight - self.conf.windowPadding
+			}, function () {
+				// Now open the editor
+				$(self._dom.content).animate( {
+					"top": 0
+				}, 600, callback );
+			} );
+		}
+		else {
+			// Just open the editor without moving the document position
+			$(self._dom.content).animate( {
+				"top": 0
+			}, 600, callback );
+		}
+
+		// Event handlers
+		$(self._dom.close).bind( 'click.DTED_Envelope', function (e) {
+			self._dte.close();
+		} );
+
+		$(self._dom.background).bind( 'click.DTED_Envelope', function (e) {
+			self._dte.background();
+		} );
+
+		$('div.DTED_Lightbox_Content_Wrapper', self._dom.wrapper).bind( 'click.DTED_Envelope', function (e) {
+			if ( $(e.target).hasClass('DTED_Envelope_Content_Wrapper') ) {
+				self._dte.background();
+			}
+		} );
+
+		$(window).bind( 'resize.DTED_Envelope', function () {
+			self._heightCalc();
+		} );
+	},
+
+
+	"_heightCalc": function () {
+		var formHeight;
+
+		formHeight = self.conf.heightCalc ?
+			self.conf.heightCalc( self._dom.wrapper ) :
+			$(self._dom.content).children().height();
+
+		// Set the max-height for the form content
+		var maxHeight = $(window).height() - (self.conf.windowPadding*2) -
+			$('div.DTE_Header', self._dom.wrapper).outerHeight() -
+			$('div.DTE_Footer', self._dom.wrapper).outerHeight();
+
+		$('div.DTE_Body_Content', self._dom.wrapper).css('maxHeight', maxHeight);
+
+		return $(self._dte.dom.wrapper).outerHeight();
+	},
+
+
+	"_hide": function ( callback ) {
+		if ( !callback ) {
+			callback = function () {};
+		}
+
+		$(self._dom.content).animate( {
+			"top": -(self._dom.content.offsetHeight+50)
+		}, 600, function () {
+			$([self._dom.wrapper, self._dom.background]).fadeOut( 'normal', callback );
+		} );
+
+		// Event handlers
+		$(self._dom.close).unbind( 'click.DTED_Lightbox' );
+		$(self._dom.background).unbind( 'click.DTED_Lightbox' );
+		$('div.DTED_Lightbox_Content_Wrapper', self._dom.wrapper).unbind( 'click.DTED_Lightbox' );
+		$(window).unbind( 'resize.DTED_Lightbox' );
+	},
+
+
+	"_findAttachRow": function () {
+		var dt = $(self._dte.s.table).DataTable();
+
+		// Figure out where we want to put the form display
+		if ( self.conf.attach === 'head' ) {
+			return dt.table().header();
+		}
+		else if ( self._dte.s.action === 'create' ) {
+			return dt.table().header();
+		}
+		else {
+			return dt.row( self._dte.s.modifier ).node();
+		}
+	},
+
+
+	/*
+	 * Private properties
+	 */
+	"_dte": null,
+	"_ready": false,
+	"_cssBackgroundOpacity": 1, // read from the CSS dynamically, but stored for future reference
+
+
+	"_dom": {
+		"wrapper": $(
+			'<div class="DTED DTED_Envelope_Wrapper">'+
+				'<div class="DTED_Envelope_Shadow"></div>'+
+				'<div class="DTED_Envelope_Container"></div>'+
+			'</div>'
+		)[0],
+
+		"background": $(
+			'<div class="DTED_Envelope_Background"><div/></div>'
+		)[0],
+
+		"close": $(
+			'<div class="DTED_Envelope_Close">&times;</div>'
+		)[0],
+
+		"content": null
+	}
+} );
+
+
+// Assign to 'self' for easy referencing of our own object!
+self = Editor.display.envelope;
+
+
+// Configuration object - can be accessed globally using 
+// $.fn.Editor.display.envelope.conf (!)
+self.conf = {
+	"windowPadding": 50,
+	"heightCalc": null,
+	"attach": "row",
+	"windowScroll": true
+};
+
+
+}(window, document, jQuery, jQuery.fn.dataTable));
+
+
+/*
+ * Prototype includes
+ */
+
+
+/**
+ * Add a new field to the from. This is the method that is called automatically when
+ * fields are given in the initialisation objects as {@link Editor.defaults.fields}.
+ *  @memberOf Editor
+ *  @param {object|array} field The object that describes the field (the full
+ *    object is described by {@link Editor.model.field}. Note that multiple
+ *    fields can be given by passing in an array of field definitions.
+ *  @param {string} [after] Existing field to insert the new field after. This
+ *    can be `undefined` (insert at end), `null` (insert at start) or `string`
+ *    the field name to insert after.
+ */
+Editor.prototype.add = function ( cfg, after )
+{
+	// Allow multiple fields to be added at the same time
+	if ( $.isArray( cfg ) ) {
+		for ( var i=0, iLen=cfg.length ; i<iLen ; i++ ) {
+			this.add( cfg[i] );
+		}
+	}
+	else {
+		var name = cfg.name;
+
+		if ( name === undefined ) {
+			throw "Error adding field. The field requires a `name` option";
+		}
+
+		if ( this.s.fields[ name ] ) {
+			throw "Error adding field '"+name+"'. A field already exists with this name";
+		}
+
+		// Allow the data source to add / modify the field properties
+		// Dev: would this be better as an event `preAddField`? And have the
+		// data sources init only once, but can listen for such events? More
+		// complexity, but probably more flexible...
+		this._dataSource( 'initField', cfg );
+
+		var field = new Editor.Field( cfg, this.classes.field, this );
+
+		// If in an editing mode, we need to set the field up for the data
+		if ( this.s.mode ) {
+			var editFields = this.s.editFields;
+			field.multiReset();
+
+			$.each( editFields, function ( idSrc, edit ) {
+				var val;
+				if ( edit.data ) {
+					val = field.valFromData( edit.data );
+				}
+
+				field.multiSet( idSrc, val !== undefined ?
+					val :
+					field.def()
+				);
+			} );
+		}
+
+		this.s.fields[ name ] = field;
+
+		if ( after === undefined ) {
+			this.s.order.push( name );
+		}
+		else if ( after === null ) {
+			this.s.order.unshift( name );
+		}
+		else {
+			var idx = $.inArray( after, this.s.order );
+			this.s.order.splice( idx+1, 0, name );
+		}
+	}
+
+	this._displayReorder( this.order() );
+
+	return this;
+};
+
+
+/**
+ * Get / set the Ajax configuration for the Editor instance
+ *
+ * @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.ajax = function ( newAjax )
+{
+	if ( newAjax ) {
+		this.s.ajax = newAjax;
+		return this;
+	}
+
+	return this.s.ajax;
+};
+
+
+/**
+ * Perform background activation tasks.
+ * 
+ * This is NOT publicly documented on the Editor web-site, but rather can be
+ * used by display controller plug-ins to perform the required task on
+ * background activation.
+ *
+ * @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.background = function ()
+{
+	var onBackground = this.s.editOpts.onBackground;
+
+	if ( typeof onBackground === 'function' ) {
+		onBackground( this );
+	}
+	else if ( onBackground === 'blur' ) {
+		this.blur();
+	}
+	else if ( onBackground === 'close' ) {
+		this.close();
+	}
+	else if ( onBackground === 'submit' ) {
+		this.submit();
+	}
+
+	return this;
+};
+
+
+/**
+ * Blur the currently displayed editor.
+ *
+ * A blur is different from a `close()` in that it might cause either a close or
+ * the form to be submitted. A typical example of a blur would be clicking on
+ * the background of the bubble or main editing forms - i.e. it might be a
+ * close, or it might submit depending upon the configuration, while a click on
+ * the close box is a very definite close.
+ *
+ * @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.blur = function ()
+{
+	this._blur();
+
+	return this;
+};
+
+
+
+Editor.prototype.bubble = function ( cells, fieldNames, show, opts )
+{
+	var that = this;
+
+	// Some other field in inline edit mode?
+	if ( this._tidy( function () { that.bubble( cells, fieldNames, opts ); } ) ) {
+		return this;
+	}
+
+	// Argument shifting
+	if ( $.isPlainObject( fieldNames ) ) {
+		opts = fieldNames;
+		fieldNames = undefined;
+		show = true;
+	}
+	else if ( typeof fieldNames === 'boolean' ) {
+		show = fieldNames;
+		fieldNames = undefined;
+		opts = undefined;
+	}
+
+	if ( $.isPlainObject( show ) ) {
+		opts = show;
+		show = true;
+	}
+
+	if ( show === undefined ) {
+		show = true;
+	}
+
+	opts = $.extend( {}, this.s.formOptions.bubble, opts );
+
+	var editFields = this._dataSource( 'individual', cells, fieldNames );
+
+	this._edit( cells, editFields, 'bubble', opts, function () {
+		var namespace = that._formOptions( opts );
+		var ret = that._preopen( 'bubble' );
+		if ( ! ret ) {
+			return that;
+		}
+	
+		// Keep the bubble in position on resize
+		$(window).on( 'resize.'+namespace, function () {
+			that.bubblePosition();
+		} );
+	
+		// Store the nodes that are being used so the bubble can be positioned
+		var nodes = [];
+		that.s.bubbleNodes = nodes.concat.apply( nodes, _pluck( editFields, 'attach' ) );
+	
+		// Create container display
+		var classes = that.classes.bubble;
+		var background = $( '<div class="'+classes.bg+'"><div/></div>' );
+		var container = $(
+				'<div class="'+classes.wrapper+'">'+
+					'<div class="'+classes.liner+'">'+
+						'<div class="'+classes.table+'">'+
+							'<div class="'+classes.close+'" />'+
+							'<div class="DTE_Processing_Indicator"><span></div>'+
+						'</div>'+
+					'</div>'+
+					'<div class="'+classes.pointer+'" />'+
+				'</div>'
+			);
+	
+		if ( show ) {
+			container.appendTo( 'body' );
+			background.appendTo( 'body' );
+		}
+	
+		var liner = container.children().eq(0);
+		var table = liner.children();
+		var close = table.children();
+		liner.append( that.dom.formError );
+		table.prepend( that.dom.form );
+	
+		if ( opts.message ) {
+			liner.prepend( that.dom.formInfo );
+		}
+	
+		if ( opts.title ) {
+			liner.prepend( that.dom.header );
+		}
+	
+		if ( opts.buttons ) {
+			table.append( that.dom.buttons );
+		}
+	
+		var pair = $().add( container ).add( background );
+		that._closeReg( function ( submitComplete ) {
+			that._animate(
+				pair,
+				{ opacity: 0 },
+				function () {
+					pair.detach();
+	
+					$(window).off( 'resize.'+namespace );
+	
+					// Clear error messages "offline"
+					that._clearDynamicInfo();
+				}
+			);
+		} );
+	
+		// Close event handlers
+		background.click( function () {
+			that.blur();
+		} );
+	
+		close.click( function () {
+			that._close();
+		} );
+	
+		that.bubblePosition();
+	
+		that._animate( pair, { opacity: 1 } );
+		that._focus( that.s.includeFields, opts.focus );
+		that._postopen( 'bubble' );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Reposition the editing bubble (`bubble()`) when it is visible. This can be
+ * used to update the bubble position if other elements on the page change
+ * position. Editor will automatically call this method on window resize.
+ *
+ * @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.bubblePosition = function ()
+{
+	var
+		wrapper = $('div.DTE_Bubble'),
+		liner = $('div.DTE_Bubble_Liner'),
+		nodes = this.s.bubbleNodes;
+
+	// Average the node positions to insert the container
+	var position = { top: 0, left: 0, right: 0, bottom: 0 };
+
+	$.each( nodes, function (i, node) {
+		var pos = $(node).offset();
+		node = $(node).get(0);
+
+		position.top += pos.top;
+		position.left += pos.left;
+		position.right += pos.left + node.offsetWidth;
+		position.bottom += pos.top + node.offsetHeight;
+	} );
+
+	position.top /= nodes.length;
+	position.left /= nodes.length;
+	position.right /= nodes.length;
+	position.bottom /= nodes.length;
+
+	var
+		top = position.top,
+		left = (position.left + position.right) / 2,
+		width = liner.outerWidth(),
+		visLeft = left - (width / 2),
+		visRight = visLeft + width,
+		docWidth = $(window).width(),
+		padding = 15,
+		classes = this.classes.bubble;
+
+	wrapper.css( {
+		top: top,
+		left: left
+	} );
+
+	// Correct for overflow from the top of the document by positioning below
+	// the field if needed
+	if ( liner.length && liner.offset().top < 0 ) {
+		wrapper
+			.css( 'top', position.bottom )
+			.addClass( 'below' );
+	}
+	else {
+		wrapper.removeClass( 'below' );
+	}
+
+	// Attempt to correct for overflow to the right of the document
+	if ( visRight+padding > docWidth ) {
+		var diff = visRight - docWidth;
+
+		// If left overflowing, that takes priority
+		liner.css( 'left', visLeft < padding ?
+			-(visLeft-padding) :
+			-(diff+padding)
+		);
+	}
+	else {
+		// Correct overflow to the left
+		liner.css( 'left', visLeft < padding ? -(visLeft-padding) : 0 );
+	}
+
+	return this;
+};
+
+
+/**
+ * Setup the buttons that will be shown in the footer of the form - calling this
+ * method will replace any buttons which are currently shown in the form.
+ *  @param {array|object} buttons A single button definition to add to the form or
+ *    an array of objects with the button definitions to add more than one button.
+ *    The options for the button definitions are fully defined by the
+ *    {@link Editor.models.button} object.
+ *  @param {string} buttons.text The text to put into the button. This can be any
+ *    HTML string you wish as it will be rendered as HTML (allowing images etc to 
+ *    be shown inside the button).
+ *  @param {function} [buttons.action] Callback function which the button is activated.
+ *    For example for a 'submit' button you would call the {@link Editor#submit} method,
+ *    while for a cancel button you would call the {@link Editor#close} method. Note that
+ *    the function is executed in the scope of the Editor instance, so you can call
+ *    the Editor's API methods using the `this` keyword.
+ *  @param {string} [buttons.className] The CSS class(es) to apply to the button
+ *    which can be useful for styling buttons which preform different functions
+ *    each with a distinctive visual appearance.
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.buttons = function ( buttons )
+{
+	var that = this;
+
+	if ( buttons === '_basic' ) {
+		// Special string to create a basic button - undocumented
+		buttons = [ {
+			text: this.i18n[ this.s.action ].submit,
+			action: function () { this.submit(); }
+		} ];
+	}
+	else if ( ! $.isArray( buttons ) ) {
+		// Allow a single button to be passed in as an object with an array
+		buttons = [ buttons ];
+	}
+
+	$(this.dom.buttons).empty();
+
+	$.each( buttons, function ( i, btn ) {
+		if ( typeof btn === 'string' ) {
+			btn = {
+				text: btn,
+				action: function () { this.submit(); }
+			};
+		}
+
+		var text = btn.text || btn.label;
+		var action = btn.action || btn.fn;
+
+		$( '<button/>', {
+				'class': that.classes.form.button+(btn.className ? ' '+btn.className : '')
+			} )
+			.html( typeof text === 'function' ?
+				text( that ) :
+				text || ''
+			)
+			.attr( 'tabindex', btn.tabIndex !== undefined ? btn.tabIndex : 0 )
+			.on( 'keyup', function (e) {
+				if ( e.keyCode === 13 && action ) {
+					action.call( that );
+				}
+			} )
+			.on( 'keypress', function (e) {
+				// Stop the browser activating the click event - if we don't
+				// have this and the Ajax return is fast, the keyup in
+				// `_formOptions()` might trigger another submit
+				if ( e.keyCode === 13 ) {
+					e.preventDefault();
+				}
+			} )
+			.on( 'click', function (e) {
+				e.preventDefault();
+
+				if ( action ) {
+					action.call( that );
+				}
+			} )
+			.appendTo( that.dom.buttons );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Remove fields from the form (fields are those that have been added using the
+ * {@link Editor#add} method or the `fields` initialisation option). A single,
+ * multiple or all fields can be removed at a time based on the passed parameter.
+ * Fields are identified by the `name` property that was given to each field
+ * when added to the form.
+ *  @param {string|array} [fieldName] Field or fields to remove from the form. If
+ *    not given then all fields are removed from the form. If given as a string
+ *    then the single matching field will be removed. If given as an array of
+ *    strings, then all matching fields will be removed.
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Clear the form of current fields and then add a new field 
+ *    // before displaying a 'create' display
+ *    editor.clear();
+ *    editor.add( {
+ *      "label": "User name",
+ *      "name": "username"
+ *    } );
+ *    editor.create( "Create user" );
+ *
+ *  @example
+ *    // Remove an individual field
+ *    editor.clear( "username" );
+ *
+ *  @example
+ *    // Remove multiple fields
+ *    editor.clear( [ "first_name", "last_name" ] );
+ */
+Editor.prototype.clear = function ( fieldName )
+{
+	var that = this;
+	var fields = this.s.fields;
+
+	if ( typeof fieldName === 'string' ) {
+		// Remove an individual form element
+		that.field(fieldName).destroy();
+		delete fields[ fieldName ];
+
+		var orderIdx = $.inArray( fieldName, this.s.order );
+		this.s.order.splice( orderIdx, 1 );
+
+		var includeIdx = $.inArray( fieldName, this.s.includeFields );
+		if ( includeIdx !== -1 ) {
+			this.s.includeFields.splice( includeIdx, 1 );
+		}
+	}
+	else {
+		$.each( this._fieldNames( fieldName ), function (i, name) {
+			that.clear( name );
+		} );
+	}
+
+	return this;
+};
+
+
+/**
+ * Close the form display.
+ * 
+ * Note that `close()` will close any of the three Editor form types (main,
+ * bubble and inline).
+ *
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.close = function ()
+{
+	this._close( false );
+
+	return this;
+};
+
+
+/**
+ * Create a new record - show the form that allows the user to enter information
+ * for a new row and then subsequently submit that data.
+ *  @param {boolean} [show=true] Show the form or not.
+ * 
+ *  @example
+ *    // Show the create form with a submit button
+ *    editor
+ *      .title( 'Add new record' )
+ *      .buttons( {
+ *        "label": "Save",
+ *        "fn": function () {
+ *          this.submit();
+ *        }
+ *      } )
+ *      .create();
+ * 
+ *  @example
+ *    // Don't show the form and automatically submit it after programatically 
+ *    // setting the values of fields (and using the field defaults)
+ *    editor
+ *      create()
+ *      set( 'name',   'Test user' )
+ *      set( 'access', 'Read only' )
+ *      submit();
+ */
+Editor.prototype.create = function ( arg1, arg2, arg3, arg4 )
+{
+	var that = this;
+	var fields = this.s.fields;
+	var count = 1;
+
+	// Some other field in inline edit mode?
+	if ( this._tidy( function () { that.create( arg1, arg2, arg3, arg4 ); } ) ) {
+		return this;
+	}
+
+	// Multi-row creation support (only supported by the 1.3+ style of calling
+	// this method, so a max of three arguments
+	if ( typeof arg1 === 'number' ) {
+		count = arg1;
+		arg1 = arg2;
+		arg2 = arg3;
+	}
+
+	// Set up the edit fields for submission
+	this.s.editFields = {};
+	for ( var i=0 ; i<count ; i++ ) {
+		this.s.editFields[ i ] = {
+			fields: this.s.fields
+		};
+	}
+
+	var argOpts = this._crudArgs( arg1, arg2, arg3, arg4 );
+
+	this.s.mode = 'main';
+	this.s.action = "create";
+	this.s.modifier = null;
+	this.dom.form.style.display = 'block';
+
+	this._actionClass();
+
+	// Allow all fields to be displayed for the create form
+	this._displayReorder( this.fields() );
+
+	// Set the default for the fields
+	$.each( fields, function ( name, field ) {
+		field.multiReset();
+
+		// Set a value marker for each multi, so the field
+		// knows what the id's are (ints in this case)
+		for ( var i=0 ; i<count ; i++ ) {
+			field.multiSet( i, field.def() );
+		}
+
+		field.set( field.def() );
+	} );
+
+	this._event( 'initCreate', null, function () {
+		that._assembleMain();
+		that._formOptions( argOpts.opts );
+	
+		argOpts.maybeOpen();
+	} );
+
+	return this;
+};
+
+/**
+ * Create a dependent link between two or more fields. This method is used to
+ * listen for a change in a field's value which will trigger updating of the
+ * form. This update can consist of updating an options list, changing values
+ * or making fields hidden / visible.
+ *
+ * @param {string} parent The name of the field to listen to changes from
+ * @param {string|object|function} url Callback definition. This can be:
+ *   * A string, which will be used as a URL to submit the request for update to
+ *   * An object, which is used to extend an Ajax object for the request. The
+ *     `url` parameter must be specified.
+ *   * A function, which is used as a callback, allowing non-ajax updates.
+ * @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.dependent = function ( parent, url, opts ) {
+	if ( $.isArray( parent ) ) {
+		for ( var i=0, ien=parent.length ; i<ien ; i++ ) {
+			this.dependent( parent[i], url, opts );
+		}
+
+		return this;
+	}
+
+	var that = this;
+	var field = this.field( parent );
+	var ajaxOpts = {
+		type: 'POST',
+		dataType: 'json'
+	};
+
+	opts = $.extend( {
+		event: 'change',
+		data: null,
+		preUpdate: null,
+		postUpdate: null
+	}, opts );
+
+	var update = function ( json ) {
+		if ( opts.preUpdate ) {
+			opts.preUpdate( json );
+		}
+
+		// Field specific
+		$.each( {
+			labels:   'label',
+			options:  'update',
+			values:   'val',
+			messages: 'message',
+			errors:   'error'
+		}, function ( jsonProp, fieldFn ) {
+			if ( json[ jsonProp ] ) {
+				$.each( json[ jsonProp ], function ( field, val ) {
+					that.field( field )[ fieldFn ]( val );
+				} );
+			}
+		} );
+
+		// Form level
+		$.each( [ 'hide', 'show', 'enable', 'disable' ], function ( i, key ) {
+			if ( json[ key ] ) {
+				that[ key ]( json[ key ] );
+			}
+		} );
+
+		if ( opts.postUpdate ) {
+			opts.postUpdate( json );
+		}
+
+		field.processing( false );
+	};
+
+	// Use a delegate handler to account for field elements which are added and
+	// removed after `depenedent` has been called
+	$(field.node()).on( opts.event, function (e) {
+		// Make sure that it was one of the field's elements that triggered the ev
+		if ( $( field.node() ).find( e.target ).length === 0 ) {
+			return;
+		}
+
+		field.processing(true);
+
+		var data = {};
+		data.rows = that.s.editFields ?
+			_pluck( that.s.editFields, 'data' ) :
+			null;
+		data.row = data.rows ?
+			data.rows[0] :
+			null;
+		data.values = that.val();
+
+		if ( opts.data ) {
+			var ret = opts.data( data );
+
+			if ( ret ) {
+				opts.data = ret;
+			}
+		}
+
+		if ( typeof url === 'function' ) {
+			var o = url( field.val(), data, update );
+
+			if ( o ) {
+				if ( typeof o === 'object' && typeof o.then === 'function' ) {
+					o.then( function ( resolved ) {
+						if ( resolved ) {
+							update( resolved );
+						}
+					} );
+				}
+				else {
+					update( o );
+				}
+			}
+		}
+		else {
+			if ( $.isPlainObject( url ) ) {
+				$.extend( ajaxOpts, url );
+			}
+			else {
+				ajaxOpts.url = url;
+			}
+
+			$.ajax( $.extend( ajaxOpts, {
+				url: url,
+				data: data,
+				success: update
+			} ) );
+		}
+	} );
+
+	return this;
+};
+
+
+/**
+ * Destroy the Editor instance, cleaning up fields, display and event handlers
+ */
+Editor.prototype.destroy = function ()
+{
+	if ( this.s.displayed ) {
+		this.close();
+	}
+
+	this.clear();
+
+	var controller = this.s.displayController;
+	if ( controller.destroy ) {
+		controller.destroy( this );
+	}
+
+	$(document).off( '.dte'+this.s.unique );
+
+	this.dom = null;
+	this.s = null;
+};
+
+
+/**
+ * Disable one or more field inputs, disallowing subsequent user interaction with the 
+ * fields until they are re-enabled.
+ *  @param {string|array} name The field name (from the `name` parameter given when
+ *   originally setting up the field) to disable, or an array of field names to disable
+ *   multiple fields with a single call.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show a 'create' record form, but with a field disabled
+ *    editor.disable( 'account_type' );
+ *    editor.create( 'Add new user', {
+ *      "label": "Save",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ * 
+ *  @example
+ *    // Disable multiple fields by using an array of field names
+ *    editor.disable( ['account_type', 'access_level'] );
+ */
+Editor.prototype.disable = function ( name )
+{
+	var that = this;
+
+	$.each( this._fieldNames( name ), function ( i, n ) {
+		that.field(n).disable();
+	} );
+
+	return this;
+};
+
+
+/**
+ * Display, or remove the editing form from the display
+ *  @param {boolean} show Show (`true`) or hide (`false`)
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.display = function ( show )
+{
+	if ( show === undefined ) {
+		return this.s.displayed;
+	}
+	return this[ show ? 'open' : 'close' ]();
+};
+
+
+/**
+ * Fields which are currently displayed
+ *  @return {string[]} Field names that are shown
+ */
+Editor.prototype.displayed = function ()
+{
+	return $.map( this.s.fields, function ( field, name ) {
+		return field.displayed() ? name : null;
+	} );
+};
+
+
+/**
+ * Get display controller node
+ *
+ *  @return {node} Display controller host element
+ */
+Editor.prototype.displayNode = function ()
+{
+	return this.s.displayController.node( this );
+};
+
+
+/**
+ * Edit a record - show the form, pre-populated with the data that is in the given 
+ * DataTables row, that allows the user to enter information for the row to be modified
+ * and then subsequently submit that data.
+ *  @param {node} items The TR element from the DataTable that is to be edited
+ *  @param {boolean} [show=true] Show the form or not.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show the edit form for the first row in the DataTable with a submit button
+ *    editor.edit( $('#example tbody tr:eq(0)')[0], 'Edit record', {
+ *      "label": "Update",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *
+ *  @example
+ *    // Use the title and buttons API methods to show an edit form (this provides
+ *    // the same result as example above, but is a different way of achieving it
+ *    editor.title( 'Edit record' );
+ *    editor.buttons( {
+ *      "label": "Update",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *    editor.edit( $('#example tbody tr:eq(0)')[0] );
+ * 
+ *  @example
+ *    // Automatically submit an edit without showing the user the form
+ *    editor.edit( TRnode, null, null, false );
+ *    editor.set( 'name', 'Updated name' );
+ *    editor.set( 'access', 'Read only' );
+ *    editor.submit();
+ */
+Editor.prototype.edit = function ( items, arg1, arg2, arg3, arg4 )
+{
+	var that = this;
+
+	// Some other field in inline edit mode?
+	if ( this._tidy( function () { that.edit( items, arg1, arg2, arg3, arg4 ); } ) ) {
+		return this;
+	}
+
+	var argOpts = this._crudArgs( arg1, arg2, arg3, arg4 );
+
+	this._edit(
+		items,
+		this._dataSource( 'fields', items ),
+		'main',
+		argOpts.opts,
+		function () {
+			that._assembleMain();
+			that._formOptions( argOpts.opts );
+		
+			argOpts.maybeOpen();
+		}
+	);
+
+	return this;
+};
+
+
+/**
+ * Enable one or more field inputs, restoring user interaction with the fields.
+ *  @param {string|array} name The field name (from the `name` parameter given when
+ *   originally setting up the field) to enable, or an array of field names to enable
+ *   multiple fields with a single call.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show a 'create' form with buttons which will enable and disable certain fields
+ *    editor.create( 'Add new user', [
+ *      {
+ *        "label": "User name only",
+ *        "fn": function () {
+ *          this.enable('username');
+ *          this.disable( ['first_name', 'last_name'] );
+ *        }
+ *      }, {
+ *        "label": "Name based",
+ *        "fn": function () {
+ *          this.disable('username');
+ *          this.enable( ['first_name', 'last_name'] );
+ *        }
+ *      }, {
+ *        "label": "Submit",
+ *        "fn": function () { this.submit(); }
+ *      }
+ *    );
+ */
+Editor.prototype.enable = function ( name )
+{
+	var that = this;
+
+	$.each( this._fieldNames( name ), function ( i, n ) {
+		that.field(n).enable();
+	} );
+
+	return this;
+};
+
+
+/**
+ * Show that a field, or the form globally, is in an error state. Note that
+ * errors are cleared on each submission of the form.
+ *  @param {string} [name] The name of the field that is in error. If not
+ *    given then the global form error display is used.
+ *  @param {string} msg The error message to show
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show an error if the field is required
+ *    editor.create( 'Add new user', {
+ *      "label": "Submit",
+ *      "fn": function () {
+ *        if ( this.get('username') === '' ) {
+ *          this.error( 'username', 'A user name is required' );
+ *          return;
+ *        }
+ *        this.submit();
+ *      }
+ *    } );
+ * 
+ *  @example
+ *    // Show a field and a global error for a required field
+ *    editor.create( 'Add new user', {
+ *      "label": "Submit",
+ *      "fn": function () {
+ *        if ( this.get('username') === '' ) {
+ *          this.error( 'username', 'A user name is required' );
+ *          this.error( 'The data could not be saved because it is incomplete' );
+ *          return;
+ *        }
+ *        this.submit();
+ *      }
+ *    } );
+ */
+Editor.prototype.error = function ( name, msg )
+{
+	if ( msg === undefined ) {
+		// Global error
+		this._message( this.dom.formError, name );
+
+		// Store the error message so `inError` can check if there is an
+		// error or not without considering animation
+		this.s.globalError = name;
+	}
+	else {
+		// Field error
+		this.field( name ).error( msg );
+	}
+
+	return this;
+};
+
+
+/**
+ * Get a field object, configured for a named field, which can then be
+ * manipulated through its API. This function effectively acts as a
+ * proxy to the field extensions, allowing easy access to the methods
+ * for a named field. The methods that are available depend upon the field
+ * type plug-in for Editor.
+ *
+ *   @param {string} name Field name to be obtained
+ *   @return {Editor.Field} Field instance
+ *
+ *   @example
+ *     // Update the values available in a select list
+ *     editor.field('island').update( [
+ *       'Lewis and Harris',
+ *       'South Uist',
+ *       'North Uist',
+ *       'Benbecula',
+ *       'Barra'
+ *     ] );
+ *
+ *   @example
+ *     // Equivalent calls
+ *     editor.field('name').set('John Smith');
+ *
+ *     // results in the same action as:
+ *     editor.set('John Smith');
+ */
+Editor.prototype.field = function ( name )
+{
+	var fields = this.s.fields;
+
+	if ( ! fields[name] ) {
+		throw 'Unknown field name - '+name;
+	}
+
+	return fields[ name ];
+};
+
+
+/**
+ * Get a list of the fields that are used by the Editor instance.
+ *  @returns {string[]} Array of field names
+ * 
+ *  @example
+ *    // Get current fields and move first item to the end
+ *    var fields = editor.fields();
+ *    var first = fields.shift();
+ *    fields.push( first );
+ *    editor.order( fields );
+ */
+Editor.prototype.fields = function ()
+{
+	return $.map( this.s.fields, function ( field, name ) {
+		return name;
+	} );
+};
+
+/**
+ * Get data object for a file from a table and id
+ *
+ * @param  {string} name Table name
+ * @param  {string|number} id Primary key identifier
+ * @return {object} Table information
+ */
+Editor.prototype.file = _api_file;
+
+/**
+ * Get data objects for available files
+ *
+ * @param  {string} [name] Table name
+ * @return {object} Table array
+ */
+Editor.prototype.files = _api_files;
+
+
+/**
+ * Get the value of a field
+ *  @param {string|array} [name] The field name (from the `name` parameter given
+ *    when originally setting up the field) to disable. If not given, then an
+ *    object of fields is returned, with the value of each field from the
+ *    instance represented in the array (the object properties are the field
+ *    names). Also an array of field names can be given to get a collection of
+ *    data from the form.
+ *  @returns {*|object} Value from the named field
+ * 
+ *  @example
+ *    // Client-side validation - check that a field has been given a value 
+ *    // before submitting the form
+ *    editor.create( 'Add new user', {
+ *      "label": "Submit",
+ *      "fn": function () {
+ *        if ( this.get('username') === '' ) {
+ *          this.error( 'username', 'A user name is required' );
+ *          return;
+ *        }
+ *        this.submit();
+ *      }
+ *    } );
+ */
+Editor.prototype.get = function ( name )
+{
+	var that = this;
+
+	if ( ! name ) {
+		name = this.fields();
+	}
+
+	if ( $.isArray( name ) ) {
+		var out = {};
+
+		$.each( name, function (i, n) {
+			out[n] = that.field(n).get();
+		} );
+
+		return out;
+	}
+
+	return this.field(name).get();
+};
+
+
+/**
+ * Remove a field from the form display. Note that the field will still be submitted
+ * with the other fields in the form, but it simply won't be visible to the user.
+ *  @param {string|array} [name] The field name (from the `name` parameter given when
+ *   originally setting up the field) to hide or an array of names. If not given then all 
+ *   fields are hidden.
+ *  @param {boolean} [animate=true] Animate if visible
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show a 'create' record form, but with some fields hidden
+ *    editor.hide( 'account_type' );
+ *    editor.hide( 'access_level' );
+ *    editor.create( 'Add new user', {
+ *      "label": "Save",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *
+ *  @example
+ *    // Show a single field by hiding all and then showing one
+ *    editor.hide();
+ *    editor.show('access_type');
+ */
+Editor.prototype.hide = function ( names, animate )
+{
+	var that = this;
+
+	$.each( this._fieldNames( names ), function (i, n) {
+		that.field( n ).hide( animate );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Get the ids of the rows being edited
+ */
+Editor.prototype.ids = function ( includeHash )
+{
+	return $.map( this.s.editFields, function ( edit, idSrc ) {
+		return includeHash === true ?
+			'#' + idSrc :
+			idSrc;
+	} );
+};
+
+
+/**
+ * Determine if there is an error state in the form, either the form's global
+ * error message, or one or more fields.
+ *
+ * @param {string|array|undefined} [inNames] The field names to check. All
+ *   fields checked if undefined.
+ * @return {boolean} `true` if there is an error in the form
+ */
+Editor.prototype.inError = function ( inNames )
+{
+	var formError = $(this.dom.formError);
+
+	// Is there a global error?
+	if ( this.s.globalError ) {
+		return true;
+	}
+
+	// Field specific
+	var names = this._fieldNames( inNames );
+
+	for ( var i=0, ien=names.length ; i<ien ; i++ ) {
+		if ( this.field( names[i] ).inError() ) {
+			return true;
+		}
+	}
+
+	return false;
+};
+
+
+/**
+ * Inline editing for a single field. This method provides a method to allow
+ * end users to very quickly edit fields in place. For example, a user could
+ * simply click on a cell in a table, the contents of which would be replaced
+ * with the editing input field for that cell.
+ *
+ * @param {string|node|DataTables.Api|cell-selector} cell The cell or field to
+ *   be edited (note that for table editing this must be a cell - for standalone
+ *   editing it can also be the field name to edit).
+ * @param {string} [fieldName] The field name to be edited. This parameter is
+ *   optional. If not provided, Editor will attempt to resolve the correct field
+ *   from the cell / element given as the first parameter. If it is unable to do
+ *   so, it will throw an error.
+ * @param {object} [opts] Inline editing options - see the `form-options` type
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.inline = function ( cell, fieldName, opts )
+{
+	var that = this;
+
+	// Argument shifting
+	if ( $.isPlainObject( fieldName ) ) {
+		opts = fieldName;
+		fieldName = undefined;
+	}
+
+	opts = $.extend( {}, this.s.formOptions.inline, opts );
+
+	var editFields = this._dataSource( 'individual', cell, fieldName );
+	var node, field;
+	var countOuter=0, countInner;
+	var closed=false;
+	var classes = this.classes.inline;
+
+	// Read the individual cell information from the editFields object
+	$.each( editFields, function ( i, editField ) {
+		// Only a single row
+		if ( countOuter > 0 ) {
+			throw 'Cannot edit more than one row inline at a time';
+		}
+
+		node = $(editField.attach[0]);
+
+		// Only a single item in that row
+		countInner = 0;
+		$.each( editField.displayFields, function ( j, f ) {
+			if ( countInner > 0 ) {
+				throw 'Cannot edit more than one field inline at a time';
+			}
+
+			field = f;
+			countInner++;
+		} );
+
+		countOuter++;
+
+		// If only changed values are to be submitted, then only allow the
+		// individual field that we are editing to be edited.
+		// This is currently disabled, as I'm not convinced that it is actually
+		// useful!
+		// if ( opts.submit === 'changed' ) {
+		// 	editField.fields = editField.displayFields;
+		// }
+	} );
+	
+	// Already in edit mode for this cell?
+	if ( $('div.DTE_Field', node).length ) {
+		return this;
+	}
+
+	// Some other field in inline edit mode?
+	if ( this._tidy( function () { that.inline( cell, fieldName, opts ); } ) ) {
+		return this;
+	}
+
+	// Start a full row edit, but don't display - we will be showing the field
+	this._edit( cell, editFields, 'inline', opts, function () {
+		var namespace = that._formOptions( opts );
+
+		var ret = that._preopen( 'inline' );
+		if ( ! ret ) {
+			return that;
+		}
+
+		// Remove from DOM, keeping event handlers, and include text nodes in remove
+		var children = node.contents().detach();
+
+		// Note the wdith setting shouldn't be required, but Edge increases the column's
+		// width if a % width is used (even 1%). This is the workaround
+		node.append( $(
+			'<div class="'+classes.wrapper+'">'+
+				'<div class="'+classes.liner+'" style="width:'+node.width()+'px">'+
+					'<div class="DTE_Processing_Indicator"><span/></div>'+
+				'</div>'+
+				'<div class="'+classes.buttons+'"/>'+
+			'</div>'
+		) );
+
+		node.find('div.'+classes.liner.replace(/ /g, '.'))
+			.append( field.node() )
+			.append( that.dom.formError );
+
+		if ( opts.buttons ) {
+			// Use prepend for the CSS, so we can float the buttons right
+			node.find('div.'+classes.buttons.replace(/ /g, '.')).append( that.dom.buttons );
+		}
+
+		that._closeReg( function ( submitComplete ) {
+			// Mark that this specific inline edit has closed
+			closed = true;
+
+			$(document).off( 'click'+namespace );
+
+			// If there was no submit, we need to put the DOM back as it was. If
+			// there was a submit, the write of the new value will set the DOM to
+			// how it should be
+			if ( ! submitComplete ) {
+				node.contents().detach();
+				node.append( children );
+			}
+
+			// Clear error messages "offline"
+			that._clearDynamicInfo();
+		} );
+
+		// Submit and blur actions
+		setTimeout( function () {
+			// If already closed, possibly due to some other aspect of the event
+			// that triggered the inline call, don't add the event listener - it
+			// isn't needed (and is dangerous)
+			if ( closed ) {
+				return;
+			}
+
+			$(document).on( 'click'+namespace, function ( e ) {
+				// Was the click inside or owned by the editing node? If not, then
+				// come out of editing mode.
+
+				// andSelf is deprecated in jQ1.8, but we want 1.7 compat
+				var back = $.fn.addBack ? 'addBack' : 'andSelf';
+
+				if ( ! field._typeFn( 'owns', e.target ) && 
+					$.inArray( node[0], $(e.target).parents()[ back ]() ) === -1 )
+				{
+					that.blur();
+				}
+			} );
+		}, 0 );
+
+		that._focus( [ field ], opts.focus );
+		that._postopen( 'inline' );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Show an information message for the form as a whole, or for an individual
+ * field. This can be used to provide helpful information to a user about an
+ * individual field, or more typically the form (for example when deleting
+ * a record and asking for confirmation).
+ *  @param {string} [name] The name of the field to show the message for. If not
+ *    given then a global message is shown for the form
+ *  @param {string|function} msg The message to show
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Show a global message for a 'create' form
+ *    editor.message( 'Add a new user to the database by completing the fields below' );
+ *    editor.create( 'Add new user', {
+ *      "label": "Submit",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ * 
+ *  @example
+ *    // Show a message for an individual field when a 'help' icon is clicked on
+ *    $('#user_help').click( function () {
+ *      editor.message( 'user', 'The user name is what the system user will login with' );
+ *    } );
+ */
+Editor.prototype.message = function ( name, msg )
+{
+	if ( msg === undefined ) {
+		// Global message
+		this._message( this.dom.formInfo, name );
+	}
+	else {
+		// Field message
+		this.field( name ).message( msg );
+	}
+
+	return this;
+};
+
+
+/**
+ * Get which mode of operation the Editor form is in
+ *  @return {string} `create`, `edit`, `remove` or `null` if no active state.
+ */
+Editor.prototype.mode = function ( mode )
+{
+	if ( ! mode ) {
+		return this.s.action;
+	}
+	
+	if ( ! this.s.action ) {
+		throw 'Not currently in an editing mode';
+	}
+
+	this.s.action = mode;
+	return this;
+};
+
+
+/**
+ * Get the modifier that was used to trigger the edit or delete action.
+ *  @return {*} The identifier that was used for the editing / remove method
+ *    called.
+ */
+Editor.prototype.modifier = function ()
+{
+	return this.s.modifier;
+};
+
+
+/**
+ * Get the values from one or more fields, taking into account multiple data
+ * points being edited at the same time.
+ *
+ * @param  {string|array} fieldNames A single field name or an array of field
+ *   names.
+ * @return {object} If a string is given as the first parameter an object that
+ *   contains the value for each row being edited is returned. If an array is
+ *   given, then the object has the field names as the parameter name and the
+ *   value is the value object with values for each row being edited.
+ */
+Editor.prototype.multiGet = function ( fieldNames )
+{
+	var that = this;
+
+	if ( fieldNames === undefined ) {
+		fieldNames = this.fields();
+	}
+
+	if ( $.isArray( fieldNames ) ) {
+		var out = {};
+
+		$.each( fieldNames, function ( i, name ) {
+			out[ name ] = that.field( name ).multiGet();
+		} );
+
+		return out;
+	}
+
+	// String
+	return this.field( fieldNames ).multiGet();
+};
+
+
+/**
+ * Set the values for one or more fields, taking into account multiple data
+ * points being edited at the same time.
+ *
+ * @param  {object|string} fieldNames The name of the field to set, or an object
+ *   with the field names as the parameters that contains the value object to
+ *   set for each field.
+ * @param  {*} [val] Value to set if first parameter is given as a string.
+ *   Otherwise it is ignored.
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.multiSet = function ( fieldNames, val )
+{
+	var that = this;
+
+	if ( $.isPlainObject( fieldNames ) && val === undefined ) {
+		$.each( fieldNames, function ( name, value ) {
+			that.field( name ).multiSet( value );
+		} );
+	}
+	else {
+		this.field( fieldNames ).multiSet( val );
+	}
+
+	return this;
+};
+
+
+/**
+ * Get the container node for an individual field.
+ *  @param {string|array} name The field name (from the `name` parameter given
+ *   when originally setting up the field) to get the DOM node for.
+ *  @return {node|array} Field container node
+ * 
+ *  @example
+ *    // Dynamically add a class to a field's container
+ *    $(editor.node( 'account_type' )).addClass( 'account' );
+ */
+Editor.prototype.node = function ( name )
+{
+	var that = this;
+
+	if ( ! name ) {
+		name = this.order();
+	}
+
+	return $.isArray( name ) ?
+		$.map( name, function (n) {
+			return that.field( n ).node();
+		} ) :
+		this.field( name ).node();
+};
+
+
+/**
+ * Remove a bound event listener to the editor instance. This method provides a 
+ * shorthand way of binding jQuery events that would be the same as writing 
+ * `$(editor).off(...)` for convenience.
+ *  @param {string} name Event name to remove the listeners for - event names are
+ *    defined by {@link Editor}.
+ *  @param {function} [fn] The function to remove. If not given, all functions which
+ *    are assigned to the given event name will be removed.
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Add an event to alert when the form is shown and then remove the listener
+ *    // so it will only fire once
+ *    editor.on( 'open', function () {
+ *      alert('Form displayed!');
+ *      editor.off( 'open' );
+ *    } );
+ */
+Editor.prototype.off = function ( name, fn )
+{
+	$(this).off( this._eventName( name ), fn );
+
+	return this;
+};
+
+
+/**
+ * Listen for an event which is fired off by Editor when it performs certain
+ * actions. This method provides a shorthand way of binding jQuery events that
+ * would be the same as writing  `$(editor).on(...)` for convenience.
+ *  @param {string} name Event name to add the listener for - event names are
+ *    defined by {@link Editor}.
+ *  @param {function} fn The function to run when the event is triggered.
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Log events on the console when they occur
+ *    editor.on( 'open', function () { console.log( 'Form opened' ); } );
+ *    editor.on( 'close', function () { console.log( 'Form closed' ); } );
+ *    editor.on( 'submit', function () { console.log( 'Form submitted' ); } );
+ */
+Editor.prototype.on = function ( name, fn )
+{
+	$(this).on( this._eventName( name ), fn );
+
+	return this;
+};
+
+
+/**
+ * Listen for a single event event which is fired off by Editor when it performs
+ * certain actions. This method provides a shorthand way of binding jQuery
+ * events that would be the same as writing  `$(editor).one(...)` for
+ * convenience.
+ *  @param {string} name Event name to add the listener for - event names are
+ *    defined by {@link Editor}.
+ *  @param {function} fn The function to run when the event is triggered.
+ *  @return {Editor} Editor instance, for chaining
+ */
+Editor.prototype.one = function ( name, fn )
+{
+	$(this).one( this._eventName( name ), fn );
+
+	return this;
+};
+
+
+/**
+ * Display the main form editor to the end user in the web-browser.
+ * 
+ * Note that the `close()` method will close any of the three Editor form types
+ * (main, bubble and inline), but this method will open only the main type.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Build a 'create' form, but don't display it until some values have
+ *    // been set. When done, then display the form.
+ *    editor.create( 'Create user', {
+ *      "label": "Submit",
+ *      "fn": function () { this.submit(); }
+ *    }, false );
+ *    editor.set( 'name', 'Test user' );
+ *    editor.set( 'access', 'Read only' );
+ *    editor.open();
+ */
+Editor.prototype.open = function ()
+{
+	var that = this;
+
+	// Insert the display elements in order
+	this._displayReorder();
+
+	// Define how to do a close
+	this._closeReg( function ( submitComplete ) {
+		that.s.displayController.close( that, function () {
+			that._clearDynamicInfo();
+		} );
+	} );
+
+	// Run the standard open with common events
+	var ret = this._preopen( 'main' );
+	if ( ! ret ) {
+		return this;
+	}
+
+	this.s.displayController.open( this, this.dom.wrapper );
+	this._focus(
+		$.map( this.s.order, function (name) {
+			return that.s.fields[ name ];
+		} ),
+		this.s.editOpts.focus
+	);
+	this._postopen( 'main' );
+
+	return this;
+};
+
+
+/**
+ * Get or set the ordering of fields, as they are displayed in the form. When used as
+ * a getter, the field names are returned in an array, in their current order, and when
+ * used as a setting you can alter the field ordering by passing in an array with all
+ * field names in their new order.
+ * 
+ * Note that all fields *must* be included when reordering, and no additional fields can 
+ * be added here (use {@link Editor#add} to add more fields). Finally, for setting the 
+ * order, you can pass an array of the field names, or give the field names as individual
+ * parameters (see examples below).
+ *  @param {array|string} [set] Field order to set.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Get field ordering
+ *    var order = editor.order();
+ * 
+ *  @example
+ *    // Set the field order
+ *    var order = editor.order();
+ *    order.unshift( order.pop() ); // move the last field into the first position
+ *    editor.order( order );
+ * 
+ *  @example
+ *    // Set the field order as arguments
+ *    editor.order( "pupil", "grade", "dept", "exam-board" );
+ *
+ */
+Editor.prototype.order = function ( set /*, ... */ )
+{
+	if ( !set ) {
+		return this.s.order;
+	}
+
+	// Allow new layout to be passed in as arguments
+	if ( arguments.length && ! $.isArray( set ) ) {
+		set = Array.prototype.slice.call(arguments);
+	}
+
+	// Sanity check - array must exactly match the fields we have available
+	if ( this.s.order.slice().sort().join('-') !== set.slice().sort().join('-') ) {
+		throw "All fields, and no additional fields, must be provided for ordering.";
+	}
+
+	// Copy the new array into the order (so the reference is maintained)
+	$.extend( this.s.order, set );
+
+	this._displayReorder();
+
+	return this;
+};
+
+
+/**
+ * Remove (delete) entries from the table. The rows to remove are given as
+ * either a single DOM node or an array of DOM nodes (including a jQuery
+ * object).
+ *  @param {node|array} items The row, or array of nodes, to delete
+ *  @param {boolean} [show=true] Show the form or not.
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Delete a given row with a message to let the user know exactly what is
+ *    // happening
+ *    editor.message( "Are you sure you want to remove this row?" );
+ *    editor.remove( row_to_delete, 'Delete row', {
+ *      "label": "Confirm",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ * 
+ *  @example
+ *    // Delete the first row in a table without asking the user for confirmation
+ *    editor.remove( '', $('#example tbody tr:eq(0)')[0], null, false );
+ *    editor.submit();
+ * 
+ *  @example
+ *    // Delete all rows in a table with a submit button
+ *    editor.remove( $('#example tbody tr'), 'Delete all rows', {
+ *      "label": "Delete all",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ */
+Editor.prototype.remove = function ( items, arg1, arg2, arg3, arg4 )
+{
+	var that = this;
+
+	// Some other field in inline edit mode?
+	if ( this._tidy( function () { that.remove( items, arg1, arg2, arg3, arg4 ); } ) ) {
+		return this;
+	}
+
+	// Allow a single row node to be passed in to remove, Can't use $.isArray
+	// as we also allow array like objects to be passed in (API, jQuery)
+	if ( items.length === undefined ) {
+		items = [ items ];
+	}
+
+	var argOpts = this._crudArgs( arg1, arg2, arg3, arg4 );
+	var editFields = this._dataSource( 'fields', items );
+
+	this.s.action = "remove";
+	this.s.modifier = items;
+	this.s.editFields = editFields;
+	this.dom.form.style.display = 'none';
+
+	this._actionClass();
+
+	this._event(
+		'initRemove',
+		[
+			_pluck( editFields, 'node' ),
+			_pluck( editFields, 'data' ),
+			items
+		],
+		function () {
+			that._event(
+				'initMultiRemove', // undocumented and to be removed in v2
+				[ editFields, items ],
+				function () {
+					that._assembleMain();
+					that._formOptions( argOpts.opts );
+				
+					argOpts.maybeOpen();
+				
+					var opts = that.s.editOpts;
+					if ( opts.focus !== null ) {
+						$('button', that.dom.buttons).eq( opts.focus ).focus();
+					}
+				}
+			);
+		}
+	);
+
+	return this;
+};
+
+
+/**
+ * Set the value of a field
+ *  @param {string|object} name The field name (from the `name` parameter given
+ *    when originally setting up the field) to set the value of. If given as an
+ *    object the object parameter name will be the value of the field to set and
+ *    the value the value to set for the field.
+ *  @param {*} [val] The value to set the field to. The format of the value will
+ *    depend upon the field type. Not required if the first parameter is given
+ *    as an object.
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Set the values of a few fields before then automatically submitting the form
+ *    editor.create( null, null, false );
+ *    editor.set( 'name', 'Test user' );
+ *    editor.set( 'access', 'Read only' );
+ *    editor.submit();
+ */
+Editor.prototype.set = function ( set, val )
+{
+	var that = this;
+
+	if ( ! $.isPlainObject( set ) ) {
+		var o = {};
+		o[ set ] = val;
+		set = o;
+	}
+
+	$.each( set, function (n, v) {
+		that.field( n ).set( v );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Show a field in the display that was previously hidden.
+ *  @param {string|array} [names] The field name (from the `name` parameter
+ *   given when originally setting up the field) to make visible, or an array of
+ *   field names to make visible. If not given all fields are shown.
+ *  @param {boolean} [animate=true] Animate if visible
+ *  @return {Editor} Editor instance, for chaining
+ * 
+ *  @example
+ *    // Shuffle the fields that are visible, hiding one field and making two
+ *    // others visible before then showing the {@link Editor#create} record form.
+ *    editor.hide( 'username' );
+ *    editor.show( 'account_type' );
+ *    editor.show( 'access_level' );
+ *    editor.create( 'Add new user', {
+ *      "label": "Save",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *
+ *  @example
+ *    // Show all fields
+ *    editor.show();
+ */
+Editor.prototype.show = function ( names, animate )
+{
+	var that = this;
+
+	$.each( this._fieldNames( names ), function (i, n) {
+		that.field( n ).show( animate );
+	} );
+
+	return this;
+};
+
+
+/**
+ * Submit a form to the server for processing. The exact action performed will depend
+ * on which of the methods {@link Editor#create}, {@link Editor#edit} or 
+ * {@link Editor#remove} were called to prepare the form - regardless of which one is 
+ * used, you call this method to submit data.
+ *  @param {function} [successCallback] Callback function that is executed once the
+ *    form has been successfully submitted to the server and no errors occurred.
+ *  @param {function} [errorCallback] Callback function that is executed if the
+ *    server reports an error due to the submission (this includes a JSON formatting
+ *    error should the error return invalid JSON).
+ *  @param {function} [formatdata] Callback function that is passed in the data
+ *    that will be submitted to the server, allowing pre-formatting of the data,
+ *    removal of data or adding of extra fields.
+ *  @param {boolean} [hide=true] When the form is successfully submitted, by default
+ *    the form display will be hidden - this option allows that to be overridden.
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Submit data from a form button
+ *    editor.create( 'Add new record', {
+ *      "label": "Save",
+ *      "fn": function () {
+ *        this.submit();
+ *      }
+ *    } );
+ *
+ *  @example
+ *    // Submit without showing the user the form
+ *    editor.create( null, null, false );
+ *    editor.submit();
+ *
+ *  @example
+ *    // Provide success and error callback methods
+ *    editor.create( 'Add new record', {
+ *      "label": "Save",
+ *      "fn": function () {
+ *        this.submit( function () {
+ *            alert( 'Form successfully submitted!' );
+ *          }, function () {
+ *            alert( 'Form  encountered an error :-(' );
+ *          }
+ *        );
+ *      }
+ *    } );
+ *  
+ *  @example
+ *    // Add an extra field to the data
+ *    editor.create( 'Add new record', {
+ *      "label": "Save",
+ *      "fn": function () {
+ *        this.submit( null, null, function (data) {
+ *          data.extra = "Extra information";
+ *        } );
+ *      }
+ *    } );
+ *
+ *  @example
+ *    // Don't hide the form immediately - change the title and then close the form
+ *    // after a small amount of time
+ *    editor.create( 'Add new record', {
+ *      "label": "Save",
+ *      "fn": function () {
+ *        this.submit( 
+ *          function () {
+ *            var that = this;
+ *            this.title( 'Data successfully added!' );
+ *            setTimeout( function () {
+ *              that.close();
+ *            }, 1000 );
+ *          },
+ *          null,
+ *          null,
+ *          false
+ *        );
+ *      }
+ *    } );
+ *    
+ */
+Editor.prototype.submit = function ( successCallback, errorCallback, formatdata, hide )
+{
+	var
+		that = this,
+		fields = this.s.fields,
+		errorFields = [],
+		errorReady = 0,
+		sent = false;
+
+	if ( this.s.processing || ! this.s.action ) {
+		return this;
+	}
+	this._processing( true );
+
+	// If there are fields in error, we want to wait for the error notification
+	// to be cleared before the form is submitted - errorFields tracks the
+	// fields which are in the error state, while errorReady tracks those which
+	// are ready to submit
+	var send = function () {
+		if ( errorFields.length !== errorReady || sent ) {
+			return;
+		}
+
+		that._event( 'initSubmit', [that.s.action], function (result) {
+			if ( result === false ) {
+				that._processing( false );
+				return;
+			}
+
+			sent = true;
+			that._submit( successCallback, errorCallback, formatdata, hide );
+		} );
+	};
+
+	// Remove the global error (don't know if the form is still in an error
+	// state!)
+	this.error();
+
+	// Count how many fields are in error
+	$.each( fields, function ( name, field ) {
+		if ( field.inError() ) {
+			errorFields.push( name );
+		}
+	} );
+
+	// Remove the error display
+	$.each( errorFields, function ( i, name ) {
+		fields[ name ].error('', function () {
+			errorReady++;
+			send();
+		} );
+	} );
+
+	send();
+
+	return this;
+};
+
+
+/**
+ * Get / set the form template
+ * @param  {string|node|jQuery|undefined} set If undefined, treat as a getter,
+ *   otherwise set as the template - usually a selector.
+ * @return {Editor|string|node|jQuery} Self is a setter, otherwise the template
+ */
+Editor.prototype.template = function ( set )
+{
+	if ( set === undefined ) {
+		return this.s.template;
+	}
+
+	this.s.template = set === null ?
+		null :
+		$(set);
+
+	return this;
+};
+
+
+/**
+ * Set the title of the form
+ *  @param {string|function} title The title to give to the form
+ *  @return {Editor} Editor instance, for chaining
+ *
+ *  @example
+ *    // Create an edit display used the title, buttons and edit methods (note that
+ *    // this is just an example, typically you would use the parameters of the edit
+ *    // method to achieve this.
+ *    editor.title( 'Edit record' );
+ *    editor.buttons( {
+ *      "label": "Update",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *    editor.edit( TR_to_edit );
+ *
+ *  @example
+ *    // Show a create form, with a timer for the duration that the form is open
+ *    editor.create( 'Add new record - time on form: 0s', {
+ *      "label": "Save",
+ *      "fn": function () { this.submit(); }
+ *    } );
+ *    
+ *    // Add an event to the editor to stop the timer when the display is removed
+ *    var runTimer = true;
+ *    var timer = 0;
+ *    editor.on( 'close', function () {
+ *      runTimer = false;
+ *      editor.off( 'close' );
+ *    } );
+ *    // Start the timer running
+ *    updateTitle();
+ *
+ *    // Local function to update the title once per second
+ *    function updateTitle() {
+ *      editor.title( 'Add new record - time on form: '+timer+'s' );
+ *      timer++;
+ *      if ( runTimer ) {
+ *        setTimeout( function() {
+ *          updateTitle();
+ *        }, 1000 );
+ *      }
+ *    }
+ */
+Editor.prototype.title = function ( title )
+{
+	var header = $(this.dom.header).children( 'div.'+this.classes.header.content );
+
+	if ( title === undefined ) {
+		return header.html();
+	}
+
+	if ( typeof title === 'function' ) {
+		title = title( this, new DataTable.Api(this.s.table) );
+	}
+
+	header.html( title );
+
+	return this;
+};
+
+
+/**
+ * Get or set the value of a specific field, or get the value of all fields in
+ * the form.
+ *
+ * @param {string|array} [names] The field name(s) to get or set the value of.
+ *   If not given, then the value of all fields will be obtained.
+ * @param {*} [value] Value to set
+ * @return {Editor|object|*} Editor instance, for chaining if used as a setter,
+ *   an object containing the values of the requested fields if used as a
+ *   getter with multiple fields requested, or the value of the requested field
+ *   if a single field is requested.
+ */
+Editor.prototype.val = function ( field, value )
+{
+	if ( value !== undefined || $.isPlainObject( field ) ) {
+		return this.set( field, value );
+	}
+
+	return this.get( field ); // field can be undefined to get all
+};
+
+
+/*
+ * DataTables 1.10 API integration. Provides the ability to control basic Editor
+ * aspects from the DataTables API. Full control does of course require use of
+ * the Editor API though.
+ */
+var apiRegister = DataTable.Api.register;
+
+
+function __getInst( api ) {
+	var ctx = api.context[0];
+	return ctx.oInit.editor || ctx._editor;
+}
+
+// Set sensible defaults for the editing options
+function __setBasic( inst, opts, type, plural ) {
+	if ( ! opts ) {
+		opts = {};
+	}
+
+	if ( opts.buttons === undefined ) {
+		opts.buttons = '_basic';
+	}
+
+	if ( opts.title === undefined ) {
+		opts.title = inst.i18n[ type ].title;
+	}
+
+	if ( opts.message === undefined ) {
+		if ( type === 'remove' ) {
+			var confirm = inst.i18n[ type ].confirm;
+			opts.message = plural!==1 ? confirm._.replace(/%d/, plural) : confirm['1'];
+		}
+		else {
+			opts.message = '';
+		}
+	}
+
+	return opts;
+}
+
+
+apiRegister( 'editor()', function () {
+	return __getInst( this );
+} );
+
+// Row editing
+apiRegister( 'row.create()', function ( opts ) {
+	// main
+	var inst = __getInst( this );
+	inst.create( __setBasic( inst, opts, 'create' ) );
+	return this;
+} );
+
+apiRegister( 'row().edit()', function ( opts ) {
+	// main
+	var inst = __getInst( this );
+	inst.edit( this[0][0], __setBasic( inst, opts, 'edit' ) );
+	return this;
+} );
+
+apiRegister( 'rows().edit()', function ( opts ) {
+	// main
+	var inst = __getInst( this );
+	inst.edit( this[0], __setBasic( inst, opts, 'edit' ) );
+	return this;
+} );
+
+apiRegister( 'row().delete()', function ( opts ) {
+	// main
+	var inst = __getInst( this );
+	inst.remove( this[0][0], __setBasic( inst, opts, 'remove', 1 ) );
+	return this;
+} );
+
+apiRegister( 'rows().delete()', function ( opts ) {
+	// main
+	var inst = __getInst( this );
+	inst.remove( this[0], __setBasic( inst, opts, 'remove', this[0].length ) );
+	return this;
+} );
+
+apiRegister( 'cell().edit()', function ( type, opts ) {
+	// inline or bubble
+	if ( ! type ) {
+		type = 'inline';
+	}
+	else if ( $.isPlainObject( type ) ) {
+		opts = type;
+		type = 'inline';
+	}
+
+	__getInst( this )[ type ]( this[0][0], opts );
+	return this;
+} );
+
+apiRegister( 'cells().edit()', function ( opts ) {
+	// bubble only at the moment
+	__getInst( this ).bubble( this[0], opts );
+	return this;
+} );
+
+apiRegister( 'file()', _api_file );
+apiRegister( 'files()', _api_files );
+
+// Global listener for file information updates via DataTables' Ajax JSON
+$(document).on( 'xhr.dt', function (e, ctx, json) {
+	if ( e.namespace !== 'dt' ) {
+		return;
+	}
+
+	if ( json && json.files ) {
+		$.each( json.files, function ( name, files ) {
+			Editor.files[ name ] = files;
+		} );
+	}
+} );
+
+
+/**
+ * Common error message emitter. This method is not (yet) publicly documented on
+ * the Editor site. It might be in future.
+ *
+ * @param  {string} msg Error message
+ * @param  {int}    tn  Tech note link
+ */
+Editor.error = function ( msg, tn )
+{
+	throw tn ?
+		msg +' For more information, please refer to https://datatables.net/tn/'+tn :
+		msg;
+};
+
+
+/**
+ * Obtain label / value pairs of data from a data source, be it an array or
+ * object, for use in an input that requires label / value pairs such as
+ * `select`, `radio` and `checkbox` inputs.
+ *
+ * A callback function is triggered for each label / value pair found, so the
+ * caller can add it to the input as required.
+ *
+ * @static
+ * @param {object|array} An object or array of data to iterate over getting the
+ *     label / value pairs.
+ * @param {object} props When an array of objects is passed in as the data
+ *     source by default the label will be read from the `label` property and
+ *     the value from the `value` property of the object. This option can alter
+ *     that behaviour.
+ * @param {function} fn Callback function. Takes three parameters: the label,
+ *      the value and the iterator index.
+ */
+Editor.pairs = function ( data, props, fn )
+{
+	var i, ien, dataPoint;
+
+	// Define default properties to read the data from if using an object.
+	// The passed in `props` object and override.
+	props = $.extend( {
+		label: 'label',
+		value: 'value'
+	}, props );
+
+	if ( $.isArray( data ) ) {
+		// As an array, we iterate each item which can be an object or value
+		for ( i=0, ien=data.length ; i<ien ; i++ ) {
+			dataPoint = data[i];
+
+			if ( $.isPlainObject( dataPoint ) ) {
+				fn( 
+					dataPoint[ props.value ] === undefined ?
+						dataPoint[ props.label ] :
+						dataPoint[ props.value ],
+					dataPoint[ props.label ],
+					i,
+					dataPoint.attr // optional - can be undefined
+				);
+			}
+			else {
+				fn( dataPoint, dataPoint, i );
+			}
+		}
+	}
+	else {
+		// As an object the key is the label and the value is the value
+		i = 0;
+
+		$.each( data, function ( key, val ) {
+			fn( val, key, i );
+			i++;
+		} );
+	}
+};
+
+
+/**
+ * Make a string safe to use as a DOM ID. This is primarily for use by field
+ * plug-in authors.
+ *
+ * @static
+ * @param {string} String to make safe
+ * @param {string} Safe string
+ */
+Editor.safeId = function ( id )
+{
+	return id.replace(/\./g, '-');
+};
+
+
+/**
+ * Field specific upload method. This can be used to upload a file to the Editor
+ * libraries. This method is not (yet) publicly documented on the Editor site.
+ * It might be in future.
+ *
+ * @static
+ * @param {Editor} editor The Editor instance operating on
+ * @param {object} conf Field configuration object
+ * @param {Files} files The file(s) to upload
+ * @param {function} progressCallback Upload progress callback
+ * @param {function} completeCallback Callback function for once the file has
+ *     been uploaded
+ */
+Editor.upload = function ( editor, conf, files, progressCallback, completeCallback )
+{
+	var reader = new FileReader();
+	var counter = 0;
+	var ids = [];
+	var generalError = 'A server error occurred while uploading the file';
+
+	// Clear any existing errors, as the new upload might not be in error
+	editor.error( conf.name, '' );
+
+	progressCallback( conf, conf.fileReadText || "<i>Uploading file</i>" );
+
+	reader.onload = function ( e ) {
+		var data = new FormData();
+		var ajax;
+
+		data.append( 'action', 'upload' );
+		data.append( 'uploadField', conf.name );
+		data.append( 'upload', files[ counter ] );
+
+		if ( conf.ajaxData ) {
+			conf.ajaxData( data );
+		}
+
+		if ( conf.ajax ) {
+			ajax = conf.ajax;
+		}
+		else if ( $.isPlainObject( editor.s.ajax ) ) {
+			ajax = editor.s.ajax.upload ?
+				editor.s.ajax.upload :
+				editor.s.ajax;
+		}
+		else if ( typeof editor.s.ajax === 'string' ) {
+			ajax = editor.s.ajax;
+		}
+
+		if ( ! ajax ) {
+			throw 'No Ajax option specified for upload plug-in';
+		}
+
+		if ( typeof ajax === 'string' ) {
+			ajax = { url: ajax };
+		}
+
+		// Handle the case when the ajax data is given as a function
+		if ( typeof ajax.data === 'function' ) {
+			var d = {};
+			var ret = ajax.data( d );
+
+			// Allow the return to be used, or the object passed in
+			if ( ret !== undefined && typeof ret !== 'string' ) {
+				d = ret;
+			}
+
+			$.each( d, function ( key, value ) {
+				data.append( key, value );
+			} );
+		}
+
+		// Dev cancellable event
+		var preRet = editor._event( 'preUpload', [ conf.name, files[ counter ], data ] );
+		if ( preRet === false ) {
+			if ( counter < files.length-1 ) {
+				counter++;
+				reader.readAsDataURL( files[counter] );
+			}
+			else {
+				completeCallback.call( editor, ids );
+			}
+			return;
+		}
+
+		// Use preSubmit to stop form submission during an upload, since the
+		// value won't be known until that point.
+		var submit = false;
+		editor
+			.on( 'preSubmit.DTE_Upload', function () {
+				submit = true;
+				return false;
+			} );
+
+		$.ajax( $.extend( {}, ajax, {
+			type: 'post',
+			data: data,
+			dataType: 'json',
+			contentType: false,
+			processData: false,
+			xhr: function () {
+				var xhr = $.ajaxSettings.xhr();
+
+				if ( xhr.upload ) {
+					xhr.upload.onprogress = function ( e ) {
+						if ( e.lengthComputable ) {
+							var percent = (e.loaded/e.total*100).toFixed(0)+"%";
+
+							progressCallback( conf, files.length === 1 ?
+								percent :
+								counter+':'+files.length+' '+percent
+							);
+						}
+					};
+					xhr.upload.onloadend = function ( e ) {
+						progressCallback( conf, conf.processingText || 'Processing' );
+					};
+				}
+
+				return xhr;
+			},
+			success: function ( json ) {
+				editor.off( 'preSubmit.DTE_Upload' );
+				editor._event( 'uploadXhrSuccess', [ conf.name, json ] );
+
+				if ( json.fieldErrors && json.fieldErrors.length ) {
+					var errors = json.fieldErrors;
+
+					for ( var i=0, ien=errors.length ; i<ien ; i++ ) {
+						editor.error( errors[i].name, errors[i].status );
+					}
+				}
+				else if ( json.error ) {
+					editor.error( json.error );
+				}
+				else if ( ! json.upload || ! json.upload.id ) {
+					editor.error( conf.name, generalError );
+				}
+				else {
+					if ( json.files ) {
+						// Loop over the tables that are defined
+						$.each( json.files, function ( table, files ) {
+							if ( ! Editor.files[ table ] ) {
+								Editor.files[ table ] = {};
+							}
+							$.extend( Editor.files[ table ], files );
+						} );
+					}
+
+					ids.push( json.upload.id );
+
+					if ( counter < files.length-1 ) {
+						counter++;
+						reader.readAsDataURL( files[counter] );
+					}
+					else {
+						completeCallback.call( editor, ids );
+						
+						if ( submit ) {
+							editor.submit();
+						}
+					}
+				}
+
+				progressCallback( conf );
+			},
+			error: function ( xhr ) {
+				editor._event( 'uploadXhrError', [ conf.name, xhr ] );
+				editor.error( conf.name, generalError );
+
+				progressCallback( conf );
+			}
+		} ) );
+	};
+
+	// Convert to a plain array
+	files = $.map( files, function (val) {
+		return val;
+	} );
+
+	// Truncate the selected files if needed
+	if ( conf._limitLeft !== undefined ) {
+		files.splice( conf._limitLeft, files.length );
+	}
+
+	reader.readAsDataURL( files[0] );
+};
+/**
+ * Editor constructor - take the developer configuration and apply it to the instance.
+ *  @param {object} init The initialisation options provided by the developer - see
+ *    {@link Editor.defaults} for a full list of options.
+ *  @private
+ */
+Editor.prototype._constructor = function(init) {
+    init = $.extend(true, {}, Editor.defaults, init);
+    this.s = $.extend(true, {}, Editor.models.settings, {
+        table: init.domTable || init.table,
+        dbTable: init.dbTable || null, // legacy
+        ajaxUrl: init.ajaxUrl,
+        ajax: init.ajax,
+        idSrc: init.idSrc,
+        dataSource: init.domTable || init.table ?
+            Editor.dataSources.dataTable : Editor.dataSources.html,
+        formOptions: init.formOptions,
+        legacyAjax: init.legacyAjax,
+        template: init.template ?
+            $(init.template).detach() : null
+    });
+    this.classes = $.extend(true, {}, Editor.classes);
+    this.i18n = init.i18n;
+
+    // Increment the unique counter for the next instance
+    Editor.models.settings.unique++;
+
+    var that = this;
+    var classes = this.classes;
+
+    this.dom = {
+        "wrapper": $(
+            '<div class="' + classes.wrapper + '">' +
+            '<div data-dte-e="processing" class="' + classes.processing.indicator + '"><span/></div>' +
+            '<div data-dte-e="body" class="' + classes.body.wrapper + '">' +
+            '<div data-dte-e="body_content" class="' + classes.body.content + '"/>' +
+            '</div>' +
+            '<div data-dte-e="foot" class="' + classes.footer.wrapper + '">' +
+            '<div class="' + classes.footer.content + '"/>' +
+            '</div>' +
+            '</div>'
+        )[0],
+        "form": $(
+            '<form data-dte-e="form" class="' + classes.form.tag + '">' +
+            '<div data-dte-e="form_content" class="' + classes.form.content + '"/>' +
+            '</form>'
+        )[0],
+        "formError": $('<div data-dte-e="form_error" class="' + classes.form.error + '"/>')[0],
+        "formInfo": $('<div data-dte-e="form_info" class="' + classes.form.info + '"/>')[0],
+        "header": $('<div data-dte-e="head" class="' + classes.header.wrapper + '"><div class="' + classes.header.content + '"/></div>')[0],
+        "buttons": $('<div data-dte-e="form_buttons" class="' + classes.form.buttons + '"/>')[0]
+    };
+
+    // Customise the TableTools buttons with the i18n settings - worth noting that
+    // this could easily be done outside the Editor instance, but this makes things
+    // a bit easier to understand and more cohesive. Also worth noting that when
+    // there are two or more Editor instances, the init sequence should be
+    // Editor / DataTables, Editor / DataTables etc, since the value of these button
+    // instances matter when you create the TableTools buttons for the DataTable.
+    if ($.fn.dataTable.TableTools) {
+        var ttButtons = $.fn.dataTable.TableTools.BUTTONS;
+        var i18n = this.i18n;
+
+        $.each(['create', 'edit', 'remove'], function(i, val) {
+            ttButtons['editor_' + val].sButtonText = i18n[val].button;
+        });
+    }
+
+    // Bind callback methods
+    $.each(init.events, function(evt, fn) {
+        that.on(evt, function() {
+            // When giving events in the constructor the event argument was not
+            // given in 1.2-, so we remove it here. This is solely for
+            // backwards compatibility as the events in the initialisation are
+            // not documented in 1.3+.
+            var args = Array.prototype.slice.call(arguments);
+            args.shift();
+            fn.apply(that, args);
+        });
+    });
+
+    // Cache the DOM nodes
+    var dom = this.dom;
+    var wrapper = dom.wrapper;
+    dom.formContent = _editor_el('form_content', dom.form)[0];
+    dom.footer = _editor_el('foot', wrapper)[0];
+    dom.body = _editor_el('body', wrapper)[0];
+    dom.bodyContent = _editor_el('body_content', wrapper)[0];
+    dom.processing = _editor_el('processing', wrapper)[0];
+
+    // Add any fields which are given on initialisation
+    if (init.fields) {
+        this.add(init.fields);
+    }
+
+    $(document)
+        .on('init.dt.dte' + this.s.unique, function(e, settings, json) {
+            // Attempt to attach to a DataTable automatically when the table is
+            // initialised
+            if (that.s.table && settings.nTable === $(that.s.table).get(0)) {
+                settings._editor = that;
+            }
+        })
+        .on('xhr.dt.dte' + this.s.unique, function(e, settings, json) {
+            // Automatically update fields which have a field name defined in
+            // the returned json - saves an `initComplete` for the user
+            if (json && that.s.table && settings.nTable === $(that.s.table).get(0)) {
+                that._optionsUpdate(json);
+            }
+        });
+
+    // Prep the display controller
+    try {
+        this.s.displayController = Editor.display[init.display].init(this);
+    }
+    catch (e) {
+        throw 'Cannot find display controller '+init.display;
+    }
+
+    this._event('initComplete', []);
+};
+/*global __inlineCounter*/
+
+/**
+ * Set the class on the form to relate to the action that is being performed.
+ * This allows styling to be applied to the form to reflect the state that
+ * it is in.
+ *
+ * @private
+ */
+Editor.prototype._actionClass = function ()
+{
+	var classesActions = this.classes.actions;
+	var action = this.s.action;
+	var wrapper = $(this.dom.wrapper);
+
+	wrapper.removeClass( [classesActions.create, classesActions.edit, classesActions.remove].join(' ') );
+
+	if ( action === "create" ) {
+		wrapper.addClass( classesActions.create );
+	}
+	else if ( action === "edit" ) {
+		wrapper.addClass( classesActions.edit );
+	}
+	else if ( action === "remove" ) {
+		wrapper.addClass( classesActions.remove );
+	}
+};
+
+
+/**
+ * Create an Ajax request in the same style as DataTables 1.10, with full
+ * backwards compatibility for Editor 1.2.
+ *
+ * @param  {object} data Data to submit
+ * @param  {function} success Success callback
+ * @param  {function} error Error callback
+ * @param  {object} submitParams Submitted data
+ * @private
+ */
+Editor.prototype._ajax = function ( data, success, error, submitParams )
+{
+	var that = this;
+	var action = this.s.action;
+	var thrown;
+	var opts = {
+		type:     'POST',
+		dataType: 'json',
+		data:     null,
+		error:    [ function ( xhr, text, err ) {
+			thrown = err;
+		} ],
+		success:  [],
+		complete: [ function ( xhr, text ) {
+			// Use `complete` rather than `success` so that all status codes are
+			// caught and can return valid JSON (useful when working with REST
+			// services).
+			var json = null;
+
+			if ( xhr.status === 204 || xhr.responseText === 'null' ) {
+				json = {};
+			}
+			else {
+				try {
+					// jQuery 1.12 or newer for responseJSON, but its the only
+					// way to get the JSON from a JSONP. So if you want to use
+					// JSONP with Editor you have to use jQuery 1.12+.
+					json = xhr.responseJSON ?
+						xhr.responseJSON :
+						$.parseJSON( xhr.responseText );
+				}
+				catch (e) {}
+			}
+
+			if ( $.isPlainObject( json ) || $.isArray( json ) ) {
+				success( json, xhr.status >= 400, xhr );
+			}
+			else {
+				error( xhr, text, thrown );
+			}
+		} ]
+	};
+	var a;
+	var ajaxSrc = this.s.ajax || this.s.ajaxUrl;
+	var id = action === 'edit' || action === 'remove' ?
+		_pluck( this.s.editFields, 'idSrc' ) :
+		null;
+
+	if ( $.isArray( id ) ) {
+		id = id.join(',');
+	}
+
+	// Get the correct object for rest style
+	if ( $.isPlainObject( ajaxSrc ) && ajaxSrc[ action ] ) {
+		ajaxSrc = ajaxSrc[ action ];
+	}
+
+	if ( typeof ajaxSrc === 'function' ) {
+		// As a function, execute it, passing in the required parameters
+		var uri = null;
+		var method = null;
+
+		// If the old style ajaxSrc is given, we need to process it for
+		// backwards compatibility with 1.2-. Unfortunate otherwise this would
+		// be a very simply function!
+		if ( this.s.ajaxUrl ) {
+			var url = this.s.ajaxUrl;
+
+			if ( url.create ) {
+				uri = url[ action ];
+			}
+
+			if ( uri.indexOf(' ') !== -1 ) {
+				a = uri.split(' ');
+				method = a[0];
+				uri = a[1];
+			}
+
+			uri = uri.replace( /_id_/, id );
+		}
+		
+		ajaxSrc( method, uri, data, success, error );
+		return;
+	}
+	else if ( typeof ajaxSrc === 'string' ) {
+		// As a string it gives the URL. For backwards compatibility it can also
+		// give the method.
+		if ( ajaxSrc.indexOf(' ') !== -1 ) {
+			a = ajaxSrc.split(' ');
+			opts.type = a[0];
+			opts.url = a[1];
+		}
+		else {
+			opts.url = ajaxSrc;
+		}
+	}
+	else {
+		// As an object, we extend the Editor defaults - with the exception of
+		// the error and complete functions which get added in so the user can
+		// specify their own in addition to ours
+		var optsCopy = $.extend( {}, ajaxSrc || {} );
+
+		if ( optsCopy.complete ) {
+			opts.complete.unshift( optsCopy.complete );
+			delete optsCopy.complete;
+		}
+
+		if ( optsCopy.error ) {
+			opts.error.unshift( optsCopy.error );
+			delete optsCopy.error;
+		}
+
+		opts = $.extend( {}, opts, optsCopy );
+	}
+
+	// URL macros
+	opts.url = opts.url.replace( /_id_/, id );
+
+	// Data processing option like in DataTables
+	if ( opts.data ) {
+		var isFn = typeof opts.data === 'function';
+		var newData = isFn ?
+			opts.data( data ) :  // fn can manipulate data or return an object
+			opts.data;           // object or array to merge
+
+		// If the function returned something, use that alone
+		data = isFn && newData ?
+			newData :
+			$.extend( true, data, newData );
+	}
+
+	opts.data = data;
+
+	// If a DELETE method is used there are a number of servers which will
+	// reject the request if it has a body. So we need to append to the URL.
+	//
+	// http://stackoverflow.com/questions/15088955
+	// http://bugs.jquery.com/ticket/11586
+	if ( opts.type === 'DELETE' && (opts.deleteBody === undefined || opts.deleteBody === true) ) {
+		var params = $.param( opts.data );
+
+		opts.url += opts.url.indexOf('?') === -1 ?
+			'?'+params :
+			'&'+params;
+
+		delete opts.data;
+	}
+
+	// Finally, make the ajax call
+	$.ajax( opts );
+};
+
+
+/**
+ * Abstraction for jQuery's animate method, to support jQuery slim which doesn't
+ * include the animate module
+ *
+ * @private
+ */
+Editor.prototype._animate = function ( target, style, time, callback )
+{
+	if ( $.fn.animate ) {
+		target
+			.stop()
+			.animate( style, time, callback );
+	}
+	else {
+		target.css( style );
+
+		if ( typeof time === 'function' ) {
+			time.call( target );
+		}
+		else if ( callback ) {
+			callback.call( target );
+		}
+	}
+};
+
+
+/**
+ * Create the DOM structure from the source elements for the main form.
+ * This is required since the elements can be moved around for other form types
+ * (bubble).
+ *
+ * @private
+ */
+Editor.prototype._assembleMain = function ()
+{
+	var dom = this.dom;
+
+	$(dom.wrapper)
+		.prepend( dom.header );
+
+	$(dom.footer)
+		.append( dom.formError )
+		.append( dom.buttons );
+
+	$(dom.bodyContent)
+		.append( dom.formInfo )
+		.append( dom.form );
+};
+
+
+/**
+ * Blur the editing window. A blur is different from a close in that it might
+ * cause either a close or the form to be submitted. A typical example of a
+ * blur would be clicking on the background of the bubble or main editing forms
+ * - i.e. it might be a close, or it might submit depending upon the
+ * configuration, while a click on the close box is a very definite close.
+ *
+ * @private
+ */
+Editor.prototype._blur = function ()
+{
+	var opts = this.s.editOpts;
+	var onBlur = opts.onBlur;
+
+	if ( this._event( 'preBlur' ) === false ) {
+		return;
+	}
+
+	if ( typeof onBlur === 'function' ) {
+		onBlur( this );
+	}
+	else if ( onBlur === 'submit' ) {
+		this.submit();
+	}
+	else if ( onBlur === 'close' ) {
+		this._close();
+	}
+};
+
+
+/**
+ * Clear all of the information that might have been dynamically set while
+ * the form was visible - specifically errors and dynamic messages
+ *
+ * @private
+ */
+Editor.prototype._clearDynamicInfo = function ()
+{
+	// Can be triggered due to a destroy if the editor is open
+	if ( ! this.s ) {
+		return;
+	}
+
+	var errorClass = this.classes.field.error;
+	var fields = this.s.fields;
+
+	$('div.'+errorClass, this.dom.wrapper).removeClass( errorClass );
+
+	$.each( fields, function (name, field) {
+		field
+			.error('')
+			.message('');
+	} );
+
+	this
+		.error('')
+		.message('');
+};
+
+
+/**
+ * Close an editing display, firing callbacks and events as needed
+ *
+ * @param  {function} submitComplete Function to call after the preClose event
+ * @private
+ */
+Editor.prototype._close = function ( submitComplete )
+{
+	// Allow preClose event to cancel the opening of the display
+	if ( this._event( 'preClose' ) === false ) {
+		return;
+	}
+
+	if ( this.s.closeCb ) {
+		this.s.closeCb( submitComplete );
+		this.s.closeCb = null;
+	}
+
+	if ( this.s.closeIcb ) {
+		this.s.closeIcb();
+		this.s.closeIcb = null;
+	}
+
+	// Remove focus control
+	$('body').off( 'focus.editor-focus' );
+
+	this.s.displayed = false;
+	this._event( 'close' );
+};
+
+
+/**
+ * Register a function to be called when the editing display is closed. This is
+ * used by function that create the editing display to tidy up the display on
+ * close - for example removing event handlers to prevent memory leaks.
+ *
+ * @param  {function} fn Function to call on close
+ * @private
+ */
+Editor.prototype._closeReg = function ( fn )
+{
+	this.s.closeCb = fn;
+};
+
+
+/**
+ * Argument shifting for the create(), edit() and remove() methods. In Editor
+ * 1.3 the preferred form of calling those three methods is with just two
+ * parameters (one in the case of create() - the id and the show flag), while in
+ * previous versions four / three parameters could be passed in, including the
+ * buttons and title options. In 1.3 the chaining API is preferred, but we want
+ * to support the old form as well, so this function is provided to perform
+ * that argument shifting, common to all three.
+ *
+ * @private
+ */
+Editor.prototype._crudArgs = function ( arg1, arg2, arg3, arg4 )
+{
+	var that = this;
+	var title;
+	var buttons;
+	var show;
+	var opts;
+
+	if ( $.isPlainObject( arg1 ) ) {
+		// Form options passed in as the first option
+		opts = arg1;
+	}
+	else if ( typeof arg1 === 'boolean' ) {
+		// Show / hide passed in as the first option - form options second
+		show = arg1;
+		opts = arg2; // can be undefined
+	}
+	else {
+		// Old style arguments
+		title = arg1; // can be undefined
+		buttons = arg2; // can be undefined
+		show = arg3; // can be undefined
+		opts = arg4; // can be undefined
+	}
+
+	// If all undefined, then fall into here
+	if ( show === undefined ) {
+		show = true;
+	}
+
+	if ( title ) {
+		that.title( title );
+	}
+
+	if ( buttons ) {
+		that.buttons( buttons );
+	}
+
+	return {
+		opts: $.extend( {}, this.s.formOptions.main, opts ),
+		maybeOpen: function () {
+			if ( show ) {
+				that.open();
+			}
+		}
+	};
+};
+
+
+/**
+ * Execute the data source abstraction layer functions. This is simply a case
+ * of executing the function with the Editor scope, passing in the remaining
+ * parameters.
+ *
+ * @param {string} name Function name to execute
+ * @private
+ */
+Editor.prototype._dataSource = function ( name /*, ... */ )
+{
+	// Remove the name from the arguments list, so the rest can be passed
+	// straight into the field type
+	var args = Array.prototype.slice.call( arguments );
+	args.shift();
+
+	var fn = this.s.dataSource[ name ];
+	if ( fn ) {
+		return fn.apply( this, args );
+	}
+};
+
+
+/**
+ * Insert the fields into the DOM, in the correct order
+ *
+ * @private
+ */
+Editor.prototype._displayReorder = function ( includeFields )
+{
+	var that = this;
+	var formContent = $(this.dom.formContent);
+	var fields = this.s.fields;
+	var order = this.s.order;
+	var template = this.s.template;
+	var mode = this.s.mode || 'main';
+
+	if ( includeFields ) {
+		this.s.includeFields = includeFields;
+	}
+	else {
+		includeFields = this.s.includeFields;
+	}
+
+	// Empty before adding in the required fields
+	formContent.children().detach();
+
+	$.each( order, function (i, fieldOrName) {
+		var name = fieldOrName instanceof Editor.Field ?
+			fieldOrName.name() :
+			fieldOrName;
+
+		if ( that._weakInArray( name, includeFields ) !== -1 ) {
+			if ( template && mode === 'main' ) {
+				template.find('editor-field[name="'+name+'"]').after(
+					fields[ name ].node()
+				);
+
+				template.find( '[data-editor-template="'+name+'"]').append(
+					fields[ name ].node()
+				);
+			}
+			else {
+				formContent.append( fields[ name ].node() );
+			}
+		}
+	} );
+
+	if ( template && mode === 'main' ) {
+		template.appendTo( formContent );
+	}
+
+	this._event( 'displayOrder', [
+		this.s.displayed,
+		this.s.action,
+		formContent
+	] );
+};
+
+
+/**
+ * Generic editing handler. This can be called by the three editing modes (main,
+ * bubble and inline) to configure Editor for a row edit, and fire the required
+ * events to ensure that the editing interfaces all provide a common API.
+ *
+ * @param {*} rows Identifier for the item(s) to be edited
+ * @param {string} type Editing type - for the initEdit event
+ * @private
+ */
+Editor.prototype._edit = function ( items, editFields, type, formOptions, setupDone )
+{
+	var that = this;
+	var fields = this.s.fields;
+	var usedFields = [];
+	var includeInOrder;
+	var editData = {};
+
+	this.s.editFields = editFields;
+	this.s.editData = editData;
+	this.s.modifier = items;
+	this.s.action = "edit";
+	this.dom.form.style.display = 'block';
+	this.s.mode = type;
+
+	this._actionClass();
+
+	// Setup the field values for editing
+	$.each( fields, function ( name, field ) {
+		field.multiReset();
+		includeInOrder = false;
+		editData[ name ] = {};
+
+		$.each( editFields, function ( idSrc, edit ) {
+			if ( edit.fields[ name ] ) {
+				var val = field.valFromData( edit.data );
+
+				// Save the set data values so we can decided in submit if data has changed
+				// Note that `null` is stored as an empty string since fields do not currently
+				// have the ability to store a null value - when they are read back (in the
+				// submit) they would be an empty string. When null handling is added to
+				// fields, this will need to be removed.
+				editData[ name ][ idSrc ] = val === null ?
+					'' :
+					$.isArray(val) ?
+						val.slice() :
+						val;
+
+				// If scoped to edit the whole row, then set all of the fields
+				if ( !formOptions || formOptions.scope === 'row' ) {
+					field.multiSet( idSrc, val !== undefined ?
+						val :
+						field.def()
+					);
+
+					if ( ! edit.displayFields || edit.displayFields[ name ] ) {
+						includeInOrder = true;
+					}
+				}
+				else {
+					// Limit editing to only those fields selected if any are selected
+					if ( ! edit.displayFields || edit.displayFields[ name ] ) {
+						field.multiSet( idSrc, val !== undefined ?
+							val :
+							field.def()
+						);
+
+						includeInOrder = true;
+					}
+				}
+			}
+		} );
+
+		// If the field is used, then add it to the fields to be shown
+		if ( field.multiIds().length !== 0 && includeInOrder ) {
+			usedFields.push( name );
+		}
+	} );
+
+	// Remove the fields that are not required from the display
+	var currOrder = this.order().slice();
+
+	for ( var i=currOrder.length-1 ; i >= 0 ; i-- ) {
+		// Use `toString()` to convert numbers to strings, since usedFields
+		// contains strings (object property names)
+		if ( $.inArray( currOrder[i].toString(), usedFields ) === -1 ) {
+			currOrder.splice( i, 1 );
+		}
+	}
+
+	this._displayReorder( currOrder );
+
+	// Events
+	this._event(
+		'initEdit',
+		[
+			_pluck( editFields, 'node' )[0],
+			_pluck( editFields, 'data' )[0],
+			items,
+			type
+		],
+		function () {
+			that._event(
+				'initMultiEdit', // undocumented and to be removed in v2
+				[ editFields, items, type ],
+				function () {
+					setupDone();
+				}
+			);
+		}
+	);
+};
+
+
+/**
+ * Fire callback functions and trigger events.
+ *
+ * @param {string|array} trigger Name(s) of the jQuery custom event to trigger
+ * @param {array} args Array of arguments to pass to the triggered event
+ * @return {*} Return from the event
+ * @private
+ */
+Editor.prototype._event = function ( trigger, args, promiseComplete )
+{
+	if ( ! args ) {
+		args = [];
+	}
+
+	// Allow an array to be passed in for the trigger to fire multiple events
+	if ( $.isArray( trigger ) ) {
+		for ( var i=0, ien=trigger.length ; i<ien ; i++ ) {
+			this._event( trigger[i], args );
+		}
+	}
+	else {
+		var e = $.Event( trigger );
+
+		$(this).triggerHandler( e, args );
+
+		// Automatically trigger a cancelled event if a `pre` event handler
+		// was cancelled by the callback
+		if ( trigger.indexOf('pre') === 0 && e.result === false ) {
+			$(this).triggerHandler(
+				$.Event( trigger + 'Cancelled' ),
+				args
+			);
+		}
+
+		// Allow for a promise to be returned and execute a callback
+		if ( promiseComplete ) {
+			if ( e.result && typeof e.result === 'object' && e.result.then ) {
+				// jQuery and "real" promises both provide "then"
+				e.result.then( promiseComplete );
+			}
+			else {
+				// If there wasn't a promise returned, then execute immediately
+				promiseComplete();
+			}
+		}
+
+		return e.result;
+	}
+};
+
+
+/**
+ * 'Modernise' event names, from the old style `on[A-Z]` names to camelCase.
+ * This is done to provide backwards compatibility with Editor 1.2- event names.
+ * The names themselves were updated for consistency with DataTables.
+ *
+ * @param {string} Event name to modernise
+ * @return {string} String with new event name structure
+ * @private
+ */
+Editor.prototype._eventName = function ( input )
+{
+	var name;
+	var names = input.split( ' ' );
+
+	for ( var i=0, ien=names.length ; i<ien ; i++ ) {
+		name = names[i];
+
+		// Strip the 'on' part and lowercase the first character
+		var onStyle = name.match(/^on([A-Z])/);
+		if ( onStyle ) {
+			name = onStyle[1].toLowerCase() + name.substring( 3 );
+		}
+
+		names[i] = name;
+	}
+
+	return names.join( ' ' );
+};
+
+
+/**
+ * Find a field from a DOM node. All children are searched.
+ *
+ * @param  {node} node DOM node to search for
+ * @return {Field}     Field instance
+ */
+Editor.prototype._fieldFromNode = function ( node )
+{
+	var foundField = null;
+
+	$.each( this.s.fields, function ( name, field ) {
+		if ( $( field.node() ).find( node ).length ) {
+			foundField = field;
+		}
+	} );
+
+	return foundField;
+};
+
+
+/**
+ * Convert a field name input parameter to an array of field names.
+ *
+ * Many of the API methods provide the ability to pass `undefined` a string or
+ * array of strings to identify fields. This method harmonises that.
+ *
+ * @param  {array|string} [fieldNames] Field names to get
+ * @return {array}                     Field names
+ * @private
+ */
+Editor.prototype._fieldNames = function ( fieldNames )
+{
+	if ( fieldNames === undefined ) {
+		return this.fields();
+	}
+	else if ( ! $.isArray( fieldNames ) ) {
+		return [ fieldNames ];
+	}
+
+	return fieldNames;
+};
+
+
+/**
+ * Focus on a field. Providing the logic to allow complex focus expressions
+ *
+ * @param {array} fields Array of Field instances or field names for the fields
+ *     that are shown
+ * @param {null|string|integer} focus Field identifier to focus on
+ * @private
+ */
+Editor.prototype._focus = function ( fieldsIn, focus )
+{
+	var that = this;
+	var field;
+	var fields = $.map( fieldsIn, function ( fieldOrName ) {
+		return typeof fieldOrName === 'string' ?
+			that.s.fields[ fieldOrName ] :
+			fieldOrName;
+	} );
+
+	if ( typeof focus === 'number' ) {
+		field = fields[ focus ];
+	}
+	else if ( focus ) {
+		if ( focus.indexOf( 'jq:' ) === 0 ) {
+			field = $('div.DTE '+focus.replace(/^jq:/, ''));
+		}
+		else {
+			field = this.s.fields[ focus ];
+		}
+	}
+
+	this.s.setFocus = field;
+
+	if ( field ) {
+		field.focus();
+	}
+};
+
+
+/**
+ * Form options - common function so all editing methods can provide the same
+ * basic options, DRY.
+ *
+ * @param {object} opts Editing options. See model.formOptions
+ * @private
+ */
+Editor.prototype._formOptions = function ( opts )
+{
+	var that = this;
+	var inlineCount = __inlineCounter++;
+	var namespace = '.dteInline'+inlineCount;
+
+	// Backwards compatibility with 1.4
+	if ( opts.closeOnComplete !== undefined ) {
+		opts.onComplete = opts.closeOnComplete ? 'close' : 'none';
+	}
+
+	if ( opts.submitOnBlur !== undefined ) {
+		opts.onBlur = opts.submitOnBlur ? 'submit' : 'close';
+	}
+
+	if ( opts.submitOnReturn !== undefined ) {
+		opts.onReturn = opts.submitOnReturn ? 'submit' : 'none';
+	}
+
+	if ( opts.blurOnBackground !== undefined ) {
+		opts.onBackground = opts.blurOnBackground ? 'blur' : 'none';
+	}
+
+	this.s.editOpts = opts;
+
+	// When submitting by Ajax we don't want to close a form that has been
+	// opened during the ajax request, so we keep a count of the form opening
+	this.s.editCount = inlineCount;
+
+	if ( typeof opts.title === 'string' || typeof opts.title === 'function' ) {
+		this.title( opts.title );
+		opts.title = true;
+	}
+
+	if ( typeof opts.message === 'string' || typeof opts.message === 'function' ) {
+		this.message( opts.message );
+		opts.message = true;
+	}
+
+	if ( typeof opts.buttons !== 'boolean' ) {
+		this.buttons( opts.buttons );
+		opts.buttons = true;
+	}
+
+	// Prevent submit by a host `<form>`
+	$(document).on( 'keydown'+namespace, function ( e ) {
+		if ( e.keyCode === 13 && that.s.displayed ) { // return
+			var el = $(document.activeElement);
+
+			if ( el ) {
+				var field = that._fieldFromNode( el );
+
+				if ( field.canReturnSubmit( el ) ) {
+					e.preventDefault();
+				}
+			}
+		}
+	} );
+
+	$(document).on( 'keyup'+namespace, function ( e ) {
+		var el = $(document.activeElement);
+
+		if ( e.keyCode === 13 && that.s.displayed ) { // return
+			var field = that._fieldFromNode( el );
+
+			// Allow the field plug-in to say if we can submit or not
+			if ( field && typeof field.canReturnSubmit === 'function' && field.canReturnSubmit( el ) ) {
+				if ( opts.onReturn === 'submit' ) {
+					e.preventDefault();
+					that.submit();
+				}
+				else if ( typeof opts.onReturn === 'function' ) {
+					e.preventDefault();
+					opts.onReturn( that, e );
+				}
+			}
+		}
+		else if ( e.keyCode === 27 ) { // esc
+			e.preventDefault();
+
+			if ( typeof opts.onEsc === 'function' ) {
+				opts.onEsc( that, e );
+			}
+			else if ( opts.onEsc === 'blur' ) {
+				that.blur();
+			}
+			else if ( opts.onEsc === 'close' ) {
+				that.close();
+			}
+			else if ( opts.onEsc === 'submit' ) {
+				that.submit();
+			}
+		}
+		else if ( el.parents('.DTE_Form_Buttons').length ) {
+			if ( e.keyCode === 37 ) { // left
+				el.prev( 'button' ).focus();
+			}
+			else if ( e.keyCode === 39 ) { // right
+				el.next( 'button' ).focus();
+			}
+		}
+	} );
+
+	this.s.closeIcb = function () {
+		$(document).off( 'keydown'+namespace );
+		$(document).off( 'keyup'+namespace );
+	};
+
+	return namespace;
+};
+
+
+/**
+ * Convert from the 1.5+ data interchange format to the 1.4- format if suitable.
+ *
+ * @param  {string} direction 'send' or 'receive'
+ * @param  {string} action    CRUD action
+ * @param  {object} data      Data object to transform
+ * @private
+ */
+Editor.prototype._legacyAjax = function ( direction, action, data )
+{
+	if ( ! this.s.legacyAjax || ! data ) {
+		return;
+	}
+
+	if ( direction === 'send' ) {
+		if ( action === 'create' || action === 'edit' ) {
+			var id;
+
+			$.each( data.data, function ( rowId, values ) {
+				if ( id !== undefined ) {
+					throw 'Editor: Multi-row editing is not supported by the legacy Ajax data format';
+				}
+
+				id = rowId;
+			} );
+
+			data.data = data.data[ id ];
+
+			if ( action === 'edit' ) {
+				data.id = id;
+			}
+		}
+		else {
+			data.id = $.map( data.data, function ( values, id ) {
+				return id;
+			} );
+
+			delete data.data;
+		}
+	}
+	else {
+		if ( ! data.data && data.row ) {
+			// 1.4 libraries retuned data in the `row` property
+			data.data = [ data.row ];
+		}
+		else if ( ! data.data ) {
+			// 1.4- allowed data not to be returned - 1.5 requires it
+			data.data = [];
+		}
+	}
+};
+
+
+/**
+ * Update the field options from a JSON data source
+ *
+ * @param  {object} json JSON object from the server
+ * @private
+ */
+Editor.prototype._optionsUpdate = function ( json )
+{
+	var that = this;
+
+	if ( json.options ) {
+		$.each( this.s.fields, function (name, field) {
+			if ( json.options[ name ] !== undefined ) {
+				var fieldInst = that.field( name );
+
+				if ( fieldInst && fieldInst.update ) {
+					fieldInst.update( json.options[ name ] );
+				}
+			}
+		} );
+	}
+};
+
+
+/**
+ * Show a message in the form. This can be used for error messages or dynamic
+ * messages (information display) as the structure for each is basically the
+ * same. This method will take into account if the form is visible or not - if
+ * so then the message is shown with an effect for the end user, otherwise
+ * it is just set immediately.
+ *
+ * @param {element} el The field display node to use
+ * @param {string|function} msg The message to show
+ * @private
+ */
+Editor.prototype._message = function ( el, msg )
+{
+	// Allow for jQuery slim
+	var canAnimate = $.fn.animate ? true : false;
+
+	if ( typeof msg === 'function' ) {
+		msg = msg( this, new DataTable.Api(this.s.table) );
+	}
+
+	el = $(el);
+
+	if ( canAnimate ) {
+		el.stop();
+	}
+
+	if ( ! msg ) {
+		if ( this.s.displayed && canAnimate ) {
+			// Clear the message with visual effect since the form is visible
+			el
+				.fadeOut( function () {
+					el.html( '' );
+				} );
+		}
+		else {
+			// Clear the message without visual effect
+			el
+				.html( '' )
+				.css('display', 'none');
+		}
+	}
+	else {
+		if ( this.s.displayed && canAnimate ) {
+			// Show the message with visual effect
+			el
+				.html( msg )
+				.fadeIn();
+		}
+		else {
+			// Show the message without visual effect
+			el
+				.html( msg )
+				.css('display', 'block');
+		}
+	}
+};
+
+
+/**
+ * Update the multi-value information display to not show redundant information
+ *
+ * @private
+ */
+Editor.prototype._multiInfo = function ()
+{
+	var fields = this.s.fields;
+	var include = this.s.includeFields;
+	var show = true;
+	var state;
+
+	if ( ! include ) {
+		return;
+	}
+
+	for ( var i=0, ien=include.length ; i<ien ; i++ ) {
+		var field = fields[ include[i] ];
+		var multiEditable = field.multiEditable();
+
+		if ( field.isMultiValue() && multiEditable && show ) {
+			// Multi-row editable. Only show first message
+			state = true;
+			show = false;
+		}
+		else if ( field.isMultiValue() && ! multiEditable ) {
+			// Not multi-row editable. Always show message
+			state = true;
+		}
+		else {
+			state = false;
+		}
+
+		fields[ include[i] ].multiInfoShown( state );
+	}
+};
+
+
+/**
+ * Common display editing form method called by all editing methods after the
+ * form has been configured and displayed. This is to ensure all fire the same
+ * events.
+ *
+ * @param  {string} Editing type
+ * @return {boolean} `true`
+ * @private
+ */
+Editor.prototype._postopen = function ( type )
+{
+	var that = this;
+	var focusCapture = this.s.displayController.captureFocus;
+	if ( focusCapture === undefined ) {
+		focusCapture = true;
+	}
+
+	$(this.dom.form)
+		.off( 'submit.editor-internal' )
+		.on( 'submit.editor-internal', function (e) {
+			e.preventDefault();
+		} );
+
+	// Focus capture - when the Editor form is shown we capture the browser's
+	// focus action. Without doing this is would result in the user being able
+	// to control items under the Editor display - triggering actions that
+	// shouldn't be possible while the editing is shown.
+	if ( focusCapture && (type === 'main' || type === 'bubble') ) {
+		$('body').on( 'focus.editor-focus', function () {
+			if ( $(document.activeElement).parents('.DTE').length === 0 &&
+			     $(document.activeElement).parents('.DTED').length === 0
+			) {
+				if ( that.s.setFocus ) {
+					that.s.setFocus.focus();
+				}
+			}
+		} );
+	}
+
+	this._multiInfo();
+
+	this._event( 'open', [type, this.s.action] );
+
+	return true;
+};
+
+
+/**
+ * Common display editing form method called by all editing methods before the
+ * form has been configured and displayed. This is to ensure all fire the same
+ * events.
+ *
+ * @param  {string} Editing type
+ * @return {boolean} `false` if the open is cancelled by the preOpen event,
+ *   otherwise `true`
+ * @private
+ */
+Editor.prototype._preopen = function ( type )
+{
+	// Allow preOpen event to cancel the opening of the display
+	if ( this._event( 'preOpen', [type, this.s.action] ) === false ) {
+		// Tidy- this would normally be done on close, but we never get that far
+		this._clearDynamicInfo();
+		this._event( 'cancelOpen', [type, this.s.action] );
+
+		// inline and bubble methods cannot be opened using `open()`, they
+		// have to be called again, so we need to clean up the event
+		// listener added by _formOptions
+		if ( (this.s.mode === 'inline' || this.s.mode === 'bubble') && this.s.closeIcb ) {
+			this.s.closeIcb();
+		}
+
+		this.s.closeIcb = null;
+
+		return false;
+	}
+
+	this.s.displayed = type;
+
+	return true;
+};
+
+
+/**
+ * Set the form into processing mode or take it out of processing mode. In
+ * processing mode a processing indicator is shown and user interaction with the
+ * form buttons is blocked
+ *
+ * @param {boolean} processing true if to go into processing mode and false if
+ *   to come out of processing mode
+ * @private
+ */
+Editor.prototype._processing = function ( processing )
+{
+	var procClass = this.classes.processing.active;
+
+	$(['div.DTE', this.dom.wrapper]).toggleClass( procClass, processing );
+
+	this.s.processing = processing;
+
+	this._event( 'processing', [processing] );
+};
+
+
+/**
+ * Submit a form to the server for processing. This is the private method that is used
+ * by the 'submit' API method, which should always be called in preference to calling
+ * this method directly.
+ *
+ * @param {function} [successCallback] Callback function that is executed once the
+ *   form has been successfully submitted to the server and no errors occurred.
+ * @param {function} [errorCallback] Callback function that is executed if the
+ *   server reports an error due to the submission (this includes a JSON formatting
+ *   error should the error return invalid JSON).
+ * @param {function} [formatdata] Callback function that is passed in the data
+ *   that will be submitted to the server, allowing pre-formatting of the data,
+ *   removal of data or adding of extra fields.
+ * @param {boolean} [hide=true] When the form is successfully submitted, by default
+ *   the form display will be hidden - this option allows that to be overridden.
+ * @private
+ */
+Editor.prototype._submit = function ( successCallback, errorCallback, formatdata, hide )
+{
+	var that = this;
+	var i, iLen, eventRet, errorNodes;
+	var changed = false, allData = {}, changedData = {};
+	var setBuilder =  DataTable.ext.oApi._fnSetObjectDataFn;
+	var dataSource = this.s.dataSource;
+	var fields = this.s.fields;
+	var editCount = this.s.editCount;
+	var modifier = this.s.modifier;
+	var editFields = this.s.editFields;
+	var editData = this.s.editData;
+	var opts = this.s.editOpts;
+	var changedSubmit = opts.submit;
+	var submitParamsLocal;
+
+	// After initSubmit to allow `mode()` to be used as a setter
+	var action = this.s.action;
+	var submitParams = {
+		"action": action,
+		"data": {}
+	};
+
+	// For backwards compatibility
+	if ( this.s.dbTable ) {
+		submitParams.table = this.s.dbTable;
+	}
+
+	// Gather the data that is to be submitted
+	if ( action === "create" || action === "edit" ) {
+		$.each( editFields, function ( idSrc, edit ) {
+			var allRowData = {};
+			var changedRowData = {};
+
+			$.each( fields, function (name, field) {
+				if ( edit.fields[ name ] && field.submittable() ) {
+					var multiGet = field.multiGet();
+					var builder = setBuilder( name );
+
+					// If it wasn't an edit field, we still need to get the original
+					// data, so we can submit it if `all` or `allIfChanged`
+					if ( multiGet[ idSrc ] === undefined ) {
+						var originalVal = field.valFromData( edit.data );
+						builder( allRowData, originalVal );
+
+						return;
+					}
+
+					var value = multiGet[ idSrc ];
+					var manyBuilder = $.isArray( value ) && name.indexOf('[]') !== -1 ?
+						setBuilder( name.replace(/\[.*$/,'')+'-many-count' ) :
+						null;
+
+					builder( allRowData, value );
+
+					// We need to tell the server-side if an array submission
+					// actually has no elements so it knows if the array was
+					// being submitted or not (since otherwise it doesn't know
+					// if the array was empty, or just not being submitted)
+					if ( manyBuilder ) {
+						manyBuilder( allRowData, value.length );
+					}
+
+					// Build a changed object for if that is the selected data
+					// type
+					if ( action === 'edit' && (!editData[ name ] || ! field.compare( value, editData[ name ][ idSrc ]) ) ) {
+						builder( changedRowData, value );
+						changed = true;
+
+						if ( manyBuilder ) {
+							manyBuilder( changedRowData, value.length );
+						}
+					}
+				}
+			} );
+
+			if ( ! $.isEmptyObject( allRowData ) ) {
+				allData[ idSrc ] = allRowData;
+			}
+
+			if ( ! $.isEmptyObject( changedRowData ) ) {
+				changedData[ idSrc ] = changedRowData;
+			}
+		} );
+
+		// Decide what data to submit to the server for edit (create is all, always)
+		if ( action === 'create' || changedSubmit === 'all' || (changedSubmit === 'allIfChanged' && changed) ) {
+			submitParams.data = allData;
+		}
+		else if ( changedSubmit === 'changed' && changed ) {
+			submitParams.data = changedData;
+		}
+		else {
+			// Nothing to submit
+			this.s.action = null;
+
+			if ( opts.onComplete === 'close' && (hide === undefined || hide) ) {
+				this._close( false );
+			}
+			else if ( typeof opts.onComplete === 'function' ) {
+				opts.onComplete( this );
+			}
+
+			if ( successCallback ) {
+				successCallback.call( this );
+			}
+
+			this._processing( false );
+			this._event( 'submitComplete' );
+			return;
+		}
+	}
+	else if ( action === "remove" ) {
+		$.each( editFields, function ( idSrc, edit ) {
+			submitParams.data[ idSrc ] = edit.data;
+		} );
+	}
+
+	this._legacyAjax( 'send', action, submitParams );
+
+	// Local copy of the submit parameters, needed for the data lib prep since
+	// the preSubmit can modify the format and we need to know what the format is
+	submitParamsLocal = $.extend( true, {}, submitParams );
+
+	// Allow the data to be submitted to the server to be preprocessed by callback
+	// and event functions
+	if ( formatdata ) {
+		formatdata( submitParams );
+	}
+	if ( this._event( 'preSubmit', [submitParams, action] ) === false ) {
+		this._processing( false );
+		return;
+	}
+
+	// Submit to the server (or whatever method is defined in the settings)
+	var submitWire = this.s.ajax || this.s.ajaxUrl ?
+		this._ajax :
+		this._submitTable;
+
+	submitWire.call(
+		this,
+		submitParams,
+		function (json, notGood, xhr) {
+			that._submitSuccess(
+				json, notGood, submitParams, submitParamsLocal, that.s.action,
+				editCount, hide, successCallback, errorCallback, xhr
+			);
+		},
+		function (xhr, err, thrown) {
+			that._submitError( xhr, err, thrown, errorCallback, submitParams, that.s.action );
+		},
+		submitParams
+	);
+};
+
+
+/**
+ * Save submitted data without an Ajax request. This will write to a local
+ * table only - not saving it permanently, but rather using the DataTable itself
+ * as a data store.
+ *
+ * @param  {object} data Data to submit
+ * @param  {function} success Success callback
+ * @param  {function} error Error callback
+ * @param  {object} submitParams Submitted data
+ * @private
+ */
+Editor.prototype._submitTable = function ( data, success, error, submitParams )
+{
+	var that = this;
+	var action = data.action;
+	var out = { data: [] };
+	var idGet = DataTable.ext.oApi._fnGetObjectDataFn( this.s.idSrc );
+	var idSet = DataTable.ext.oApi._fnSetObjectDataFn( this.s.idSrc );
+
+	// Nothing required for remove - create and edit get a copy of the data
+	if ( action !== 'remove' ) {
+		var originalData = this.s.mode === 'main' ?
+			this._dataSource( 'fields', this.modifier() ) :
+			this._dataSource( 'individual', this.modifier() );
+
+		$.each( data.data, function ( key, vals ) {
+			var toSave;
+			var extender = $.fn.dataTableExt.oApi._fnExtend;
+
+			// Get the original row's data, so we can modify it with new values.
+			// This allows Editor to not need to submit all fields
+			if ( action === 'edit' ) {
+				var rowData = originalData[ key ].data;
+				toSave = extender( {}, rowData, true );
+				toSave = extender( toSave, vals, true );
+			}
+			else {
+				toSave = extender( {}, vals, true );
+			}
+
+			// If create and there isn't an id for the new row, create
+			// one. An id could be creased by `preSubmit`
+			var overrideId = idGet( toSave );
+			if ( action === 'create' && overrideId === undefined ) {
+				idSet( toSave, +new Date() +''+ key );
+			}
+			else {
+				idSet( toSave, overrideId );
+			}
+
+			out.data.push( toSave );
+		} );
+	}
+
+	success( out );
+};
+
+
+/**
+ * Submit success callback function
+ * @param  {object} json                Payload
+ * @param  {bool} notGood               True if the returned status code was
+ *   >=400 (i.e. processing failed). This is called `notGood` rather than
+ *   `success` since the request was successfully processed, just not written to
+ *   the db. It is also inverted from "good" to make it optional when overriding
+ *   the `ajax` function.
+ * @param  {object} submitParams        Submitted data
+ * @param  {object} submitParamsLocal   Unmodified copy of submitted data
+ *   (before it could be modified by the user)
+ * @param  {string} action              CRUD action being taken
+ * @param  {int} editCount              Protection against async errors
+ * @param  {bool} hide                  Hide the form flag
+ * @param  {function} successCallback   Success callback
+ * @param  {function} errorCallback     Error callback
+ * @private
+ */
+Editor.prototype._submitSuccess = function ( json, notGood, submitParams, submitParamsLocal, action, editCount, hide, successCallback, errorCallback, xhr )
+{
+	var that = this;
+	var setData;
+	var fields = this.s.fields;
+	var opts = this.s.editOpts;
+	var modifier = this.s.modifier;
+
+	this._legacyAjax( 'receive', action, json );
+	this._event( 'postSubmit', [json, submitParams, action, xhr] );
+
+	if ( !json.error ) {
+		json.error = "";
+	}
+	if ( !json.fieldErrors ) {
+		json.fieldErrors = [];
+	}
+
+	if ( notGood || json.error || json.fieldErrors.length ) {
+		// Global form error
+		var globalError = [];
+
+		if ( json.error ) {
+			globalError.push( json.error );
+		}
+
+		// Field specific errors
+		$.each( json.fieldErrors, function (i, err) {
+			var field = fields[ err.name ];
+
+			if ( field.displayed() ) {
+				field.error( err.status || "Error" );
+
+				if ( i === 0 ) {
+					if ( opts.onFieldError === 'focus' ) {
+						// Scroll the display to the first error and focus
+						that._animate(
+							$(that.dom.bodyContent, that.s.wrapper),
+							{ scrollTop: $(field.node()).position().top },
+							500
+						);
+	
+						field.focus();
+					}
+					else if ( typeof opts.onFieldError === 'function' ) {
+						opts.onFieldError( that, err );
+					}
+				}
+			}
+			else {
+				// If the field isn't visible, we need to make it display as a global error
+				// This _shouldn't_ happen - it means there is invalid data if it does
+				globalError.push( field.name()+': '+ (err.status || "Error") );
+			}
+		} );
+
+		this.error( globalError.join('<br>') );
+
+		this._event( 'submitUnsuccessful', [json] );
+		if ( errorCallback ) {
+			errorCallback.call( that, json );
+		}
+	}
+	else {
+		// Create a data store that the data source can use, which is
+		// unique to this action
+		var store = {};
+
+		if ( json.data && (action === "create"  || action === "edit") ) {
+			this._dataSource( 'prep', action, modifier, submitParamsLocal, json, store );
+
+			for ( var i=0 ; i<json.data.length ; i++ ) {
+				setData = json.data[ i ];
+
+				var id = this._dataSource( 'id', setData );
+				this._event( 'setData', [json, setData, action] ); // legacy
+
+				if ( action === "create" ) {
+					// New row was created to add it to the DT
+					this._event( 'preCreate', [json, setData, id] );
+					this._dataSource( 'create', fields, setData, store );
+					this._event( ['create', 'postCreate'], [json, setData, id] );
+				}
+				else if ( action === "edit" ) {
+					// Row was updated, so tell the DT
+					this._event( 'preEdit', [json, setData, id] );
+					this._dataSource( 'edit', modifier, fields, setData, store );
+					this._event( ['edit', 'postEdit'], [json, setData, id] );
+				}
+			}
+
+			this._dataSource( 'commit', action, modifier, json.data, store );
+		}
+		else if ( action === "remove" ) {
+			this._dataSource( 'prep', action, modifier, submitParamsLocal, json, store );
+
+			// Remove the rows given and then redraw the table
+			this._event( 'preRemove', [json, this.ids()] );
+			this._dataSource( 'remove', modifier, fields, store );
+			this._event( ['remove', 'postRemove'], [json, this.ids()] );
+
+			this._dataSource( 'commit', action, modifier, json.data, store );
+		}
+
+		// Submission complete
+		if ( editCount === this.s.editCount ) {
+			this.s.action = null;
+
+			if ( opts.onComplete === 'close' && (hide === undefined || hide) ) {
+				// If no data returned, then treat as not complete
+				this._close( json.data ? true : false );
+			}
+			else if ( typeof opts.onComplete === 'function' ) {
+				opts.onComplete( this );
+			}
+		}
+
+		// All done - fire off the callbacks and events
+		if ( successCallback ) {
+			successCallback.call( that, json );
+		}
+		this._event( 'submitSuccess', [json, setData, action] );
+	}
+
+	this._processing( false );
+	this._event( 'submitComplete', [json, setData, action] );
+};
+
+
+/**
+ * Submit error callback function
+ * @private
+ */
+Editor.prototype._submitError = function ( xhr, err, thrown, errorCallback, submitParams, action )
+{
+	this._event( 'postSubmit', [null, submitParams, action, xhr] );
+
+	this.error( this.i18n.error.system );
+	this._processing( false );
+
+	if ( errorCallback ) {
+		errorCallback.call( this, xhr, err, thrown );
+	}
+
+	this._event( ['submitError', 'submitComplete'], [xhr, err, thrown, submitParams] );
+};
+
+
+/**
+ * Check to see if the form needs to be tidied before a new action can be performed.
+ * This includes if the from is currently processing an old action and if it
+ * is inline editing.
+ *
+ * @param {function} fn Callback function
+ * @returns {boolean} `true` if was in inline mode, `false` otherwise
+ * @private
+ */
+Editor.prototype._tidy = function ( fn )
+{
+	var that = this;
+	var dt = this.s.table ?
+		new $.fn.dataTable.Api( this.s.table ) :
+		null;
+
+	var ssp = false;
+	if ( dt ) {
+		ssp = dt.settings()[0].oFeatures.bServerSide;
+	}
+
+	if ( this.s.processing ) {
+		// If currently processing, wait until the action is complete
+		this.one( 'submitComplete', function () {
+			// If server-side processing is being used in DataTables, first
+			// check that we are still processing (might not be if nothing was
+			// submitted) and then wait for the draw to finished
+			if ( ssp ) {
+				dt.one( 'draw', fn );
+			}
+			else {
+				setTimeout( function () {
+					fn();
+				}, 10 );
+			}
+		} );
+
+		return true;
+	}
+	else if ( this.display() === 'inline' || this.display() === 'bubble' ) {
+		// If there is an inline edit box, it needs to be tidied
+		this
+			.one( 'close', function () {
+				// On close if processing then we need to wait for the submit to
+				// complete before running the callback as onBlur was set to
+				// submit
+				if ( ! that.s.processing ) {
+					// IE needs a small timeout, otherwise it may not focus on a
+					// field if one already has focus
+					setTimeout( function () {
+						// Check that Editor wasn't destroyed
+						if ( that.s ) {
+							fn();
+						}
+					}, 10 );
+				}
+				else {
+					// Need to wait for the submit to finish
+					that.one( 'submitComplete', function ( e, json ) {
+						// If SSP then need to wait for the draw
+						if ( ssp && json ) {
+							dt.one( 'draw', fn );
+						}
+						else {
+							setTimeout( function () {
+								if ( that.s ) {
+									fn();
+								}
+							}, 10 );
+						}
+					} );
+				}
+			} )
+			.blur();
+
+		return true;
+	}
+
+	return false;
+};
+
+/**
+ * Same as $.inArray but with weak type checking
+ * @param {any} name Value to look for in the array
+ * @param {array} arr Array to scan through
+ * @returns {number} -1 if not found, index otherwise
+ */
+Editor.prototype._weakInArray = function ( name, arr )
+{
+	for ( var i=0, ien=arr.length ; i<ien ; i++ ) {
+		if ( name == arr[i] ) {
+			return i;
+		}
+	}
+
+	return -1;
+};
+
+/*
+ * Defaults
+ */
+
+
+// Dev node - although this file is held in the models directory (because it
+// really is a model, it is assigned to Editor.defaults for easy
+// and sensible access to set the defaults for Editor.
+
+/**
+ * Initialisation options that can be given to Editor at initialisation time.
+ *  @namespace
+ */
+Editor.defaults = {
+	/**
+	 * jQuery selector that can be used to identify the table you wish to apply
+	 * this editor instance to.
+	 *
+	 * In previous versions of Editor (1.2 and earlier), this parameter was
+	 * called `table`. The name has been altered in 1.3+ to simplify the
+	 * initialisation. This is a backwards compatible change - if you pass in
+	 * a `table` option it will be used.
+	 *  @type string
+	 *  @default <i>Empty string</i>
+	 *
+	 *  @example
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": "php/index.php",
+	 *        "table": "#example"
+	 *      } );
+	 *    } );
+	 */
+	"table": null,
+
+	/**
+	 * The URL, or collection of URLs when using a REST interface, which will accept 
+	 * the data for the create, edit and remove functions. The target script / program
+	 * must accept data in the format defined by Editor and return the expected JSON as
+	 * required by Editor. When given as an object, the `create`, `edit` and `remove`
+	 * properties should be defined, each being the URL to send the data to for that
+	 * action. When used as an object, the string `_id_` will be replaced for the edit
+	 * and remove actions, allowing a URL to be dynamically created for those actions.
+	 *  @type string|object
+	 *  @default <i>Empty string</i>
+	 *  @deprecated This option has been deprecated in favour of the `ajax` option.
+	 *    It can still be used, but it is recommended that you use the `ajax` option
+	 *    which provides all of the abilities of this old option and more.
+	 */
+	"ajaxUrl": null,
+
+	/**
+	 * Fields to initialise the form with - see {@link Editor.models.field} for
+	 * a full list of the options available to each field. Note that if fields are not 
+	 * added to the form at initialisation time using this option, they can be added using
+	 * the {@link Editor#add} API method.
+	 *  @type array
+	 *  @default []
+	 *
+	 *  @example
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": "php/index.php",
+	 *        "table": "#example",
+	 *        "fields": [ {
+	 *            "label": "User name:",
+	 *            "name": "username"
+	 *          }
+	 *          // More fields would typically be added here!
+	 *        } ]
+	 *      } );
+	 *    } );
+	 */
+	"fields": [],
+
+	/**
+	 * The display controller for the form. The form itself is just a collection of
+	 * DOM elements which require a display container. This display controller allows
+	 * the visual appearance of the form to be significantly altered without major
+	 * alterations to the Editor code. There are two display controllers built into
+	 * Editor *lightbox* and *envelope*. The value of this property will
+	 * be used to access the display controller defined in {@link Editor.display}
+	 * for the given name. Additional display controllers can be added by adding objects
+	 * to that object, through extending the displayController model:
+	 * {@link Editor.models.displayController}.
+	 *  @type string
+	 *  @default lightbox
+	 *
+	 *  @example
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": "php/index.php",
+	 *        "table": "#example",
+	 *        "display": 'envelope'
+	 *      } );
+	 *    } );
+	 */
+	"display": 'lightbox',
+
+	/**
+	 * Control how the Ajax call to update data on the server.
+	 *
+	 * This option matches the `dt-init ajax` option in that is can be provided
+	 * in one of three different ways:
+	 *
+	 * * string - As a string, the value given is used as the url to target
+	 *   the Ajax request to, using the default Editor Ajax options. Note that
+	 *   for backwards compatibility you can use the form "METHOD URL" - for
+	 *   example: `"PUT api/users"`, although it is recommended you use the
+	 *   object form described below.
+	 * * object - As an object, the `ajax` property has two forms:
+	 *   * Used to extend and override the default Ajax options that Editor
+	 *     uses. This can be very useful for adding extra data for example, or
+	 *     changing the HTTP request type.
+	 *   * With `create`, `edit` and `remove` properties, Editor will use the
+	 *     option for the action that it is taking, which can be useful for
+	 *     REST style interfaces. The value of each property can be a string,
+	 *     object or function, using exactly the same options as the main `ajax`
+	 *     option. All three options must be defined if this form is to be used.
+	 * * function - As a function this gives complete control over the method
+	 *   used to update the server (if indeed a server is being used!). For
+	 *   example, you could use a different data store such as localStorage,
+	 *   Firebase or route the data through a web-socket.
+	 *
+	 *  @example
+	 *    // As a string - all actions are submitted to this URI as POST requests
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": 'php/index.php',
+	 *        "table": "#example"
+	 *      } );
+	 *    } );
+	 *
+	 *  @example
+	 *    // As an object - using GET rather than POST
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": {
+	 *          "type": 'GET',
+	 *          "url": 'php/index.php
+	 *        },
+	 *        "table": "#example"
+	 *      } );
+	 *    } );
+	 *
+	 *  @example
+	 *    // As an object - each action is submitted to a different URI as POST requests
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": {
+	 *          "create": "/rest/user/create",
+	 *          "edit":   "/rest/user/_id_/edit",
+	 *          "remove": "/rest/user/_id_/delete"
+	 *        },
+	 *        "table": "#example"
+	 *      } );
+	 *    } );
+	 *
+	 *  @example
+	 *    // As an object - with different HTTP methods for each action
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": {
+	 *          "create": {
+	 *          	type: 'POST',
+	 *          	url:  '/rest/user/create'
+	 *          },
+	 *          "edit": {
+	 *          	type: 'PUT',
+	 *          	url:  '/rest/user/edit/_id_'
+	 *          },
+	 *          "remove": {
+	 *          	type: 'DELETE',
+	 *          	url:  '/rest/user/delete'
+	 *          }
+	 *        },
+	 *        "table": "#example"
+	 *      } );
+	 *    } );
+	 *
+	 *    // As a function - Making a custom `$.ajax` call
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": "php/index.php",
+	 *        "table": "#example",
+	 *        "ajax": function ( method, url, data, successCallback, errorCallback ) {
+	 *          $.ajax( {
+	 *            "type": method,
+	 *            "url":  url,
+	 *            "data": data,
+	 *            "dataType": "json",
+	 *            "success": function (json) {
+	 *              successCallback( json );
+	 *            },
+	 *            "error": function (xhr, error, thrown) {
+	 *              errorCallback( xhr, error, thrown );
+	 *            }
+	 *          } );
+	 *        }
+	 *      } );
+	 *    } );
+	 */
+	"ajax": null,
+
+	/**
+	 * JSON property from which to read / write the row's ID property (i.e. its
+	 * unique column index that identifies the row to the database). By default
+	 * Editor will use the `DT_RowId` property from the data source object
+	 * (DataTable's magic property to set the DOM id for the row).
+	 *
+	 * If you want to read a parameter from the data source object instead of
+	 * using `DT_RowId`, set this option to the property name to use.
+	 *
+	 * Like other data source options the `srcId` option can be given in dotted
+	 * object notation to read nested objects.
+	 *  @type null|string
+	 *  @default DT_RowId
+	 *
+	 *  @example
+	 *    // Using a data source such as:
+	 *    // { "id":12, "browser":"Chrome", ... }
+	 *    $(document).ready(function() {
+	 *      var editor = new $.fn.Editor( {
+	 *        "ajax": "php/index.php",
+	 *        "table": "#example",
+	 *        "idSrc": "id"
+	 *      } );
+	 *    } );
+	 */
+	"idSrc": 'DT_RowId',
+
+	/**
+	 * Events / callbacks - event handlers can be assigned as an individual function
+	 * during initialisation using the parameters in this name space. The names, and
+	 * the parameters passed to each callback match their event equivalent in the
+	 * {@link Editor} object.
+	 *  @namespace
+	 *  @deprecated Since 1.3. Use the `on()` API method instead. Note that events
+	 *    passed in do still operate as they did in 1.2- but are no longer
+	 *    individually documented.
+	 */
+	"events": {},
+
+	/**
+	 * Internationalisation options for Editor. All client-side strings that the
+	 * end user can see in the interface presented by Editor can be modified here.
+	 *
+	 * You may also wish to refer to the <a href="http://datatables.net/usage/i18n">
+	 * DataTables internationalisation options</a> to provide a fully language 
+	 * customised table interface.
+	 *  @namespace
+	 *
+	 *  @example
+	 *    // Set the 'create' button text. All other strings used are the
+	 *    // default values.
+	 *    var editor = new $.fn.Editor( {
+	 *      "ajax": "data/source",
+	 *      "table": "#example",
+	 *      "i18n": {
+	 *        "create": {
+	 *          "button": "New user"
+	 *        }
+	 *      }
+	 *    } );
+	 *
+	 *  @example
+	 *    // Set the submit text for all three actions
+	 *    var editor = new $.fn.Editor( {
+	 *      "ajax": "data/source",
+	 *      "table": "#example",
+	 *      "i18n": {
+	 *        "create": {
+	 *          "submit": "Create new user"
+	 *        },
+	 *        "edit": {
+	 *          "submit": "Update user"
+	 *        },
+	 *        "remove": {
+	 *          "submit": "Remove user"
+	 *        }
+	 *      }
+	 *    } );
+	 */
+	"i18n": {
+		/**
+		 * Strings used when working with the Editor 'create' action (creating new
+		 * records).
+		 *  @namespace
+		 */
+		"create": {
+			/**
+			 * TableTools button text
+			 *  @type string
+			 *  @default New
+			 */
+			"button": "New",
+
+			/**
+			 * Display container title (when showing the editor display)
+			 *  @type string
+			 *  @default Create new entry
+			 */
+			"title":  "Create new entry",
+
+			/**
+			 * Submit button text
+			 *  @type string
+			 *  @default Create
+			 */
+			"submit": "Create"
+		},
+
+		/**
+		 * Strings used when working with the Editor 'edit' action (editing existing
+		 * records).
+		 *  @namespace
+		 */
+		"edit": {
+			/**
+			 * TableTools button text
+			 *  @type string
+			 *  @default Edit
+			 */
+			"button": "Edit",
+
+			/**
+			 * Display container title (when showing the editor display)
+			 *  @type string
+			 *  @default Edit entry
+			 */
+			"title":  "Edit entry",
+
+			/**
+			 * Submit button text
+			 *  @type string
+			 *  @default Update
+			 */
+			"submit": "Update"
+		},
+
+		/**
+		 * Strings used when working with the Editor 'delete' action (deleting 
+		 * existing records).
+		 *  @namespace
+		 */
+		"remove": {
+			/**
+			 * TableTools button text
+			 *  @type string
+			 *  @default Delete
+			 */
+			"button": "Delete",
+
+			/**
+			 * Display container title (when showing the editor display)
+			 *  @type string
+			 *  @default Delete
+			 */
+			"title":  "Delete",
+
+			/**
+			 * Submit button text
+			 *  @type string
+			 *  @default Delete
+			 */
+			"submit": "Delete",
+
+			/**
+			 * Deletion confirmation message.
+			 *
+			 * As Editor has the ability to delete either a single or multiple rows
+			 * at a time, this option can be given as either a string (which will be
+			 * used regardless of how many records are selected) or as an object 
+			 * where the property "_" will be used (with %d substituted for the number
+			 * of records to be deleted) as the delete message, unless there is a
+			 * key with the number of records to be deleted. This allows Editor
+			 * to consider the different pluralisation characteristics of different
+			 * languages.
+			 *  @type object|string
+			 *  @default Are you sure you wish to delete %d rows?
+			 *
+			 *  @example
+			 *    // String - no plural consideration
+			 *    var editor = new $.fn.Editor( {
+			 *      "ajax": "data/source",
+			 *      "table": "#example",
+			 *      "i18n": {
+			 *        "remove": {
+			 *          "confirm": "Are you sure you wish to delete %d record(s)?"
+			 *        }
+			 *      }
+			 *    } );
+			 *
+			 *  @example
+			 *    // Basic 1 (singular) or _ (plural)
+			 *    var editor = new $.fn.Editor( {
+			 *      "ajax": "data/source",
+			 *      "table": "#example",
+			 *      "i18n": {
+			 *        "remove": {
+			 *          "confirm": {
+			 *            "_": "Confirm deletion of %d records.",
+			 *            "1": "Confirm deletion of record."
+			 *        }
+			 *      }
+			 *    } );
+			 *
+			 *  @example
+			 *    // Singular, dual and plural
+			 *    var editor = new $.fn.Editor( {
+			 *      "ajax": "data/source",
+			 *      "table": "#example",
+			 *      "i18n": {
+			 *        "remove": {
+			 *          "confirm": {
+			 *            "_": "Confirm deletion of %d records.",
+			 *            "1": "Confirm deletion of record.",
+			 *            "2": "Confirm deletion of both record."
+			 *        }
+			 *      }
+			 *    } );
+			 *        
+			 */
+			"confirm": {
+				"_": "Are you sure you wish to delete %d rows?",
+				"1": "Are you sure you wish to delete 1 row?"
+			}
+		},
+
+		/**
+		 * Strings used for error conditions.
+		 *  @namespace
+		 */
+		"error": {
+			/**
+			 * Generic server error message
+			 *  @type string
+			 *  @default A system error has occurred (<a target=\"_blank\" href=\"//datatables.net/tn/12\">More information</a>)
+			 */
+			"system": "A system error has occurred (<a target=\"_blank\" href=\"//datatables.net/tn/12\">More information</a>)."
+		},
+
+		/**
+		 * Strings used for multi-value editing
+		 *  @namespace
+		 */
+		multi: {
+			/**
+			 * Shown in place of the field value when a field has multiple values
+			 */
+			title: "Multiple values",
+
+			/**
+			 * Shown below the multi title text, although only the first
+			 * instance of this text is shown in the form to reduce redundancy
+			 */
+			info: "The selected items contain different values for this input. To edit and set all items for this input to the same value, click or tap here, otherwise they will retain their individual values.",
+
+			/**
+			 * Shown below the field input when group editing a value to allow
+			 * the user to return to the original multiple values
+			 */
+			restore: "Undo changes",
+
+
+			/**
+			 * Disabled for multi-row editing
+			 */
+			noMulti: "This input can be edited individually, but not part of a group."
+		},
+
+		"datetime": {
+			previous: 'Previous',
+			next:     'Next',
+			months:   [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ],
+			weekdays: [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ],
+			amPm:     [ 'am', 'pm' ],
+			unknown:  '-'
+		}
+	},
+
+	formOptions: {
+		bubble: $.extend( {}, Editor.models.formOptions, {
+			title: false,
+			message: false,
+			buttons: '_basic',
+			submit: 'changed'
+		} ),
+
+		inline: $.extend( {}, Editor.models.formOptions, {
+			buttons: false,
+			submit: 'changed'
+		} ),
+
+		main: $.extend( {}, Editor.models.formOptions )
+	},
+
+	/**
+	 * Submit data to the server in the 1.4- data format (`true`) or in the 1.5+
+	 * data format (`false` - default).
+	 *
+	 * @type Boolean
+	 */
+	legacyAjax: false
+};
+
+
+/*
+ * Extensions
+ */
+
+(function(){
+
+
+var __dataSources = Editor.dataSources = {};
+
+
+/* -  -  -  -  -  -  -  -  -  -
+ * DataTables editor interface
+ */
+
+var __dtIsSsp = function ( dt, editor ) {
+	// If the draw type is `none`, then we still need to use the DT API to
+	// update the display with the new data
+	return dt.settings()[0].oFeatures.bServerSide &&
+		editor.s.editOpts.drawType !== 'none';
+};
+
+var __dtApi = function ( table ) {
+	return $(table).DataTable();
+};
+
+var __dtHighlight = function ( node ) {
+	// Highlight a row using CSS transitions. The timeouts need to match the
+	// transition duration from the CSS
+	node = $(node);
+
+	setTimeout( function () {
+		node.addClass( 'highlight' );
+
+		setTimeout( function () {
+			node
+				.addClass( 'noHighlight' )
+				.removeClass( 'highlight' );
+
+			setTimeout( function () {
+				node.removeClass( 'noHighlight' );
+			}, 550 );
+		}, 500 );
+	}, 20 );
+};
+
+var __dtRowSelector = function ( out, dt, identifier, fields, idFn )
+{
+	dt.rows( identifier ).indexes().each( function ( idx ) {
+		var row = dt.row( idx );
+		var data = row.data();
+		var idSrc = idFn( data );
+
+		if ( idSrc === undefined ) {
+			Editor.error( 'Unable to find row identifier', 14 );
+		}
+
+		out[ idSrc ] = {
+			idSrc:  idSrc,
+			data:   data,
+			node:   row.node(),
+			fields: fields,
+			type:   'row'
+		};
+	} );
+};
+
+var __dtFieldsFromIdx = function ( dt, fields, idx )
+{
+	var field;
+	var col = dt.settings()[0].aoColumns[ idx ];
+	var dataSrc = col.editField !== undefined ?
+		col.editField :
+		col.mData;
+	var resolvedFields = {};
+	var run = function ( field, dataSrc ) {
+		if ( field.name() === dataSrc ) {
+			resolvedFields[ field.name() ] = field;
+		}
+	};
+
+	$.each( fields, function ( name, fieldInst ) {
+		if ( $.isArray( dataSrc ) ) {
+			for ( var i=0 ; i<dataSrc.length ; i++ ) {
+				run( fieldInst, dataSrc[i] );
+			}
+		}
+		else {
+			run( fieldInst, dataSrc );
+		}
+	} );
+
+	if ( $.isEmptyObject( resolvedFields ) ) {
+		Editor.error('Unable to automatically determine field from source. Please specify the field name.', 11);
+	}
+
+	return resolvedFields;
+};
+
+var __dtCellSelector = function ( out, dt, identifier, allFields, idFn, forceFields )
+{
+	dt.cells( identifier ).indexes().each( function ( idx ) {
+		var cell = dt.cell( idx );
+		var row = dt.row( idx.row );
+		var data = row.data();
+		var idSrc = idFn( data );
+		var fields = forceFields || __dtFieldsFromIdx( dt, allFields, idx.column );
+		var isNode = (typeof identifier === 'object' && identifier.nodeName) || identifier instanceof $;
+		var prevDisplayFields, prevAttach;
+
+		// The row selector will create a new `out` object for the identifier, and the
+		// cell selector might be called multiple times for a row, so we need to save
+		// our specific items
+		if ( out[ idSrc ] ) {
+			prevAttach = out[ idSrc ].attach;
+			prevDisplayFields = out[ idSrc ].displayFields;
+		}
+
+		// Use the row selector to get the row information
+		__dtRowSelector(out, dt, idx.row, allFields, idFn);
+
+		// Need to check if `attach / displayFields is present before writing
+		out[ idSrc ].attach = prevAttach || [];
+		out[ idSrc ].attach.push( isNode ?
+			$(identifier).get(0) :
+			cell.node()
+		);
+
+		out[ idSrc ].displayFields = prevDisplayFields || {};
+		$.extend( out[ idSrc ].displayFields, fields );
+	} );
+};
+
+var __dtColumnSelector = function ( out, dt, identifier, fields, idFn )
+{
+	dt.cells( null, identifier ).indexes().each( function ( idx ) {
+		__dtCellSelector( out, dt, idx, fields, idFn );
+	} );
+};
+
+var __dtjqId = function ( id ) {
+	return typeof id === 'string' ?
+		'#'+id.replace( /(:|\.|\[|\]|,)/g, '\\$1' ) :
+		'#'+id;
+};
+
+
+
+__dataSources.dataTable = {
+	id: function ( data ) {
+		var idFn = DataTable.ext.oApi._fnGetObjectDataFn( this.s.idSrc );
+		return idFn( data );
+	},
+
+	individual: function ( identifier, fieldNames ) {
+		var idFn = DataTable.ext.oApi._fnGetObjectDataFn( this.s.idSrc );
+		var dt = __dtApi( this.s.table );
+		var fields = this.s.fields;
+		var out = {};
+		var forceFields;
+		var responsiveNode;
+
+		if ( fieldNames ) {
+			if ( ! $.isArray( fieldNames ) ) {
+				fieldNames = [ fieldNames ];
+			}
+
+			forceFields = {};
+
+			$.each( fieldNames, function ( i, name ) {
+				forceFields[ name ] = fields[ name ];
+			} );
+		}
+
+		__dtCellSelector( out, dt, identifier, fields, idFn, forceFields );
+
+		return out;
+	},
+
+	// get idSrc, fields to edit, data and node for each item
+	fields: function ( identifier )
+	{
+		var idFn = DataTable.ext.oApi._fnGetObjectDataFn( this.s.idSrc );
+		var dt = __dtApi( this.s.table );
+		var fields = this.s.fields;
+		var out = {};
+
+		if ( $.isPlainObject( identifier ) && ( identifier.rows !== undefined || identifier.columns !== undefined || identifier.cells !== undefined ) ) {
+			// Multi-item type selector
+			if ( identifier.rows !== undefined ) {
+				__dtRowSelector( out, dt, identifier.rows, fields, idFn );
+			}
+
+			if ( identifier.columns !== undefined ) {
+				__dtColumnSelector( out, dt, identifier.columns, fields, idFn );
+			}
+			
+			if ( identifier.cells !== undefined ) {
+				__dtCellSelector( out, dt, identifier.cells, fields, idFn );
+			}
+		}
+		else {
+			// Just a rows selector
+			__dtRowSelector( out, dt, identifier, fields, idFn );
+		}
+
+		return out;
+	},
+
+	create: function ( fields, data ) {
+		var dt = __dtApi( this.s.table );
+
+		if ( ! __dtIsSsp( dt, this ) ) {
+			var row = dt.row.add( data );
+			__dtHighlight( row.node() );
+		}
+	},
+
+	edit: function ( identifier, fields, data, store ) {
+		var that = this;
+		var dt = __dtApi( this.s.table );
+
+		// No point in doing anything when server-side processing - the commit
+		// will redraw the table
+		if ( ! __dtIsSsp( dt, this ) || this.s.editOpts.drawType === 'none' ) {
+			// The identifier can select one or more rows, but the data will
+			// refer to just a single row. We need to determine which row from
+			// the set is the one to operator on.
+			var rowId = __dataSources.dataTable.id.call( this, data );
+			var row;
+
+			// Find the row to edit - attempt to do an id look up first for speed
+			try {
+				row = dt.row( __dtjqId(rowId) );
+			}
+			catch (e) {
+				row = dt;
+			}
+
+			// If not found, then we need to do it the slow way
+			if ( ! row.any() ) {
+				row = dt.row( function ( rowIdx, rowData, rowNode ) {
+					return rowId == __dataSources.dataTable.id.call( that, rowData );
+				} );
+			}
+
+			if ( row.any() ) {
+				// Merge data to allow for a sub-set to be returned
+				var extender = $.fn.dataTableExt.oApi._fnExtend;
+				var toSave = extender( {}, row.data(), true );
+				toSave = extender( toSave, data, true );
+
+				row.data( toSave );
+
+				// Remove the item from the list of indexes now that is has been
+				// updated
+				var idx = $.inArray( rowId, store.rowIds );
+				store.rowIds.splice( idx, 1 );
+			}
+			else {
+				// If not found, then its a new row (change in pkey possibly)
+				row = dt.row.add( data );
+			}
+
+			__dtHighlight( row.node() );
+		}
+	},
+
+	remove: function ( identifier, fields, store ) {
+		// No confirmation from the server 
+		var that = this;
+		var dt = __dtApi( this.s.table );
+		var cancelled = store.cancelled;
+
+		if ( cancelled.length === 0 ) {
+			// No rows were cancelled on the server-side, remove them all
+			dt.rows( identifier ).remove();
+		}
+		else {
+			// One or more rows were cancelled, so we need to identify them
+			// and not remove those rows
+			var indexes = [];
+
+			dt.rows( identifier ).every( function () {
+				var id = __dataSources.dataTable.id.call( that, this.data() );
+
+				if ( $.inArray( id, cancelled ) === -1 ) {
+					// Don't use `remove` here - it messes up the indexes
+					indexes.push( this.index() );
+				}
+			} );
+
+			dt.rows( indexes ).remove();
+		}
+	},
+
+	prep: function ( action, identifier, submit, json, store ) {
+		// On edit we store the ids of the rows that are being edited
+		if ( action === 'edit' ) {
+			var cancelled = json.cancelled || [];
+
+			store.rowIds = $.map( submit.data, function ( val, key ) {
+				return ! $.isEmptyObject( submit.data[ key ] ) && // was submitted
+					$.inArray( key, cancelled ) === -1 ? // was not cancelled on the server-side
+						key :
+						undefined;
+			} );
+		}
+		else if ( action === 'remove' ) {
+			store.cancelled = json.cancelled || [];
+		}
+	},
+
+	commit: function ( action, identifier, data, store ) {
+		// Updates complete - redraw
+		var that = this;
+		var dt = __dtApi( this.s.table );
+
+		// On edit, if there are any rows left in the `store.rowIds`, then they
+		// were not returned by the server and should be removed (they might not
+		// meet filtering requirements any more for example)
+		if ( action === 'edit' && store.rowIds.length ) {
+			var ids = store.rowIds;
+			var row;
+			var compare = function ( id ) {
+				return function ( rowIdx, rowData, rowNode ) {
+					return id == __dataSources.dataTable.id.call( that, rowData );
+				};
+			};
+
+			for ( var i=0, ien=ids.length ; i<ien ; i++ ) {
+				// Find the row to edit - attempt to do an id look up first for speed
+				try {
+					row = dt.row( __dtjqId(ids[i]) );
+				}
+				catch (e) {
+					row = dt;
+				}
+
+				// If not found, then we need to do it the slow way
+				if ( ! row.any() ) {
+					row = dt.row( compare( ids[i] ) );
+				}
+
+				if ( row.any() ) {
+					row.remove();
+				}
+			}
+		}
+
+		var drawType = this.s.editOpts.drawType;
+		if ( drawType !== 'none' ) {
+			dt.draw( drawType );
+		}
+	}
+};
+
+
+
+/* -  -  -  -  -  -  -  -
+ * HTML editor interface
+ */
+
+function __html_id ( identifier ) {
+	var context = document;
+
+	if ( identifier !== 'keyless' ) {
+		context = $('[data-editor-id="'+identifier+'"]');
+
+		if ( context.length === 0 ) {
+			context = typeof identifier === 'string' ?
+				$(__dtjqId(identifier)) :
+				$(identifier);
+		}
+
+		if ( context.length === 0 ) {
+			throw 'Could not find an element with `data-editor-id` or `id` of: '+identifier;
+		}
+	}
+
+	return context;
+}
+
+function __html_el ( identifier, name ) {
+	var context = __html_id( identifier );
+
+	return $('[data-editor-field="'+name+'"]', context);
+}
+
+function __html_els ( identifier, names ) {
+	var out = $();
+
+	for ( var i=0, ien=names.length ; i<ien ; i++ ) {
+		out = out.add( __html_el( identifier, names[i] ) );
+	}
+
+	return out;
+}
+
+function __html_get( identifier, dataSrc ) {
+	var el = __html_el( identifier, dataSrc );
+
+	return el.filter('[data-editor-value]').length ?
+		el.attr( 'data-editor-value' ) :
+		el.html();
+}
+
+function __html_set( identifier, fields, data ) {
+	$.each( fields, function ( name, field ) {
+		var val = field.valFromData( data );
+
+		if ( val !== undefined ) {
+			var el = __html_el( identifier, field.dataSrc() );
+
+			if ( el.filter('[data-editor-value]').length ) {
+				el.attr( 'data-editor-value', val );
+			}
+			else {
+				el.each( function () {
+					// This is very frustrating, but in IE if you just write directly
+					// to innerHTML, and elements that are overwritten are GC'ed,
+					// even if there is a reference to them elsewhere
+					while ( this.childNodes.length ) {
+						this.removeChild( this.firstChild );
+					}
+				} )
+				.html( val );
+			}
+		}
+	} );
+}
+
+
+
+__dataSources.html = {
+	id: function ( data ) {
+		var idFn = DataTable.ext.oApi._fnGetObjectDataFn( this.s.idSrc );
+		return idFn( data );
+	},
+
+	initField: function ( cfg ) {
+		// This is before the field has been initialised so can't use it API
+		var label = $('[data-editor-label="'+(cfg.data || cfg.name)+'"]');
+		if ( ! cfg.label && label.length ) {
+			cfg.label = label.html();
+		}
+	},
+
+	individual: function ( identifier, fieldNames ) {
+		var attachEl;
+
+		// Auto detection of the field name and id
+		if ( identifier instanceof $ || identifier.nodeName ) {
+			attachEl = identifier;
+
+			if ( ! fieldNames ) {
+				fieldNames = [ $( identifier ).attr('data-editor-field') ];
+			}
+
+			var back = $.fn.addBack ? 'addBack' : 'andSelf';
+			identifier = $( identifier ).parents('[data-editor-id]')[ back ]().data('editor-id');
+		}
+
+		// no id given and none found
+		if ( ! identifier ) {
+			identifier = 'keyless';
+		}
+
+		// no field name - cannot continue
+		if ( fieldNames && ! $.isArray( fieldNames ) ) {
+			fieldNames = [ fieldNames ];
+		}
+
+		if ( ! fieldNames || fieldNames.length === 0 ) {
+			throw 'Cannot automatically determine field name from data source';
+		}
+
+		var out = __dataSources.html.fields.call( this, identifier );
+		var fields = this.s.fields;
+		var forceFields = {};
+
+		$.each( fieldNames, function ( i, name ) {
+			forceFields[ name ] = fields[ name ];
+		} );
+
+		$.each( out, function ( id, set ) {
+			set.type = 'cell';
+			set.attach = attachEl ?
+				$(attachEl) :
+				__html_els( identifier, fieldNames ).toArray();
+			set.fields = fields;
+			set.displayFields = forceFields;
+		} );
+
+		return out;
+	},
+
+	// get idSrc, fields to edit, data and node for each item
+	fields: function ( identifier )
+	{
+		var out = {};
+		var self = __dataSources.html;
+
+		// Allow multi-point editing
+		if ( $.isArray( identifier ) ) {
+			for ( var i=0, ien=identifier.length ; i<ien ; i++ ) {
+				var res = self.fields.call( this, identifier[i] );
+				out[ identifier[i] ] = res[ identifier[i] ];
+			}
+
+			return out;
+		}
+		// else
+
+		var data = {};
+		var fields = this.s.fields;
+
+		if ( ! identifier ) {
+			identifier = 'keyless';
+		}
+
+		$.each( fields, function ( name, field ) {
+			var val = __html_get( identifier, field.dataSrc() );
+
+			// If no HTML element is present, jQuery returns null. We want undefined
+			field.valToData( data, val === null ? undefined : val );
+		} );
+
+		out[ identifier ] = {
+			idSrc: identifier,
+			data: data,
+			node: document,
+			fields: fields,
+			type: 'row'
+		};
+
+		return out;
+	},
+
+	create: function ( fields, data ) {
+		// If there is an element with the id that has been created, then use it
+		// to assign the values
+		if ( data ) {
+			var id = __dataSources.html.id.call( this, data );
+
+			try {
+				if ( __html_id(id).length ) {
+					__html_set( id, fields, data );
+				}
+			}
+			catch (e) {
+				// noop - use `postCreate` to add items to the DOM
+			}
+		}
+	},
+
+	edit: function ( identifier, fields, data ) {
+		// Get the ids from the returned data or `keyless` if not found
+		var id = __dataSources.html.id.call( this, data ) || 'keyless';
+
+		__html_set( id, fields, data );
+	},
+
+	remove: function ( identifier, fields ) {
+		// If there is an element with an ID property matching the identifier,
+		// remove it
+		__html_id(identifier).remove();
+	}
+};
+
+
+}());
+
+
+
+/**
+ * Class names that are used by Editor for its various display components.
+ * A copy of this object is taken when an Editor instance is initialised, thus
+ * allowing different classes to be used in different instances if required.
+ * Class name changes can be useful for easy integration with CSS frameworks,
+ * for example Twitter Bootstrap.
+ *  @namespace
+ */
+Editor.classes = {
+	/**
+	 * Applied to the base DIV element that contains all other Editor elements
+	 */
+	"wrapper": "DTE",
+
+	/**
+	 * Processing classes
+	 *  @namespace
+	 */
+	"processing": {
+		/**
+		 * Processing indicator element
+		 */
+		"indicator": "DTE_Processing_Indicator",
+
+		/**
+		 * Added to the base element ("wrapper") when the form is "processing"
+		 */
+		"active": "processing"
+	},
+
+	/**
+	 * Display header classes
+	 *  @namespace
+	 */
+	"header": {
+		/**
+		 * Container for the header elements
+		 */
+		"wrapper": "DTE_Header",
+
+		/**
+		 * Liner for the header content
+		 */
+		"content": "DTE_Header_Content"
+	},
+
+	/**
+	 * Display body classes
+	 *  @namespace
+	 */
+	"body": {
+		/**
+		 * Container for the body elements
+		 */
+		"wrapper": "DTE_Body",
+
+		/**
+		 * Liner for the body content
+		 */
+		"content": "DTE_Body_Content"
+	},
+
+	/**
+	 * Display footer classes
+	 *  @namespace
+	 */
+	"footer": {
+		/**
+		 * Container for the footer elements
+		 */
+		"wrapper": "DTE_Footer",
+		
+		/**
+		 * Liner for the footer content
+		 */
+		"content": "DTE_Footer_Content"
+	},
+
+	/**
+	 * Form classes
+	 *  @namespace
+	 */
+	"form": {
+		/**
+		 * Container for the form elements
+		 */
+		"wrapper": "DTE_Form",
+
+		/**
+		 * Liner for the form content
+		 */
+		"content": "DTE_Form_Content",
+
+		/**
+		 * Applied to the <form> tag
+		 */
+		"tag":     "",
+
+		/**
+		 * Global form information
+		 */
+		"info":    "DTE_Form_Info",
+
+		/**
+		 * Global error imformation
+		 */
+		"error":   "DTE_Form_Error",
+
+		/**
+		 * Buttons container
+		 */
+		"buttons": "DTE_Form_Buttons",
+
+		/**
+		 * Buttons container
+		 */
+		"button": "btn"
+	},
+
+	/**
+	 * Field classes
+	 *  @namespace
+	 */
+	"field": {
+		/**
+		 * Container for each field
+		 */
+		"wrapper":     "DTE_Field",
+
+		/**
+		 * Class prefix for the field type - field type is added to the end allowing
+		 * styling based on field type.
+		 */
+		"typePrefix":  "DTE_Field_Type_",
+
+		/**
+		 * Class prefix for the field name - field name is added to the end allowing
+		 * styling based on field name.
+		 */
+		"namePrefix":  "DTE_Field_Name_",
+
+		/**
+		 * Field label
+		 */
+		"label":       "DTE_Label",
+
+		/**
+		 * Field input container
+		 */
+		"input":       "DTE_Field_Input",
+
+		/**
+		 * Input elements wrapper
+		 */
+		"inputControl": "DTE_Field_InputControl",
+
+		/**
+		 * Field error state (added to the field.wrapper element when in error state
+		 */
+		"error":       "DTE_Field_StateError",
+
+		/**
+		 * Label information text
+		 */
+		"msg-label":   "DTE_Label_Info",
+
+		/**
+		 * Error information text
+		 */
+		"msg-error":   "DTE_Field_Error",
+
+		/**
+		 * Live messaging (API) information text
+		 */
+		"msg-message": "DTE_Field_Message",
+
+		/**
+		 * General information text
+		 */
+		"msg-info":    "DTE_Field_Info",
+
+		/**
+		 * Multi-value information display wrapper
+		 */
+		"multiValue":  "multi-value",
+
+		/**
+		 * Multi-value information descriptive text
+		 */
+		"multiInfo":  "multi-info",
+
+		/**
+		 * Multi-value information display
+		 */
+		"multiRestore":  "multi-restore",
+
+		/**
+		 * Multi-value not editable (field.multiEditable)
+		 */
+		"multiNoEdit": "multi-noEdit",
+
+		/**
+		 * Field is disabled
+		 */
+		"disabled": "disabled",
+
+		/**
+		 * Field's processing element
+		 */
+		"processing": "DTE_Processing_Indicator"
+	},
+
+	/**
+	 * Action classes - these are added to the Editor base element ("wrapper")
+	 * and allows styling based on the type of form view that is being employed.
+	 *  @namespace
+	 */
+	"actions": {
+		/**
+		 * Editor is in 'create' state
+		 */
+		"create": "DTE_Action_Create",
+
+		/**
+		 * Editor is in 'edit' state
+		 */
+		"edit":   "DTE_Action_Edit",
+
+		/**
+		 * Editor is in 'remove' state
+		 */
+		"remove": "DTE_Action_Remove"
+	},
+
+	/**
+	 * Inline editing classes - these are used to display the inline editor
+	 *  @namespace
+	 */
+	"inline": {
+		"wrapper": "DTE DTE_Inline",
+
+		"liner": "DTE_Inline_Field",
+
+		"buttons": "DTE_Inline_Buttons"
+	},
+
+	/**
+	 * Bubble editing classes - these are used to display the bubble editor
+	 *  @namespace
+	 */
+	"bubble": {
+		/**
+		 * Bubble container element
+		 */
+		"wrapper": "DTE DTE_Bubble",
+
+		/**
+		 * Bubble content liner
+		 */
+		"liner": "DTE_Bubble_Liner",
+
+		/**
+		 * Bubble table display wrapper, so the buttons and form can be shown
+		 * as table cells (via css)
+		 */
+		"table": "DTE_Bubble_Table",
+
+		/**
+		 * Close button
+		 */
+		"close": "icon close",
+
+		/**
+		 * Pointer shown which node is being edited
+		 */
+		"pointer": "DTE_Bubble_Triangle",
+
+		/**
+		 * Fixed background
+		 */
+		"bg": "DTE_Bubble_Background"
+	}
+};
+
+
+/*
+ * Add helpful buttons to make life easier
+ *
+ * Note that the values that require a string to make any sense (the button text
+ * for example) are set by Editor when Editor is initialised through the i18n
+ * options.
+ */
+(function () {
+
+if ( DataTable.TableTools ) {
+	var ttButtons = DataTable.TableTools.BUTTONS;
+	var ttButtonBase = {
+		sButtonText: null,
+		editor:      null,
+		formTitle:   null
+	};
+
+	ttButtons.editor_create = $.extend( true, ttButtons.text, ttButtonBase, {
+		formButtons: [ {
+			label: null,
+			fn: function (e) { this.submit(); }
+		} ],
+
+		fnClick: function( button, config ) {
+			var editor = config.editor;
+			var i18nCreate = editor.i18n.create;
+			var buttons = config.formButtons;
+
+			if ( ! buttons[0].label ) {
+				buttons[0].label = i18nCreate.submit;
+			}
+
+			editor.create( {
+				title: i18nCreate.title,
+				buttons: buttons
+			} );
+		}
+	} );
+
+
+	ttButtons.editor_edit = $.extend( true, ttButtons.select_single, ttButtonBase, {
+		formButtons: [ {
+			label: null,
+			fn: function (e) { this.submit(); }
+		} ],
+
+		fnClick: function( button, config ) {
+			var selected = this.fnGetSelectedIndexes();
+			if ( selected.length !== 1 ) {
+				return;
+			}
+
+			var editor = config.editor;
+			var i18nEdit = editor.i18n.edit;
+			var buttons = config.formButtons;
+
+			if ( ! buttons[0].label ) {
+				buttons[0].label = i18nEdit.submit;
+			}
+
+			editor.edit( selected[0], {
+				title: i18nEdit.title,
+				buttons: buttons
+			} );
+		}
+	} );
+
+
+	ttButtons.editor_remove = $.extend( true, ttButtons.select, ttButtonBase, {
+		question: null,
+
+		formButtons: [
+			{
+				label: null,
+				fn: function (e) {
+					// Executed in the Form instance's scope
+					var that = this;
+					this.submit( function ( json ) {
+						var tt = $.fn.dataTable.TableTools.fnGetInstance(
+							$(that.s.table).DataTable().table().node()
+						);
+						tt.fnSelectNone();
+					} );
+				}
+			}
+		],
+
+		fnClick: function( button, config ) {
+			var rows = this.fnGetSelectedIndexes();
+			if ( rows.length === 0 ) {
+				return;
+			}
+
+			var editor = config.editor;
+			var i18nRemove = editor.i18n.remove;
+			var buttons = config.formButtons;
+			var question = typeof i18nRemove.confirm === 'string' ?
+				i18nRemove.confirm :
+				i18nRemove.confirm[rows.length] ?
+					i18nRemove.confirm[rows.length] : i18nRemove.confirm._;
+
+			if ( ! buttons[0].label ) {
+				buttons[0].label = i18nRemove.submit;
+			}
+
+			editor.remove( rows, {
+				message: question.replace( /%d/g, rows.length ),
+				title: i18nRemove.title,
+				buttons: buttons
+			} );
+		}
+	} );
+}
+
+var _buttons = DataTable.ext.buttons;
+
+
+$.extend( _buttons, {
+	create: {
+		text: function ( dt, node, config ) {
+			return dt.i18n( 'buttons.create', config.editor.i18n.create.button );
+		},
+		className: 'buttons-create',
+		editor: null,
+		formButtons: {
+			text: function ( editor ) {
+				return editor.i18n.create.submit;
+			},
+			action: function (e) {
+				this.submit();
+			}
+		},
+		formMessage: null,
+		formTitle: null,
+		action: function( e, dt, node, config ) {
+			var that = this;
+			var editor = config.editor;
+			var buttons = config.formButtons;
+
+			this.processing(true);
+			editor
+				.one( 'preOpen', function () {
+					that.processing(false);
+				})
+				.create( {
+					buttons: config.formButtons,
+					message: config.formMessage,
+					title:   config.formTitle || editor.i18n.create.title
+				} );
+		}
+	},
+
+	edit: {
+		extend: 'selected',
+		text: function ( dt, node, config ) {
+			return dt.i18n( 'buttons.edit', config.editor.i18n.edit.button );
+		},
+		className: 'buttons-edit',
+		editor: null,
+		formButtons: {
+			text: function ( editor ) {
+				return editor.i18n.edit.submit;
+			},
+			action: function (e) {
+				this.submit();
+			}
+		},
+		formMessage: null,
+		formTitle: null,
+		action: function( e, dt, node, config ) {
+			var that = this;
+			var editor = config.editor;
+			var rows = dt.rows( { selected: true } ).indexes();
+			var columns = dt.columns( { selected: true } ).indexes();
+			var cells = dt.cells( { selected: true } ).indexes();
+
+			var items = columns.length || cells.length ?
+				{
+					rows: rows,
+					columns: columns,
+					cells: cells
+				} :
+				rows;
+
+			this.processing(true);
+			editor
+				.one( 'preOpen', function () {
+					that.processing(false);
+				})
+				.edit( items, {
+					message: config.formMessage,
+					buttons: config.formButtons,
+					title:   config.formTitle || editor.i18n.edit.title
+				} );
+		}
+	},
+
+	remove: {
+		extend: 'selected',
+		limitTo: ['rows'],
+		text: function ( dt, node, config ) {
+			return dt.i18n( 'buttons.remove', config.editor.i18n.remove.button );
+		},
+		className: 'buttons-remove',
+		editor: null,
+		formButtons: {
+			text: function ( editor ) {
+				return editor.i18n.remove.submit;
+			},
+			action: function (e) {
+				this.submit();
+			}
+		},
+		formMessage: function ( editor, dt ) {
+			var rows = dt.rows( { selected: true } ).indexes();
+			var i18n = editor.i18n.remove;
+			var question = typeof i18n.confirm === 'string' ?
+				i18n.confirm :
+				i18n.confirm[rows.length] ?
+					i18n.confirm[rows.length] : i18n.confirm._;
+
+			return question.replace( /%d/g, rows.length );
+		},
+		formTitle: null,
+		action: function( e, dt, node, config ) {
+			var that = this;
+			var editor = config.editor;
+
+			this.processing(true);
+			editor
+				.one( 'preOpen', function () {
+					that.processing(false);
+				})
+				.remove( dt.rows( { selected: true } ).indexes(), {
+					buttons: config.formButtons,
+					message: config.formMessage,
+					title:   config.formTitle || editor.i18n.remove.title
+				} );
+		}
+	}
+} );
+
+// Reuse the standard edit and remove buttons for their singular equivalent,
+// but set it to extend the single selected button only
+_buttons.editSingle = $.extend( {}, _buttons.edit );
+_buttons.editSingle.extend = 'selectedSingle';
+
+_buttons.removeSingle = $.extend( {}, _buttons.remove );
+_buttons.removeSingle.extend = 'selectedSingle';
+
+}());
+/**
+ * Field types array - this can be used to add field types or modify the pre-
+ * defined options. See the online Editor documentation for information about
+ * the built in field types.
+ *
+ * Note that we use a DataTables ext object to allow plug-ins to be loaded
+ * before Editor itself. This is useful for the online DataTables download
+ * builder.
+ *
+ *  @namespace
+ */
+Editor.fieldTypes = {};
+/*
+ * This file provides a DateTime GUI picker (calendar and time input). Only the
+ * format YYYY-MM-DD is supported without additional software, but the end user
+ * experience can be greatly enhanced by including the momentjs library which
+ * provides date / time parsing and formatting options.
+ *
+ * This functionality is required because the HTML5 date and datetime input
+ * types are not widely supported in desktop browsers.
+ *
+ * Constructed by using:
+ *
+ *     new Editor.DateTime( input, opts )
+ *
+ * where `input` is the HTML input element to use and `opts` is an object of
+ * options based on the `Editor.DateTime.defaults` object.
+ */
+
+Editor.DateTime = function ( input, opts ) {
+	this.c = $.extend( true, {}, Editor.DateTime.defaults, opts );
+	var classPrefix = this.c.classPrefix;
+	var i18n = this.c.i18n;
+
+	// Only IS8601 dates are supported without moment
+	if ( ! window.moment && this.c.format !== 'YYYY-MM-DD' ) {
+		throw "Editor datetime: Without momentjs only the format 'YYYY-MM-DD' can be used";
+	}
+
+	var timeBlock = function ( type ) {
+		return '<div class="'+classPrefix+'-timeblock">'+
+				'<div class="'+classPrefix+'-iconUp">'+
+					'<button>'+i18n.previous+'</button>'+
+				'</div>'+
+				'<div class="'+classPrefix+'-label">'+
+					'<span/>'+
+					'<select class="'+classPrefix+'-'+type+'"/>'+
+				'</div>'+
+				'<div class="'+classPrefix+'-iconDown">'+
+					'<button>'+i18n.next+'</button>'+
+				'</div>'+
+			'</div>';
+	};
+
+	var gap = function () {
+		return '<span>:</span>';
+	};
+
+	// DOM structure
+	var structure = $(
+		'<div class="'+classPrefix+'">'+
+			'<div class="'+classPrefix+'-date">'+
+				'<div class="'+classPrefix+'-title">'+
+					'<div class="'+classPrefix+'-iconLeft">'+
+						'<button>'+i18n.previous+'</button>'+
+					'</div>'+
+					'<div class="'+classPrefix+'-iconRight">'+
+						'<button>'+i18n.next+'</button>'+
+					'</div>'+
+					'<div class="'+classPrefix+'-label">'+
+						'<span/>'+
+						'<select class="'+classPrefix+'-month"/>'+
+					'</div>'+
+					'<div class="'+classPrefix+'-label">'+
+						'<span/>'+
+						'<select class="'+classPrefix+'-year"/>'+
+					'</div>'+
+				'</div>'+
+				'<div class="'+classPrefix+'-calendar"/>'+
+			'</div>'+
+			'<div class="'+classPrefix+'-time">'+
+				timeBlock( 'hours' )+
+				gap()+
+				timeBlock( 'minutes' )+
+				gap()+
+				timeBlock( 'seconds' )+
+				timeBlock( 'ampm' )+
+			'</div>'+
+			'<div class="'+classPrefix+'-error"/>'+
+		'</div>'
+	);
+
+	this.dom = {
+		container: structure,
+		date:      structure.find( '.'+classPrefix+'-date' ),
+		title:     structure.find( '.'+classPrefix+'-title' ),
+		calendar:  structure.find( '.'+classPrefix+'-calendar' ),
+		time:      structure.find( '.'+classPrefix+'-time' ),
+		error:     structure.find( '.'+classPrefix+'-error' ),
+		input:     $(input)
+	};
+
+	this.s = {
+		/** @type {Date} Date value that the picker has currently selected */
+		d: null,
+
+		/** @type {Date} Date of the calendar - might not match the value */
+		display: null,
+
+		/** @type {String} Unique namespace string for this instance */
+		namespace: 'editor-dateime-'+(Editor.DateTime._instance++),
+
+		/** @type {Object} Parts of the picker that should be shown */
+		parts: {
+			date:    this.c.format.match( /[YMD]|L(?!T)|l/ ) !== null,
+			time:    this.c.format.match( /[Hhm]|LT|LTS/ ) !== null,
+			seconds: this.c.format.indexOf( 's' )   !== -1,
+			hours12: this.c.format.match( /[haA]/ ) !== null
+		}
+	};
+
+	this.dom.container
+		.append( this.dom.date )
+		.append( this.dom.time )
+		.append( this.dom.error );
+
+	this.dom.date
+		.append( this.dom.title )
+		.append( this.dom.calendar );
+
+	this._constructor();
+};
+
+$.extend( Editor.DateTime.prototype, {
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Public
+	 */
+	
+	/**
+	 * Destroy the control
+	 */
+	destroy: function () {
+		this._hide();
+		this.dom.container.off().empty();
+		this.dom.input.off('.editor-datetime');
+	},
+
+	errorMsg: function ( msg ) {
+		var error = this.dom.error;
+
+		if ( msg ) {
+			error.html( msg );
+		}
+		else {
+			error.empty();
+		}
+	},
+
+	hide: function () {
+		this._hide();
+	},
+
+	max: function ( date ) {
+		this.c.maxDate = date;
+
+		this._optionsTitle();
+		this._setCalander();
+	},
+
+	min: function ( date ) {
+		this.c.minDate = date;
+
+		this._optionsTitle();
+		this._setCalander();
+	},
+
+	/**
+	 * Check if an element belongs to this control
+	 *
+	 * @param  {node} node Element to check
+	 * @return {boolean}   true if owned by this control, false otherwise
+	 */
+	owns: function ( node ) {
+		return $(node).parents().filter( this.dom.container ).length > 0;
+	},
+
+	/**
+	 * Get / set the value
+	 *
+	 * @param  {string|Date} set   Value to set
+	 * @param  {boolean} [write=true] Flag to indicate if the formatted value
+	 *   should be written into the input element
+	 */
+	val: function ( set, write ) {
+		if ( set === undefined ) {
+			return this.s.d;
+		}
+
+		if ( set instanceof Date ) {
+			this.s.d = this._dateToUtc( set );
+		}
+		else if ( set === null || set === '' ) {
+			this.s.d = null;
+		}
+		else if ( typeof set === 'string' ) {
+			if ( window.moment ) {
+				// Use moment if possible (even for ISO8601 strings, since it
+				// will correctly handle 0000-00-00 and the like)
+				var m = window.moment.utc( set, this.c.format, this.c.momentLocale, this.c.momentStrict );
+				this.s.d = m.isValid() ? m.toDate() : null;
+			}
+			else {
+				// Else must be using ISO8601 without moment (constructor would
+				// have thrown an error otherwise)
+				var match = set.match(/(\d{4})\-(\d{2})\-(\d{2})/ );
+				this.s.d = match ?
+					new Date( Date.UTC(match[1], match[2]-1, match[3]) ) :
+					null;
+			}
+		}
+
+		if ( write || write === undefined ) {
+			if ( this.s.d ) {
+				this._writeOutput();
+			}
+			else {
+				// The input value was not valid...
+				this.dom.input.val( set );
+			}
+		}
+
+		// We need a date to be able to display the calendar at all
+		if ( ! this.s.d ) {
+			this.s.d = this._dateToUtc( new Date() );
+		}
+
+		this.s.display = new Date( this.s.d.toString() );
+
+		// Set the day of the month to be 1 so changing between months doesn't
+        // run into issues when going from day 31 to 28 (for example)
+		this.s.display.setUTCDate( 1 );
+
+		// Update the display elements for the new value
+		this._setTitle();
+		this._setCalander();
+		this._setTime();
+	},
+
+
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Constructor
+	 */
+	
+	/**
+	 * Build the control and assign initial event handlers
+	 *
+	 * @private
+	 */
+	_constructor: function () {
+		var that = this;
+		var classPrefix = this.c.classPrefix;
+		var container = this.dom.container;
+		var i18n = this.c.i18n;
+		var onChange = this.c.onChange;
+
+		if ( ! this.s.parts.date ) {
+			this.dom.date.css( 'display', 'none' );
+		}
+
+		if ( ! this.s.parts.time ) {
+			this.dom.time.css( 'display', 'none' );
+		}
+
+		if ( ! this.s.parts.seconds ) {
+			this.dom.time.children('div.editor-datetime-timeblock').eq(2).remove();
+			this.dom.time.children('span').eq(1).remove();
+		}
+
+		if ( ! this.s.parts.hours12 ) {
+			this.dom.time.children('div.editor-datetime-timeblock').last().remove();
+		}
+
+		// Render the options
+		this._optionsTitle();
+		this._optionsTime( 'hours', this.s.parts.hours12 ? 12 : 24, 1 );
+		this._optionsTime( 'minutes', 60, this.c.minutesIncrement );
+		this._optionsTime( 'seconds', 60, this.c.secondsIncrement );
+		this._options( 'ampm', [ 'am', 'pm' ], i18n.amPm );
+
+		// Trigger the display of the widget when clicking or focusing on the
+		// input element
+		this.dom.input
+			.attr('autocomplete', 'off')
+			.on('focus.editor-datetime click.editor-datetime', function () {
+				// If already visible - don't do anything
+				if ( that.dom.container.is(':visible') || that.dom.input.is(':disabled') ) {
+					return;
+				}
+
+				// In case the value has changed by text
+				that.val( that.dom.input.val(), false );
+
+				that._show();
+			} )
+			.on('keyup.editor-datetime', function () {
+				// Update the calendar's displayed value as the user types
+				if ( that.dom.container.is(':visible') ) {
+					that.val( that.dom.input.val(), false );
+				}
+			} );
+
+		// Main event handlers for input in the widget
+		this.dom.container
+			.on( 'change', 'select', function () {
+				var select = $(this);
+				var val = select.val();
+
+				if ( select.hasClass(classPrefix+'-month') ) {
+					// Month select
+					that._correctMonth( that.s.display, val );
+					that._setTitle();
+					that._setCalander();
+				}
+				else if ( select.hasClass(classPrefix+'-year') ) {
+					// Year select
+					that.s.display.setUTCFullYear( val );
+					that._setTitle();
+					that._setCalander();
+				}
+				else if ( select.hasClass(classPrefix+'-hours') || select.hasClass(classPrefix+'-ampm') ) {
+					// Hours - need to take account of AM/PM input if present
+					if ( that.s.parts.hours12 ) {
+						var hours = $(that.dom.container).find('.'+classPrefix+'-hours').val() * 1;
+						var pm = $(that.dom.container).find('.'+classPrefix+'-ampm').val() === 'pm';
+
+						that.s.d.setUTCHours( hours === 12 && !pm ?
+							0 :
+							pm && hours !== 12 ?
+								hours + 12 :
+								hours
+						);
+					}
+					else {
+						that.s.d.setUTCHours( val );
+					}
+
+					that._setTime();
+					that._writeOutput( true );
+
+					onChange();
+				}
+				else if ( select.hasClass(classPrefix+'-minutes') ) {
+					// Minutes select
+					that.s.d.setUTCMinutes( val );
+					that._setTime();
+					that._writeOutput( true );
+
+					onChange();
+				}
+				else if ( select.hasClass(classPrefix+'-seconds') ) {
+					// Seconds select
+					that.s.d.setSeconds( val );
+					that._setTime();
+					that._writeOutput( true );
+
+					onChange();
+				}
+
+				that.dom.input.focus();
+				that._position();
+			} )
+			.on( 'click', function (e) {
+				var nodeName = e.target.nodeName.toLowerCase();
+
+				if ( nodeName === 'select' ) {
+					return;
+				}
+
+				e.stopPropagation();
+
+				if ( nodeName === 'button' ) {
+					var button = $(e.target);
+					var parent = button.parent();
+					var select;
+
+					if ( parent.hasClass('disabled') ) {
+						return;
+					}
+
+					if ( parent.hasClass(classPrefix+'-iconLeft') ) {
+						// Previous month
+						that.s.display.setUTCMonth( that.s.display.getUTCMonth()-1 );
+						that._setTitle();
+						that._setCalander();
+
+						that.dom.input.focus();
+					}
+					else if ( parent.hasClass(classPrefix+'-iconRight') ) {
+						// Next month
+						that._correctMonth( that.s.display, that.s.display.getUTCMonth()+1 );
+						that._setTitle();
+						that._setCalander();
+
+						that.dom.input.focus();
+					}
+					else if ( parent.hasClass(classPrefix+'-iconUp') ) {
+						// Value increase - common to all time selects
+						select = parent.parent().find('select')[0];
+						select.selectedIndex = select.selectedIndex !== select.options.length - 1 ?
+							select.selectedIndex+1 :
+							0;
+						$(select).change();
+					}
+					else if ( parent.hasClass(classPrefix+'-iconDown') ) {
+						// Value decrease - common to all time selects
+						select = parent.parent().find('select')[0];
+						select.selectedIndex = select.selectedIndex === 0 ?
+							select.options.length - 1 :
+							select.selectedIndex-1;
+						$(select).change();
+					}
+					else {
+						// Calendar click
+						if ( ! that.s.d ) {
+							that.s.d = that._dateToUtc( new Date() );
+						}
+
+						// Can't be certain that the current day will exist in
+						// the new month, and likewise don't know that the
+						// new day will exist in the old month, But 1 always
+						// does, so we can change the month without worry of a
+						// recalculation being done automatically by `Date`
+						that.s.d.setUTCDate( 1 );
+						that.s.d.setUTCFullYear( button.data('year') );
+						that.s.d.setUTCMonth( button.data('month') );
+						that.s.d.setUTCDate( button.data('day') );
+
+						that._writeOutput( true );
+
+						// Don't hide if there is a time picker, since we want to
+						// be able to select a time as well.
+						if ( ! that.s.parts.time ) {
+							// This is annoying but IE has some kind of async
+							// behaviour with focus and the focus from the above
+							// write would occur after this hide - resulting in the
+							// calendar opening immediately
+							setTimeout( function () {
+								that._hide();
+							}, 10 );
+						}
+						else {
+							that._setCalander();
+						}
+
+						onChange();
+					}
+				}
+				else {
+					// Click anywhere else in the widget - return focus to the
+					// input element
+					that.dom.input.focus();
+				}
+			} );
+	},
+
+
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	 * Private
+	 */
+
+	/**
+	 * Compare the date part only of two dates - this is made super easy by the
+	 * toDateString method!
+	 *
+	 * @param  {Date} a Date 1
+	 * @param  {Date} b Date 2
+	 * @private
+	 */
+	_compareDates: function( a, b ) {
+		// Can't use toDateString as that converts to local time
+		return this._dateToUtcString(a) === this._dateToUtcString(b);
+	},
+
+	/**
+	 * When changing month, take account of the fact that some months don't have
+	 * the same number of days. For example going from January to February you
+	 * can have the 31st of Jan selected and just add a month since the date
+	 * would still be 31, and thus drop you into March.
+	 *
+	 * @param  {Date} date  Date - will be modified
+	 * @param  {integer} month Month to set
+	 * @private
+	 */
+	_correctMonth: function ( date, month ) {
+		var days = this._daysInMonth( date.getUTCFullYear(), month );
+		var correctDays = date.getUTCDate() > days;
+
+		date.setUTCMonth( month );
+
+		if ( correctDays ) {
+			date.setUTCDate( days );
+			date.setUTCMonth( month );
+		}
+	},
+
+	/**
+	 * Get the number of days in a method. Based on
+	 * http://stackoverflow.com/a/4881951 by Matti Virkkunen
+	 *
+	 * @param  {integer} year  Year
+	 * @param  {integer} month Month (starting at 0)
+	 * @private
+	 */
+	_daysInMonth: function ( year, month ) {
+		// 
+		var isLeap = ((year % 4) === 0 && ((year % 100) !== 0 || (year % 400) === 0));
+		var months = [31, (isLeap ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+		return months[month];
+	},
+
+	/**
+	 * Create a new date object which has the UTC values set to the local time.
+	 * This allows the local time to be used directly for the library which
+	 * always bases its calculations and display on UTC.
+	 *
+	 * @param  {Date} s Date to "convert"
+	 * @return {Date}   Shifted date
+	 */
+	_dateToUtc: function ( s ) {
+		return new Date( Date.UTC(
+			s.getFullYear(), s.getMonth(), s.getDate(),
+			s.getHours(), s.getMinutes(), s.getSeconds()
+		) );
+	},
+
+	/**
+	 * Create a UTC ISO8601 date part from a date object
+	 *
+	 * @param  {Date} d Date to "convert"
+	 * @return {string} ISO formatted date
+	 */
+	_dateToUtcString: function ( d ) {
+		return d.getUTCFullYear()+'-'+
+			this._pad(d.getUTCMonth()+1)+'-'+
+			this._pad(d.getUTCDate());
+	},
+
+	/**
+	 * Hide the control and remove events related to its display
+	 *
+	 * @private
+	 */
+	_hide: function () {
+		var namespace = this.s.namespace;
+
+		this.dom.container.detach();
+
+		$(window).off( '.'+namespace );
+		$(document).off( 'keydown.'+namespace );
+		$('div.DTE_Body_Content').off( 'scroll.'+namespace );
+		$('body').off( 'click.'+namespace );
+	},
+
+	/**
+	 * Convert a 24 hour value to a 12 hour value
+	 *
+	 * @param  {integer} val 24 hour value
+	 * @return {integer}     12 hour value
+	 * @private
+	 */
+	_hours24To12: function ( val ) {
+		return val === 0 ?
+			12 :
+			val > 12 ?
+				val - 12 :
+				val;
+	},
+
+	/**
+	 * Generate the HTML for a single day in the calendar - this is basically
+	 * and HTML cell with a button that has data attributes so we know what was
+	 * clicked on (if it is clicked on) and a bunch of classes for styling.
+	 *
+	 * @param  {object} day Day object from the `_htmlMonth` method
+	 * @return {string}     HTML cell
+	 */
+	_htmlDay: function( day )
+	{
+		if ( day.empty ) {
+			return '<td class="empty"></td>';
+		}
+
+		var classes = [ 'day' ];
+		var classPrefix = this.c.classPrefix;
+
+		if ( day.disabled ) {
+			classes.push( 'disabled' );
+		}
+
+		if ( day.today ) {
+			classes.push( 'today' );
+		}
+
+		if ( day.selected ) {
+			classes.push( 'selected' );
+		}
+
+		return '<td data-day="' + day.day + '" class="' + classes.join(' ') + '">' +
+				'<button class="'+classPrefix+'-button '+classPrefix+'-day" type="button" ' +'data-year="' + day.year + '" data-month="' + day.month + '" data-day="' + day.day + '">' +
+						day.day +
+				'</button>' +
+			'</td>';
+	},
+
+
+	/**
+	 * Create the HTML for a month to be displayed in the calendar table.
+	 * 
+	 * Based upon the logic used in Pikaday - MIT licensed
+	 * Copyright (c) 2014 David Bushell
+	 * https://github.com/dbushell/Pikaday
+	 *
+	 * @param  {integer} year  Year
+	 * @param  {integer} month Month (starting at 0)
+	 * @return {string} Calendar month HTML
+	 * @private
+	 */
+	_htmlMonth: function ( year, month ) {
+		var now    = this._dateToUtc( new Date() ),
+			days   = this._daysInMonth( year, month ),
+			before = new Date( Date.UTC(year, month, 1) ).getUTCDay(),
+			data   = [],
+			row    = [];
+
+		if ( this.c.firstDay > 0 ) {
+			before -= this.c.firstDay;
+
+			if (before < 0) {
+				before += 7;
+			}
+		}
+
+		var cells = days + before,
+			after = cells;
+
+		while ( after > 7 ) {
+			after -= 7;
+		}
+
+		cells += 7 - after;
+
+		var minDate = this.c.minDate;
+		var maxDate = this.c.maxDate;
+
+		if ( minDate ) {
+			minDate.setUTCHours(0);
+			minDate.setUTCMinutes(0);
+			minDate.setSeconds(0);
+		}
+
+		if ( maxDate ) {
+			maxDate.setUTCHours(23);
+			maxDate.setUTCMinutes(59);
+			maxDate.setSeconds(59);
+		}
+
+		for ( var i=0, r=0 ; i<cells ; i++ ) {
+			var day      = new Date( Date.UTC(year, month, 1 + (i - before)) ),
+				selected = this.s.d ? this._compareDates(day, this.s.d) : false,
+				today    = this._compareDates(day, now),
+				empty    = i < before || i >= (days + before),
+				disabled = (minDate && day < minDate) ||
+				           (maxDate && day > maxDate);
+
+			var disableDays = this.c.disableDays;
+			if ( $.isArray( disableDays ) && $.inArray( day.getUTCDay(), disableDays ) !== -1 ) {
+				disabled = true;
+			}
+			else if ( typeof disableDays === 'function' && disableDays( day ) === true ) {
+				disabled = true;
+			}
+
+			var dayConfig = {
+				day:      1 + (i - before),
+				month:    month,
+				year:     year,
+				selected: selected,
+				today:    today,
+				disabled: disabled,
+				empty:    empty
+			};
+
+			row.push( this._htmlDay(dayConfig) );
+
+			if ( ++r === 7 ) {
+				if ( this.c.showWeekNumber ) {
+					row.unshift( this._htmlWeekOfYear(i - before, month, year) );
+				}
+
+				data.push( '<tr>'+row.join('')+'</tr>' );
+				row = [];
+				r = 0;
+			}
+		}
+
+		var classPrefix = this.c.classPrefix;
+		var className = classPrefix+'-table';
+		if ( this.c.showWeekNumber ) {
+			className += ' weekNumber';
+		}
+
+		// Show / hide month icons based on min/max
+		if ( minDate ) {
+			var underMin = minDate > new Date( Date.UTC(year, month, 1, 0, 0, 0 ) );
+
+			this.dom.title.find('div.'+classPrefix+'-iconLeft')
+				.css( 'display', underMin ? 'none' : 'block' );
+		}
+
+		if ( maxDate ) {
+			var overMax = maxDate < new Date( Date.UTC(year, month+1, 1, 0, 0, 0 ) );
+
+			this.dom.title.find('div.'+classPrefix+'-iconRight')
+				.css( 'display', overMax ? 'none' : 'block' );
+		}
+
+		return '<table class="'+className+'">' +
+				'<thead>'+
+					this._htmlMonthHead() +
+				'</thead>'+
+				'<tbody>'+
+					data.join('') +
+				'</tbody>'+
+			'</table>';
+	},
+
+	/**
+	 * Create the calendar table's header (week days)
+	 *
+	 * @return {string} HTML cells for the row
+	 * @private
+	 */
+	_htmlMonthHead: function () {
+		var a = [];
+		var firstDay = this.c.firstDay;
+		var i18n = this.c.i18n;
+
+		// Take account of the first day shift
+		var dayName = function ( day ) {
+			day += firstDay;
+
+			while (day >= 7) {
+				day -= 7;
+			}
+
+			return i18n.weekdays[day];
+		};
+		
+		// Empty cell in the header
+		if ( this.c.showWeekNumber ) {
+			a.push( '<th></th>' );
+		}
+
+		for ( var i=0 ; i<7 ; i++ ) {
+			a.push( '<th>'+dayName( i )+'</th>' );
+		}
+
+		return a.join('');
+	},
+
+	/**
+	 * Create a cell that contains week of the year - ISO8601
+	 *
+	 * Based on https://stackoverflow.com/questions/6117814/ and
+	 * http://techblog.procurios.nl/k/n618/news/view/33796/14863/
+	 *
+	 * @param  {integer} d Day of month
+	 * @param  {integer} m Month of year (zero index)
+	 * @param  {integer} y Year
+	 * @return {string}   
+	 * @private
+	 */
+	_htmlWeekOfYear: function ( d, m, y ) {
+		var date = new Date( y, m, d, 0, 0, 0, 0 );
+
+		// First week of the year always has 4th January in it
+		date.setDate( date.getDate() + 4 - (date.getDay() || 7) );
+
+		var oneJan = new Date( y, 0, 1 );
+		var weekNum = Math.ceil( ( ( (date - oneJan) / 86400000) + 1)/7 );
+
+		return '<td class="'+this.c.classPrefix+'-week">' + weekNum + '</td>';
+	},
+
+	/**
+	 * Create option elements from a range in an array
+	 *
+	 * @param  {string} selector Class name unique to the select element to use
+	 * @param  {array} values   Array of values
+	 * @param  {array} [labels] Array of labels. If given must be the same
+	 *   length as the values parameter.
+	 * @private
+	 */
+	_options: function ( selector, values, labels ) {
+		if ( ! labels ) {
+			labels = values;
+		}
+
+		var select = this.dom.container.find('select.'+this.c.classPrefix+'-'+selector);
+		select.empty();
+
+		for ( var i=0, ien=values.length ; i<ien ; i++ ) {
+			select.append( '<option value="'+values[i]+'">'+labels[i]+'</option>' );
+		}
+	},
+
+	/**
+	 * Set an option and update the option's span pair (since the select element
+	 * has opacity 0 for styling)
+	 *
+	 * @param  {string} selector Class name unique to the select element to use
+	 * @param  {*}      val      Value to set
+	 * @private
+	 */
+	_optionSet: function ( selector, val ) {
+		var select = this.dom.container.find('select.'+this.c.classPrefix+'-'+selector);
+		var span = select.parent().children('span');
+
+		select.val( val );
+
+		var selected = select.find('option:selected');
+		span.html( selected.length !== 0 ?
+			selected.text() :
+			this.c.i18n.unknown
+		);
+	},
+
+	/**
+	 * Create time option list. Can't just use `_options` for the time as the
+	 * hours can be a little complex and we want to be able to control the
+	 * increment option for the minutes and seconds.
+	 *
+	 * @param  {jQuery} select Select element to operate on
+	 * @param  {integer} count  Value to loop to
+	 * @param  {integer} inc    Increment value
+	 * @private
+	 */
+	_optionsTime: function ( select, count, inc ) {
+		var classPrefix = this.c.classPrefix;
+		var sel = this.dom.container.find('select.'+classPrefix+'-'+select);
+		var start=0, end=count;
+		var allowed = this.c.hoursAvailable;
+		var render = count === 12 ?
+			function (i) { return i; } :
+			this._pad;
+
+		if ( count === 12 ) {
+			start = 1;
+			end = 13;
+		}
+
+		for ( var i=start ; i<end ; i+=inc ) {
+			if ( ! allowed || $.inArray( i, allowed ) !== -1 ) {
+				sel.append( '<option value="'+i+'">'+render(i)+'</option>' );
+			}
+		}
+	},
+
+	/**
+	 * Create the options for the month and year
+	 *
+	 * @param  {integer} year  Year
+	 * @param  {integer} month Month (starting at 0)
+	 * @private
+	 */
+	_optionsTitle: function ( year, month ) {
+		var classPrefix = this.c.classPrefix;
+		var i18n = this.c.i18n;
+		var min = this.c.minDate;
+		var max = this.c.maxDate;
+		var minYear = min ? min.getFullYear() : null;
+		var maxYear = max ? max.getFullYear() : null;
+
+		var i = minYear !== null ? minYear : new Date().getFullYear() - this.c.yearRange;
+		var j = maxYear !== null ? maxYear : new Date().getFullYear() + this.c.yearRange;
+
+		this._options( 'month', this._range( 0, 11 ), i18n.months );
+		this._options( 'year', this._range( i, j ) );
+	},
+
+	/**
+	 * Simple two digit pad
+	 *
+	 * @param  {integer} i      Value that might need padding
+	 * @return {string|integer} Padded value
+	 * @private
+	 */
+	_pad: function ( i ) {
+		return i<10 ? '0'+i : i;
+	},
+
+	/**
+	 * Position the calendar to look attached to the input element
+	 * @private
+	 */
+	_position: function () {
+		var offset = this.dom.input.offset();
+		var container = this.dom.container;
+		var inputHeight = this.dom.input.outerHeight();
+
+		container
+			.css( {
+				top: offset.top + inputHeight,
+				left: offset.left
+			} )
+			.appendTo( 'body' );
+
+		var calHeight = container.outerHeight();
+		var calWidth = container.outerWidth();
+		var scrollTop = $(window).scrollTop();
+
+		// Correct to the bottom
+		if ( offset.top + inputHeight + calHeight - scrollTop > $(window).height() ) {
+			var newTop = offset.top - calHeight;
+
+			container.css( 'top', newTop < 0 ? 0 : newTop );
+		}
+
+		// Correct to the right
+		if ( calWidth + offset.left > $(window).width() ) {
+			var newLeft = $(window).width() - calWidth;
+
+			container.css( 'left', newLeft < 0 ? 0 : newLeft );
+		}
+	},
+
+	/**
+	 * Create a simple array with a range of values
+	 *
+	 * @param  {integer} start Start value (inclusive)
+	 * @param  {integer} end   End value (inclusive)
+	 * @return {array}         Created array
+	 * @private
+	 */
+	_range: function ( start, end ) {
+		var a = [];
+
+		for ( var i=start ; i<=end ; i++ ) {
+			a.push( i );
+		}
+
+		return a;
+	},
+
+	/**
+	 * Redraw the calendar based on the display date - this is a destructive
+	 * operation
+	 *
+	 * @private
+	 */
+	_setCalander: function () {
+		if ( this.s.display ) {
+			this.dom.calendar
+				.empty()
+				.append( this._htmlMonth(
+					this.s.display.getUTCFullYear(),
+					this.s.display.getUTCMonth()
+				) );
+		}
+	},
+
+	/**
+	 * Set the month and year for the calendar based on the current display date
+	 *
+	 * @private
+	 */
+	_setTitle: function () {
+		this._optionSet( 'month', this.s.display.getUTCMonth() );
+		this._optionSet( 'year', this.s.display.getUTCFullYear() );
+	},
+
+	/**
+	 * Set the time based on the current value of the widget
+	 *
+	 * @private
+	 */
+	_setTime: function () {
+		var d = this.s.d;
+		var hours = d ? d.getUTCHours() : 0;
+
+		if ( this.s.parts.hours12 ) {
+			this._optionSet( 'hours', this._hours24To12( hours ) );
+			this._optionSet( 'ampm', hours < 12 ? 'am' : 'pm' );
+		}
+		else {
+			this._optionSet( 'hours', hours );
+		}
+
+		this._optionSet( 'minutes', d ? d.getUTCMinutes() : 0 );
+		this._optionSet( 'seconds', d ? d.getSeconds() : 0 );
+	},
+
+	/**
+	 * Show the widget and add events to the document required only while it
+	 * is displayed
+	 * 
+	 * @private
+	 */
+	_show: function () {
+		var that = this;
+		var namespace = this.s.namespace;
+
+		this._position();
+
+		// Need to reposition on scroll
+		$(window).on( 'scroll.'+namespace+' resize.'+namespace, function () {
+			that._position();
+		} );
+
+		$('div.DTE_Body_Content').on( 'scroll.'+namespace, function () {
+			that._position();
+		} );
+
+		// On tab focus will move to a different field (no keyboard navigation
+		// in the date picker - this might need to be changed).
+		// On esc the Editor might close. Even if it doesn't the date picker
+		// should
+		$(document).on( 'keydown.'+namespace, function (e) {
+			if (
+				e.keyCode === 9  || // tab
+				e.keyCode === 27 || // esc
+				e.keyCode === 13    // return
+			) {
+				that._hide();
+			}
+		} );
+
+		// Hide if clicking outside of the widget - but in a different click
+		// event from the one that was used to trigger the show (bubble and
+		// inline)
+		setTimeout( function () {
+			$('body').on( 'click.'+namespace, function (e) {
+				var parents = $(e.target).parents();
+
+				if ( ! parents.filter( that.dom.container ).length && e.target !== that.dom.input[0] ) {
+					that._hide();
+				}
+			} );
+		}, 10 );
+	},
+
+	/**
+	 * Write the formatted string to the input element this control is attached
+	 * to
+	 *
+	 * @private
+	 */
+	_writeOutput: function ( focus ) {
+		var date = this.s.d;
+
+		// Use moment if possible - otherwise it must be ISO8601 (or the
+		// constructor would have thrown an error)
+		var out = window.moment ?
+			window.moment.utc( date, undefined, this.c.momentLocale, this.c.momentStrict ).format( this.c.format ) :
+			date.getUTCFullYear() +'-'+
+	            this._pad(date.getUTCMonth() + 1) +'-'+
+	            this._pad(date.getUTCDate());
+		
+		this.dom.input.val( out );
+
+		if ( focus ) {
+			this.dom.input.focus();
+		}
+	}
+} );
+
+
+/**
+ * For generating unique namespaces
+ *
+ * @type {Number}
+ * @private
+ */
+Editor.DateTime._instance = 0;
+
+/**
+ * Defaults for the date time picker
+ *
+ * @type {Object}
+ */
+Editor.DateTime.defaults = {
+	// Not documented - could be an internal property
+	classPrefix: 'editor-datetime',
+
+	// function or array of ints
+	disableDays: null,
+
+	// first day of the week (0: Sunday, 1: Monday, etc)
+	firstDay: 1,
+
+	format: 'YYYY-MM-DD',
+
+	hoursAvailable: null,
+
+	// Not documented as i18n is done by the Editor.defaults.i18n obj
+	i18n: Editor.defaults.i18n.datetime,
+
+	maxDate: null,
+
+	minDate: null,
+
+	minutesIncrement: 1,
+
+	momentStrict: true,
+
+	momentLocale: 'en',
+
+	onChange: function () {},
+
+	secondsIncrement: 1,
+
+	// show the ISO week number at the head of the row
+	showWeekNumber: false,
+
+	// overruled by max / min date
+	yearRange: 10
+};
+
+
+
+(function() {
+
+var fieldTypes = Editor.fieldTypes;
+
+// Upload private helper method
+function _buttonText ( conf, text )
+{
+	if ( text === null || text === undefined ) {
+		text = conf.uploadText || "Choose file...";
+	}
+
+	conf._input.find('div.upload button').html( text );
+}
+
+function _commonUpload ( editor, conf, dropCallback, multiple )
+{
+	var btnClass = editor.classes.form.button;
+	var container = $(
+		'<div class="editor_upload">'+
+			'<div class="eu_table">'+
+				'<div class="row">'+
+					'<div class="cell upload limitHide">'+
+						'<button class="'+btnClass+'" />'+
+						'<input type="file" '+(multiple ? 'multiple' : '')+'/>'+
+					'</div>'+
+					'<div class="cell clearValue">'+
+						'<button class="'+btnClass+'" />'+
+					'</div>'+
+				'</div>'+
+				'<div class="row second">'+
+					'<div class="cell limitHide">'+
+						'<div class="drop"><span/></div>'+
+					'</div>'+
+					'<div class="cell">'+
+						'<div class="rendered"/>'+
+					'</div>'+
+				'</div>'+
+			'</div>'+
+		'</div>'
+	);
+
+	conf._input = container;
+	conf._enabled = true;
+
+	_buttonText( conf );
+
+	if ( window.FileReader && conf.dragDrop !== false ) {
+		container.find('div.drop span').text(
+			conf.dragDropText || "Drag and drop a file here to upload"
+		);
+
+		var dragDrop = container.find('div.drop');
+		dragDrop
+			.on( 'drop', function (e) {
+				if ( conf._enabled ) {
+					Editor.upload( editor, conf, e.originalEvent.dataTransfer.files, _buttonText, dropCallback );
+					dragDrop.removeClass('over');
+				}
+				return false;
+			} )
+			.on( 'dragleave dragexit', function (e) {
+				if ( conf._enabled ) {
+					dragDrop.removeClass('over');
+				}
+				return false;
+			} )
+			.on( 'dragover', function (e) {
+				if ( conf._enabled ) {
+					dragDrop.addClass('over');
+				}
+				return false;
+			} );
+
+		// When an Editor is open with a file upload input there is a
+		// reasonable chance that the user will miss the drop point when
+		// dragging and dropping. Rather than loading the file in the browser,
+		// we want nothing to happen, otherwise the form will be lost.
+		editor
+			.on( 'open', function () {
+				$('body').on( 'dragover.DTE_Upload drop.DTE_Upload', function (e) {
+					return false;
+				} );
+			} )
+			.on( 'close', function () {
+				$('body').off( 'dragover.DTE_Upload drop.DTE_Upload' );
+			} );
+	}
+	else {
+		container.addClass( 'noDrop' );
+		container.append( container.find('div.rendered') );
+	}
+
+	container.find('div.clearValue button').on( 'click', function () {
+		Editor.fieldTypes.upload.set.call( editor, conf, '' );
+	} );
+
+	container.find('input[type=file]').on('change', function () {
+		Editor.upload( editor, conf, this.files, _buttonText, function (ids) {
+			dropCallback.call( editor, ids );
+
+			// Clear the value so change will happen on the next file select,
+			// even if it is the same file
+			container.find('input[type=file]').val('');
+		} );
+	} );
+
+	return container;
+}
+
+// Typically a change event caused by the end user will be added to a queue that
+// the browser will handle when no other script is running. However, using
+// `$().trigger()` will cause it to happen immediately, so in order to simulate
+// the standard browser behaviour we use setTimeout. This also means that
+// `dependent()` and other change event listeners will trigger when the field
+// values have all been set, rather than as they are being set - 31594
+function _triggerChange ( input ) {
+	setTimeout( function () {
+		input.trigger( 'change', {editor: true, editorSet: true} ); // editorSet legacy
+	}, 0 );
+}
+
+
+// A number of the fields in this file use the same get, set, enable and disable
+// methods (specifically the text based controls), so in order to reduce the code
+// size, we just define them once here in our own local base model for the field
+// types.
+var baseFieldType = $.extend( true, {}, Editor.models.fieldType, {
+	get: function ( conf ) {
+		return conf._input.val();
+	},
+
+	set: function ( conf, val ) {
+		conf._input.val( val );
+		_triggerChange( conf._input );
+	},
+
+	enable: function ( conf ) {
+		conf._input.prop( 'disabled', false );
+	},
+
+	disable: function ( conf ) {
+		conf._input.prop( 'disabled', true );
+	},
+
+	canReturnSubmit: function ( conf, node ) {
+		return true;
+	}
+} );
+
+
+
+fieldTypes.hidden = {
+	create: function ( conf ) {
+		conf._val = conf.value;
+		return null;
+	},
+
+	get: function ( conf ) {
+		return conf._val;
+	},
+
+	set: function ( conf, val ) {
+		conf._val = val;
+	}
+};
+
+
+fieldTypes.readonly = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<input/>').attr( $.extend( {
+			id: Editor.safeId( conf.id ),
+			type: 'text',
+			readonly: 'readonly'
+		}, conf.attr || {} ) );
+
+		return conf._input[0];
+	}
+} );
+
+
+fieldTypes.text = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<input/>').attr( $.extend( {
+			id: Editor.safeId( conf.id ),
+			type: 'text'
+		}, conf.attr || {} ) );
+
+		return conf._input[0];
+	}
+} );
+
+
+fieldTypes.password = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<input/>').attr( $.extend( {
+			id: Editor.safeId( conf.id ),
+			type: 'password'
+		}, conf.attr || {} ) );
+
+		return conf._input[0];
+	}
+} );
+
+fieldTypes.textarea = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<textarea/>').attr( $.extend( {
+			id: Editor.safeId( conf.id )
+		}, conf.attr || {} ) );
+		return conf._input[0];
+	},
+
+	canReturnSubmit: function ( conf, node ) {
+		return false;
+	}
+} );
+
+
+fieldTypes.select = $.extend( true, {}, baseFieldType, {
+	// Locally "private" function that can be reused for the create and update methods
+	_addOptions: function ( conf, opts, append ) {
+		var elOpts = conf._input[0].options;
+		var countOffset = 0;
+
+		if ( ! append ) {
+			elOpts.length = 0;
+
+			if ( conf.placeholder !== undefined ) {
+				var placeholderValue = conf.placeholderValue !== undefined ?
+					conf.placeholderValue :
+					'';
+
+				countOffset += 1;
+				elOpts[0] = new Option( conf.placeholder, placeholderValue );
+
+				var disabled = conf.placeholderDisabled !== undefined ?
+					conf.placeholderDisabled :
+					true;
+
+				elOpts[0].hidden = disabled; // can't be hidden if not disabled!
+				elOpts[0].disabled = disabled;
+				elOpts[0]._editor_val = placeholderValue;
+			}
+		}
+		else {
+			countOffset = elOpts.length;
+		}
+
+		if ( opts ) {
+			Editor.pairs( opts, conf.optionsPair, function ( val, label, i, attr ) {
+				var option = new Option( label, val );
+				option._editor_val = val;
+
+				if ( attr ) {
+					$(option).attr( attr );
+				}
+
+				elOpts[ i+countOffset ] = option;
+			} );
+		}
+	},
+
+	create: function ( conf ) {
+		conf._input = $('<select/>')
+			.attr( $.extend( {
+				id: Editor.safeId( conf.id ),
+				multiple: conf.multiple === true
+			}, conf.attr || {} ) )
+			.on( 'change.dte', function (e, d) {
+				// On change, get the user selected value and store it as the
+				// last set, so `update` can reflect it. This way `_lastSet`
+				// always gives the intended value, be it set via the API or by
+				// the end user.
+				if ( ! d || ! d.editor ) {
+					conf._lastSet = fieldTypes.select.get( conf );
+				}
+			} );
+
+		fieldTypes.select._addOptions( conf, conf.options || conf.ipOpts );
+
+		return conf._input[0];
+	},
+
+	update: function ( conf, options, append ) {
+		fieldTypes.select._addOptions( conf, options, append );
+
+		// Attempt to set the last selected value (set by the API or the end
+		// user, they get equal priority)
+		var lastSet = conf._lastSet;
+
+		if ( lastSet !== undefined ) {
+			fieldTypes.select.set( conf, lastSet, true );
+		}
+
+		_triggerChange( conf._input );
+	},
+
+	get: function ( conf ) {
+		var val = conf._input.find('option:selected').map( function () {
+			return this._editor_val;
+		} ).toArray();
+
+		if ( conf.multiple ) {
+			return conf.separator ?
+				val.join( conf.separator ) :
+				val;
+		}
+
+		return val.length ? val[0] : null;
+	},
+
+	set: function ( conf, val, localUpdate ) {
+		if ( ! localUpdate ) {
+			conf._lastSet = val;
+		}
+
+		// Can't just use `$().val()` because it won't work with strong types
+		if ( conf.multiple && conf.separator && ! $.isArray( val ) ) {
+			val = typeof val === 'string' ?
+				val.split( conf.separator ) :
+				[];
+		}
+		else if ( ! $.isArray( val ) ) {
+			val = [ val ];
+		}
+
+		var i, len=val.length, found, allFound = false;
+		var options = conf._input.find('option');
+
+		conf._input.find('option').each( function () {
+			found = false;
+
+			for ( i=0 ; i<len ; i++ ) {
+				// Weak typing
+				if ( this._editor_val == val[i] ) {
+					found = true;
+					allFound = true;
+					break;
+				}
+			}
+
+			this.selected = found;
+		} );
+
+		// If there is a placeholder, we might need to select it if nothing else
+		// was selected. It doesn't make sense to select when multi is enabled
+		if ( conf.placeholder && ! allFound && ! conf.multiple && options.length ) {
+			options[0].selected = true;
+		}
+
+		// Update will call change itself, otherwise multiple might be called
+		if ( ! localUpdate ) {
+			_triggerChange( conf._input );
+		}
+
+		return allFound;
+	},
+
+	destroy: function ( conf ) {
+		conf._input.off( 'change.dte' );
+	}
+} );
+
+
+fieldTypes.checkbox = $.extend( true, {}, baseFieldType, {
+	// Locally "private" function that can be reused for the create and update methods
+	_addOptions: function ( conf, opts, append ) {
+		var val, label;
+		var jqInput = conf._input;
+		var offset = 0;
+
+		if ( ! append ) {
+			jqInput.empty();
+		}
+		else {
+			offset = $('input', jqInput).length;
+		}
+
+		if ( opts ) {
+			Editor.pairs( opts, conf.optionsPair, function ( val, label, i, attr ) {
+				jqInput.append(
+					'<div>'+
+						'<input id="'+Editor.safeId( conf.id )+'_'+(i+offset)+'" type="checkbox" />'+
+						'<label for="'+Editor.safeId( conf.id )+'_'+(i+offset)+'">'+label+'</label>'+
+					'</div>'
+				);
+				$('input:last', jqInput).attr('value', val)[0]._editor_val = val;
+
+				if ( attr ) {
+					$('input:last', jqInput).attr( attr );
+				}
+			} );
+		}
+	},
+
+
+	create: function ( conf ) {
+		conf._input = $('<div />');
+		fieldTypes.checkbox._addOptions( conf, conf.options || conf.ipOpts );
+
+		return conf._input[0];
+	},
+
+	get: function ( conf ) {
+		var out = [];
+		var selected = conf._input.find('input:checked');
+
+		if ( selected.length ) {
+			selected.each( function () {
+				out.push( this._editor_val );
+			} );
+		}
+		else if ( conf.unselectedValue !== undefined ) {
+			out.push( conf.unselectedValue );
+		}
+
+		return conf.separator === undefined || conf.separator === null ?
+			out :
+			out.join(conf.separator);
+	},
+
+	set: function ( conf, val ) {
+		var jqInputs = conf._input.find('input');
+		if ( ! $.isArray(val) && typeof val === 'string' ) {
+			val = val.split( conf.separator || '|' );
+		}
+		else if ( ! $.isArray(val) ) {
+			val = [ val ];
+		}
+
+		var i, len=val.length, found;
+
+		jqInputs.each( function () {
+			found = false;
+
+			for ( i=0 ; i<len ; i++ ) {
+				if ( this._editor_val == val[i] ) {
+					found = true;
+					break;
+				}
+			}
+
+			this.checked = found;
+		} );
+
+		_triggerChange( jqInputs );
+	},
+
+	enable: function ( conf ) {
+		conf._input.find('input').prop('disabled', false);
+	},
+
+	disable: function ( conf ) {
+		conf._input.find('input').prop('disabled', true);
+	},
+
+	update: function ( conf, options, append ) {
+		// Get the current value
+		var checkbox = fieldTypes.checkbox;
+		var currVal = checkbox.get( conf );
+
+		checkbox._addOptions( conf, options, append );
+		checkbox.set( conf, currVal );
+	}
+} );
+
+
+fieldTypes.radio = $.extend( true, {}, baseFieldType, {
+	// Locally "private" function that can be reused for the create and update methods
+	_addOptions: function ( conf, opts, append ) {
+		var val, label;
+		var jqInput = conf._input;
+		var offset = 0;
+
+		if ( ! append ) {
+			jqInput.empty();
+		}
+		else {
+			offset = $('input', jqInput).length;
+		}
+
+		if ( opts ) {
+			Editor.pairs( opts, conf.optionsPair, function ( val, label, i, attr ) {
+				jqInput.append(
+					'<div>'+
+						'<input id="'+Editor.safeId( conf.id )+'_'+(i+offset)+'" type="radio" name="'+conf.name+'" />'+
+						'<label for="'+Editor.safeId( conf.id )+'_'+(i+offset)+'">'+label+'</label>'+
+					'</div>'
+				);
+				$('input:last', jqInput).attr('value', val)[0]._editor_val = val;
+
+				if ( attr ) {
+					$('input:last', jqInput).attr( attr );
+				}
+			} );
+		}
+	},
+
+
+	create: function ( conf ) {
+		conf._input = $('<div />');
+		fieldTypes.radio._addOptions( conf, conf.options || conf.ipOpts );
+
+		// this is ugly, but IE6/7 has a problem with radio elements that are created
+		// and checked before being added to the DOM! Basically it doesn't check them. As
+		// such we use the _preChecked property to set cache the checked button and then
+		// check it again when the display is shown. This has no effect on other browsers
+		// other than to cook a few clock cycles.
+		this.on('open', function () {
+			conf._input.find('input').each( function () {
+				if ( this._preChecked ) {
+					this.checked = true;
+				}
+			} );
+		} );
+
+		return conf._input[0];
+	},
+
+	get: function ( conf ) {
+		var el = conf._input.find('input:checked');
+		return el.length ? el[0]._editor_val : undefined;
+	},
+
+	set: function ( conf, val ) {
+		var that  = this;
+
+		conf._input.find('input').each( function () {
+			this._preChecked = false;
+
+			if ( this._editor_val == val ) {
+				this.checked = true;
+				this._preChecked = true;
+			}
+			else {
+				// In a detached DOM tree, there is no relationship between the
+				// input elements, so we need to uncheck any element that does
+				// not match the value
+				this.checked = false;
+				this._preChecked = false;
+			}
+		} );
+
+		_triggerChange( conf._input.find('input:checked') );
+	},
+
+	enable: function ( conf ) {
+		conf._input.find('input').prop('disabled', false);
+	},
+
+	disable: function ( conf ) {
+		conf._input.find('input').prop('disabled', true);
+	},
+
+	update: function ( conf, options, append ) {
+		var radio = fieldTypes.radio;
+		var currVal = radio.get( conf );
+
+		radio._addOptions( conf, options, append );
+
+		// Select the current value if it exists in the new data set, otherwise
+		// select the first radio input so there is always a value selected
+		var inputs = conf._input.find('input');
+		radio.set( conf, inputs.filter('[value="'+currVal+'"]').length ?
+			currVal :
+			inputs.eq(0).attr('value')
+		);
+	}
+} );
+
+
+fieldTypes.date = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<input />').attr( $.extend( {
+			id: Editor.safeId( conf.id ),
+			type: 'text'
+		}, conf.attr ) );
+
+		if ( $.datepicker ) {
+			// jQuery UI date picker
+			conf._input.addClass( 'jqueryui' );
+
+			if ( ! conf.dateFormat ) {
+				conf.dateFormat = $.datepicker.RFC_2822;
+			}
+
+			// Allow the element to be attached to the DOM
+			setTimeout( function () {
+				$( conf._input ).datepicker( $.extend( {
+					showOn: "both",
+					dateFormat: conf.dateFormat,
+					buttonImage: conf.dateImage,
+					buttonImageOnly: true,
+					onSelect: function () {
+						conf._input.focus().click();
+					}
+				}, conf.opts ) );
+
+				$('#ui-datepicker-div').css('display','none');
+			}, 10 );
+		}
+		else {
+			// HTML5 (only Chrome and Edge on the desktop support this atm)
+			conf._input.attr( 'type', 'date' );
+		}
+
+		return conf._input[0];
+	},
+
+	// use default get method as will work for all
+
+	set: function ( conf, val ) {
+		if ( $.datepicker && conf._input.hasClass('hasDatepicker') ) {
+			// Due to the async init of the control it is possible that we might
+			// try to set a value before it has been initialised!
+			conf._input.datepicker( "setDate" , val ).change();
+		}
+		else {
+			$(conf._input).val( val );
+		}
+	},
+
+	enable: function ( conf ) {
+		if ( $.datepicker ) {
+			conf._input.datepicker( "enable" );
+		}
+		else {
+			$(conf._input).prop( 'disabled', false );
+		}
+	},
+
+	disable: function ( conf ) {
+		if ( $.datepicker ) {
+			conf._input.datepicker( "disable" );
+		}
+		else {
+			$(conf._input).prop( 'disabled', true );
+		}
+	},
+
+	owns: function ( conf, node ) {
+		return $(node).parents('div.ui-datepicker').length || $(node).parents('div.ui-datepicker-header').length ?
+			true :
+			false;
+	}
+} );
+
+
+fieldTypes.datetime = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		conf._input = $('<input />').attr( $.extend( true, {
+			id:   Editor.safeId( conf.id ),
+			type: 'text'
+		}, conf.attr ) );
+
+		conf._picker = new Editor.DateTime( conf._input, $.extend( {
+			format: conf.format, // can be undefined
+			i18n: this.i18n.datetime,
+			onChange: function () {
+				_triggerChange( conf._input );
+			}
+		}, conf.opts ) );
+
+		conf._closeFn = function () {
+			conf._picker.hide();
+		};
+
+		if ( conf.keyInput === false ) {
+			conf._input.on('keydown', function (e) {
+				e.preventDefault();
+			} );
+		}
+
+		this.on( 'close', conf._closeFn );
+
+		return conf._input[0];
+	},
+
+	// default get, disable and enable options are okay
+
+	set: function ( conf, val ) {
+		conf._picker.val( val );
+
+		_triggerChange( conf._input );
+	},
+
+	owns: function ( conf, node ) {
+		return conf._picker.owns( node );
+	},
+
+	errorMessage: function ( conf, msg ) {
+		conf._picker.errorMsg( msg );
+	},
+
+	destroy: function ( conf ) {
+		this.off( 'close', conf._closeFn );
+		conf._input.off( 'keydown' );
+		conf._picker.destroy();
+	},
+
+	minDate: function ( conf, min ) {
+		conf._picker.min( min );
+	},
+
+	maxDate: function ( conf, max ) {
+		conf._picker.max( max );
+	}
+} );
+
+
+fieldTypes.upload = $.extend( true, {}, baseFieldType, {
+	create: function ( conf ) {
+		var editor = this;
+		var container = _commonUpload( editor, conf, function ( val ) {
+			Editor.fieldTypes.upload.set.call( editor, conf, val[0] );
+		} );
+
+		return container;
+	},
+
+	get: function ( conf ) {
+		return conf._val;
+	},
+
+	set: function ( conf, val ) {
+		conf._val = val;
+
+		var container = conf._input;
+
+		if ( conf.display ) {
+			var rendered = container.find('div.rendered');
+
+			if ( conf._val ) {
+				rendered.html( conf.display( conf._val ) );
+			}
+			else {
+				rendered
+					.empty()
+					.append( '<span>'+( conf.noFileText || 'No file' )+'</span>' );
+			}
+		}
+
+		var button = container.find('div.clearValue button');
+		if ( val && conf.clearText ) {
+			button.html( conf.clearText );
+			container.removeClass( 'noClear' );
+		}
+		else {
+			container.addClass( 'noClear' );
+		}
+
+		conf._input.find('input').triggerHandler( 'upload.editor', [ conf._val ] );
+	},
+
+	enable: function ( conf ) {
+		conf._input.find('input').prop('disabled', false);
+		conf._enabled = true;
+	},
+
+	disable: function ( conf ) {
+		conf._input.find('input').prop('disabled', true);
+		conf._enabled = false;
+	},
+
+	canReturnSubmit: function ( conf, node ) {
+		return false;
+	}
+} );
+
+
+fieldTypes.uploadMany = $.extend( true, {}, baseFieldType, {
+	_showHide: function ( conf ) {
+		if ( ! conf.limit ) {
+			return;
+		}
+
+		conf._container.find('div.limitHide').css(
+			'display',
+			conf._val.length >= conf.limit ?
+				'none' :
+				'block'
+		);
+
+		// Used by the Editor.upload static function to truncate if too many
+		// files are selected for upload
+		conf._limitLeft = conf.limit - conf._val.length;
+	},
+
+	create: function ( conf ) {
+		var editor = this;
+		var container = _commonUpload( editor, conf, function ( val ) {
+			conf._val = conf._val.concat( val );
+			Editor.fieldTypes.uploadMany.set.call( editor, conf, conf._val );
+		}, true );
+
+		container
+			.addClass( 'multi' )
+			.on( 'click', 'button.remove', function (e) {
+				e.stopPropagation();
+
+				var idx = $(this).data('idx');
+
+				conf._val.splice( idx, 1 );
+				Editor.fieldTypes.uploadMany.set.call( editor, conf, conf._val );
+			} );
+
+		conf._container = container;
+		return container;
+	},
+
+	get: function ( conf ) {
+		return conf._val;
+	},
+
+	set: function ( conf, val ) {
+		// Default value for fields is an empty string, whereas we want []
+		if ( ! val ) {
+			val = [];
+		}
+
+		if ( ! $.isArray( val ) ) {
+			throw 'Upload collections must have an array as a value';
+		}
+
+		conf._val = val;
+
+		var that = this;
+		var container = conf._input;
+
+		if ( conf.display ) {
+			var rendered = container.find('div.rendered').empty();
+			
+			if ( val.length ) {
+				var list = $('<ul/>').appendTo( rendered );
+
+				$.each( val, function ( i, file ) {
+					list.append(
+						'<li>'+
+							conf.display( file, i )+
+							' <button class="'+that.classes.form.button+' remove" data-idx="'+i+'">&times;</button>'+
+						'</li>'
+					);
+				} );
+			}
+			else {
+				rendered.append( '<span>'+( conf.noFileText || 'No files' )+'</span>' );
+			}
+		}
+
+		Editor.fieldTypes.uploadMany._showHide( conf );
+
+		conf._input.find('input').triggerHandler( 'upload.editor', [ conf._val ] );
+	},
+
+	enable: function ( conf ) {
+		conf._input.find('input').prop('disabled', false);
+		conf._enabled = true;
+	},
+
+	disable: function ( conf ) {
+		conf._input.find('input').prop('disabled', true);
+		conf._enabled = false;
+	},
+
+	canReturnSubmit: function ( conf, node ) {
+		return false;
+	}
+} );
+
+
+}());
+
+
+// If there are field types available on DataTables we copy them in (after the
+// built in ones to allow overrides) and then expose the field types object.
+if ( DataTable.ext.editorFields ) {
+	$.extend( Editor.fieldTypes, DataTable.ext.editorFields );
+}
+
+DataTable.ext.editorFields = Editor.fieldTypes;
+
+
+/**
+ * File information for uploads
+ */
+Editor.files = {};
+
+
+/**
+ * Name of this class
+ *  @constant CLASS
+ *  @type     String
+ *  @default  Editor
+ */
+Editor.prototype.CLASS = "Editor";
+
+
+/**
+ * DataTables Editor version
+ *  @constant  Editor.VERSION
+ *  @type      String
+ *  @default   See code
+ *  @static
+ */
+Editor.version = "1.8.0";
+
+
+// Event documentation for JSDoc
+/**
+ * Processing event, fired when Editor submits data to the server for processing.
+ * This can be used to provide your own processing indicator if your UI framework
+ * already has one.
+ *  @name Editor#processing
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {boolean} processing Flag for if the processing is running (true) or
+ *    not (false).
+ */
+
+/**
+ * Form displayed event, fired when the form is made available in the DOM. This
+ * can be useful for fields that require height and width calculations to be
+ * performed since the element is not available in the document until the
+ * form is displayed.
+ *  @name Editor#open
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {string} type Editing type
+ */
+
+/**
+ * Before a form is displayed, this event is fired. It allows the open action to be
+ * cancelled by returning false from the function.
+ *  @name Editor#preOpen
+ *  @event
+ *  @param {event} e jQuery event object
+ */
+
+/**
+ * Form hidden event, fired when the form is removed from the document. The
+ * of the compliment `open` event.
+ *  @name Editor#close
+ *  @event
+ *  @param {event} e jQuery event object
+ */
+
+/**
+ * Before a form is closed, this event is fired. It allows the close action to be
+ * cancelled by returning false from the function. This can be useful for confirming
+ * that the user actually wants to close the display (if they have unsaved changes
+ * for example).
+ *  @name Editor#preClose
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {string} trigger Action that caused the close event - can be undefined.
+ *    Typically defined by the display controller.
+ */
+
+/**
+ * Emitted before a form blur occurs. A form blur is similar to a close, but
+ * is triggered by a user, typically, clicking on the background, while a close
+ * occurs due to a click on the close button. A blur can precede a close.
+ *  @name Editor#preBlur
+ *  @event
+ *  @param {event} e jQuery event object
+ */
+
+/**
+ * Pre-submit event for the form, fired just before the data is submitted to
+ * the server. This event allows you to modify the data that will be submitted
+ * to the server. Note that this event runs after the 'formatdata' callback
+ * function of the {@link Editor#submit} API method.
+ *  @name Editor#preSubmit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} data The data object that will be submitted to the server
+ *  @param {string} action The action type for this submit - `create`, `edit` or
+ *    `remove`.
+ */
+
+/**
+ * Post-submit event for the form, fired immediately after the data has been
+ * loaded by the Ajax call, allowing modification or any other interception
+ * of the data returned form the server.
+ *  @name Editor#postSubmit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data object that was be submitted to the server
+ *  @param {string} action The action type for this submit - `create`, `edit` or
+ *    `remove`.
+ */
+
+/**
+ * Submission complete event, fired when data has been submitted to the server and
+ * after any of the return handling code has been run (updating the DataTable
+ * for example). Note that unlike `submitSuccess` and `submitError`, `submitComplete`
+ * will be fired for both a successful submission and an error. Additionally this
+ * event will be fired after `submitSuccess` or `submitError`.
+ *  @name Editor#submitComplete
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * Submission complete and successful event, fired when data has been successfully
+ * submitted to the server and all actions required by the returned data (inserting
+ * or updating a row) have been completed.
+ *  @name Editor#submitSuccess
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * Submission complete, but in error event, fired when data has been submitted to
+ * the server but an error occurred on the server (typically a JSON formatting error)
+ *  @name Editor#submitError
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} xhr The Ajax object
+ *  @param {string} err The error message from jQuery
+ *  @param {object} thrown The exception thrown by jQuery
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * Create method activated event, fired when the create API method has been called,
+ * just prior to the form being shown. Useful for manipulating the form specifically
+ * for the create state.
+ *  @name Editor#initCreate
+ *  @event
+ *  @param {event} e jQuery event object
+ */
+
+/**
+ * Pre-create new row event, fired just before DataTables calls the fnAddData method
+ * to add new data to the DataTable, allowing modification of the data that will be
+ * used to insert into the table.
+ *  @name Editor#preCreate
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that will be used to update the DataTable
+ */
+
+/**
+ * Create new row event, fired when a new row has been created in the DataTable by
+ * a form submission. This is called just after the fnAddData call to the DataTable.
+ *  @name Editor#create
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * As per the `create` event - included for naming consistency.
+ *  @name Editor#postCreate
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * Edit method activated event, fired when the edit API method has been called,
+ * just prior to the form being shown. Useful for manipulating the form specifically
+ * for the edit state.
+ *  @name Editor#initEdit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {node} tr TR element of the row to be edited
+ *  @param {array|object} data Data source array / object for the row to be
+ *    edited
+ */
+
+/**
+ * Pre-edit row event, fired just before DataTables calls the fnUpdate method
+ * to edit data in a DataTables row, allowing modification of the data that will be
+ * used to update the table.
+ *  @name Editor#preEdit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that will be used to update the DataTable
+ */
+
+/**
+ * Edit row event, fired when a row has been edited in the DataTable by a form
+ * submission. This is called just after the fnUpdate call to the DataTable.
+ *  @name Editor#edit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * As per the `edit` event - included for naming consistency.
+ *  @name Editor#postEdit
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that was used to update the DataTable
+ */
+
+/**
+ * Remove method activated event, fired when the remove API method has been
+ * called, just prior to the form being shown. Useful for manipulating the form
+ * specifically for the remove state.
+ *  @name Editor#initRemove
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {array} trs Array of the TR elements for the removed to be deleted
+ *  @param {array} data Array of the data source array / objects for the rows to
+ *    be deleted. This is in the same index order as the TR nodes in the second
+ *    parameter.
+ */
+
+/**
+ * Pre-remove row event, fired just before DataTables calls the fnDeleteRow method
+ * to delete a DataTables row.
+ *  @name Editor#preRemove
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ */
+
+/**
+ * Row removed event, fired when a row has been removed in the DataTable by a form
+ * submission. This is called just after the fnDeleteRow call to the DataTable.
+ *  @name Editor#remove
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ */
+
+/**
+ * As per the `postRemove` event - included for naming consistency.
+ *  @name Editor#postRemove
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ */
+
+/**
+ * Set data event, fired when the data is gathered from the form to be used
+ * to update the DataTable. This is a "global" version of `preCreate`, `preEdit`
+ * and `preRemove` and can be used to manipulate the data that will be added
+ * to the DataTable for all three actions
+ *  @name Editor#setData
+ *  @event
+ *  @param {event} e jQuery event object
+ *  @param {object} json The JSON object returned from the server
+ *  @param {object} data The data that will be used to update the DataTable
+ *  @param {string} action The action being performed by the form - 'create',
+ *    'edit' or 'remove'.
+ */
+
+/**
+ * Initialisation of the Editor instance has been completed.
+ *  @name Editor#initComplete
+ *  @event
+ *  @param {event} e jQuery event object
+ */
+
+
+return Editor;
+}));
